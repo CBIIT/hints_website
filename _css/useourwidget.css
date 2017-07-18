@@ -1,0 +1,30 @@
+﻿.widgetcodewrapper
+{
+    background-color: #ffffff;
+    padding: 5px;
+}
+
+
+
+.widgetcodetxtbox
+{
+    background-color: #ffffff;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 0.6em;
+    font-family: Arial,​Helvetica,​Verdana,​sans-serif;
+    width: 100%;
+}
+
+.wid_outer_large {
+    margin-top: 20px;margin-bottom: 20px;margin-left:5px;
+}
+.wid_image_large {
+    width: 100%;
+}
+
+.UOR_Title
+{
+    font-size: 1.1em;
+}

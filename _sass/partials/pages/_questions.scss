@@ -1,0 +1,142 @@
+// ------------------------------------------- 
+// Questions
+// @description stylesheet for questions.aspx    
+// -------------------------------------------
+
+.dv_question {
+    border: 1px $black solid;
+    padding: 1%;
+
+    label {
+        display: block;
+        padding-left: 28px;
+    }
+
+    input {
+        float: left;
+        display: block;
+    }
+
+    table {
+        td { 
+            width: 25%; 
+
+            @media #{$small-and-down} {
+                width: 50%;
+                display: block;
+                float: left;
+            }
+        }
+    }
+}
+
+.dv_controls {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 20px;
+    float: left;
+    > div {
+        display: inline-block;
+    }
+    input {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+}
+
+.dv_countcontainer {
+    float: right;
+}
+
+.legend {
+    margin-top: 20px; 
+    background: #f1f1f1;
+    h2 {
+        color: #386898;
+    }
+    > div {
+        @extend .col_2; 
+        display: inline-block; 
+    }
+}
+
+.results { padding: 0; }
+
+.dv_resultsheader {
+    background-color: $results-header;
+    padding: 5px;
+
+    + .dv_questionwrapper { border-top: none; }
+}
+
+.dv_questionwrapper {
+    padding: 2% 1%;
+    border-top: 1px solid $black; 
+
+    > div {
+        display: inline-block; 
+        vertical-align: top; 
+        float: none; 
+    }
+}
+
+.greencyle, .greencylewide {  
+    margin: 6px;
+    float: left;
+
+    a {
+        @extend .btn, .btn.green; 
+        color: $black; 
+        text-decoration: none; 
+    }
+}
+
+.graycyle, .graycylewide {
+    margin: 6px;
+    width: auto;
+    float: left;
+
+    a {
+        @extend .btn, .btn.grey; 
+        color: $black; 
+        text-decoration: none; 
+        cursor: default;
+    }
+
+    a:hover {
+        text-decoration: none;
+        cursor: default;
+    }
+}
+
+.allyearcycle {
+    margin: 5px;
+    width: auto;
+    float: left;
+    a {
+        @extend .btn, .btn.yellow; 
+        color: $black; 
+        text-decoration: none; 
+    }    
+}
+
+.dvadvancedlistingbriefs {
+    margin-top: 15px; 
+    padding-left: 10px; 
+    display: none; 
+}
+
+.yesshow {
+    margin-top: 10px; 
+    font-weight: bold; 
+}
+.noshow { display: none; }
+
+.results_leftcolumn {
+    width: 62%;
+    margin-bottom: 5px;
+}
+
+.results_rightcolumn {
+    width: 37%;
+}

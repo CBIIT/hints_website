@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="SubscribeToNciHintsUsers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeToNciHintsUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeToNciHintsUsersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeToNciHintsUsers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeToNciHintsUsersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeToNciHintsUsersResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeToSBIR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+            <s:element minOccurs="0" maxOccurs="1" name="objFullName" />
+            <s:element minOccurs="0" maxOccurs="1" name="objState" />
+            <s:element minOccurs="0" maxOccurs="1" name="objAwardedBefore" />
+            <s:element minOccurs="0" maxOccurs="1" name="objOrganizationType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeToSBIRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeToSBIRResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeToSBIR">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeToSBIRResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeToSBIRResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_SmokeFree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_SmokeFreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_SmokeFreeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_SmokeFree_StringOnly">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_SmokeFree_StringOnlyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_SmokeFree_StringOnlyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_SmokeFree">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_SmokeFreeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_SmokeFreeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="SubscribeToNciHintsUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeToNciHintsUsers" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeToNciHintsUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeToNciHintsUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeToNciHintsUsersSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeToNciHintsUsers" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeToNciHintsUsersSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeToNciHintsUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeToSBIRSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeToSBIR" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeToSBIRSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeToSBIRResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeToSBIRSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeToSBIR" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeToSBIRSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeToSBIRResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_SmokeFreeSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_SmokeFree" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_SmokeFreeSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_SmokeFreeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_SmokeFree_StringOnlySoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_SmokeFree_StringOnly" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_SmokeFree_StringOnlySoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_SmokeFree_StringOnlyResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_SmokeFreeSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_SmokeFree" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_SmokeFreeSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_SmokeFreeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SubscribeSoap">
+    <wsdl:operation name="SubscribeToNciHintsUsers">
+      <wsdl:input message="tns:SubscribeToNciHintsUsersSoapIn" />
+      <wsdl:output message="tns:SubscribeToNciHintsUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeToNciHintsUsers">
+      <wsdl:input message="tns:UNSubscribeToNciHintsUsersSoapIn" />
+      <wsdl:output message="tns:UNSubscribeToNciHintsUsersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeToSBIR">
+      <wsdl:input message="tns:SubscribeToSBIRSoapIn" />
+      <wsdl:output message="tns:SubscribeToSBIRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeToSBIR">
+      <wsdl:input message="tns:UNSubscribeToSBIRSoapIn" />
+      <wsdl:output message="tns:UNSubscribeToSBIRSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_SmokeFree">
+      <wsdl:input message="tns:SubscribeTo_SmokeFreeSoapIn" />
+      <wsdl:output message="tns:SubscribeTo_SmokeFreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_SmokeFree_StringOnly">
+      <wsdl:input message="tns:SubscribeTo_SmokeFree_StringOnlySoapIn" />
+      <wsdl:output message="tns:SubscribeTo_SmokeFree_StringOnlySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_SmokeFree">
+      <wsdl:input message="tns:UNSubscribeTo_SmokeFreeSoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_SmokeFreeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SubscribeSoap" type="tns:SubscribeSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SubscribeToNciHintsUsers">
+      <soap:operation soapAction="http://tempuri.org/SubscribeToNciHintsUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeToNciHintsUsers">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeToNciHintsUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeToSBIR">
+      <soap:operation soapAction="http://tempuri.org/SubscribeToSBIR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeToSBIR">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeToSBIR" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_SmokeFree">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_SmokeFree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_SmokeFree_StringOnly">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_SmokeFree_StringOnly" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_SmokeFree">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_SmokeFree" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SubscribeSoap12" type="tns:SubscribeSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="SubscribeToNciHintsUsers">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeToNciHintsUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeToNciHintsUsers">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeToNciHintsUsers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeToSBIR">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeToSBIR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeToSBIR">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeToSBIR" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_SmokeFree">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_SmokeFree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_SmokeFree_StringOnly">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_SmokeFree_StringOnly" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_SmokeFree">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_SmokeFree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Subscribe">
+    <wsdl:port name="SubscribeSoap" binding="tns:SubscribeSoap">
+      <soap:address location="https://hintsmeeting.com/ws/subscribe.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SubscribeSoap12" binding="tns:SubscribeSoap12">
+      <soap12:address location="https://hintsmeeting.com/ws/subscribe.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

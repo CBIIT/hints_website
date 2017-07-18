@@ -1,0 +1,364 @@
+﻿// ------------------------------------------- 
+// Homepage
+// @description stylesheet for Default.aspx    
+// ------------------------------------------- 
+
+
+#homepage_carousel {
+
+  margin: 0 0 17px;
+  
+  li { 
+    position: relative;
+  }
+
+  .flex-viewport img {
+    border: none;
+  }
+
+  .flex_caption {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    color: $white;
+    width: 50%;
+    background: $light-green;
+    opacity: 0.85;
+    font-size: $slider-caption-font;
+    padding: 20px 20px;
+    @include bx-shadow(0px, 2px, $scarpa-grey);
+    line-height: 1.2;
+
+      @media #{$x-small-only} {
+        display: none;
+      }
+
+    .slidergreen {
+      color: $yellow-green;
+      font-size: .8em;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+
+  .flex-direction-nav a { 
+    top: -215px; 
+      @media #{$x-small-only} {
+              display: none;
+            }
+  }
+
+  .flex-control-thumbs { 
+
+    margin: 0;
+
+    img {
+      border: 1px solid $lochmara-blue;
+      height: 75px;
+        @media #{$x-small-only} {
+        height: 50px;
+      }
+    }
+
+  }
+}
+
+.homepage_boxes {
+  
+  > div {
+    border: 1px $home-box-border-color solid;
+    margin-bottom: 15px; 
+
+    @media #{$medium-and-up} {
+      height: 288px;
+    }
+  }
+  
+  .topic_header {
+    background-color: $home-box-title-bg; 
+    text-align: center;
+    font-size: $home-box-title;  
+    font-weight: bold; 
+    color: $white;
+    border-bottom: 1px $home-box-border-color solid;
+
+    > p {
+      margin: 0 10% 0 0; 
+      padding: 5px;
+      font-size: 1.1em;
+
+      @media #{$medium-only} {
+        font-size: 1em;
+      }
+    }  
+
+    img {
+      width: 10%; 
+      float: left;
+      margin-top: 3px; 
+      margin-left: 10px;
+        @media #{$small-and-down} {
+          width: 25px;
+        }
+    }
+
+  }
+
+   #hintsbox1 {
+
+    img {
+      width: 40px; 
+      float: left;
+      margin-top: -18px;
+
+    }
+
+    h2 {
+      font-size: 1.6em;
+      padding-left: 55px;
+      margin-bottom: -8px;
+      margin-top: 18px;
+    }
+
+    p {
+      padding: 0 10px 0 55px;
+      line-height: 1.5;
+    }
+
+    a {
+      color: $light-green;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: $green;
+    }
+  }
+
+  .topic_list {
+    padding: 0 10px; 
+
+    ul { 
+      list-style-type: none; 
+
+      a:before{
+        margin-right: 5px;           
+      }
+    }
+
+    #visitTwitter {
+      margin-top: -20px;
+    }
+
+    a.readmorelink {
+      color: $light-green;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a.readmorelink:hover {
+      color: $green;
+    }
+  }
+
+  .double_col {
+    
+    li {
+      float: right; 
+      @extend .col_3;  
+    }
+  }
+}
+#hints_briefs{padding-left:1%;}
+
+#terms_page_wrapper{
+        background: none; 
+        padding: 10px;
+}
+
+#smbox {
+  width: 115%;
+  background-color: #E2EEF9;
+  margin-top: -12px;
+  margin-bottom: 10px;
+  position: relative;
+  top:0;
+  left: 0;
+
+  @media #{$small-and-down} {
+    width: 100%;
+  }
+
+  h2 {
+    color: $mike-blue;
+    padding: 5px;
+    margin-bottom:0px;
+    text-align: center;
+  }
+
+  #smlinks {
+    /*margin-left: 10px;*/
+    margin-left: 29px;
+    padding-bottom: 10px;
+
+    @media #{$medium-only} { padding-bottom: 48px; margin-left: auto; margin-right: auto; width: 72px; }
+    
+    /*@media #{$small-and-down} { margin-left: auto; margin-right: auto; width: 146px; }*/
+    @media #{$small-and-down} { margin-left: auto; margin-right: auto; width: 109px; }
+
+    .smimage {
+      height: 32px;
+      width: 32px;
+      border: none;
+    }
+
+    .smbackground {
+    
+      @media #{$medium-only} { display: none; }
+
+    }
+
+    .addthis_sharing_toolbox {
+      clear: none;
+      position: absolute;
+      top: 40%;
+      /*left: 82px;*/
+      left: 64px;
+
+      @media #{$medium-only} { left: inherit; margin-left: auto; margin-right: auto; top: 66px; width: 100px; }
+
+      @media #{$small-and-down} { left: inherit; margin-left: auto; margin-right: auto; width: 147px; padding-left: 35px; }
+  /*@media #{$small-and-down} { left: inherit; margin-left: auto; margin-right: auto; width: 147px; padding-left: 72px; }*/
+
+    }
+
+    .at-share-tbx-element .at-share-btn {
+      margin-right: 8px;
+
+      @media #{$medium-only} { margin-left: 0; margin-right: 5px;  }
+
+    }
+
+  }
+
+}
+
+#submitPubs {
+  background-color: #E2EEF9;
+  width: 115%;
+  margin-bottom: 10px;
+
+  @media #{$small-and-down} {
+    width: 100%;
+  }
+
+  h2 {
+      color: $mike-blue;
+      padding: 5px;
+      margin-bottom:0px;
+      text-align: center;
+  }
+
+  #submitPubsBtn  {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    a {
+      color: $white;
+      font-weight: bold;
+      background: $light-green;
+      width: 80%;
+      padding: 10px 20px;
+      @include radius-all(5px); 
+      font-size: 1.1em;
+    }
+
+    a:hover {
+      text-decoration: none;
+      background: $green;
+    }
+  }
+
+}
+
+#newsbox {
+  width: 115%;
+  background-color: #EDF5E1;
+  border: 1px solid $lochmara-blue;
+  border-top: none;
+
+  @media #{$small-and-down} {
+    width: 100%;
+  }
+
+  h2 {
+    color: $white;
+    background: $lochmara-blue;
+    padding: 5px 0;
+    text-align: center;
+  }
+
+  p {
+    padding: 0 10px;
+    font-weight: bold;
+  }
+
+  p.newsdate {
+    font-size: 11px;
+    color: $grey;
+    margin-top: -10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $black;
+  }
+
+  a.rm {
+    color: $lochmara-blue;
+  }
+
+  a:hover {
+    color: $navy;
+  }
+
+  a.twobriefs {
+    padding: 0 10px;
+    font-weight: bold;
+    display: block;
+  }
+
+  #currentbriefs {
+    color: $lochmara-blue;
+    border-bottom: 1px solid $lochmara-blue;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.1em;
+  }
+}
+
+#hints-tweets {
+
+  p.interact {
+    display: none;
+  }
+
+  p {
+    line-height: 1.95
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  p.timePosted {
+    font-size: 11px;
+    color: $grey;
+    margin-top: -12px;    
+    margin-bottom: 23px;
+  }
+
+}

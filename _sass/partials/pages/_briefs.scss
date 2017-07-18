@@ -1,0 +1,121 @@
+// ------------------------------------------- 
+// Questions
+// @description stylesheet for briefs.aspx    
+// -------------------------------------------
+
+.bottomLine  {
+    border-bottom: 3px solid black; 
+    width: 100%;
+    height: 27px;
+}
+
+.bottomLine ul li a {
+    width: 165px;
+	padding: 4px;
+	border: 3px solid black;
+	border-bottom: none;
+	background: #ebebeb;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-topleft: 10px;
+    text-align: center;   
+    cursor: pointer;
+}
+
+.bottomLine ul li a.selected {
+	width: 165px;
+	padding: 4px;
+	border: 3px solid black;
+	border-bottom: none;
+	background: #ffffff;
+	color: #5EA528;
+	font-weight: bold;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-top-left-radius: 10px;
+    -moz-border-radius-topright: 10px;
+    -moz-border-radius-topleft: 10px;
+    text-align: center; 
+    cursor: pointer;    
+}
+
+
+img { vertical-align: middle; 
+      margin-right:2px;
+}
+        
+.briefsThumb {
+    border: 1px solid #000;
+    float: left;
+    margin-right: 2%;
+}
+
+.blue_text{
+    color:$darker-blue;
+}
+    
+.small_text{
+    font-size:$small-font-size;
+}
+
+#briefs_content{
+    h4{
+        color:black;
+        font-size:100%;
+        font-style:normal;
+       }
+    img{
+        margin-right:1%;
+    }
+   td{ ul{padding-left:8%;}}
+}
+
+#briefs_list{
+
+    .list_wrapper{
+        overflow:inherit;
+        width:100%;
+
+        div{
+            float:left;
+           
+            text-align: justify;
+        }
+
+        .col_3{
+            margin-right:1%;
+            margin-top:1%;
+            margin-bottom:1%;
+        }
+    }
+
+    br{
+        clear:both;
+    }
+
+@media screen and (min-width: $screen-sm) {
+    #PBResults{
+     .list_wrapper:nth-child(odd){
+         .col_3{
+             margin-right:6%;
+                }
+     }
+}
+    .list_wrapper{
+       #articles_list{
+            width:46.5%;
+        }
+    
+       #briefs_year{
+           float:left;
+           clear:both;
+           margin-top:2%;
+       }
+       
+       }
+}
+
+}
+

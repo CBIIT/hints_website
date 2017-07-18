@@ -1,0 +1,53 @@
+﻿// ------------------------------- 
+// Sidebar
+// @description Sidebar Styles 
+// -------------------------------
+
+.sidebar {
+
+    #top {
+        ul { 
+            padding: 0 5px 0 0;
+            
+            li { 
+                @include gradient-middle($nav-bgcolor-1, $nav-bgcolor-2); 
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2b73a5", endColorstr="#7aabcc",GradientType=1 );
+                list-style: none;
+                min-height: 45px;
+                margin-bottom: 10px; 
+                line-height: 1em;
+
+                a { 
+                    font-size: $sidebar-font-size; 
+                    color: $sidebar-font-color; 
+                    display: block;
+                    text-indent: -25px;
+                    margin-left: 18px;
+
+                    &:before {
+                        content: ""; 
+                        display: inline-block;
+                        position: relative;
+                        left: -5px;
+                        top: 10px;
+                        width: 25px; 
+                        height: 25px; 
+                    }
+                }
+            }
+        }
+    }
+
+    #hints_download:before { background: url(../_images/download_btn.png) no-repeat; }
+    #hints_question:before { background: url(../_images/ViewQuestions_btn.png) no-repeat; }
+    #hints_briefs:before { background: url(../_images/rightarrow_btn.png) no-repeat; }
+    #hints_contact:before { background: url(../_images/contact_btn.png) no-repeat; }
+    #hints_overview:before { background: url(../_images/calendar_btn.png) no-repeat; }
+
+	#hints_contact, #hints_overview { padding-bottom: 10px; }
+	#hints_question {
+		 @media #{$medium-and-down} { 
+			padding-bottom: 10px; 
+		 }
+	}
+}

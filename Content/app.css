@@ -1,0 +1,48 @@
+﻿.filters-pane {
+    background-color: #f5f6f7;
+    border: 1px solid rgba(203, 203, 203, 1);
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+    background-color: rgba(238, 238, 238, 1);
+    box-shadow: 0 0 15px rgba(50, 50, 50, 0.3);
+    padding: 7em 1.5em 1.5em 1.5em;
+}
+
+.export-pane {
+    margin-right: 3em;
+    margin-bottom: .2em;
+}
+
+.chart-pane {
+    padding: 1.5em;
+}
+
+.modal-dialog {
+    width: 915px;
+}
+
+    .modal-dialog .close {
+        color: white;
+        opacity: 0.7;
+        width: 1em;
+    }
+
+.modal-header {
+    background-color: #323639;
+    color: white;
+    border: 0;
+}
+
+.modal-body {
+    overflow: auto;
+    background-color: #525659;
+}
+
+.modal-footer {
+    background-color: #323639;
+    border: 0;
+}
+
+.dropdown-menu {
+    min-width: 80px;
+}

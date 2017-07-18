@@ -1,0 +1,186 @@
+#page_wrapper_publication_search , #page_wrapper_inform_us{
+
+.FormItemWrapper
+{
+    clear: left;
+    padding:0.5%;
+}
+
+.FormLeftItem
+{
+    float: left;
+    width: 20%;
+    margin-left:5%;
+    margin-right:5%;
+    font-weight:bold;
+}
+
+.FormRightItem
+{
+float:none;
+select{padding:0.5%;}
+#file_error{
+    color:red;
+    margin-left:30%;
+}
+}
+
+#publications_search_wrapper{
+
+    #contactresult_table{
+              margin-bottom:10%;
+          }
+   
+    }
+
+
+    #dv_controls{
+
+        margin:4%;
+        margin-top:5%;
+        margin-left:5%;
+        overflow: hidden;
+
+        #dv_controlSubmit{
+           float:right;
+           margin-right:50%;
+        }
+
+        #dv_controlClear{
+            float:left;
+            padding-right: 10%;
+            }
+        }
+
+
+ #filterlinks{
+   .ButtonLink
+    {
+    background: none;
+    border: none;
+    padding: 0 !important;
+    color: #2d73a2;
+    cursor: pointer;
+    text-decoration: underline;
+    clear: both;
+    }
+
+.ButtonLink:hover
+{
+    text-decoration: none;
+}
+
+    }
+ #results_wrapper{
+    width:99%;
+    padding-left:1%;
+    border:1px black solid;
+    margin-left:2%;
+    
+    h1{
+        text-align:center;
+        padding:2%;
+    }
+    h2{
+        padding-left:5%;
+        font-weight:bold;
+    }
+    ul{
+        li{
+             padding:2%;
+        }
+       
+        list-style:circle;
+    }
+    #Noresult{
+        margin:5%;
+    }
+    hr{
+        width:85%;
+        margin-left:4%;
+        padding-left:0%;
+    }
+}
+}
+
+.MultiLineTextBox{
+    resize:horizontal;
+    max-width: 50%;
+}
+
+.SingleLineTextBox{
+    max-width:300px;
+}
+.table_left{
+
+}
+.table_right{
+    input{
+    width:250px;
+}
+}
+#field_comments{
+    textarea{
+        width:250px;
+   max-width:400px;
+   max-height:300px;
+}
+}
+#pub_pres_list{
+    .list_wrapper{
+        margin:2%;
+        br{clear:both;}
+    }
+}
+#dvMsg{
+    color:Red;
+    display:none;
+    margin-left:30%;
+}
+
+#page_wrapper_contact_us{
+
+    h1{
+        margin-left:5%
+    }
+      #dv_controls{
+        margin:3%;
+        margin-left:5%;
+        overflow: hidden;
+
+        #dv_controlSubmit{
+           float:right;
+           margin-right:43%;
+        }
+
+        #dv_controlClear{
+            float:left;
+            padding-right: 10%;
+            }
+        }
+
+    .FormItemWrapper
+{
+    clear: left;
+    padding:0.5%;
+}
+
+.FormLeftItem
+{
+    float: left;
+    width: 20%;
+    margin-left:5%;
+    margin-right:5%;
+    font-weight:bold;
+}
+    .FormRightItem
+{   
+        float:none;
+        input{ width:250px;}
+       
+}
+    textarea{
+        width:250px;
+    }
+
+}

@@ -1,0 +1,24 @@
+﻿#item_left{
+    float: left; 
+    width: 70px;
+}
+
+#item_right{
+    float: right;
+    text-align: left; 
+    width: 670px; 
+    margin-bottom: .5em;
+}
+
+#knowledge_maps_wrapper{
+    img{
+        border-color:$white;
+        vertical-align: top;
+    }
+    #lblMap{        
+        width:100%;
+    }
+    br{
+        clear:both;
+  }
+}

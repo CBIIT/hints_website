@@ -1,0 +1,12 @@
+#dv_controls {
+	margin-top: -10px;
+	#btnSubmit, #BTN_Submit {
+		background-color: #386898;
+		color: $white;
+		border: none;
+		padding: 10px 20px;
+		font-size: 1.25em;
+		cursor: pointer;
+		@include bx-shadow(2px, 4px, $scarpa-grey);
+	}
+}

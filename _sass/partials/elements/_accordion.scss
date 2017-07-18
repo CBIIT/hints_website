@@ -1,0 +1,66 @@
+/*----- Accordion -----*/
+.accordion {
+    overflow: hidden;
+    background: $white;
+    @include bx-shadow(1px, 3px, rgba(0,0,0,0.25)); 
+    @include bx-size(box-border);
+    @include radius-all(3px);  
+
+    * { @include bx-size(box-border); }
+}
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    background: $accordion-bg;
+    border-bottom: $accordion-border;
+    transition: all linear 0.15s;
+    color: $black;
+    @include transition(background-color, 500ms, ease-out, 0s); 
+
+    &::before {
+        content: "\002B"; 
+        display: inline-block; 
+        font-size: 18px; 
+        color: $black; 
+        margin-right: 10px; 
+        // background: url(/_images/faqs/plus.gif) no-repeat;       
+    }
+
+    &:hover {
+        text-decoration: none;
+        color: $white;
+        background-color: $accordion-bg-hover;
+    }
+}
+
+.active {
+    color: $white;
+    background-color: $accordion-bg-hover;
+    // background: #2d73a1 url(/_images/faqs/minus.gif) left top no-repeat;
+    
+    &::before {
+        content: "\2013"; 
+        color: $white; 
+        // background: url(/_images/faqs/plus.gif) no-repeat;       
+    }
+
+    
+}
+
+.accordion-section:last-child .accordion-section-title { border-bottom: none; }
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding: 15px;
+    border: $accordion-border;
+    border-top: 0; 
+}
+
+#accordion-25{
+    span:first-child, span:nth-child(3){
+        display:none;
+    }
+}

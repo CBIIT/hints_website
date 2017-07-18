@@ -1,0 +1,72 @@
+﻿table#big_gray_table{  
+    background-color: #666666;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 0px;
+    padding-top: 0px;  
+    font-size:140%; 
+    
+    table td , table th{
+        border:none;
+    }
+
+.lighttext{
+    color: white;
+    padding-left:1%;  
+    padding-right:1%; 
+   table{
+       border:none;
+       tbody{
+           tr{ 
+               td{
+                   label{                     
+                       padding-bottom:10%;
+                   }
+               }
+           }
+       }
+   }
+}
+  td { 
+        padding: 3px;
+        border:none;  
+ }
+ table#chart_data{
+     tr{
+         td{
+             text-align: left; 
+             vertical-align: top;
+             
+             label{
+                 vertical-align: top;
+             }        
+             }
+     }
+ }
+
+
+ #piechart_row{
+     td{
+         text-align: center
+     }
+ }
+
+  #HorizontalBar_row{
+     td{
+         text-align: center
+     }
+ }
+
+}
+
+#popup_output_type{
+table{
+    tr {
+        td{
+            text-align:left;
+            vertical-align:top;
+        }
+    }
+}
+}
