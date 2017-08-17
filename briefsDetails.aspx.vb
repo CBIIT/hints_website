@@ -16,7 +16,7 @@ Partial Class briefsDetails
 
         If Not Page.IsPostBack Then
             If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("ID"))) = False Then
-                Response.Redirect("~/default.aspx")
+                Response.RedirectPermanent("~/default.aspx")
             Else
                 Cmd.CommandType = CommandType.StoredProcedure
                 Cmd.CommandText = "Get_Article"

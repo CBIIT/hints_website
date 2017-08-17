@@ -15,7 +15,7 @@ Partial Class ViewFile
 
 
         If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("PK_Submission"))) = False Then
-            Response.Redirect("~/default.aspx")
+            Response.RedirectPermanent("~/default.aspx")
         End If
 
         Dim PK_Submission As Integer = CInt(Server.HtmlEncode(Request.QueryString("PK_Submission")))

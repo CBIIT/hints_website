@@ -14,7 +14,7 @@
 <table>
    <tr>     
       <td>Email Address:</td>
-      <td><input id="txtUserName" type="text" runat="server"></td> 
+      <td><input AutoCompleteType="Disabled"  autocomplete="off" id="txtUserName" type="text" runat="server"/></td> 
        <br/>
        <asp:RegularExpressionValidator ID="RegularExpressionValidator_txtUserName" runat="server" ControlToValidate="txtUserName"
                                 Display="dynamic" ErrorMessage="Please enter a valid e-mail address." ForeColor="Red"
@@ -23,7 +23,7 @@
 
    <tr>
       <td >Password:</td>
-      <td ><input id="txtUserPass" type="password" runat="server"></td>
+      <td ><input AutoCompleteType="Disabled"  autocomplete="off" id="txtUserPass" type="password" runat="server"/></td>
    </tr>
 
 </table>

@@ -79,12 +79,12 @@
 Americans who agree that it seems like everything causes cancer:
 2015: 54.2%
 2003: 46.9%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter"
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
                         title="HINTS Data Trends 2003 - 2015
 Americans who agree that it seems like everything causes cancer:
 2015: 54.2%
 2003: 46.9%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter" /></a>
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter" /></a>
 
             </div>
             <div class="imagediv">
@@ -93,11 +93,11 @@ Americans who agree that it seems like everything causes cancer:
                         alt="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 Americans who think smoking cigarettes for less than 1 year can harm your health:
 67.4%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter"
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
                         title="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 Americans who think smoking cigarettes for less than 1 year can harm your health:
 67.4%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter" /></a>
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter" /></a>
 
             </div>
             <div class="imagediv">
@@ -107,12 +107,12 @@ Americans who think smoking cigarettes for less than 1 year can harm your health
 Americans who went to the internet FIRST to look for information about health or medical topics:
 2015: 72.8%
 2008: 61%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter"
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
                         title="HINTS Data Trends 2008 - 2015
 Americans who went to the internet FIRST to look for information about health or medical topics:
 2015: 72.8%
 2008: 61%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter" /></a>
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter" /></a>
 
             </div>
 
@@ -126,12 +126,12 @@ Americans who went to the internet FIRST to look for information about health or
 Americans who believe that there is something they can do to lower their chances of getting cancer:
 2015: 71.5%
 2003: 64.7%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter"
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
                         title="HINTS Data Trends 2003 - 2015
 Americans who believe that there is something they can do to lower their chances of getting cancer:
 2015: 71.5%
 2003: 64.7%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter" /></a>
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter" /></a>
 
             </div>
             <div class="imagediv">
@@ -140,11 +140,11 @@ Americans who believe that there is something they can do to lower their chances
                       alt="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 Americans who have taken one or more multi-vitamins or multi-mineral supplements in the past 12 months:
 59.5%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter"
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
                         title="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 Americans who have taken one or more multi-vitamins or multi-mineral supplements in the past 12 months:
 59.5%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter" /></a>
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter" /></a>
 
             </div>
             <div class="imagediv">
@@ -154,12 +154,12 @@ Americans who have taken one or more multi-vitamins or multi-mineral supplements
 Americans who believe that some types of cigarettes are less harmful than others:
 2015: 59.1%
 2008: 80.4%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter"
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
                         title="HINTS Data Trends 2008 - 2015
 Americans who believe that some types of cigarettes are less harmful than others:
 2015: 59.1%
 2008: 80.4%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter" /></a>
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter" /></a>
 
             </div>
         </div>
@@ -172,11 +172,11 @@ Americans who believe that some types of cigarettes are less harmful than others
                       alt="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 American who do NOT trust information about the health effects of using tobacco from tobacco companies:
 63.4%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter"
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
                         title="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 American who do NOT trust information about the health effects of using tobacco from tobacco companies:
 63.4%
-[Footer] Learn more about HINTS and download datasets at http://hints.cancer.gov, Follow us on Twitter" /></a>
+[Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter" /></a>
             </div>
         </div>
 
@@ -209,7 +209,7 @@ American who do NOT trust information about the health effects of using tobacco 
         In collaboration with the Food and Drug Administration&rsquo;s (FDA)  Center 
        for Tobacco Products, Center for Food Safety and Applied Nutrition, and  
        Office of the Commissioner, we have just released
-       <a href="http://hints.cancer.gov/dataset.aspx">HINTS-FDA</a>,
+       <a href="/dataset.aspx">HINTS-FDA</a>,
        a new nationally representative public use dataset. This dataset combines 
        the  traditional HINTS topics of health communication, cancer knowledge,
         and cancer  risk behaviors with an assessment of the public&rsquo;s 
@@ -247,12 +247,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov"
+https://hints.cancer.gov"
                         title="TITLE: American’s Trust in Cancer Information Sources
 INTRO: In 2014, Americans told HINTS how much they trust cancer information from a variety of different sources. 
 DATA POINTS:
@@ -267,12 +267,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov" /></a>
+https://hints.cancer.gov" /></a>
 
             </div>
             <div class="imagediv">
@@ -292,12 +292,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov"
+https://hints.cancer.gov"
                         title="TITLE: American’s Trust in Cancer Information Sources
 INTRO: In 2014, Americans told HINTS how much they trust cancer information from a variety of different sources. 
 DATA POINTS:
@@ -312,12 +312,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov" />
+https://hints.cancer.gov" />
                 </a>
 
             </div>
@@ -338,12 +338,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov"
+https://hints.cancer.gov"
                         title="TITLE: American’s Trust in Cancer Information Sources
 INTRO: In 2014, Americans told HINTS how much they trust cancer information from a variety of different sources. 
 DATA POINTS:
@@ -358,12 +358,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov" /></a>
+https://hints.cancer.gov" /></a>
 
             </div>
 
@@ -387,12 +387,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov"
+https://hints.cancer.gov"
                         title="TITLE: American’s Trust in Cancer Information Sources
 INTRO: In 2014, Americans told HINTS how much they trust cancer information from a variety of different sources. 
 DATA POINTS:
@@ -407,12 +407,12 @@ Trust cancer information “a lot” or “some”:
 •	Religious Organizations and Leaders: 32%
 •	Radio: 25%
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov" /></a>
+https://hints.cancer.gov" /></a>
 
             </div>
             <div class="imagediv">
@@ -428,7 +428,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="TITLE: American Trust in Health Information from family or friends
 Americans who place a lot of trust in health information from family or friends
 •	2005: 23%
@@ -439,7 +439,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
             <div class="imagediv">
@@ -455,7 +455,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="TITLE: American Trust in Health Information from family or friends
 Americans who place a lot of trust in health information from family or friends
 •	2005: 23%
@@ -466,7 +466,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
         </div>
@@ -486,7 +486,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="TITLE: American Trust in Health Information from Government Agencies
 Americans who place a lot of trust in health information from Government Health Agencies
 •	2008: 31%
@@ -497,7 +497,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
             <div class="imagediv">
@@ -513,7 +513,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="TITLE: American Trust in Health Information from Government Agencies
 Americans who place a lot of trust in health information from Government Health Agencies
 •	2008: 31%
@@ -524,7 +524,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" />
+Learn more about HINTS and download datasets at https://hints.cancer.gov" />
                 </a>
 
             </div>
@@ -541,7 +541,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="TITLE: American Trust in Health Information from the radio
 Americans who trust health information from the radio
 •	2005: 85%
@@ -552,7 +552,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
 
@@ -573,7 +573,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="TITLE: American Trust in Health Information from the radio
 Americans who trust health information from the radio
 •	2005: 85%
@@ -584,7 +584,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
         </div>
@@ -702,7 +702,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="HINTS 4, Cycle 4 Infocards
 TITLE: HINTS Data Trends 2011-2014
 Americans who ever looked for cancer information
@@ -713,7 +713,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
             <div class="imagediv">
@@ -729,7 +729,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="HINTS 4, Cycle 4 Infocards
 TITLE: HINTS Data Trends 2011-2014
 Americans who agree it seems like everything causes cancer
@@ -740,7 +740,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" />
+Learn more about HINTS and download datasets at https://hints.cancer.gov" />
                 </a>
 
             </div>
@@ -757,7 +757,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="HINTS 4, Cycle 4 Infocards
 TITLE: HINTS Data Trends 2011-2014
 Americans who saw a healthcare professional and said the professional always explained things in a way that they understood
@@ -768,7 +768,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
 
@@ -789,7 +789,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="HINTS 4, Cycle 4 Infocards
 TITLE: HINTS Data Trends 2011-2014
 Americans who accessed the internet through a cellular network
@@ -801,7 +801,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
             <div class="imagediv">
@@ -818,7 +818,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov"
+Learn more about HINTS and download datasets at https://hints.cancer.gov"
                         title="HINTS 4, Cycle 4 Infocards
 TITLE: HINTS Data Trends 2011-2014
 Americans who kept information from their healthcare provider because they were concerned about privacy/security of their medical record
@@ -830,7 +830,7 @@ FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-Learn more about HINTS and download datasets at http://hints.cancer.gov" /></a>
+Learn more about HINTS and download datasets at https://hints.cancer.gov" /></a>
 
             </div>
             <div class="imagediv">
@@ -853,12 +853,12 @@ o	IMAGE: Overhead of two hands on a laptop computer
 •	23% of those diagnosed with cancer talked with health care providers about the impact of cancer or treatment on their ability to work
 o	IMAGE: Patient talking to doctor
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov
+https://hints.cancer.gov
 "
                         title="HINTS 4, Cycle 4 Infographic
 TITLE: Monitoring a Changing Health Information Environment
@@ -877,12 +877,12 @@ o	IMAGE: Overhead of two hands on a laptop computer
 •	23% of those diagnosed with cancer talked with health care providers about the impact of cancer or treatment on their ability to work
 o	IMAGE: Patient talking to doctor
 SOURCE: Health Information National Trends Survey (HINTS), 2014, National Cancer Institute
-Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at http://hints.cancer.gov in SPSS, SAS, or STATA formats. 
+Since 2003, HINTS has tracked changes in the rapidly evolving health communication and information technology landscape. HINTS regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer, and health related information. Get 2014 and all previous datasets at https://hints.cancer.gov in SPSS, SAS, or STATA formats. 
 FOOTER:
 Follow us on Facebook and Twitter
 •	IMAGES: Facebook Logo, Twitter Logo
 IMAGE: HINTS Logo
-http://hints.cancer.gov
+https://hints.cancer.gov
 " /></a>
 
             </div>

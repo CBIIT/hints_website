@@ -14,6 +14,7 @@
                 <li><a href="_report.aspx">Publication Submissions report</a></li>
                 <li><a href="fullreport.aspx">Full Report</a></li>
                 <li><a href="FailedLogins.aspx">Failed Logins Details</a></li>
+                <li><a href="PubCounts.aspx">Publication Counts</a></li>
              <li><a href="Users.aspx">Users</a></li>
             </ul>
         </div>

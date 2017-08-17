@@ -2,76 +2,22 @@
 
 <%@ Register Src="_usercontrols/terms.ascx" TagName="terms" TagPrefix="uc1" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml"  lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 <head runat="server">
-
-
-    <!-- Google Tag Manager -->
-<script>(function (w, d, s, l, i) {
-w[l] = w[l] || []; w[l].push({
-'gtm.start':
-new Date().getTime(), event: 'gtm.js'
-}); var f = d.getElementsByTagName(s)[0],
-j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-})(window, document, 'script', 'dataLayer', 'GTM-MK29FZ');</script>
-<!-- End Google Tag Manager -->
-
-
 
     <title>HINTS - Health Information National Trends Survey</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- GOOGLE FONTS -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
-    
+
     <link rel="shortcut icon" href="favicon.ico" />
     <link href='~/_css/style.css?v=2017_06_20' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54b5638d64d6a65f" async="async"></script>
-    
-    <script type="text/javascript" language="javascript">
-        $(document).ready(function () {
-                                  
-            //toggle the links depending on JS turned on
-            $('#hints_download_NOJS').css('display', 'none')
-            $('#hints_download').css('display', 'block')
 
 
-            //Hide modal box
-            $('#closeModal').click(
-                function () { $('.modalDialog').hide(); }
-            );
-
-
-
-
-            $("#txtemailTermsService").keydown(function (e) {
-                var code = (e.keyCode ? e.keyCode : e.which);
-                if (code == 13) {
-                    validateForm();
-                    return false;
-                }
-            });
-
-
-        });
-
-
-
-
-
-
-
-        function OpenModalRWB()
-        {
-            $('.modalDialog').show();
-        }
-    </script>
-    
-<style type="text/css">
-      #atstbx2 at-svc-email,  .at-icon-wrapper {
-            width:31px !important;
+    <style type="text/css">
+        #atstbx2 at-svc-email, .at-icon-wrapper {
+            width: 31px !important;
         }
     </style>
 
@@ -79,12 +25,14 @@ j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
-<body>   
+<body>
 
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MK29FZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MK29FZ"
+            height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <a href="#skipnav" class="skipnav_hidden">jump to navigation</a>
 
@@ -121,10 +69,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <asp:ListItem Text="Search Questions" Value="q" />
                                 <asp:ListItem Text="Search Publications" Value="p" />
                             </asp:DropDownList>
-                           
+
                             <asp:TextBox ValidationGroup="GRP_Search" ToolTip="Enter Keyword" ID="SearchBoxText" runat="server"> </asp:TextBox>
                             <asp:Button ID="BTN_Search" type="submit" runat="server" ImageAlign="AbsMiddle"
-                                ValidationGroup="GRP_Search" AlternateText="Search"  ToolTip="Search" Text="Search" />
+                                ValidationGroup="GRP_Search" AlternateText="Search" ToolTip="Search" Text="Search" />
                             <asp:RequiredFieldValidator ID="SearchTextValid" ControlToValidate="SearchBoxText"
                                 ValidationGroup="GRP_Search" InitialValue="" Display="Dynamic" ForeColor="Red" Text="<br/>Please insert a keyword"
                                 runat="server" />
@@ -133,11 +81,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                     <script type="text/javascript">
 
-                        function 
+                        function
                         QuestionNumberFocus(txtElem, strWatermark)
                         { if (txtElem.value == strWatermark) txtElem.value = ''; }
 
-                        function 
+                        function
                         QuestionNumberBlur(txtElem, strWatermark)
                         { if (txtElem.value == '') txtElem.value = strWatermark; }
 
@@ -157,16 +105,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <li><a runat="server" href="~/about.aspx">About</a></li>
                                 <li><a runat="server" href="~/faq.aspx">FAQs</a></li>
                                 <li><a runat="server" href="~/announcements.aspx">Announcements</a></li>
-                                <li id="twoLineNav"><a runat="server" href="~/participate.aspx">Were you contacted <br />by HINTS?</a></li>
+                                <li id="twoLineNav"><a runat="server" href="~/participate.aspx">Were you contacted
+                                    <br />
+                                    by HINTS?</a></li>
                                 <li><a runat="server" href="~/contact_us.aspx">Contact Us</a></li>
                             </ul>
                         </li>
                         <li>
                             <a href="#">Data/Instruments</a>
                             <ul class="child_menu">
-                                <li>  <a id='hints_download_NOJS' runat="server" href="~/terms.aspx">Download Data</a>
-                                <a id='hints_download' runat="server" href="~/terms.aspx">Download Data</a>
-                                  </li>
+                                <li><a id='hints_download_NOJS' runat="server" href="~/terms.aspx">Download Data</a>
+                                    <a id='hints_download' runat="server" href="~/terms.aspx">Download Data</a>
+                                </li>
                                 <li><a runat="server" href="~/instrument.aspx">Survey Instruments</a></li>
                             </ul>
                         </li>
@@ -215,8 +165,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </asp:SiteMapPath>
                         </div>
 
-                        
-            <a name="skipnav" id="skipnav"></a>
+
+                        <a name="skipnav" id="skipnav"></a>
 
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                         </asp:ContentPlaceHolder>
@@ -242,10 +192,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
                             <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
                             <li><a href="http://www.cancer.gov/global/web/policies/foia">FOIA</a></li>
-                            <li class="connect">
-                                Connect: 
-                                <a href="http://www.twitter.com/NCIHINTS" target="_blank"><img alt="Twitter" id="tw" src="/_images/twitter.png" /></a>
-                               <img alt="Share" id="shareButton" src="/_images/shareplus.png" />
+                            <li class="connect">Connect: 
+                                <a href="http://www.twitter.com/NCIHINTS" target="_blank">
+                                    <img alt="Twitter" id="tw" src="/_images/twitter.png" /></a>
+                                <img alt="Share" id="shareButton" src="/_images/shareplus.png" />
                                 <img alt="Email" id="emailButton" src="/_images/email.png" />
                                 <div class="addthis_sharing_toolbox"></div>
                                 <!-- 2 images above act as backgrounds so the icons appear imediatly when addthis is loading -->
@@ -281,6 +231,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         <!-- End of Content div -->
     </form>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+
     <script language="JavaScript" type="text/javascript" src="https://static.cancer.gov/webanalytics/WA_DCCPS_PageLoad.js"></script>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54b5638d64d6a65f" async="async"></script>
+
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+
+            //toggle the links depending on JS turned on
+            $('#hints_download_NOJS').css('display', 'none')
+            $('#hints_download').css('display', 'block')
+
+            //Hide modal box
+            $('#closeModal').click(
+                function () { $('.modalDialog').hide(); }
+            );
+
+            $("#txtemailTermsService").keydown(function (e) {
+                var code = (e.keyCode ? e.keyCode : e.which);
+                if (code == 13) {
+                    validateForm();
+                    return false;
+                }
+            });
+        });
+
+        function OpenModalRWB() {
+            $('.modalDialog').show();
+        }
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+    w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+        new Date().getTime(), event: 'gtm.js'
+    }); var f = d.getElementsByTagName(s)[0],
+    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-MK29FZ');</script>
+    <!-- End Google Tag Manager -->
 </body>
 </html>

@@ -61,12 +61,12 @@ Partial Class question_details
                     QuestionID = Server.HtmlEncode(Request.QueryString("qid"))
                     'PreSelectDDL(DDL_Questions, Request("qid"))
                 Else
-                    Response.Redirect("/Default.aspx")
+                    Response.RedirectPermanent("/Default.aspx")
                 End If
             End If
 
             If BadId_NeedsToRedirect = True Then
-                Response.Redirect("/Default.aspx")
+                Response.RedirectPermanent("/Default.aspx")
             End If
 
 
@@ -85,17 +85,17 @@ Partial Class question_details
                     objConnect.Close()
 
                     If cnt = 0 Then
-                        Response.Redirect("/Default.aspx")
+                        Response.RedirectPermanent("/Default.aspx")
                     Else
                         CurrentCycleDisplaying = Server.HtmlEncode(Request.QueryString("PK_Cycle"))
                     End If
                 Else
-                    Response.Redirect("/Default.aspx")
+                    Response.RedirectPermanent("/Default.aspx")
                 End If
             End If
 
             If BadId_NeedsToRedirect = True Then
-                Response.Redirect("/Default.aspx")
+                Response.RedirectPermanent("/Default.aspx")
             End If
 
             'QuestionID = Server.HtmlEncode(Request.QueryString("qid")) ' Used for displaying breadcrumbs

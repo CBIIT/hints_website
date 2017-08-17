@@ -19,7 +19,7 @@ Partial Class knowledge_maps
 
         If Not Page.IsPostBack Then
             If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("qdid"))) = False Then
-                Response.Redirect("~/default.aspx")
+                Response.RedirectPermanent("~/default.aspx")
             Else
                 FK_Question = 0
                 Cmd.CommandType = CommandType.StoredProcedure

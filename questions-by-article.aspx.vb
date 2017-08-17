@@ -21,7 +21,7 @@ Partial Class questions_by_article
         If Not Page.IsPostBack Then
             UC_Results.Visible = False
             If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("PK_Article"))) = False Then
-                Response.Redirect("~/default.aspx")
+                Response.RedirectPermanent("~/default.aspx")
             Else
 
                 Cmd.CommandText = "Get_Article"

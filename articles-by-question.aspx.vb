@@ -21,7 +21,7 @@ Partial Class articles_by_question
 
 
         If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("PK_Question"))) = False Then
-            Response.Redirect("/problem.aspx", False)
+            Response.RedirectPermanent("/problem.aspx", False)
         Else
             QuestionID = Server.HtmlEncode(Request.QueryString("PK_Question"))
         End If
@@ -32,12 +32,12 @@ Partial Class articles_by_question
             ARticleType = "1"
 
             If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("ArtType"))) = False Then
-                Response.Redirect("~/default.aspx")
+                Response.RedirectPermanent("~/default.aspx")
             Else
                 ARticleType = Server.HtmlEncode(Request.QueryString("ArtType"))
             End If
             If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("PK_Question"))) = False Then
-                Response.Redirect("~/default.aspx")
+                Response.RedirectPermanent("~/default.aspx")
             Else
                 Cmd.CommandText = "Get_Question"
                 Cmd.Parameters.Add("@PK_Question", SqlDbType.Int).Value = Server.HtmlEncode(Request.QueryString("PK_Question"))
