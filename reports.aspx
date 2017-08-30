@@ -146,9 +146,9 @@
             <div id="factsheet" class="col_3">
                 <h2>HINTS Factsheet</h2>
                 <div class="item_wrapper">
-                    <img src="_images/Hints_Factsheet2.png" alt="Image of HINTS Fact Sheet" />
+                    <img src="_images/Hints_Factsheet.png" alt="Image of HINTS Fact Sheet" />
                     <br style="clear: none;" />
-                    &#8211; <a href="docs/Hints_Factsheet2.pdf" target="_blank">English</a> (updated 11/17/2014) PDF<br style="clear: none;" />
+                    &#8211; <a href="docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 11/17/2014) PDF<br style="clear: none;" />
                     <br style="clear: none;" />
                     &#8211; <a href="docs/HINTS_FactSheet_Spn.pdf" target="_blank">espa&#241;ol</a> (updated 12/2/2009) PDF
         <br style="clear: none;" />
