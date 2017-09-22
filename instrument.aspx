@@ -12,8 +12,8 @@
         HINTS 5, Cycle 1 (2017) data were collected from January through May, 2017 and will be publically available in November 2017. The survey instrument for HINTS 5, Cycle 1, in English and Spanish, is found below. Additional documentation will be made available once the data has been released. 
     </p>
     <ul>
-        <li><strong>HINTS 5, Cycle 1 (2015) Full-content, English Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle1_Annotated_Instrument_English.pdf" target="_blank">PDF</a>  2.4 MB)</li>
-        <li><strong>HINTS 5, Cycle 1 (2015) Full-content, Spanish Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle1_Annotated_Instrument_Spanish.pdf" target="_blank">PDF</a>  1.5MB)</li>
+        <li><strong>HINTS 5, Cycle 1 (2017) Full-content, English Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle1_Annotated_Instrument_English.pdf" target="_blank">PDF</a>  2.4 MB)</li>
+        <li><strong>HINTS 5, Cycle 1 (2017) Full-content, Spanish Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle1_Annotated_Instrument_Spanish.pdf" target="_blank">PDF</a>  1.5MB)</li>
     </ul>
     <p>
         <strong>HINTS-FDA, Cycle 2 (2017) Survey Materials</strong><br />
