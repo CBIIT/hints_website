@@ -9,7 +9,7 @@
 
 
 
-    <p><strong>HINTS-FDA (2015) dataset, updated June 2016</strong></p>
+    <p><strong>HINTS-FDA (2015) dataset, updated September 2017</strong></p>
     <p>
         Total respondents: 3,738<br>
         Complete responses: 3,595<br>
@@ -17,7 +17,7 @@
     </p>
     <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B.</p>
     <ul>
-        <li><a href="dataset/HINTS _FDA_SAS.zip">SAS data and supporting documents</a> (ZIP, 7.2 MB)</li>
+        <li><a href="dataset/HINTS_FDA_SAS.zip">SAS data and supporting documents</a> (ZIP, 7.2 MB)</li>
         <li><a href="dataset/HINTS_FDA_STATA.zip">STATA data and supporting documents</a> (ZIP, 7.1 MB)</li>
         <li><a href="dataset/HINTS_FDA_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 6.6 MB)</li>
     </ul>
@@ -35,7 +35,7 @@
 
 
     <p>
-        <strong>HINTS 4, Cycle 4 (2014) dataset, updated June 2015</strong>
+        <strong>HINTS 4, Cycle 4 (2014) dataset, updated September 2017</strong>
     </p>
     <p>
         Total respondents: 3,677<br />
@@ -64,7 +64,7 @@
 
 
     <p>
-        <strong>HINTS 4, Cycle 3 (2013) dataset, updated June 2014 </strong>
+        <strong>HINTS 4, Cycle 3 (2013) dataset, updated September 2017</strong>
     </p>
     <p>
         Total respondents: 3,185<br />
@@ -84,7 +84,7 @@
             documents</a> (ZIP, 5.5 MB)</li>
     </ul>
     <p>
-        <strong>HINTS 4, Cycle 2 (2012) dataset, updated May 2013 </strong>
+        <strong>HINTS 4, Cycle 2 (2012) dataset, updated September 2017</strong>
     </p>
     <p>
         Total respondents: 3,630<br />
@@ -104,7 +104,7 @@
             documents</a> (ZIP, 6.7 MB)</li>
     </ul>
     <p>
-        <strong>HINTS 4, Cycle 1 (2011) dataset, updated August 2012  </strong>
+        <strong>HINTS 4, Cycle 1 (2011) dataset, updated September 2017</strong>
     </p>
     <p>
         Total respondents: 3,959<br />
