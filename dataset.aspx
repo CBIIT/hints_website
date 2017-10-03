@@ -10,6 +10,9 @@
 
 
     <p><strong>HINTS-FDA (2015) dataset, updated September 2017</strong></p>
+    
+    
+    
     <p>
         Total respondents: 3,738<br>
         Complete responses: 3,595<br>
