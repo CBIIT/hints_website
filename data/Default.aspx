@@ -17,7 +17,7 @@
             </div>
             <div class="landingPageDiv_subtext">
                 <p>Quickly access HINTS data, in SAS, SPSS, and STATA formats, and supporting documents</p>
-                <p><a href="/data/download-data.aspx">Read More</a></p>
+                <p><asp:HyperLink NavigateUrl="~/data/termsofuse.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink></p>
             </div>
         </div>
         <div class="col_3 landingPageDiv">

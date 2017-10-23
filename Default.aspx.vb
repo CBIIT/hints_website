@@ -26,11 +26,11 @@ Partial Class _Default
                 Cache("termsAccepted") = "NOTAccepted"
             End If
             If Cache("termsAccepted") = "Accepted" Then
-                hints_access_data.HRef = "~/data/download-data.aspx"
-                hints_access_data_NoJs.HRef = "~/data/download-data.aspx"
-                hints_download_carousel.HRef = "~/data/download-data.aspx"
+                hints_access_data.HRef = "~/data/termsofuse.aspx"
+                hints_access_data_NoJs.HRef = "~/data/termsofuse.aspx"
+                hints_download_carousel.HRef = "~/data/termsofuse.aspx"
             Else
-                hints_access_data.HRef = "javascript:OpenModalRWB();"
+                hints_access_data.HRef = "~/data/termsofuse.aspx"
                 hints_access_data_NoJs.HRef = "~/data/termsofuse.aspx"
                 hints_download_carousel.HRef = "~/data/termsofuse.aspx"
             End If

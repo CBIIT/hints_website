@@ -1,4 +1,15 @@
-@charset "UTF-8";/* Variables and Mixins *//** Global Values **//** Typography **//** Elements **//** Page Partials **//*$headertop_bg: 			$scarpa-grey;*//** Pages **//** Media Queries Breakpoints **//* HTML element (base) rules */*, *:after, *:before {  -webkit-box-sizing: border-box;
+@charset "UTF-8";
+/* Variables and Mixins */
+/** Global Values **/
+/** Typography **/
+/** Elements **/
+/** Page Partials **/
+/*$headertop_bg: 			$scarpa-grey;*/
+/** Pages **/
+/** Media Queries Breakpoints **/
+/* HTML element (base) rules */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }

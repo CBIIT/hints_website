@@ -10,11 +10,11 @@ Partial Class Main
                 Cache("termsAccepted") = "NOTAccepted"
             End If
             If Cache("termsAccepted") = "Accepted" Then
-                hints_download.HRef = "~/data/download-data.aspx"
-                hints_download_NOJS.HRef = "~/data/download-data.aspx"
-                hints_download_Mobile.HRef = "~/data/download-data.aspx"
+                hints_download.HRef = "~/data/termsofuse.aspx"
+                hints_download_NOJS.HRef = "~/data/termsofuse.aspx"
+                hints_download_Mobile.HRef = "~/data/termsofuse.aspx"
             Else
-                hints_download.HRef = "javascript:OpenModalRWB();"
+                hints_download.HRef = "~/data/termsofuse.aspx"
                 hints_download_NOJS.HRef = "~/data/termsofuse.aspx"
                 hints_download_Mobile.HRef = "~/data/termsofuse.aspx"
             End If
