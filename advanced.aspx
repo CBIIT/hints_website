@@ -5,7 +5,7 @@
 <%@ Register src="~/_usercontrols/results.ascx" tagname="results" tagprefix="uc1" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="_css/results.css" type="text/css" rel="stylesheet" />
+    <link href="/_css/results.css" type="text/css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" language="javascript"
         type="text/javascript"></script>
 </asp:Content>

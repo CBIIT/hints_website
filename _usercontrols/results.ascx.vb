@@ -128,7 +128,7 @@ Partial Class _usercontrols_results
 
     Function getURL(PK_QuestionDetails As Object, FK_Question As Object, PK_Cycle As String) As String
         If CheckNull(PK_QuestionDetails) <> "" Then
-            Return "question-details.aspx?PK_Cycle=" & PK_Cycle & "&qid=" & FK_Question
+            Return "/view-questions-topics/question-details.aspx?PK_Cycle=" & PK_Cycle & "&qid=" & FK_Question
         Else
             Return "javascript:void(0)"
         End If
@@ -147,7 +147,7 @@ Partial Class _usercontrols_results
     End Function
 
     Function SetURLForArticles(FK_Question As String, PK_ArticleType As Integer) As String
-        Return "~/articles-by-question.aspx?PK_Question=" & Server.UrlEncode(FK_Question) & "&ArtType=" & PK_ArticleType
+        Return "~/view-questions-topics/articles-by-question.aspx?PK_Question=" & Server.UrlEncode(FK_Question) & "&ArtType=" & PK_ArticleType
     End Function
 
     Function CheckAllYearsVis(TotalIncludeCount As Integer) As Boolean
@@ -162,22 +162,4 @@ Partial Class _usercontrols_results
             Return False
         End If
     End Function
-
-    'Protected Function CheckURL(FileName As Object, ID As Integer) As String
-    '    If IsDBNull(FileName) Then
-    '        Return "~/briefsDetails.aspx?ID=" & ID
-    '    Else
-    '        Return "~/" & FileName.ToString
-
-    '    End If
-    'End Function
-
-    'Protected Function CheckImageURL(LinkURL As Object, ID As Integer) As String
-    '    If IsDBNull(LinkURL) Then
-    '        Return "~/briefsDetails.aspx?ID=" & ID
-    '    Else
-    '        Return "~/" & LinkURL.ToString
-    '    End If
-    'End Function
-
 End Class

@@ -1,6 +1,6 @@
-// ------------------------------- 
-// General 
-// @description Base Styles 
+// -------------------------------
+// General
+// @description Base Styles
 // -------------------------------
 
 // @font-face {
@@ -29,80 +29,120 @@
 // }
 
 *, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-	background: url('../_images/hints_back4.gif');
-	font-family: $primary-font; 
-	font-size: $general-font-size;  
-    margin: 0; 
+    background: url('../_images/hints_back4.gif');
+    font-family: $primary-font;
+    font-size: $general-font-size;
+    margin: 0;
 }
 
-h1 { 
-	color: $h1-color; 
-	font-size: $h1-font-size; 
+h1 {
+    color: $h1-color;
+    font-size: $h1-font-size;
 }
+
 h2 {
-	color: $h2-color; 
-	font-size: $h2-font-size; 
+    color: $h2-color;
+    font-size: $h2-font-size;
 }
-h3 { font-size: $primary-font-size; }
+
+h3 {
+    font-size: $primary-font-size;
+}
+
 h4 {
-	font-size: $h4-font-size; 
-	color: $h4-color; 
-	font-style: italic; 
+    font-size: $h4-font-size;
+    color: $h4-color;
+    font-style: italic;
 }
-a { color: $link-color; }
-ul, ol { padding-left: 4%; }
+
+a {
+    color: $link-color;
+}
+
+ul, ol {
+    padding-left: 4%;
+}
 
 .main {
-	@include center($max-container-width); 
-	@include bx-shadow(0, 35px, $light-grey);
-	background-color: $content-bg; 
-	padding: 1%; 
+    @include center($max-container-width);
+    @include bx-shadow(0, 35px, $light-grey);
+    background-color: $content-bg;
+    padding: 1%;
 }
 
-.left { float: left; }
-.right { float: right; } 
-.clear { clear: both; }
-.double_line { padding-bottom: 12px; }
-
-.col_6 { @include calculate-col-width($max-container-width, $total-col, 6); }
-.col_5 { 
-	@include calculate-col-width($max-container-width, $total-col, 5);
-	
-	@media #{$small-and-down} { width: 100%; } 
+.left {
+    float: left;
 }
-.col_4 { 
-	@include calculate-col-width($max-container-width, $total-col, 4); 
-	
-	@media #{$small-and-down} { width: 100%; } 
-}
-.col_3 { 
-	@include calculate-col-width($max-container-width, $total-col, 3); 
 
-	@media #{$small-and-down} { width: 100%; } 
+.right {
+    float: right;
 }
-.col_2 { 
-	@include calculate-col-width($max-container-width, $total-col, 2); 
 
-	@media #{$small-and-down} { width: 100%; } 
+.clear {
+    clear: both;
 }
-.col_1 { 
-	@include calculate-col-width($max-container-width, $total-col, 1);
 
-	@media #{$small-and-down} { width: 100%; }
+.double_line {
+    padding-bottom: 12px;
+}
+
+.col_6 {
+    @include calculate-col-width($max-container-width, $total-col, 6);
+}
+
+.col_5 {
+    @include calculate-col-width($max-container-width, $total-col, 5);
+
+    @media #{$small-and-down} {
+        width: 100%;
+    }
+}
+
+.col_4 {
+    @include calculate-col-width($max-container-width, $total-col, 4);
+
+    @media #{$small-and-down} {
+        width: 100%;
+    }
+}
+
+.col_3 {
+    @include calculate-col-width($max-container-width, $total-col, 3);
+
+    @media #{$small-and-down} {
+        width: 100%;
+    }
+}
+
+.col_2 {
+    @include calculate-col-width($max-container-width, $total-col, 2);
+
+    @media #{$small-and-down} {
+        width: 100%;
+    }
+}
+
+.col_1 {
+    @include calculate-col-width($max-container-width, $total-col, 1);
+
+    @media #{$small-and-down} {
+        width: 100%;
+    }
 }
 
 [class*='col_'] {
     float: left;
     margin-right: 1%;
 }
-[class*='col_']:last-of-type { 
-	margin-right: 0; 
+
+[class*='col_']:last-of-type {
+    margin-right: 0;
 }
 
 .grid:after {
@@ -113,24 +153,50 @@ ul, ol { padding-left: 4%; }
 
 
 .skipnav_hidden {
-  position: absolute;
-  left: -500px;
-  top: -500px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
+    position: absolute;
+    left: -500px;
+    top: -500px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .required {
-    color:red;
+    color: red;
 }
 
-.at_flat_counter{
-  display: none !important; 
+.at_flat_counter {
+    display: none !important;
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.landingPageDiv {
+    background-color: #ffffff;
+    border: 1px #5EA528 solid;
+    padding: 0;
+    margin-bottom: 10px;
+    min-height: 125px;
+
+    .landingPageDiv_subtext {
+        padding: 5px;
+    }
+
+    .landingPageDivHeader {
+        margin-bottom: 0;
+        width: 100%;
+        background: #5EA528;
+        color: #ffffff;
+        padding: 1px;
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #ffffff;
+        }
+    }
 }

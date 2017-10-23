@@ -204,7 +204,7 @@ Director, National Center for Health Marketing, CDC</p>
 		        Senior  Research Coordinator, NCI's Cancer  Information Service - Southern Cluster, Assistant Professor, Department of  Health Behavior, University of Kentucky College of Public Health</p></td>
 			  </tr>
 			</table>
-    <p><a id="1"></a>* Note: This  user-generated content from the HINTS Conference is provided as-is. If you need an accessible version of any of these files, please <a href="contact_us.aspx">contact us</a>.</p>
+    <p><a id="1"></a>* Note: This  user-generated content from the HINTS Conference is provided as-is. If you need an accessible version of any of these files, please <a href="/about-hints/contact-us.aspx">contact us</a>.</p>
     <p>Suggested citation format: Author(s). Title. Paper  presented at the 3rd Health Information National Trends Survey (HINTS) Data  Users Meeting, September 24-25, 2009, Washington, DC. </p>
         </div>
 </div>

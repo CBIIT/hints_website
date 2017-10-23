@@ -19,11 +19,13 @@ Partial Class _usercontrols_terms
     Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnSubmit.Click
         If Page.IsValid Then
             If Me.chkAcceptTerm_mod.Checked Then
-                Session("AcceptTerm") = True
+                ' Cache.Insert("termsAccepted", "Accepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
+                Cache("termsAccepted") = "Accepted"
                 Sendemail()
-                Response.Redirect("~/dataset.aspx")
+                Response.Redirect("~/data/download-data.aspx")
             Else
-                Session("AcceptTerm") = False
+                'Cache.Insert("termsAccepted", "NOTAccepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
+                Cache("termsAccepted") = "NOTAccepted"
                 Exit Sub
             End If
         End If

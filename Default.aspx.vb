@@ -21,18 +21,18 @@ Partial Class _Default
 
 
 
-            '  Response.Write("<h1>xxx=" & Session("AcceptTerm") & "</h1>")
-            If Session("AcceptTerm") = Nothing Then
-                Session("AcceptTerm") = False
+            If Cache("termsAccepted") = Nothing Then
+                'Cache.Insert("termsAccepted", "NOTAccepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
+                Cache("termsAccepted") = "NOTAccepted"
             End If
-            If Session("AcceptTerm") = True Then
-                hints_access_data.HRef = "~/dataset.aspx"
-                hints_access_data_NoJs.HRef = "~/dataset.aspx"
-                hints_download_carousel.HRef = "~/dataset.aspx"
+            If Cache("termsAccepted") = "Accepted" Then
+                hints_access_data.HRef = "~/data/download-data.aspx"
+                hints_access_data_NoJs.HRef = "~/data/download-data.aspx"
+                hints_download_carousel.HRef = "~/data/download-data.aspx"
             Else
                 hints_access_data.HRef = "javascript:OpenModalRWB();"
-                hints_access_data_NoJs.HRef = "~/terms.aspx"
-                hints_download_carousel.HRef = "~/terms.aspx"
+                hints_access_data_NoJs.HRef = "~/data/termsofuse.aspx"
+                hints_download_carousel.HRef = "~/data/termsofuse.aspx"
             End If
 
             objConnect.Open()

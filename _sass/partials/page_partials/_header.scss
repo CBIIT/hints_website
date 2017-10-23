@@ -3,10 +3,11 @@
 // -------------------------------
 
 .top_header {
-	height: 50px; 
+	height: 75px; 
 	background-color: $headertop_bg; 
+  padding:.75em;
 	@include center($max-container-width);
-	@include bx-shadow(0, 35px, $light-grey);
+	/*@include bx-shadow(0, 35px, $light-grey);*/
 
 	span { display: none; }
 
@@ -45,7 +46,7 @@
 
 .header {
 	@include center($max-container-width);
-	@include bx-shadow(0, 35px, $light-grey); 
+	/*@include bx-shadow(0, 35px, $light-grey);*/ 
 	height: 100px;
     background: url("../_images/hints_header_bg.png") no-repeat;
 
@@ -128,7 +129,8 @@
 		margin-right: 2px;
 		background: #386898;
 		display: block;
-		min-width: 158.4px;
+		/*min-width: 158.4px;*/
+		min-width: 190.4px;
 		height: 35px;
 		text-align: center;
 		width: 15%;
@@ -211,6 +213,22 @@
 		li { margin-right: 0; }
 
 		li#twoLineNav {
+
+			width: 100%;
+			height: 50px;
+			background: $white;
+
+			a {
+				line-height: 1.4;
+				padding-top: 10px;
+				padding-bottom: 20px;
+				height: 50px;
+			}
+
+			
+		}
+
+        li.twoLineNav {
 
 			width: 100%;
 			height: 50px;

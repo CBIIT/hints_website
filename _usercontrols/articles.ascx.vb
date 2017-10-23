@@ -78,21 +78,5 @@ Partial Class _usercontrols_articles
         Return strtitle
     End Function
 
-    'Protected Function CheckURL(FileName As Object, ID As Integer) As String
-    '    If IsDBNull(FileName) Then
-    '        Return "~/briefsDetails.aspx?ID=" & ID
-    '    Else
-    '        Return "~/" & FileName.ToString
-
-    '    End If
-    'End Function
-
-    'Protected Function CheckImageURL(LinkURL As Object, ID As Integer) As String
-    '    If IsDBNull(LinkURL) Then
-    '        Return "~/briefsDetails.aspx?ID=" & ID
-    '    Else
-    '        Return "~/" & LinkURL.ToString
-    '    End If
-    'End Function
    
 End Class

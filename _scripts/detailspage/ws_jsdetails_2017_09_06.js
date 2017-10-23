@@ -70,7 +70,7 @@ $(document).ready(function () {
 });
 
 function GoToNewQuestion() {
-    window.location = "question-details.aspx?nq=1&qid=" + $('#DDL_Questions option:selected').val();
+    window.location = "/view-questions-topics/question-details.aspx?nq=1&qid=" + $('#DDL_Questions option:selected').val();
 }
 
 function Populate_QuestionDDL() {
@@ -159,16 +159,6 @@ function intialize() {
     List_All_QuestionsAndSections_jquery(function (ws_data) {
         AllQuestionsSections_ds = ws_data;
         Populate_QuestionDDL();
-
-
-
-
-
-
-
-
-
-
 
         Get_Question_AND_Details_By_Question(FK_Question, function (ws_data) {
             QuestionDetails_ds = ws_data;
@@ -361,7 +351,7 @@ function BuildDisplay() {
 
             if ((QuestionDetails_ds[i].ArticleCount >= 0) && (QuestionDetails_ds[i].ArticleCount !== null)) {
            
-                $("#HYP_articles_ByQuestion").attr("href", "/articles_by_questionDetails.aspx?ArtType=1&PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails)
+                $("#HYP_articles_ByQuestion").attr("href", "/view-questions-topics/articles_by_questionDetails.aspx?ArtType=1&PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails)
                 $('#LIT_NoArticles').hide();
                 $('#HYP_articles_ByQuestion').show
             }
@@ -371,7 +361,7 @@ function BuildDisplay() {
             }
 
             if ((QuestionDetails_ds[i].BriefCount >= 0) && (QuestionDetails_ds[i].BriefCount !== null)) {
-                $("#HYP_Briefs_ByQuestion").attr("href", "/articles_by_questionDetails.aspx?ArtType=2&PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails)
+                $("#HYP_Briefs_ByQuestion").attr("href", "/view-questions-topics/articles_by_questionDetails.aspx?ArtType=2&PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails)
                 $('#LIT_NoBriefs').hide();
                 $('#HYP_Briefs_ByQuestion').show
             }
@@ -384,7 +374,7 @@ function BuildDisplay() {
 
             //*********** Have to hide if not populated
             if (QuestionDetails_ds[i].KnowledgeMap1 !== null) {
-                $("#HYP_KnowledgeMap").attr("href", "/knowledge_maps.aspx?qdid=" + QuestionDetails_ds[i].PK_QuestionDetails)
+                $("#HYP_KnowledgeMap").attr("href", "/view-questions-topics/map_details.aspx?qdid=" + QuestionDetails_ds[i].PK_QuestionDetails)
 
                 $('#LIT_NoMap').hide();
                 $('#HYP_KnowledgeMap').Show();
@@ -925,12 +915,16 @@ function updateExportModal() {
 
 
 function getDataForSurveyQuestion() {
+
+    //console.log("************************");
+    //console.log(PK_Question)
+    //console.log("**(44444444444")
     $.ajax({
         type: "POST",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         data: "{'PK_Question':'" + PK_Question + "'}",
-        url: "DataMethods.aspx/GetSurveyQuestionResult",
+        url: "/WS_Data/DataMethods.aspx/GetSurveyQuestionResult",
         success: function (data) {
             surveyQuestionData = data.d;
             //populateCycleSelector();

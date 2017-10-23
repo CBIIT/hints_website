@@ -108,7 +108,7 @@ Jasmin A. Tiro Ph.D.<br />
 <p><strong><a href="/docs/2009/zhang.pdf">Health Communication  Sources &amp; Cancer Survivors' Information Seeking</a></strong><br />
   Ni Zhang, M.A., Yong-Chan Kim, Ph.D. <br />
   <em>Department of Community and Behavioral Health,  College of Public Health, The University of Iowa</em></p>
-<p><a name="1" id="1"></a>* Note: This  user-generated content from the HINTS Conference is provided as-is. If you need an accessible version of any of these files, please <a href="contact_us.aspx">contact us</a>.</p>
+<p><a name="1" id="1"></a>* Note: This  user-generated content from the HINTS Conference is provided as-is. If you need an accessible version of any of these files, please <a href="/about-hints/contact-us.aspx">contact us</a>.</p>
     <p>Suggested citation format: Author(s). Title. Poster  presented at the 3rd Health Information National Trends Survey (HINTS) Data  Users Meeting, September 24-25, 2009, Washington, DC. </p>
         </div>
 </div>

@@ -58,7 +58,7 @@
                         </asp:Repeater>
                         <asp:PlaceHolder ID="PLC_AllYearsDiv" Visible='<%# CheckAllYearsVis(Eval("TotalIncludeCount"))%>' runat="server">
                         <div class='allyearcycle'>
-                            <a href="question-details.aspx?qid=<%# (Eval("PK_Question"))%>">All</a>
+                            <a href="/view-questions-topics/question-details.aspx?qid=<%# (Eval("PK_Question"))%>">All</a>
                         </div>
                             </asp:PlaceHolder>
                     </div>
@@ -73,8 +73,8 @@
                                     <a href='<%# Eval("LinkURL")%>' target="_blank">
                                         <%# Eval("Title")%></a>
 
-                                    <a href="questions-by-article.aspx?PK_Article=<%# Server.UrlEncode(Eval("PK_Article")) %>">
-                                        <img src="_images/icon-quest.gif" alt="View questions related to this article" title="View questions related to this article" border="0" />
+                                    <a href="/view-questions-topics/questions-by-article.aspx?PK_Article=<%# Server.UrlEncode(Eval("PK_Article")) %>">
+                                        <img src="/_images/icon-quest.gif" alt="View questions related to this article" title="View questions related to this article" border="0" />
                                     </a>
 
                                     <br />
@@ -95,10 +95,10 @@
                                         <%# Eval("Title")%>  </a>
 
                                     <a id="BriefLink" runat="server" href='<%# "~/" & Eval("LinkURL")%>' target="_blank">
-                                        <img src="_images/icon_pdf.gif" alt="Download Brief in PDF Format" />
+                                        <img src="/_images/icon_pdf.gif" alt="Download Brief in PDF Format" />
                                     </a>
-                                                 <a href="questions-by-article.aspx?PK_Article=<%# Server.UrlEncode(Eval("PK_Article")) %>">
-                                        <img src="_images/icon-quest.gif" alt="View questions related to this article" title="View questions related to this brief" border="0" />
+                                                 <a href="/view-questions-topics/questions-by-article.aspx?PK_Article=<%# Server.UrlEncode(Eval("PK_Article")) %>">
+                                        <img src="/_images/icon-quest.gif" alt="View questions related to this article" title="View questions related to this brief" border="0" />
                                     </a> <br />
                                     <br />
                                 </ItemTemplate>

@@ -1,7 +1,11 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false"
+﻿<%@ Page Title="Health Information National Trends Survey | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false"
     CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <meta name="Title" content="Health Information National Trends Survey | HINTS" />
+    <meta name="Description" content="HINTS collects data about the use of cancer and health-related information by the American public and provides it for free public use." />
+
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -13,26 +17,26 @@
         <div class="col_5">
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
-                    <li data-thumbcaption="New HINTS-FDA Data Now Available for Download!" data-thumb="_images/carousel/NCI_HINTS_DCCPS_web_banner_v2_thumb.jpg">
-                        <a id="hints_download_carousel" runat="server" href="~/terms.aspx">
-                            <img alt="HINTS 4, Cycle 4 Data Now Available for Download!" src="_images/carousel/NCI_HINTS_DCCPS_web_banner_v2.jpg" /></a>
+                    <li data-thumbcaption="New HINTS-FDA Data Now Available for Download!" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_web_banner_v2_thumb.jpg">
+                        <a id="hints_download_carousel" runat="server" href="~/data/termsofuse.aspx">
+                            <img alt="HINTS 4, Cycle 4 Data Now Available for Download!" src="/_images/carousel/NCI_HINTS_DCCPS_web_banner_v2.jpg" /></a>
                         <p class="flex_caption">New HINTS-FDA Data Now Available for Download!</p>
                     </li>
-                    <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="_images/carousel/NCI_HINTS_Carousel_CigarettesHarm_thumb.jpg">
-                        <a href="/announcements.aspx#Nov2016 ">
-                            <img alt="New HINTS Infocards and Infographics Now Available" src="_images/carousel/NCI_HINTS_Carousel_CigarettesHarm.jpg" />
+                    <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="/_images/carousel/NCI_HINTS_Carousel_CigarettesHarm_thumb.jpg">
+                        <a href="/about-hints/announcements.aspx#Nov2016 ">
+                            <img alt="New HINTS Infocards and Infographics Now Available" src="/_images/carousel/NCI_HINTS_Carousel_CigarettesHarm.jpg" />
                         </a>
                         <p class="flex_caption">New HINTS Infocards and Infographics Now Available</p>
                     </li>
-                    <li data-thumbcaption="Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening" data-thumb="_images/carousel/NCI_HINTS_Carousel_Brief32_thumb.jpg">
+                    <li data-thumbcaption="Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Brief32_thumb.jpg">
                         <a href="/docs/Briefs/HINTS_Brief_32.pdf ">
-                            <img alt="Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening" src="_images/carousel/NCI_HINTS_Carousel_Brief32.jpg" />
+                            <img alt="Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening" src="/_images/carousel/NCI_HINTS_Carousel_Brief32.jpg" />
                         </a>
                         <p class="flex_caption">Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening</p>
                     </li>
-                    <li data-thumbcaption="HINTS Data Spotlight: Health Communication" data-thumb="_images/carousel/NCI_HINTS_Carousel_InternetHealthInfo_thumb.jpg">
+                    <li data-thumbcaption="HINTS Data Spotlight: Health Communication" data-thumb="/_images/carousel/NCI_HINTS_Carousel_InternetHealthInfo_thumb.jpg">
                         <a href="/advanced.aspx?tpc=9 ">
-                            <img alt="HINTS Data Spotlight: Health Communication" src="_images/carousel/NCI_HINTS_Carousel_InternetHealthInfo.jpg" />
+                            <img alt="HINTS Data Spotlight: Health Communication" src="/_images/carousel/NCI_HINTS_Carousel_InternetHealthInfo.jpg" />
                         </a>
                         <p class="flex_caption">HINTS Data Spotlight: Health Communication</p>
                     </li>
@@ -42,11 +46,11 @@
             <div class="homepage_boxes">
                 <div class="col_4">
                     <div id="hintsbox1">
-                        <img alt="What is HINTS?" src="_images/greenpeople2.jpg" />
+                        <img alt="What is HINTS?" src="/_images/greenpeople2.jpg" />
                         <h2>What is HINTS?</h2>
-                        <p>HINTS collects data about the use of cancer-related information by the American public. These data provide opportunities to understand and improve health communication. <a href="about.aspx">Read More ></a></p>
+                        <p>HINTS collects data about the use of cancer-related information by the American public. These data provide opportunities to understand and improve health communication. <a href="/about-hints/learn-more-about-hints.aspx">Read More ></a></p>
                         <h2>Get and Use HINTS Data</h2>
-                        <p>Download publically available, nationally representative HINTS data for your next secondary analysis. <a id="hints_access_data" runat="server" href="~/terms.aspx">Access Data ></a><a id="hints_access_data_NoJs" runat="server" href="~/terms.aspx">Access Data ></a></p>
+                        <p>Download publically available, nationally representative HINTS data for your next secondary analysis. <a id="hints_access_data" runat="server" href="~/data/termsofuse.aspx">Access Data ></a><a id="hints_access_data_NoJs" runat="server" href="~/terms.aspx">Access Data ></a></p>
                         <h2>Sign Up for HINTS Updates</h2>
                         <p><a href="/subscribe/default.aspx">Sign up to get updates</a> on the latest HINTS data releases, publications, and website features.</p>
                     </div>
@@ -54,7 +58,7 @@
 
                 <div class="col_2">
                     <div class="topic_header">
-                        <img alt="Twitter" src="_images/twitter-bird.png" /><p>Our Latest Tweets</p>
+                        <img alt="Twitter" src="/_images/twitter-bird.png" /><p>Our Latest Tweets</p>
                     </div>
                     <div class="topic_list">
                         <ul>
@@ -75,9 +79,9 @@
                 <h2>Social Media</h2>
                 <div id="smlinks">
                     <a href="http://www.twitter.com/NCIHINTS" target="_blank">
-                        <img alt="Twitter" class="smimage" src="_images/twitter.png" /></a>
-                    <img alt="Share" class="smimage smbackground" src="_images/shareplus.png" />
-                    <img alt="Email" class="smimage smbackground" src="_images/email.png" />
+                        <img alt="Twitter" class="smimage" src="/_images/twitter.png" /></a>
+                    <img alt="Share" class="smimage smbackground" src="/_images/shareplus.png" />
+                    <img alt="Email" class="smimage smbackground" src="/_images/email.png" />
                     <div class="addthis_sharing_toolbox"></div>
 
                     <!-- 2 images above act as backgrounds so the icons appear imediatly when addthis is loading -->
@@ -85,46 +89,46 @@
             </div>
             <div id="submitPubs">
                 <h2>New HINTS Publication?</h2>
-                <div id="submitPubsBtn"><a href="inform_us.aspx">Submit Here</a></div>
+                <div id="submitPubsBtn"><a href="/publications-reports/submit-hints-publication.aspx">Submit Here</a></div>
             </div>
             <div id="newsbox">
                 <h2>What's New</h2>
 
-                <p><a href="/announcements.aspx#Jul2017">Check out the HINTS-ASL Project</a></p>
+                <p><a href="/about-hints/announcements.aspx#Jul2017">Check out the HINTS-ASL Project</a></p>
                 <p class="newsdate">July 19, 2017</p>
-                <p><a href="/announcements.aspx#Nov2016">Help spread the word about HINTS-FDA!</a></p>
+                <p><a href="/about-hints/announcements.aspx#Nov2016">Help spread the word about HINTS-FDA!</a></p>
                 <p class="newsdate">November  16, 2016</p>
 
-                <p><a href="/announcements.aspx#Sept2016_webinar">How-To HINTS: A Practical Workshop</a></p>
+                <p><a href="/about-hints/announcements.aspx#Sept2016_webinar">How-To HINTS: A Practical Workshop</a></p>
                 <p class="newsdate">September  21, 2016</p>
                 <%--           
-            <p><a href="/announcements.aspx#June2016_FDA">New HINTS Data Now Available</a></p>
+            <p><a href="/about-hints/announcements.aspx#June2016_FDA">New HINTS Data Now Available</a></p>
             <p class="newsdate">June  29, 2016</p>  
 
             <p><a href="/subscribe/default.aspx">Sign up to get updates on the latest HINTS</a></p>
             <p class="newsdate">May  13, 2016</p>      
 
-            <p><a href="/announcements.aspx#May2016_infographics">New HINTS Infographics Now Available</a></p>
+            <p><a href="/about-hints/announcements.aspx#May2016_infographics">New HINTS Infographics Now Available</a></p>
             <p class="newsdate">May  13, 2016</p>      
 
 
          
-            <p><a href="/announcements.aspx#APHA2015">Catch HINTS at APHA 2015!</a></p>
+            <p><a href="/about-hints/announcements.aspx#APHA2015">Catch HINTS at APHA 2015!</a></p>
             <p class="newsdate">November 3, 2015</p>      
 
 
 
-            <p><a href="/announcements.aspx#PLOS">HINTS Featured in Post on Social Inequalities in Cancer Information Seeking</a></p>
+            <p><a href="/about-hints/announcements.aspx#PLOS">HINTS Featured in Post on Social Inequalities in Cancer Information Seeking</a></p>
             <p class="newsdate">October 12, 2015</p>
 
-            <p><a href="/announcements.aspx#newsocialmediaresources">New Social Media Resources for Students and Educators</a></p>
+            <p><a href="/about-hints/announcements.aspx#newsocialmediaresources">New Social Media Resources for Students and Educators</a></p>
             <p class="newsdate">August 14, 2015</p>
 
-            <p><a href="/announcements.aspx#hintsvisitguam">HINTS Visits Guam!</a></p>
+            <p><a href="/about-hints/announcements.aspx#hintsvisitguam">HINTS Visits Guam!</a></p>
             <p class="newsdate">August 4, 2015</p>
             
 
-          <p><a href="/announcements.aspx#downloadandshareinfographics">Download and Share HINTS Infographic and Infocards</a></p>
+          <p><a href="/about-hints/announcements.aspx#downloadandshareinfographics">Download and Share HINTS Infographic and Infocards</a></p>
             <p class="newsdate">July 16, 2015</p>      
                 --%>
 
@@ -141,7 +145,7 @@
                     </ItemTemplate>
                 </asp:Repeater>
 
-                <p><a class="rm" href="briefs.aspx">View All Briefs ></a></p>
+                <p><a class="rm" href="/publications-reports/hints-briefs.aspx">View All Briefs ></a></p>
 
             </div>
         </div>

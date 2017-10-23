@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS -->
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link href='~/_css/style.css?v=2017_06_20' rel="stylesheet" type="text/css" />
+    <link href='~/_css/style.css?v=2017_10_19' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
 
 
@@ -40,15 +40,9 @@
         <div>
             <div class="content">
                 <div class="top_header grid">
-                    <div>
-                        <div class="col_3">
-                            <a id="nci_first_link" href="http://www.cancer.gov/"><span>National Cancer Institute</span></a>
-                        </div>
-                        <div class="col_3 second_links">
-                            <a id="nci_second_link" href="http://www.nih.gov/"><span>U.S National Institute of Health</span></a>
-                            <a id="cancer_link" href="http://www.cancer.gov/"><span>www.cancer.gov</span></a>
-                        </div>
-                    </div>
+                    <a href="https://www.cancer.gov/" target="_blank">
+                        <img style="height: 100%;" src="/_images/nci-logo-full.svg" alt="National Cancer Institute" />
+                    </a>
                 </div>
                 <div class="header grid">
                     <div class="col_4">
@@ -96,51 +90,78 @@
                     <label for="show-menu" class="show-menu">&#9776;</label>
                     <input type="checkbox" id="show-menu" role="button" />
                     <ul id="menu">
+
+
                         <li>
-                            <a runat="server" href="~/default.aspx">Home</a>
-                        </li>
-                        <li>
-                            <a runat="server" href="#">About HINTS</a>
+                            <a href="/about-hints/default.aspx">About HINTS</a>
                             <ul class="child_menu">
-                                <li><a runat="server" href="~/about.aspx">About</a></li>
-                                <li><a runat="server" href="~/faq.aspx">FAQs</a></li>
-                                <li><a runat="server" href="~/announcements.aspx">Announcements</a></li>
-                                <li id="twoLineNav"><a runat="server" href="~/participate.aspx">Were you contacted
+                                <li><a href="/about-hints/learn-more-about-hints.aspx">About HINTS</a></li>
+                                <li><a href="/about-hints/announcements.aspx">Announcements</a></li>
+                                <li><a href="/about-hints/frequently-asked-questions.aspx">FAQs</a></li>
+                                <li><a href="/about-hints/data-collection-schedule.aspx">HINTS Schedule</a></li>
+                                <li class="twoLineNav"><a href="/about-hints/contacted-by-hints.aspx">Were you contacted
                                     <br />
                                     by HINTS?</a></li>
-                                <li><a runat="server" href="~/contact_us.aspx">Contact Us</a></li>
+                                <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="#">Data/Instruments</a>
-                            <ul class="child_menu">
-                                <li><a id='hints_download_NOJS' runat="server" href="~/terms.aspx">Download Data</a>
-                                    <a id='hints_download' runat="server" href="~/terms.aspx">Download Data</a>
-                                </li>
-                                <li><a runat="server" href="~/instrument.aspx">Survey Instruments</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a runat="server" href="#">View Questions/Topics</a>
-                            <ul class="child_menu">
-                                <li><a runat="server" href="~/questions.aspx">View Questions</a></li>
-                                <li><a runat="server" href="~/sections.aspx">View Topics</a></li>
-                            </ul>
 
-                        </li>
                         <li>
-                            <a runat="server" href="#">Publications/Reports</a>
+                            <a href="/data/default.aspx">Data</a>
                             <ul class="child_menu">
-                                <li><a runat="server" href="~/reports.aspx">Reports</a></li>
-                                <li><a runat="server" href="~/briefs.aspx">Briefs</a></li>
-                                <li><a runat="server" href="~/research.aspx">Publications</a></li>
-                                <li><a runat="server" href="~/inform_us.aspx">Submit Publication</a></li>
-                                <li><a runat="server" href="~/allMaps.aspx">Knowledge Maps</a></li>
+                                <li id="terms_LI"><a id='hints_download_NOJS' runat="server" href="/data/termsofuse.aspx">Download Data</a>
+                                    <a id='hints_download' runat="server" href="/data/termsofuse.aspx">Download Data</a>
+                                </li>
+                                <li id="terms_Mobile_LI"><a id='hints_download_Mobile' runat="server" href="/data/termsofuse.aspx">Download Data</a>
+                                </li>
+                                <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx?all=1">Summary Findings<br />
+                                    by Item</a></li>
+                                <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
+                                <li><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
+                                <li><a href="/meetings-trainings/how-to-hints-webinar.aspx">How-to HINTS Webinar</a></li>
                             </ul>
                         </li>
-                        <li id="last_link">
-                            <a runat="server" href="~/schedule.aspx">Overview/Schedule</a>
+
+                        <li>
+                            <a href="/view-questions-topics/default.aspx">View Questions/Topics</a>
+                            <ul class="child_menu">
+                                <li><a href="/view-questions-topics/all-hints-questions.aspx">View Questions</a></li>
+                                <li><a href="/view-questions-topics/hints-topics.aspx">View Topics</a></li>
+                                <li><a href="/view-questions-topics/geographic-data-maps.aspx">Geographic Maps</a></li>
+                            </ul>
                         </li>
+
+
+                        <li>
+                            <a href="/publications-reports/default.aspx">Publications/Reports</a>
+                            <ul class="child_menu">
+                                <li><a href="/publications-reports/hints-briefs.aspx">HINTS Briefs</a></li>
+                                <li><a href="/publications-reports/nci-reports.aspx">NCI Reports</a></li>
+                                <li class="twoLineNav"><a href="/publications-reports/hints-publications.aspx">Publications using<br />
+                                    HINTS Data</a></li>
+                                <li><a href="/publications-reports/submit-hints-publication.aspx">Submit Publication</a></li>
+                                <li><a href="/publications-reports/hints-journals.aspx">Journals Featuring HINTS</a></li>
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a id="last_link" href="/meetings-trainings/default.aspx">Meetings/Trainings</a>
+                            <ul class="child_menu">
+                                <li class="twoLineNav"><a href="/meetings-trainings/2018-users-meeting.aspx">2018 HINTS Users Meeting</a></li>
+                                <li class="twoLineNav"><a href="/meetings-trainings/2014-users-meeting.aspx">2014 HINTS Users<br />
+                                    Meeting</a></li>
+                                <li><a href="/meetings-trainings/how-to-hints-webinar.aspx">How-to HINTS Webinar</a></li>
+
+
+
+
+                                <%--   <li class="twoLineNav"><a href="/meetings-trainings/hints-presentations.aspx">Presentations Using<br />HINTS Data</a></li>--%>
+                            </ul>
+                        </li>
+
+
+
                     </ul>
                 </div>
 
@@ -187,7 +208,7 @@
                     <div class="col_6">
                         <ul id="footer_nav">
                             <li><a href="/default.aspx">Site Home</a></li>
-                            <li><a href="/contact_us.aspx">Contact Us</a></li>
+                            <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
                             <li><a href="http://www.cancer.gov/global/web/policies">Policies</a></li>
                             <li><a href="http://www.cancer.gov/global/web/policies/accessibility">Accessibility</a></li>
                             <li><a href="http://www.cancer.gov/global/viewing-files">Viewing Files</a></li>
@@ -218,17 +239,18 @@
                     <br />
                     <div class="col_4">
                         <p>
-                            A Service of the National Cancer Institute with support from<br>
-                            the <a href="http://cancercontrol.cancer.gov/hcirb/">Health Communication and Informatic Research Branch</a><br>
+                            A Service of the National Cancer Institute with support from<br />
+                            the <a href="http://cancercontrol.cancer.gov/hcirb/">Health Communication and Informatic Research Branch</a><br />
                             of the <a href="http://cancercontrol.cancer.gov">Division of Cancer Control and Population Sciences</a>
                         </p>
                     </div>
                     <div class="col_2">
-                        <img style="width: 100%; max-width: 200px;" src="/_images/footer-icons.jpg" alt="Department of Health & Human Services, National Institute of Health, National Cancer Institute" />
+                        <img style="width: 100%; max-width: 200px;" src="/_images/footer_icons_2017.png" alt="Department of Health & Human Services, National Institute of Health, National Cancer Institute" />
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- End of Content div -->
     </form>
 

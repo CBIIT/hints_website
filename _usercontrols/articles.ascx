@@ -13,10 +13,10 @@
                             <asp:PlaceHolder ID="BriefsLink" Visible=<%# IsTypeBriefs(Eval("FK_ArticleType"))%> runat="server">
                                <strong>  <a runat="server" href='<%# "~/" & Eval("FileName")%>'>
                             <%# Eval("Title")%></a> 
-                        <a ID="BriefLink" runat="server" href='<%# "~/" & Eval("LinkURL")%>' target ="_blank"> <img src="_images/icon_pdf.gif" alt="Download Brief in PDF Format"/> </a>
+                        <a ID="BriefLink" runat="server" href='<%# "~/" & Eval("LinkURL")%>' target ="_blank"> <img src="/_images/icon_pdf.gif" alt="Download Brief in PDF Format"/> </a>
                               <br/>  </strong> </asp:PlaceHolder>
                             
-                            <asp:PlaceHolder ID="BriefsImage" Visible=<%# IsTypeBriefs(Eval("FK_ArticleType"))%> runat="server"> <img src='<%#Eval("ImageURL")%>' alt='<%#Eval("AltText")%>' class="briefsThumb" /> </asp:PlaceHolder>
+                            <asp:PlaceHolder ID="BriefsImage" Visible=<%# IsTypeBriefs(Eval("FK_ArticleType"))%> runat="server"> <img src='<%# "/" & Eval("ImageURL")%>' alt='<%#Eval("AltText")%>' class="briefsThumb" /> </asp:PlaceHolder>
                                
                             <asp:PlaceHolder ID="BriefsPurpose" Visible=<%# IsTypeBriefs(Eval("FK_ArticleType"))%> runat="server"><%#Eval("Purpose")%> <br /> </asp:PlaceHolder> 
                            <div id="briefs_year"> 

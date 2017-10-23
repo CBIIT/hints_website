@@ -5,18 +5,25 @@ Partial Class Main
     Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
 
-            '  Response.Write("<h1>xxx=" & Session("AcceptTerm") & "</h1>")
-            If Session("AcceptTerm") = Nothing Then
-                Session("AcceptTerm") = False
+            If Cache("termsAccepted") = Nothing Then
+                'Cache.Insert("termsAccepted", "NOTAccepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
+                Cache("termsAccepted") = "NOTAccepted"
             End If
-            If Session("AcceptTerm") = True Then
-                hints_download.HRef = "~/dataset.aspx"
-                hints_download_NOJS.HRef = "~/dataset.aspx"
+            If Cache("termsAccepted") = "Accepted" Then
+                hints_download.HRef = "~/data/download-data.aspx"
+                hints_download_NOJS.HRef = "~/data/download-data.aspx"
+                hints_download_Mobile.HRef = "~/data/download-data.aspx"
             Else
                 hints_download.HRef = "javascript:OpenModalRWB();"
-                hints_download_NOJS.HRef = "~/terms.aspx"
+                hints_download_NOJS.HRef = "~/data/termsofuse.aspx"
+                hints_download_Mobile.HRef = "~/data/termsofuse.aspx"
             End If
         End If
+
+        'https://stackoverflow.com/questions/16542661/caching-in-asp-net-slidingexpiration-and-absoluteexpiration
+        'Response.Write("<h1>master page termsAccepted Cache check = " & Cache("termsAccepted") & "</h1>")
+
+
     End Sub
 
     Protected Sub Page_PreRender(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.PreRender

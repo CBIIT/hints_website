@@ -48,6 +48,24 @@
 	}
 }
 
+#terms_LI {
+    display: block;
+
+    
+	@media #{$small-and-down} { display: none; } 	
+}
+
+#terms_Mobile_LI {
+    display: none;
+
+    
+	@media #{$small-and-down} { display: block; } 	
+}
+
+
+
+
+
 #hints_download_NOJS {
     display:block;
 }

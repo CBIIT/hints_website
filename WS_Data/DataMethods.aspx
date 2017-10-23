@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="DataMethods.aspx.cs" Inherits="Hints.ChartingPrototype_GetData.DataMethods" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="DataMethods.aspx.cs" Inherits="Hints.ChartingPrototype_GetData.WS_Data_DataMethods" %>
 
 <!DOCTYPE html>
 

@@ -1,60 +1,80 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
   <siteMapNode url="~/Default.aspx" title="Home" description="Home">
+
+
     <siteMapNode url="~/subscribe/Default.aspx" title="Subscribe" description="Subscribe"/>
     <siteMapNode url="~/advanced.aspx" title="Advanced Search" description="Advanced Search"/>
-    <siteMapNode url="~/widgets/widgets.aspx" title="Use Our Widgets" description="Use Our Widgets"/>
-    <siteMapNode url="~/about.aspx" title="About HINTS" description="About HINTS"/>  
-     <siteMapNode url="~/announcements.aspx" title="Announcements" description="Announcements"/>  
-    <siteMapNode url="~/briefs.aspx" title="HINTS Briefs" description="HINTS Briefs">
-            <siteMapNode url="~/briefsDetails.aspx" title="Brief Details" description="Brief Details"/>
-    </siteMapNode>
-    <siteMapNode url="~/contact_us.aspx" title="Contact Us" description="Contact Us"/>
-    <siteMapNode url="~/dataset.aspx" title="Public Use Dataset" description="Public Use Dataset"/>
-    <siteMapNode url="~/faq.aspx" title="Frequently Asked Questions About HINTS" description="Frequently Asked Questions About HINTS">
-    </siteMapNode>
-    
-    <siteMapNode url="~/schedule.aspx" title="HINTS Overview and Schedule" description="HINTS Overview and Schedule"/>
-    <siteMapNode url="~/instrument.aspx" title="Survey Instruments" description="Survey Instruments"/>
-    <siteMapNode url="~/participate.aspx" title="Were you contacted to participate in HINTS?" description="HINTS: Were you contacted to participate in HINTS?">
-      <siteMapNode url="~/exit_disclaimer.aspx" title="Exit Disclaimer" description="Exit Disclaimer"/>
-    </siteMapNode>
-    <siteMapNode url="~/questions-by-article.aspx" title="Questions By Article" description="Questions By Article"/>
-
-    <siteMapNode url="~/allMaps.aspx" title="HINTS Knowledge Maps" description="HINTS Knowledge Maps">
-      <siteMapNode url="~/knowledge_maps.aspx" title="View Map" description="View Map"/>
-    </siteMapNode>
-
-<siteMapNode url="~/questions.aspx" title="All HINTS Questions" description="All HINTS Questions">
-      <siteMapNode url="~/question-details.aspx" title="HINTS Response" description="HINTS Response">           
-</siteMapNode>
-      <siteMapNode url="~/articles-by-question.aspx" title="Published Articles that use this HINTS Question" description="Published Articles that use this HINTS Question"/>
-     <siteMapNode url="~/articles_by_questionDetails.aspx" title="Published Articles that use this HINTS Question" description="Published Articles that use this HINTS Question"/>
-    </siteMapNode>
-    <siteMapNode url="~/reports.aspx" title="HINTS Reports and Materials" description="HINTS Reports and Materials">
-      <siteMapNode url="~/users_data_handbook_accessible.aspx" title="HINTS: Analytic Methods to Examine Changes Across Years Using HINTS 2003 &amp; 2005 Data" description="HINTS: Analytic Methods to Examine Changes Across Years Using HINTS 2003 &amp; 2005 Data"/>
-      <siteMapNode url="~/webinars/howtohints.aspx" title="HINTS How-to Webinar" description="HINTS How-to Webinar"/>
-    </siteMapNode>
-    <siteMapNode url="~/research.aspx" title="Research Using HINTS Data" description="Research Using HINTS Data">
-      <siteMapNode url="~/inform_us.aspx" title="Submit Your Citation for a Publication" description="Submit Your Citation for a Publication"/>
-      <siteMapNode url="~/presentations.aspx" title="Presentations Using HINTS Data" description="Presentations Using HINTS Data"/>
-      <siteMapNode url="~/publications.aspx" title="Published Articles Using HINTS Data" description="Published Articles Using HINTS Data"/>
-      <siteMapNode url="~/journals.aspx" title="Suggested Journals for Publishing HINTS Findings" description="Suggested Journals for Publishing HINTS Findings"/>
-      <siteMapNode url="~/journals-2.aspx" title="Suggested Journals for Publishing HINTS Findings(page 2)" description="Suggested Journals for Publishing HINTS Findings(page 2)"/>
-      <siteMapNode url="~/journals-3.aspx" title="Suggested Journals for Publishing HINTS Findings(page 3)" description="Suggested Journals for Publishing HINTS Findings(page 3)"/>
-    </siteMapNode>
-    <siteMapNode url="~/terms.aspx" title="HINTS Data Terms of Use" description="HINTS Data Terms of Use"/>
     <siteMapNode url="~/publication-search.aspx" title="Search Resources" description="Search Resources"/>
-  
-    <siteMapNode url="~/2013-users-meeting.aspx" title="2014 Users Meeting" description="2014 Users Meeting">
-    <siteMapNode url="~/2013-users-meeting-logistics.aspx" title="Logistics" description="Logistics"/>
-    <siteMapNode url="~/2013-users-meeting-materials.aspx" title=" Meeting Materials" description=" Meeting Materials"/>
-    <siteMapNode url="~/2013-users-meeting-workshop-resources.aspx" title=" IDA Workshop Resources" description=" IDA Workshop Resources"/>
+    <siteMapNode url="~/exit_disclaimer.aspx" title="Exit Disclaimer" description="Exit Disclaimer"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <siteMapNode url="~/data/Default.aspx" title="HINTS Data" description="HINTS Data">
+      <siteMapNode url="~/data/termsofuse.aspx" title="HINTS Data Terms of Use" description="HINTS Data Terms of Use"/>
+      <siteMapNode url="~/data/download-data.aspx" title="Public Use Dataset" description="Public Use Dataset"/>
+      <siteMapNode url="~/data/survey-instruments.aspx" title="Survey Instruments" description="Survey Instruments"/>
+      <siteMapNode url="~/data/methodology-reports.aspx" title="Methodology Reports" description="Methodology Reports"/>
     </siteMapNode>
 
-    <siteMapNode url="~/sections.aspx" title="View Topics" description="View Topics"/>
-    
+
+
+
+    <siteMapNode url="~/view-questions-topics/Default.aspx" title="View Questions/Topics" description="View Questions/Topics">
+      <siteMapNode url="~/view-questions-topics/all-hints-questions.aspx" title="All HINTS Questions" description="All HINTS Questions">
+        <siteMapNode url="~/view-questions-topics/question-details.aspx" title="HINTS Response" description="HINTS Response"/>
+        <siteMapNode url="~/view-questions-topics/articles-by-question.aspx" title="Published Articles that use this HINTS Question" description="Published Articles that use this HINTS Question"/>
+        <siteMapNode url="~/view-questions-topics/articles_by_questionDetails.aspx" title="Published Articles that use this HINTS Question" description="Published Articles that use this HINTS Question"/>
+      </siteMapNode>
+      <siteMapNode url="~/view-questions-topics/hints-topics.aspx" title="View Topics" description="View Topics"/>
+      <siteMapNode url="~/view-questions-topics/geographic-data-maps.aspx" title="HINTS Knowledge Maps" description="HINTS Knowledge Maps">
+        <siteMapNode url="~/view-questions-topics/map_details.aspx" title="View Map" description="View Map"/>
+      </siteMapNode>
+      <siteMapNode url="~/view-questions-topics/questions-by-article.aspx" title="Questions By Article" description="Questions By Article"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/publications-reports/Default.aspx" title="Publications/Reports" description="Publications/Reports">
+      <siteMapNode url="~/publications-reports/hints-briefs.aspx" title="HINTS Briefs" description="HINTS Briefs"/>
+      <siteMapNode url="~/publications-reports/nci-reports.aspx" title="HINTS Reports and Materials" description="HINTS Reports and Materials">
+        <siteMapNode url="~/publications-reports/users_data_handbook_accessible.aspx" title="HINTS: Analytic Methods to Examine Changes Across Years Using HINTS 2003 &amp; 2005 Data" description="HINTS: Analytic Methods to Examine Changes Across Years Using HINTS 2003 &amp; 2005 Data"/>
+      </siteMapNode>
+      <siteMapNode url="~/publications-reports/hints-publications.aspx" title="Published Articles Using HINTS Data" description="Published Articles Using HINTS Data"/>
+      <siteMapNode url="~/publications-reports/submit-hints-publication.aspx" title="Submit Your Citation for a Publication" description="Submit Your Citation for a Publication"/>
+      <siteMapNode url="~/publications-reports/hints-journals.aspx" title="Suggested Journals for Publishing HINTS Findings" description="Suggested Journals for Publishing HINTS Findings"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/meetings-trainings/Default.aspx" title="Meetings/Trainings" description="Meetings/Trainings">
+      <siteMapNode url="~/meetings-trainings/2014-users-meeting.aspx" title="2014 Users Meeting" description="2014 Users Meeting">
+        <siteMapNode url="~/meetings-trainings/2014-users-meeting-logistics.aspx" title="Logistics" description="Logistics"/>
+        <siteMapNode url="~/meetings-trainings/2014-users-meeting-materials.aspx" title=" Meeting Materials" description=" Meeting Materials"/>
+        <siteMapNode url="~/meetings-trainings/2014-users-meeting-workshop-resources.aspx" title=" IDA Workshop Resources" description=" IDA Workshop Resources"/>
+      </siteMapNode>
+      <siteMapNode url="~/meetings-trainings/2018-users-meeting.aspx" title="HINTS Presentations" description="SAVE THE DATE: The Fifth HINTS Data Users Conference"/>
+      <siteMapNode url="~/meetings-trainings/hints-presentations.aspx" title="HINTS Presentations" description="HINTS Presentations"/>
+      <siteMapNode url="~/meetings-trainings/how-to-hints-webinar.aspx" title="How-To HINTS: A Practical Workshop" description="How-To HINTS: A Practical Workshop"/>
+    </siteMapNode>
+
+    <siteMapNode url="~/about-hints/Default.aspx" title="About HINTS" description="About HINTS">
+      <siteMapNode url="~/about-hints/learn-more-about-hints.aspx" title="About HINTS" description="About HINTS"/>
+      <siteMapNode url="~/about-hints/announcements.aspx" title="Announcements" description="Announcements"/>
+      <siteMapNode url="~/about-hints/frequently-asked-questions.aspx" title="Frequently Asked Questions About HINTS" description="Frequently Asked Questions About HINTS"/>
+      <siteMapNode url="~/about-hints/data-collection-schedule.aspx" title="HINTS Overview and Schedule" description="HINTS Overview and Schedule"/>
+      <siteMapNode url="~/about-hints/contacted-by-hints.aspx" title="Were you contacted to participate in HINTS?" description="HINTS: Were you contacted to participate in HINTS?"/>
+      <siteMapNode url="~/about-hints/contact-us.aspx" title="Contact Us" description="Contact Us"/>
+    </siteMapNode>
+
+
   </siteMapNode>
-  
+
 
 </siteMap>

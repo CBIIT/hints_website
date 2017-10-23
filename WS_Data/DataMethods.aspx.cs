@@ -6,10 +6,9 @@ using System.Web.UI;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
-
 namespace Hints.ChartingPrototype_GetData
 {
-    public partial class DataMethods : System.Web.UI.Page
+    public partial class WS_Data_DataMethods : System.Web.UI.Page
     {
 
         private const string CycleId_ColumnName = "CycleId";
@@ -251,16 +250,6 @@ namespace Hints.ChartingPrototype_GetData
                 Responses = new List<string>();
                 Percentages = new List<string>();
             }
-        }
-
-
-
-
-
-
-
-
-
-
+        }        
     }
 }
