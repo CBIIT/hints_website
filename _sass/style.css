@@ -194,6 +194,14 @@ ul, ol {
   color: #ffffff;
 }
 
+.TermsHidden {
+  display: none;
+}
+
+.TermsShow {
+  display: block;
+}
+
 /* Page Elements */
 /*----- Accordion -----*/
 .accordion {

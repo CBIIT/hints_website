@@ -18,7 +18,7 @@
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
                     <li data-thumbcaption="New HINTS-FDA Data Now Available for Download!" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_web_banner_v2_thumb.jpg">
-                        <a id="hints_download_carousel" runat="server" href="~/data/termsofuse.aspx">
+                        <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
                             <img alt="HINTS 4, Cycle 4 Data Now Available for Download!" src="/_images/carousel/NCI_HINTS_DCCPS_web_banner_v2.jpg" /></a>
                         <p class="flex_caption">New HINTS-FDA Data Now Available for Download!</p>
                     </li>
@@ -50,7 +50,7 @@
                         <h2>What is HINTS?</h2>
                         <p>HINTS collects data about the use of cancer-related information by the American public. These data provide opportunities to understand and improve health communication. <a href="/about-hints/learn-more-about-hints.aspx">Read More ></a></p>
                         <h2>Get and Use HINTS Data</h2>
-                        <p>Download publically available, nationally representative HINTS data for your next secondary analysis. <a id="hints_access_data" runat="server" href="~/data/termsofuse.aspx">Access Data ></a><a id="hints_access_data_NoJs" runat="server" href="~/terms.aspx">Access Data ></a></p>
+                        <p>Download publically available, nationally representative HINTS data for your next secondary analysis. <a id="hints_access_data" runat="server" href="~/data/download-data.aspx">Access Data ></a><a id="hints_access_data_NoJs" runat="server" href="~/terms.aspx">Access Data ></a></p>
                         <h2>Sign Up for HINTS Updates</h2>
                         <p><a href="/subscribe/default.aspx">Sign up to get updates</a> on the latest HINTS data releases, publications, and website features.</p>
                     </div>
@@ -160,7 +160,30 @@
             $('#hints_access_data_NoJs').css('display', 'none');
             $('#hints_access_data').css('display', 'block');
             $('#hints_download_carousel').css('display', 'block');
+
+
+            checkCookie(); // see if cookies are enabled, force to page if so
+            
+            function checkCookie() {
+                var cookieEnabled = navigator.cookieEnabled;
+                if (!cookieEnabled) {
+                    document.cookie = "TermsAccepted";
+                    cookieEnabled = document.cookie.indexOf("TermsAccepted") != -1;
+                }
+                return cookieEnabled || showCookieFail();
+            }
+
+
+            function showCookieFail() {
+                $('#hints_access_data_NoJs').css('display', 'block');
+                $('#hints_access_data').css('display', 'none');
+                $('#hints_download_carousel').css('display', 'none');
+            }
         });
+
+
+
+   
     </script>
 
 

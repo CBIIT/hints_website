@@ -5,7 +5,7 @@ Partial Class terms
 
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        Response.RedirectPermanent("/data/termsofuse.aspx")
+        Response.RedirectPermanent("/data/download-data.aspx")
     End Sub
 
 End Class

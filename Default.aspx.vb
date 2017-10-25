@@ -20,20 +20,30 @@ Partial Class _Default
         If Not Page.IsPostBack Then
 
 
+            Dim TermsUseCookie As HttpCookie = Request.Cookies("TermsAccepted")
+            If TermsUseCookie Is Nothing Then
+                Dim TempCookieToAdd As New HttpCookie("TermsAccepted")
+                TempCookieToAdd.Value = "NOTAccepted"
+                TempCookieToAdd.Expires = DateAndTime.Now.AddDays(7)
+                Response.Cookies.Add(TempCookieToAdd)
 
-            If Cache("termsAccepted") = Nothing Then
-                'Cache.Insert("termsAccepted", "NOTAccepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
-                Cache("termsAccepted") = "NOTAccepted"
-            End If
-            If Cache("termsAccepted") = "Accepted" Then
-                hints_access_data.HRef = "~/data/termsofuse.aspx"
-                hints_access_data_NoJs.HRef = "~/data/termsofuse.aspx"
-                hints_download_carousel.HRef = "~/data/termsofuse.aspx"
+                hints_access_data.HRef = "javascript:OpenModalRWB();"
+                hints_access_data_NoJs.HRef = "~/data/download-data.aspx"
+                hints_download_carousel.HRef = "~/data/download-data.aspx"
             Else
-                hints_access_data.HRef = "~/data/termsofuse.aspx"
-                hints_access_data_NoJs.HRef = "~/data/termsofuse.aspx"
-                hints_download_carousel.HRef = "~/data/termsofuse.aspx"
+                If (Request.Cookies("TermsAccepted").Value IsNot Nothing) And Request.Cookies("TermsAccepted").Value = "Accepted" Then
+                    hints_access_data.HRef = "~/data/download-data.aspx"
+                    hints_access_data_NoJs.HRef = "~/data/download-data.aspx"
+                    hints_download_carousel.HRef = "~/data/download-data.aspx"
+                Else
+                    hints_access_data.HRef = "javascript:OpenModalRWB();"
+                    hints_access_data_NoJs.HRef = "~/data/download-data.aspx"
+                    hints_download_carousel.HRef = "~/data/download-data.aspx"
+                End If
             End If
+
+
+
 
             objConnect.Open()
             Cmd.CommandText = "List_TopBriefs"

@@ -7,14 +7,20 @@ Partial Class datafolder_Default
 
         If Not Page.IsPostBack Then
 
-            If Cache("termsAccepted") = Nothing Then
-                'Cache.Insert("termsAccepted", "NOTAccepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
-                Cache("termsAccepted") = "NOTAccepted"
-            End If
-            If Cache("termsAccepted") = "Accepted" Then
-                HYP_Download_landingPage.NavigateUrl = "~/data/termsofuse.aspx"
+
+            Dim TermsUseCookie As HttpCookie = Request.Cookies("TermsAccepted")
+            If TermsUseCookie Is Nothing Then
+                Dim TempCookieToAdd As New HttpCookie("TermsAccepted")
+                TempCookieToAdd.Value = "NOTAccepted"
+                TempCookieToAdd.Expires = DateAndTime.Now.AddDays(7)
+                Response.Cookies.Add(TempCookieToAdd)
+                HYP_Download_landingPage.NavigateUrl = "~/data/download-data.aspx"
             Else
-                HYP_Download_landingPage.NavigateUrl = "~/data/termsofuse.aspx"
+                If (Request.Cookies("TermsAccepted").Value IsNot Nothing) And Request.Cookies("TermsAccepted").Value = "Accepted" Then
+                    HYP_Download_landingPage.NavigateUrl = "~/data/download-data.aspx"
+                Else
+                    HYP_Download_landingPage.NavigateUrl = "~/data/download-data.aspx"
+                End If
             End If
         End If
 

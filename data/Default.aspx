@@ -3,6 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 	<meta name="Title" content="HINTS data | HINTS"/>
     <meta name="Description" content="HINTS nationally representative data is publicly available for researchers and health professionals to use for their own analyses."/>
+
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -17,7 +19,7 @@
             </div>
             <div class="landingPageDiv_subtext">
                 <p>Quickly access HINTS data, in SAS, SPSS, and STATA formats, and supporting documents</p>
-                <p><asp:HyperLink NavigateUrl="~/data/termsofuse.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink></p>
+                <p><asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink></p>
             </div>
         </div>
         <div class="col_3 landingPageDiv">

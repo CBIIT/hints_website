@@ -5,23 +5,29 @@ Partial Class Main
     Protected Sub Page_Load(sender As Object, e As System.EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
 
-            If Cache("termsAccepted") = Nothing Then
-                'Cache.Insert("termsAccepted", "NOTAccepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
-                Cache("termsAccepted") = "NOTAccepted"
-            End If
-            If Cache("termsAccepted") = "Accepted" Then
-                hints_download.HRef = "~/data/termsofuse.aspx"
-                hints_download_NOJS.HRef = "~/data/termsofuse.aspx"
-                hints_download_Mobile.HRef = "~/data/termsofuse.aspx"
+            Dim TermsUseCookie As HttpCookie = Request.Cookies("TermsAccepted")
+            If TermsUseCookie Is Nothing Then
+                Dim TempCookieToAdd As New HttpCookie("TermsAccepted")
+                TempCookieToAdd.Value = "NOTAccepted"
+                TempCookieToAdd.Expires = DateAndTime.Now.AddDays(7)
+                Response.Cookies.Add(TempCookieToAdd)
+                hints_download.HRef = "javascript:OpenModalRWB();"
+                hints_download_NOJS.HRef = "~/data/download-data.aspx"
+                hints_download_Mobile.HRef = "~/data/download-data.aspx"
             Else
-                hints_download.HRef = "~/data/termsofuse.aspx"
-                hints_download_NOJS.HRef = "~/data/termsofuse.aspx"
-                hints_download_Mobile.HRef = "~/data/termsofuse.aspx"
+                If (Request.Cookies("TermsAccepted").Value IsNot Nothing) And Request.Cookies("TermsAccepted").Value = "Accepted" Then
+                    hints_download.HRef = "~/data/download-data.aspx"
+                    hints_download_NOJS.HRef = "~/data/download-data.aspx"
+                    hints_download_Mobile.HRef = "~/data/download-data.aspx"
+                Else
+                    hints_download.HRef = "javascript:OpenModalRWB();"
+                    hints_download_NOJS.HRef = "~/data/download-data.aspx"
+                    hints_download_Mobile.HRef = "~/data/download-data.aspx"
+                End If
             End If
-        End If
 
-        'https://stackoverflow.com/questions/16542661/caching-in-asp-net-slidingexpiration-and-absoluteexpiration
-        'Response.Write("<h1>master page termsAccepted Cache check = " & Cache("termsAccepted") & "</h1>")
+          
+        End If
 
 
     End Sub

@@ -1625,6 +1625,15 @@ table td, table th {
   text-align: center;
 }
 
+
+.TermsHidden {
+  display: none;
+}
+
+.TermsShow {
+  display: block;
+}
+
 #newsbox p {
   padding: 0 10px;
   font-weight: bold;
@@ -3466,13 +3475,15 @@ li {
 }
 
 .widgetcodetxtbox {
-  background-color: #ffffff;
-  padding: 5px;
-  border: 1px solid;
-  border-radius: 10px;
-  font-size: 0.6em;
-  font-family: Arial,?Verdana,?sans-serif;
-  width: 100%;
+  border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.6em;
+  font-family: Arial, ?Verdana, ?sans-serif;
+    width: 100%;
 }
 
 .wid_outer_large {

@@ -22,12 +22,12 @@
             return false;
         }
 
-        $("#btnSubmit").trigger("click");
+        $("#btnSubmit_UCbtn").trigger("click");
     }
 
 
 </script>
-<asp:Panel ID="PNL_TermForm_Tmep" DefaultButton="btnSubmit" runat="server">
+<asp:Panel ID="PNL_TermForm_Tmep" DefaultButton="btnSubmit_UCbtn" runat="server">
 <h3>
     <strong>HINTS Data Terms of Use</strong></h3>
 <p>
@@ -96,6 +96,6 @@
 </p>
 
 <div style="display: none">
-    <asp:Button ID="btnSubmit" runat="server" Text="Accept" />
+    <asp:Button ID="btnSubmit_UCbtn" runat="server" Text="Accept" />
 </div>
 </asp:Panel>

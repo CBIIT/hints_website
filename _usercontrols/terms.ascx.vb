@@ -16,16 +16,37 @@ Partial Class _usercontrols_terms
         End If
     End Sub
 
-    Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnSubmit.Click
+    Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnSubmit_UCbtn.Click
         If Page.IsValid Then
+
+            Dim TermsUseCookie As HttpCookie = Request.Cookies("TermsAccepted")
             If Me.chkAcceptTerm_mod.Checked Then
-                ' Cache.Insert("termsAccepted", "Accepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
-                Cache("termsAccepted") = "Accepted"
+                If TermsUseCookie Is Nothing Then
+
+                    Dim TempCookieToAdd As New HttpCookie("TermsAccepted")
+                    TempCookieToAdd.Value = "Accepted"
+                    TempCookieToAdd.Expires = DateAndTime.Now.AddDays(7)
+                    Response.Cookies.Add(TempCookieToAdd)
+                Else
+                    TermsUseCookie.Value = "Accepted"
+                    TermsUseCookie.Expires = DateAndTime.Now.AddDays(7)
+                    Response.Cookies.Set(TermsUseCookie)
+                End If
+
                 Sendemail()
                 Response.Redirect("~/data/download-data.aspx")
             Else
-                'Cache.Insert("termsAccepted", "NOTAccepted", Nothing, Cache.NoAbsoluteExpiration, TimeSpan.FromSeconds(20))
-                Cache("termsAccepted") = "NOTAccepted"
+                If TermsUseCookie Is Nothing Then
+                    Dim TempCookieToAdd As New HttpCookie("TermsAccepted")
+                    TempCookieToAdd.Value = "NOTAccepted"
+                    TempCookieToAdd.Expires = DateAndTime.Now.AddDays(7)
+                    Response.Cookies.Add(TempCookieToAdd)
+                Else
+                    TermsUseCookie.Value = "NOTAccepted"
+                    TermsUseCookie.Expires = DateAndTime.Now.AddDays(7)
+                    Response.Cookies.Set(TermsUseCookie)
+                End If
+
                 Exit Sub
             End If
         End If

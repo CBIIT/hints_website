@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS -->
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link href='~/_css/style.css?v=2017_10_19' rel="stylesheet" type="text/css" />
+    <link href='~/_css/style.css?v=2017_10_24' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
 
 
@@ -109,10 +109,10 @@
                         <li>
                             <a href="/data/default.aspx">Data</a>
                             <ul class="child_menu">
-                                <li id="terms_LI"><a id='hints_download_NOJS' runat="server" href="/data/termsofuse.aspx">Download Data</a>
-                                    <a id='hints_download' runat="server" href="/data/termsofuse.aspx">Download Data</a>
+                                <li id="terms_LI"><a id='hints_download_NOJS' runat="server" href="/data/download-data.aspx">Download Data</a>
+                                    <a id='hints_download' runat="server" href="/data/download-data.aspx">Download Data</a>
                                 </li>
-                                <li id="terms_Mobile_LI"><a id='hints_download_Mobile' runat="server" href="/data/termsofuse.aspx">Download Data</a>
+                                <li id="terms_Mobile_LI"><a id='hints_download_Mobile' runat="server" href="/data/download-data.aspx">Download Data</a>
                                 </li>
                                 <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx?all=1">Summary Findings<br />
                                     by Item</a></li>
@@ -265,6 +265,26 @@
             //toggle the links depending on JS turned on
             $('#hints_download_NOJS').css('display', 'none')
             $('#hints_download').css('display', 'block')
+
+
+
+            checkCookie(); // see if cookies are enabled, force to page if so
+
+            function checkCookie() {
+                var cookieEnabled = navigator.cookieEnabled;
+                if (!cookieEnabled) {
+                    document.cookie = "TermsAccepted";
+                    cookieEnabled = document.cookie.indexOf("TermsAccepted") != -1;
+                }
+                return cookieEnabled || showCookieFail();
+            }
+
+
+            function showCookieFail() {
+                $('#hints_download_NOJS').css('display', 'block')
+                $('#hints_download').css('display', 'none')
+            }
+
 
             //Hide modal box
             $('#closeModal').click(
