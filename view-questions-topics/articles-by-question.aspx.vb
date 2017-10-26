@@ -115,10 +115,18 @@ Partial Class questionsfolder_articles_by_question
     Protected Function CheckifURLAvailable(ByVal dtmtitle As Object, ByVal dtmurl As Object) As String
         Dim strtitle As String = ""
 
+
+
         If dtmurl Is DBNull.Value Then
             strtitle = dtmtitle.ToString
         Else
-            strtitle = "<a href='" + dtmurl.ToString + "' target='_balnk'>" + dtmtitle.ToString + "</a>"
+            Dim strURL = dtmurl.ToString
+            'Response.Write(strURL.IndexOf("doc"))
+            If strURL.IndexOf("doc") = 0 Then
+                strURL = "/" & strURL
+            End If
+
+            strtitle = "<a href='" + strURL + "' target='_blank'>" + dtmtitle.ToString + "</a>"
         End If
 
         Return strtitle
