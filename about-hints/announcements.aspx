@@ -45,9 +45,15 @@
     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcments.</a></p>
 
     
+    
+        <h2 id="hints51Data">HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Draft Website Announcement</h2>
+        <p><strong>November 8, 2017</strong></p>
 
 
-
+    <p>Our newest public use dataset, <a href="/data/download-data.aspx">HINTS 5, Cycle 1</a> (2017) is now available for download! HINTS 5, Cycle 1 is a collaboration with the DHHS Office of the National Coordinator for Health Information Technology (ONC), and merges traditional HINTS topics about health communication, cancer knowledge, and cancer risk behaviors with items assessing the public’s use of health information technology and medical records.
+</p>
+<p>HINTS has also posted the <a href="/data/download-data.aspx">HINTS-FDA, Cycle 2</a> (2017) public use dataset, providing insights on public perceptions about tobacco and communication related to tobacco. HINTS-FDA, Cycle 2 (2017) was developed in collaboration with the Food and Drug Administration’s (FDA) Center for Tobacco Products.</p>
+    
 
 
         <h2 id="Jul2017">Check  Out HINTS-ASL: Health-Related Information Seeking among Deaf Adults</h2>

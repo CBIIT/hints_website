@@ -17,10 +17,10 @@
         <div class="col_5">
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
-                    <li data-thumbcaption="New HINTS-FDA Data Now Available for Download!" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_web_banner_v2_thumb.jpg">
+                    <li data-thumbcaption="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1_thumb.jpg">
                         <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
-                            <img alt="HINTS 4, Cycle 4 Data Now Available for Download!" src="/_images/carousel/NCI_HINTS_DCCPS_web_banner_v2.jpg" /></a>
-                        <p class="flex_caption">New HINTS-FDA Data Now Available for Download!</p>
+                            <img alt="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1.jpg" /></a>
+                        <p class="flex_caption">New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download</p>
                     </li>
                     <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="/_images/carousel/NCI_HINTS_Carousel_CigarettesHarm_thumb.jpg">
                         <a href="/about-hints/announcements.aspx#Nov2016 ">
@@ -28,11 +28,11 @@
                         </a>
                         <p class="flex_caption">New HINTS Infocards and Infographics Now Available</p>
                     </li>
-                    <li data-thumbcaption="Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Brief32_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_32.pdf ">
-                            <img alt="Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening" src="/_images/carousel/NCI_HINTS_Carousel_Brief32.jpg" />
+                    <li data-thumbcaption="HINTS Brief 34: Calorie Labels on Restaurant Menus: Who Uses Them and Do They Find Them Helpful?" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief34_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_34.pdf ">
+                            <img alt="HINTS Brief 34: Calorie Labels on Restaurant Menus: Who Uses Them and Do They Find Them Helpful?" src="/_images/carousel/NCI_HINTS_DCCPS_Brief34.jpg" />
                         </a>
-                        <p class="flex_caption">Brief 32: Men Not Adequately Involved in Discussions About Prostate Cancer Screening</p>
+                        <p class="flex_caption">HINTS Brief 34: Calorie Labels on Restaurant Menus: Who Uses Them and Do They Find Them Helpful?</p>
                     </li>
                     <li data-thumbcaption="HINTS Data Spotlight: Health Communication" data-thumb="/_images/carousel/NCI_HINTS_Carousel_InternetHealthInfo_thumb.jpg">
                         <a href="/advanced.aspx?tpc=9 ">
@@ -94,14 +94,23 @@
             <div id="newsbox">
                 <h2>What's New</h2>
 
+                <p><a href="/about-hints/announcements.aspx#hints51Data">New HINTS data available for download!</a></p>
+                <p class="newsdate">November 8, 2017</p>
+
+                <p><a href="/meetings-trainings/2018-users-meeting.aspx">Save the Date: The Fifth HINTS Data Users Conference</a></p>
+                <p class="newsdate">November 7, 2017</p>
+
                 <p><a href="/about-hints/announcements.aspx#Jul2017">Check out the HINTS-ASL Project</a></p>
                 <p class="newsdate">July 19, 2017</p>
+                
+                  <%--   
+                
                 <p><a href="/about-hints/announcements.aspx#Nov2016">Help spread the word about HINTS-FDA!</a></p>
                 <p class="newsdate">November  16, 2016</p>
 
                 <p><a href="/about-hints/announcements.aspx#Sept2016_webinar">How-To HINTS: A Practical Workshop</a></p>
                 <p class="newsdate">September  21, 2016</p>
-                <%--           
+                      
             <p><a href="/about-hints/announcements.aspx#June2016_FDA">New HINTS Data Now Available</a></p>
             <p class="newsdate">June  29, 2016</p>  
 
@@ -202,6 +211,41 @@
                 anchors[i].setAttribute('target', '_blank');
             }
         }
+
+
+        
+        $(document).ready(function() {
+
+
+            function StripDeliminators(strString, strToStrip) {
+                while (strString.indexOf(strToStrip) >= 0) {
+                    strString = strString.replace(strToStrip, " ");
+                }
+                return strString
+            }
+
+
+            $('img').each(function () {
+                var $img = $(this);
+                var filename = $img.attr('src')
+                var alttext = $img.attr('alt')
+
+                if ((filename.indexOf("/_images/carousel/") == 0) && (filename.indexOf("_thumb") >= 1)) {
+                    //console.log('----' + filename);
+                    //console.log(filename.indexOf("/_images/carousel/"));
+                    //console.log(filename.indexOf("_thumb"));
+                    if (typeof attr == typeof undefined || attr == false) {
+                        alttext = filename.substring(0, filename.lastIndexOf('.'));
+                        alttext = alttext.replace("/_images/carousel/", "");
+                        alttext = alttext.replace("_thumb", "");
+                        alttext = StripDeliminators(alttext, "_")
+                        $img.attr('alt', alttext);
+                    }
+                }
+
+            });
+        });
+
     </script>
 
 

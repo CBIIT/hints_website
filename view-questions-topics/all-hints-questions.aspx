@@ -35,8 +35,8 @@
 
     <h1>All HINTS Questions</h1>
     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcments.</a></p>
-    <p>This section provides summary data from HINTS 1, HINTS 2, HINTS 3, HINTS 4 Cycle 1, HINTS 4 Cycle 2, HINTS 4 Cycle 3, HINTS 4 Cycle 4, and HINTS-FDA surveys including summary sample data and estimated U.S. population values, charts, and trends.
-       <a href="/data/survey-instruments.aspx" > Click here to view all Survey Instruments. </a>
+    <p>This section provides summary data from HINTS 1, HINTS 2, HINTS 3, HINTS 4 Cycle 1, HINTS 4 Cycle 2, HINTS 4 Cycle 3, HINTS 4 Cycle 4, HINTS-FDA, HINTS-FDA, Cycle 2, and HINTS 5, Cycle 1 surveys including summary sample data and estimated U.S. population values, charts, and trends.
+       <a href="/data/survey-instruments.aspx" >Click here to view all Survey Instruments. </a>
     </p>
    
     <p><strong>Select one or more below. Please leave all the boxes unchecked if you want to see results for all sections. </strong></p>

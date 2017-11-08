@@ -2,8 +2,8 @@
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-	<meta name="Title" content="Survey Instruments | HINTS"/>
-    <meta name="Description" content="Explore the Survey instruments used to obtain HINTS data, from all cycles of HINTS data."/>
+    <meta name="Title" content="Survey Instruments | HINTS" />
+    <meta name="Description" content="Explore the Survey instruments used to obtain HINTS data, from all cycles of HINTS data." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -12,19 +12,22 @@
     <p>
         <strong>HINTS 5, Cycle 1 (2017) Survey Materials</strong><br />
 
-        HINTS 5, Cycle 1 (2017) data were collected from January through May, 2017 and will be publically available in November 2017. The survey instrument for HINTS 5, Cycle 1, in English and Spanish, is found below. Additional documentation will be made available once the data has been released. 
+        HINTS 5, Cycle 1 (2017) data were collected from January through May, 2017. The sample design for HINTS 5, Cycle 1 (2017) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
     </p>
+    <p>The sample design for the HINTS 5, Cycle 1 (2017) survey consisted of two-stages. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second-stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. Complete data were collected from 3,191 respondents.</p>
     <ul>
         <li><strong>HINTS 5, Cycle 1 (2017) Full-content, English Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle1_Annotated_Instrument_English.pdf" target="_blank">PDF</a>  2.4 MB)</li>
+        <li><strong>HINTS 5, Cycle 1 (2017) Methodology Report:</strong>  (<a href="/docs/methodologyreports/HINTS5_Cycle_1_Methodology_Rpt.pdf" target="_blank">PDF</a>  651KB)</li>
         <li><strong>HINTS 5, Cycle 1 (2017) Full-content, Spanish Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle1_Annotated_Instrument_Spanish.pdf" target="_blank">PDF</a>  1.5MB)</li>
     </ul>
     <p>
         <strong>HINTS-FDA, Cycle 2 (2017) Survey Materials</strong><br />
-
-        HINTS-FDA, Cycle 2 (2017) data were collected from January through May, 2017 and will be publically available in November 2017. The survey instrument for HINTS-FDA, Cycle 2, in English and Spanish, is found below. Additional documentation will be made available once the data has been released. 
+        HINTS-FDA, Cycle 2 (2017) data were collected from January through May, 2017. The sample design for HINTS-FDA, Cycle 2 (2017) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
     </p>
+    <p>The sample design for the HINTS-FDA, Cycle 2 (2017) survey consisted of two-stages. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second-stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. Complete data were collected from 1,676 respondents.</p>
     <ul>
         <li><strong>HINTS-FDA, Cycle 2 (2017) Full-content, English Version:</strong>  (<a href="/docs/Instruments/HINTS_FDA2_Annotated_Instrument_English.pdf" target="_blank">PDF</a>  2.4MB)</li>
+        <li><strong>HINTS-FDA, Cycle 2 (2017) Methodology Report:</strong>  (<a href="/docs/methodologyreports/HINTS_FDA_Cycle2_Methodology_Rpt.pdf" target="_blank">PDF</a>  581KB)</li>
         <li><strong>HINTS-FDA, Cycle 2 (2017) Full-content, Spanish Version:</strong>  (<a href="/docs/Instruments/HINTS_FDA2_Annotated_Instrument_Spanish.pdf" target="_blank">PDF</a>  1.5MB)</li>
     </ul>
 
