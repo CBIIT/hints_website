@@ -72,7 +72,7 @@
     <h1>Public Use Dataset</h1>
 
     <div runat="server" id="PNL_Terms" class="TermsShow">
-
+        <asp:Panel ID="PNL_terms_defaultbutton" runat="server" DefaultButton="btnSubmit_SinglePage">
         <h2>HINTS Data Terms of Use</h2>
         <p>
             It is of utmost importance to ensure the confidentiality of survey participants.
@@ -144,6 +144,7 @@
         <p>
             <asp:Button ID="btnSubmit_SinglePage" ValidationGroup="mainpage_GP" runat="server" Text="Accept" />
         </p>
+            </asp:Panel>
     </div>
     <div id="dv_data" runat="server" class="TermsHidden">
 
