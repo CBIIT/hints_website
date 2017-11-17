@@ -58,7 +58,7 @@
 
                 <div class="col_2">
                     <div class="topic_header">
-                        <img alt="Twitter" src="/_images/twitter-bird.png" /><p>Our Latest Tweets</p>
+                        <img alt="Twitter" src="/_images/twitter-bird_transparent.gif" /><p>Our Latest Tweets</p>
                     </div>
                     <div class="topic_list">
                         <ul>
@@ -160,7 +160,7 @@
         </div>
 
     </div>
-    <link rel="stylesheet" href='<%=Me.ResolveUrl("~/_css/flexslider.css?v=2017_06_20")%>' type="text/css" />
+    <link rel="stylesheet" href='<%=Me.ResolveUrl("~/_css/flexslider.css?v=2017_11_13")%>' type="text/css" />
 
     <script type="text/javascript" language="javascript">
         $(document).ready(function () {

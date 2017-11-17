@@ -186,7 +186,7 @@
 
 
 
-        <p><strong>HINTS-FDA (2015) dataset, updated September 2017</strong></p>
+        <p><strong>HINTS-FDA (2015) dataset, updated September 2017 (See history document for change details)</strong></p>
         <p>
             Total respondents: 3,738<br />
             Complete responses: 3,595<br />
@@ -212,7 +212,7 @@
 
 
         <p>
-            <strong>HINTS 4, Cycle 4 (2014) dataset, September 2017</strong>
+            <strong>HINTS 4, Cycle 4 (2014) dataset, updated September 2017 (See history document for change details)</strong>
         </p>
         <p>
             Total respondents: 3,677<br />
@@ -241,7 +241,7 @@
 
 
         <p>
-            <strong>HINTS 4, Cycle 3 (2013) dataset, updated September 2017</strong>
+            <strong>HINTS 4, Cycle 3 (2013) dataset, updated September 2017 (See history document for change details)</strong>
         </p>
         <p>
             Total respondents: 3,185<br />
@@ -261,7 +261,7 @@
             documents</a> (ZIP, 5.5 MB)</li>
         </ul>
         <p>
-            <strong>HINTS 4, Cycle 2 (2012) dataset, updated September 2017</strong>
+            <strong>HINTS 4, Cycle 2 (2012) dataset, updated September 2017 (See history document for change details)</strong>
         </p>
         <p>
             Total respondents: 3,630<br />
@@ -281,7 +281,7 @@
             documents</a> (ZIP, 6.7 MB)</li>
         </ul>
         <p>
-            <strong>HINTS 4, Cycle 1 (2011) dataset, updated September 2017</strong>
+            <strong>HINTS 4, Cycle 1 (2011) dataset, updated September 2017 (See history document for change details)</strong>
         </p>
         <p>
             Total respondents: 3,959<br />

@@ -25,6 +25,15 @@ var selectedChartType = "msline";
 var startedwithNewQuestion = '0';
 
 $(document).ready(function () {
+
+
+
+    $('#allchart_instructions').hide();
+    $('#piechart_instructions').hide();
+
+
+
+
     //FK_Question = 388;
     $("#DDL_Sections").change(function () {
         Populate_QuestionDDL();
@@ -377,7 +386,7 @@ function BuildDisplay() {
                 $("#HYP_KnowledgeMap").attr("href", "/view-questions-topics/map_details.aspx?qdid=" + QuestionDetails_ds[i].PK_QuestionDetails)
 
                 $('#LIT_NoMap').hide();
-                $('#HYP_KnowledgeMap').Show();
+                $('#HYP_KnowledgeMap').show();
             }
             else {
 
@@ -420,6 +429,7 @@ function BuildDisplay() {
 
 
         if ((CycleBeingDisplayed == ResponseResults[i].FK_Cycle) && (FK_Question == ResponseResults[i].FK_Question)) {
+            //console.log('here');
             //console.log(ResponseResults[i].FK_Cycle + '------' + ResponseResults[i].Response_DESC);
             newRowContent = '<tr><td>' + ResponseResults[i].Response_VAL + '</td><td class="leftAlign">' + ResponseResults[i].Response_DESC + '</td><td>' + Math.round(ResponseResults[i].Weighted_FREQ_VAL).toLocaleString("en") + '</td><td>' + ResponseResults[i].Weighted_PCT_VAL + '</td><td>' + ResponseResults[i].UnWeighted_FREQ_VAL + '</td><td>' + ResponseResults[i].UnWeighted_PCT_VAL + '</td></tr>';
 
@@ -659,9 +669,9 @@ function getConfigDataForLineChart(xAxisName) {
         subCaptionFontColor: "#636363",
         subCaptionFontSize: 17,
         labelFontBold: 1,
-        labelFontSize: 18,
+        labelFontSize: 14,// this is the x axis label
         valueFontBold: 1,
-        valueFontSize: 18,
+        valueFontSize: 12,
         decimals: 2,
         numberSuffix: "%",
         xAxisName: xAxisName,
@@ -846,8 +856,20 @@ function getChartData(cycleId, summaryTypeId, chartType) {
 function renderChart() {
 
     //console.log('CycleBeingDisplayed-' + CycleBeingDisplayed);
-    //console.log('selectedChartType-' + selectedChartType);
+   //console.log('selectedChartType-' + selectedChartType);
 
+
+   $('#allchart_instructions').hide();
+   $('#piechart_instructions').hide();
+
+   if (selectedChartType == 'msline') {
+       $('#allchart_instructions').show();
+       $('#piechart_instructions').hide();
+   }
+  if (selectedChartType == 'pie3d') {
+       $('#allchart_instructions').hide();
+       $('#piechart_instructions').show();
+   }
 
     var selectedCycleId = CycleBeingDisplayed;
 

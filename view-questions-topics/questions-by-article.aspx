@@ -4,7 +4,7 @@
 
 <%@ Register Src="~/_usercontrols/results.ascx" TagName="results" TagPrefix="uc1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <link href="/_css/results.css?v=2017_06_20" type="text/css" rel="stylesheet" />
+    <link href="/_css/results.css?v=2017_11_13" type="text/css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <asp:PlaceHolder ID="PLC_PUb" Visible="false" runat="server">

@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS -->
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link href='~/_css/style.css?v=2017_10_24' rel="stylesheet" type="text/css" />
+    <link href='~/_css/style.css?v=2017_11_17' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
 
 
@@ -45,9 +45,17 @@
                     </a>
                 </div>
                 <div class="header grid">
-                    <div class="col_4">
+                    <div class="col_1">
                         <a id="hints_logo" runat="server" href="~/default.aspx"><span>HINTS Health Information
                         National Trends Survey</span></a>
+
+                    </div>
+
+                    <div class="col_3">
+                        <div id="hints_logo_text">
+                            <div id="hints_logo_text_top">Health Information National Trends Survey</div>
+                            <div id="hints_logo_text_bottom">Part of NCI's Division of Cancer Control and Population Sciences</div>
+                        </div>
                     </div>
                     <div class="col_2">
                         <asp:Panel ID="SearchPanel" DefaultButton="BTN_Search" runat="server">

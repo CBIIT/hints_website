@@ -3,11 +3,11 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
   
-    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="/Content/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="/Content/buttons.css" rel="stylesheet" />
-    <link href="/Content/app.css" rel="stylesheet" />
-    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2017_09_06.js'></script>
+    <link href="/Content/bootstrap.min.css?v=2017_11_13" rel="stylesheet" />
+    <link href="/Content/bootstrap-theme.min.css?v=2017_11_13" rel="stylesheet" />
+    <link href="/Content/buttons.css?v=2017_11_13" rel="stylesheet" />
+    <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
+    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2017_11_16.js'></script>
     <style type="text/css">
         body {
             font-size: 1.2em !important;
@@ -135,6 +135,8 @@
 
     <div class="row">
          <div class="col-sm-12 chart-pane">
+             <div id="allchart_instructions">Click response options in key to remove or add elements to the chart</div>
+             <div id="piechart_instructions">Click and drag pie chart to rotate</div>
             <div id="chart-container"></div>
 
             <div class="modal fade" id="exportModalPopup">
@@ -251,7 +253,7 @@
             </div>
         </div>
 
-        <a class="back-to-top" href="#"><img src="/_images/back-to-top.png" alt="back to top">Back to top</a>
+        <a class="back-to-top" href="#"><img src="/_images/back-to-top.png" alt="back to top"/>Back to top</a>
     </div>
     <!--<div id="div_surveynotes" -->
 

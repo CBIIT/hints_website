@@ -22,12 +22,12 @@ body {
 }
 
 h1 {
-  color: #5EA528;
+  color: #4A851F;
   font-size: 1.5em;
 }
 
 h2 {
-  color: #5EA528;
+  color: #4A851F;
   font-size: 1.25em;
 }
 
@@ -170,7 +170,7 @@ ul, ol {
 
 .landingPageDiv {
   background-color: #ffffff;
-  border: 1px #5EA528 solid;
+  border: 1px #4A851F solid;
   padding: 0;
   margin-bottom: 10px;
   min-height: 125px;
@@ -183,7 +183,7 @@ ul, ol {
 .landingPageDiv .landingPageDivHeader {
   margin-bottom: 0;
   width: 100%;
-  background: #5EA528;
+  background: #4A851F;
   color: #ffffff;
   padding: 1px;
 }
@@ -363,7 +363,7 @@ ul, ol {
 }
 
 #div_announcebox {
-  border: 1px #5ea528  solid;
+  border: 1px #4A851F  solid;
   padding: 1em;
 }
 
@@ -555,9 +555,21 @@ table td, table th {
   }
 }
 
+
+.header #hints_logo_text {
+  margin-top: 34px;
+  margin-left: 18px;
+}
+
+
+.header #hints_logo_text_top {
+    font-weight:bold;
+  color: #000000;
+  font-size:1.5em;
+}
 .header #hints_logo {
   margin-left: 20px;
-  background: url("../_images/hints-logo.png") no-repeat;
+  background: url("../_images/hints-logo_only.png") no-repeat;
   height: 80px;
   width: 545px;
   display: block;
@@ -806,7 +818,7 @@ table td, table th {
   background: none;
   border: none;
   padding: 0;
-  color: #ffffff;
+  color: #000000;
   cursor: pointer;
   display: block;
   font-size: 0.875em;
@@ -1303,7 +1315,7 @@ table td, table th {
   right: 20px;
   color: #ffffff;
   width: 50%;
-  background: #5EA528;
+  background: #4A851F;
   opacity: 0.85;
   font-size: 1.5em;
   padding: 20px 20px;
@@ -1320,7 +1332,7 @@ table td, table th {
 }
 
 #homepage_carousel .flex_caption .slidergreen {
-  color: #6EAE3D;
+  color: #4A851F;
   font-size: .8em;
   text-transform: uppercase;
   font-weight: bold;
@@ -1363,7 +1375,7 @@ table td, table th {
 }
 
 .homepage_boxes .topic_header {
-  background-color: #6EAE3D;
+  background-color: #4A851F;
   text-align: center;
   font-size: 1.25em;
   font-weight: bold;
@@ -1415,7 +1427,7 @@ table td, table th {
 }
 
 .homepage_boxes #hintsbox1 a {
-  color: #5EA528;
+  color: #4A851F;
   text-decoration: none;
   font-weight: bold;
 }
@@ -1441,7 +1453,7 @@ table td, table th {
 }
 
 .homepage_boxes .topic_list a.readmorelink {
-  color: #5EA528;
+  color: #4A851F;
   text-decoration: none;
   font-weight: bold;
 }
@@ -1591,7 +1603,7 @@ table td, table th {
 #submitPubs #submitPubsBtn a {
   color: #ffffff;
   font-weight: bold;
-  background: #5EA528;
+  background: #4A851F;
   width: 80%;
   padding: 10px 20px;
   border-radius: 5px;
@@ -1641,7 +1653,7 @@ table td, table th {
 
 #newsbox p.newsdate {
   font-size: 11px;
-  color: #959595;
+  color: #386898;
   margin-top: -10px;
 }
 
@@ -1864,7 +1876,7 @@ table td, table th {
   border: 3px solid black;
   border-bottom: none;
   background: #ffffff;
-  color: #5EA528;
+  color: #4A851F;
   font-weight: bold;
   border-radius: 10px 10px 0 0;
   -webkit-border-top-right-radius: 10px;
@@ -3075,7 +3087,7 @@ table#big_gray_table #HorizontalBar_row td {
 }
 
 #about_image img {
-  border: 1px solid #5ea528;
+  border: 1px solid #4A851F;
   padding-right: 0px;
 }
 
