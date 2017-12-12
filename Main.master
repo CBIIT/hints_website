@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS -->
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link href='~/_css/style.css?v=2017_11_17' rel="stylesheet" type="text/css" />
+    <link href='~/_css/style.css?v=2017_12_04' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
 
 
@@ -27,6 +27,12 @@
 </head>
 <body>
 
+    <a id="skipNav" tabindex="1" class="sr-only sr-only-focusable" href="#main-content">
+         <span class="skiplink-text">Skip to main content</span>
+</a>
+
+
+
     <!-- Google Tag Manager (noscript) -->
     <noscript>
         <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MK29FZ"
@@ -34,7 +40,6 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <a href="#skipnav" class="skipnav_hidden">jump to navigation</a>
 
     <form id="form1" runat="server">
         <div>
@@ -195,7 +200,7 @@
                         </div>
 
 
-                        <a name="skipnav" id="skipnav"></a>
+                        <a name="main-content" id="main-content"></a>
 
                         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                         </asp:ContentPlaceHolder>

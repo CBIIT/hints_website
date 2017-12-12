@@ -161,6 +161,43 @@ ul, ol {
     overflow: hidden;
 }
 
+
+        #skipNav {
+            display: block;
+            padding: 1em;
+            color: #fff;
+            background-color: #2f70a8;
+            outline: 0;
+        }
+
+        .skiplink-text {
+            padding: .5em;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: .03em;
+            outline: 1px dotted;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+        }
+
+        .sr-only-focusable:active, .sr-only-focusable:focus {
+            position: static;
+            width: auto;
+            height: auto;
+            margin: 0;
+            overflow: visible;
+            clip: auto;
+        }
+
 .required {
     color: red;
 }
