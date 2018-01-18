@@ -153,7 +153,7 @@
 
 
 
-                <p><strong>HINTS 5, Cycle 1 (2017) dataset, updated November 2017</strong></p>
+                <p><strong>HINTS 5, Cycle 1 (2017) dataset, updated January 2018</strong></p>
         <p>
             Total respondents: 3,285<br />
             Complete responses: 3,191<br />
@@ -166,7 +166,7 @@
             <li><a href="/dataset/HINTS-5_Cycle1_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 10.9 MB)</li>
         </ul>
 
-                <p><strong>HINTS-FDA, Cycle 2 (2017) dataset, updated November 2017</strong></p>
+                <p><strong>HINTS-FDA, Cycle 2 (2017) dataset, updated January 2018</strong></p>
         <p>
             Total respondents: 1,736<br />
             Complete responses: 1,676<br />
@@ -174,8 +174,8 @@
         </p>
         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B.</p>
         <ul>
-            <li><a href="/dataset/HINTS-FDA_Cycle2__SAS.zip">SAS data and supporting documents</a> (ZIP, 8.5 MB)</li>
-            <li><a href="/dataset/HINTS-FDA_Cycle2_STATA.zip">STATA data and supporting documents</a> (ZIP, 8.4 MB)</li>
+            <li><a href="/dataset/HINTS-FDA_Cycle2__SAS.zip">SAS data and supporting documents</a> (ZIP, 8.8 MB)</li>
+            <li><a href="/dataset/HINTS-FDA_Cycle2_STATA.zip">STATA data and supporting documents</a> (ZIP, 8.6 MB)</li>
             <li><a href="/dataset/HINTS-FDA_Cycle2_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 8.3 MB)</li>
         </ul>
 
