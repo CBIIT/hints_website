@@ -17,6 +17,15 @@
         <div class="col_5">
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
+                    
+                    <li data-thumbcaption="Registrations and Abstract Submissions Open for HINTS Data Users Conference" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
+                        <a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/">
+                            <img alt="Registrations and Abstract Submissions Open for HINTS Data Users Conference" src="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract.jpg" />
+                        </a>
+                        <p class="flex_caption">Registrations and Abstract Submissions Open for HINTS Data Users Conference</p>
+                    </li>
+
+
                     <li data-thumbcaption="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1_thumb.jpg">
                         <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
                             <img alt="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1.jpg" /></a>
@@ -34,12 +43,18 @@
                         </a>
                         <p class="flex_caption">HINTS Brief 34: Calorie Labels on Restaurant Menus: Who Uses Them and Do They Find Them Helpful?</p>
                     </li>
-                    <li data-thumbcaption="HINTS Data Spotlight: Health Communication" data-thumb="/_images/carousel/NCI_HINTS_Carousel_InternetHealthInfo_thumb.jpg">
-                        <a href="/advanced.aspx?tpc=9 ">
-                            <img alt="HINTS Data Spotlight: Health Communication" src="/_images/carousel/NCI_HINTS_Carousel_InternetHealthInfo.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Data Spotlight: Health Communication</p>
-                    </li>
+
+
+
+
+
+
+
+
+
+
+
+
                 </ul>
             </div>
 
@@ -94,14 +109,20 @@
             <div id="newsbox">
                 <h2>What's New</h2>
 
-                <p><a href="/about-hints/announcements.aspx#hints51Data">New HINTS data available for download!</a></p>
-                <p class="newsdate">November 8, 2017</p>
+                <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/Abstracts">Submit an Abstract to the HINTS Data Users Conference</a></p>
+               
+                
+                
+                 <p><a href="/about-hints/announcements.aspx#hints51Data">New HINTS data available for download!</a></p>
+               
+                
+                 <%--<p class="newsdate">November 8, 2017</p>--%>
 
-                <p><a href="/meetings-trainings/2018-users-meeting.aspx">Save the Date: The Fifth HINTS Data Users Conference</a></p>
-                <p class="newsdate">November 7, 2017</p>
+                <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/">Save the Date: The Fifth HINTS Data Users Conference</a></p>
+           <%--     <p class="newsdate">November 7, 2017</p>--%>
 
                 <p><a href="/about-hints/announcements.aspx#Jul2017">Check out the HINTS-ASL Project</a></p>
-                <p class="newsdate">July 19, 2017</p>
+             <%--   <p class="newsdate">July 19, 2017</p>--%>
                 
                   <%--   
                 

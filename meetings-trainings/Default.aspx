@@ -19,7 +19,7 @@
             </div>
             <div class="landingPageDiv_subtext">   
                <p>Information and resources for the 2018 HINTS Users Meeting.</p>
-              <p><a href="/view-questions-topics/2018-users-meeting.aspx">Read More</a></p>
+              <p><a href="/meetings-trainings/2018-users-meeting.aspx">Read More</a></p>
             </div>
         </div>
 

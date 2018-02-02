@@ -46,7 +46,7 @@
 
     
     
-        <h2 id="hints51Data">HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Draft Website Announcement</h2>
+        <h2 id="hints51Data">HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Now Available for Download</h2>
         <p><strong>November 8, 2017</strong></p>
 
 
