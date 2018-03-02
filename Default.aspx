@@ -113,7 +113,7 @@
                
                 
                 
-                 <p><a href="/about-hints/announcements.aspx#hints51Data">New HINTS data available for download!</a></p>
+                 <p><a href="/about-hints/announcements.aspx#hints51Data">New HINTS data available for download!!!</a></p>
                
                 
                  <%--<p class="newsdate">November 8, 2017</p>--%>
