@@ -25,23 +25,27 @@
                         <p class="flex_caption">Registrations and Abstract Submissions Open for HINTS Data Users Conference</p>
                     </li>
 
+                    
+                    <li data-thumbcaption="HINTS Brief 35: Lost in Transition? Cancer Survivorship and Patient-Centered Communication" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief35_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_35.pdf ">
+                            <img alt="HINTS Brief 35: Lost in Transition? Cancer Survivorship and Patient-Centered Communication" src="/_images/carousel/NCI_HINTS_DCCPS_Brief35.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 35: Lost in Transition? Cancer Survivorship and Patient-Centered Communication</p>
+                    </li>
+
+                    
+                    <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Trust_thumb.jpg">
+                        <a href="/Advanced.aspx?q=trust">
+                            <img alt="New HINTS Infocards and Infographics Now Available" src="/_images/carousel/NCI_HINTS_Carousel_Trust.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS April Data Focus</p>
+                    </li>
+
 
                     <li data-thumbcaption="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1_thumb.jpg">
                         <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
                             <img alt="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1.jpg" /></a>
                         <p class="flex_caption">New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download</p>
-                    </li>
-                    <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="/_images/carousel/NCI_HINTS_Carousel_CigarettesHarm_thumb.jpg">
-                        <a href="/about-hints/announcements.aspx#Nov2016 ">
-                            <img alt="New HINTS Infocards and Infographics Now Available" src="/_images/carousel/NCI_HINTS_Carousel_CigarettesHarm.jpg" />
-                        </a>
-                        <p class="flex_caption">New HINTS Infocards and Infographics Now Available</p>
-                    </li>
-                    <li data-thumbcaption="HINTS Brief 34: Calorie Labels on Restaurant Menus: Who Uses Them and Do They Find Them Helpful?" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief34_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_34.pdf ">
-                            <img alt="HINTS Brief 34: Calorie Labels on Restaurant Menus: Who Uses Them and Do They Find Them Helpful?" src="/_images/carousel/NCI_HINTS_DCCPS_Brief34.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 34: Calorie Labels on Restaurant Menus: Who Uses Them and Do They Find Them Helpful?</p>
                     </li>
 
 
