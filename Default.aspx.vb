@@ -61,11 +61,15 @@ Partial Class _Default
     End Sub
 
     Protected Function GetFileSize(ByVal File_Path As Object) As String
+        Try
 
-        Dim f As New FileInfo(Server.MapPath("~") & File_Path)
-        Dim s1 As Long = (f.Length) / 1024
+            Dim f As New FileInfo(Server.MapPath("~") & File_Path)
+            Dim s1 As Long = (f.Length) / 1024
 
-        Return s1 & " k"
+            Return s1 & " k"
+        Catch ex As Exception
+            Return ""
+        End Try
     End Function
 
 End Class

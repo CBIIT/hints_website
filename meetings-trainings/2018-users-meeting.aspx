@@ -20,7 +20,7 @@
                 <p><strong><u>Registration </u></strong></p>
                 <p>Registering for the conference is free, but space is limited. <a href="https://www.scgcorp.com/HINTSConference2018/Registration">Register Now</a>. </p>
                 <p><strong><u>Abstract Submission</u></strong></p>
-                <p>Showcase your HINTS research at this year&rsquo;s conference! Please visit the <a href="https://www.scgcorp.com/HINTSConference2018/Abstracts">Conference website</a> for more information and to see a description of the various conference tracks. The abstract submission deadline is <strong>April 6, 2018</strong>.  <a href="https://www.scgcorp.com/HINTSConference2018/Abstracts">Submit an Abstract.</a></p>
+                <p>Showcase your HINTS research at this year&rsquo;s conference! Please visit the <a href="https://www.scgcorp.com/HINTSConference2018/Abstracts">Conference website</a> for more information and to see a description of the various conference tracks. The abstract submission due date is now <strong>April 20, 2018</strong>.  <a href="https://www.scgcorp.com/HINTSConference2018/Abstracts">Submit an Abstract.</a></p>
                 <p><strong><u>Conference Logistics </u></strong></p>
                 <table>
                     <tr valign="top">
