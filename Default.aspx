@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Health Information National Trends Survey  |  HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false"
+﻿<%@ Page Title="Health Information National Trends Survey | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false"
     CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
