@@ -34,9 +34,9 @@
                     </li>
 
                     
-                    <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Trust_thumb.jpg">
+                    <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Trust_3_thumb.jpg">
                         <a href="/Advanced.aspx?q=trust">
-                            <img alt="New HINTS Infocards and Infographics Now Available" src="/_images/carousel/NCI_HINTS_Carousel_Trust.jpg" />
+                            <img alt="New HINTS Infocards and Infographics Now Available" src="/_images/carousel/NCI_HINTS_Carousel_Trust_3.jpg" />
                         </a>
                         <p class="flex_caption">HINTS April Data Focus</p>
                     </li>
