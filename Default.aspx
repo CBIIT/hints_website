@@ -34,11 +34,11 @@
                     </li>
 
                     
-                    <li data-thumbcaption="New HINTS Infocards and Infographics Now Available" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Trust_3_thumb.jpg">
-                        <a href="/Advanced.aspx?q=trust">
-                            <img alt="New HINTS Infocards and Infographics Now Available" src="/_images/carousel/NCI_HINTS_Carousel_Trust_3.jpg" />
+                    <li data-thumbcaption="Using Calorie Information on Restaurant Menus" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_calorieuse_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_34.pdf ">
+                            <img alt="Using Calorie Information on Restaurant Menus" src="/_images/carousel/NCI_HINTS_DCCPS_calorieuse.jpg" />
                         </a>
-                        <p class="flex_caption">HINTS April Data Focus</p>
+                        <p class="flex_caption">HINTS May Data Focus</p>
                     </li>
 
 
