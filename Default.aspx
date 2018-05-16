@@ -113,7 +113,7 @@
             <div id="newsbox">
                 <h2>What's New</h2>
 
-                <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/Abstracts">Submit an Abstract to the HINTS Data Users Conference</a></p>
+                <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/Registration">Register for the HINTS Data Users Conference</a></p>
                
                 
                 
