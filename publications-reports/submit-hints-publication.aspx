@@ -5,6 +5,7 @@
 	<meta name="Title" content="Submit Publication | HINTS"/>
     <meta name="Description" content="In order to help cultivate a community of HINTS users, HINTS encourages users to submit articles so they can be posted on the HINTS website."/>
     <script type="text/javascript" src='<%=Me.ResolveUrl("~/_scripts/ValidateFileSize.js")%>'></script>
+    <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -127,6 +128,9 @@
                     <div id="dvMsg">
                         Uploaded file too large. Please upload file < 5 MB  
                     </div>
+
+                    <div class="g-recaptcha" data-sitekey="6LfwqRoUAAAAAG5JZmHNYRZVZaZw8hiclIBawwHO"></div>
+
 
                     <div id="dv_controls">
                         <div id="dv_controlSubmit">

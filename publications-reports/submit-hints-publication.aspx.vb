@@ -1,8 +1,12 @@
 ﻿Imports System.Data
 Imports System.Data.SqlClient
+Imports System.Net
+Imports System.Web.Services
 Imports System.IO
 Imports System.Net.Mail
 Imports System.Net.Mail.Attachment
+Imports System.Web
+Imports System.Web.Script.Serialization
 
 Partial Class publicationsfolder_submit_hints_publication
     Inherits System.Web.UI.Page
@@ -14,38 +18,31 @@ Partial Class publicationsfolder_submit_hints_publication
     Dim strConnect As String = ConfigurationManager.ConnectionStrings("dbConnectionString").ConnectionString
     Dim objConnect As New SqlConnection(strConnect)
 
+    Protected Shared ReCaptcha_Key As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPublicKey")
+    Protected Shared ReCaptcha_Secret As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPrivateKey")
+
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
 
 
-        'If Not Page.IsPostBack Then
+        If Not Page.IsPostBack Then
 
+            '<%@ Register TagPrefix="recaptcha" Namespace="Recaptcha" Assembly="Recaptcha" %>
 
+            '        <!--
+            '<p>
+            '    <span class="required">*</span>Please enter the characters you see in the box below, in order. This helps prevent automated programs from misusing this service.
+            '</p>
+            '<div class="FormItemWrapper">
+            '     <recaptcha:RecaptchaControl visible="false" ID="recaptcha" Theme="white" runat="server" />
+            '<asp:CustomValidator ID="cvRecaptcha" CssClass="required" ErrorMessage="<br />Incorrect. Please enter the characters that appear on the screen."
+            '    Display="Dynamic" runat="server" />
 
-        '<%@ Register TagPrefix="recaptcha" Namespace="Recaptcha" Assembly="Recaptcha" %>
+            '</div>
 
-        '        <!--
-        '<p>
-        '    <span class="required">*</span>Please enter the characters you see in the box below, in order. This helps prevent automated programs from misusing this service.
-        '</p>
-        '<div class="FormItemWrapper">
-        '     <recaptcha:RecaptchaControl visible="false" ID="recaptcha" Theme="white" runat="server" />
-        '<asp:CustomValidator ID="cvRecaptcha" CssClass="required" ErrorMessage="<br />Incorrect. Please enter the characters that appear on the screen."
-        '    Display="Dynamic" runat="server" />
-
-        '</div>
-
-        '-->
-
-
-
-        '    'This is used for the Recaptcha images
-        '    recaptcha.PublicKey = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPublicKey")
-        '    recaptcha.PrivateKey = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPrivateKey")
-        '    'This is used for the Recaptcha images
-
-        'End If
+            '-->
+        End If
 
 
         TXT_title.Focus()
@@ -69,11 +66,22 @@ Partial Class publicationsfolder_submit_hints_publication
         'End If
 
 
-        If Page.IsValid Then
-            DoSave()
+        If recaptchaValidate() Then
+
+            If Page.IsValid Then
+                DoSave()
+            Else
+                Exit Sub
+            End If
+            '                    <asp:Label ID="lblmsg" Text="" runat="server"></asp:Label>
+            'lblmsg.Text = "Valid Recaptcha"
+            'lblmsg.ForeColor = System.Drawing.Color.Green
         Else
             Exit Sub
+            'lblmsg.Text = "Not Valid Recaptcha"
+            'lblmsg.ForeColor = System.Drawing.Color.Red
         End If
+
 
     End Sub
 
@@ -250,4 +258,27 @@ Partial Class publicationsfolder_submit_hints_publication
         End While
     End Sub
 
+
+    Public Function recaptchaValidate() As Boolean
+        Dim Response As String = Request.Form("g-recaptcha-response")
+        Dim Valid As Boolean = False
+        Dim req As HttpWebRequest = DirectCast(WebRequest.Create(Convert.ToString("https://www.google.com/recaptcha/api/siteverify?secret=" & ReCaptcha_Secret & "&response=") & Response), HttpWebRequest)
+        'Try
+        Using wResponse As WebResponse = req.GetResponse()
+
+            Using readStream As New StreamReader(wResponse.GetResponseStream())
+                Dim jsonResponse As String = readStream.ReadToEnd()
+                Dim js As New JavaScriptSerializer()
+                Dim data As Object = js.Deserialize(Of Object)(jsonResponse)
+                Valid = Convert.ToBoolean(data("success"))
+                'Context.Response.Write("<H1>--" & data("success") & "--</h1>")
+            End Using
+        End Using
+
+        Return Valid
+        'Catch ex As WebException
+        '    Throw ex
+        'End Try
+
+    End Function
 End Class
