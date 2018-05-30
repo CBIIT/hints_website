@@ -19,14 +19,33 @@ Partial Class publicationsfolder_submit_hints_publication
 
 
 
-        If Not Page.IsPostBack Then
+        'If Not Page.IsPostBack Then
 
-            'This is used for the Recaptcha images
-            recaptcha.PublicKey = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPublicKey")
-            recaptcha.PrivateKey = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPrivateKey")
-            'This is used for the Recaptcha images
 
-        End If
+
+        '<%@ Register TagPrefix="recaptcha" Namespace="Recaptcha" Assembly="Recaptcha" %>
+
+        '        <!--
+        '<p>
+        '    <span class="required">*</span>Please enter the characters you see in the box below, in order. This helps prevent automated programs from misusing this service.
+        '</p>
+        '<div class="FormItemWrapper">
+        '     <recaptcha:RecaptchaControl visible="false" ID="recaptcha" Theme="white" runat="server" />
+        '<asp:CustomValidator ID="cvRecaptcha" CssClass="required" ErrorMessage="<br />Incorrect. Please enter the characters that appear on the screen."
+        '    Display="Dynamic" runat="server" />
+
+        '</div>
+
+        '-->
+
+
+
+        '    'This is used for the Recaptcha images
+        '    recaptcha.PublicKey = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPublicKey")
+        '    recaptcha.PrivateKey = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPrivateKey")
+        '    'This is used for the Recaptcha images
+
+        'End If
 
 
         TXT_title.Focus()
@@ -43,11 +62,11 @@ Partial Class publicationsfolder_submit_hints_publication
     Protected Sub BTN_Submit_Click(sender As Object, e As EventArgs) Handles BTN_Submit.Click
 
 
-        If Not recaptcha.IsValid Then
-            cvRecaptcha.IsValid = False
-        Else
-            cvRecaptcha.IsValid = True
-        End If
+        'If Not recaptcha.IsValid Then
+        '    cvRecaptcha.IsValid = False
+        'Else
+        '    cvRecaptcha.IsValid = True
+        'End If
 
 
         If Page.IsValid Then
@@ -122,6 +141,7 @@ Partial Class publicationsfolder_submit_hints_publication
                 contactresult_table.Visible = True
 
                 send_sucess_row.Visible = True
+                'Response.Write("<h1>saved</h1>")
                 msgSuccess.Visible = True
                 send_unsucess_row.Visible = False
 

@@ -1,8 +1,6 @@
 ﻿<%@ Page Title="Submit Publication | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="submit-hints-publication.aspx.vb" Inherits="publicationsfolder_submit_hints_publication" %>
 
 
-<%@ Register TagPrefix="recaptcha" Namespace="Recaptcha" Assembly="Recaptcha" %>
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 	<meta name="Title" content="Submit Publication | HINTS"/>
     <meta name="Description" content="In order to help cultivate a community of HINTS users, HINTS encourages users to submit articles so they can be posted on the HINTS website."/>
@@ -129,17 +127,6 @@
                     <div id="dvMsg">
                         Uploaded file too large. Please upload file < 5 MB  
                     </div>
-
-                    <p>
-                        <span class="required">*</span>Please enter the characters you see in the box below, in order. This helps prevent automated programs from misusing this service.
-                    </p>
-                    <div class="FormItemWrapper">
-                         <recaptcha:RecaptchaControl ID="recaptcha" Theme="white" runat="server" />
-                    <asp:CustomValidator ID="cvRecaptcha" CssClass="required" ErrorMessage="<br />Incorrect. Please enter the characters that appear on the screen."
-                        Display="Dynamic" runat="server" />
-                     
-                    </div>
-
 
                     <div id="dv_controls">
                         <div id="dv_controlSubmit">
