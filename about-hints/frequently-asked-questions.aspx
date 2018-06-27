@@ -24,9 +24,8 @@
             <div id="accordion-1" class="accordion-section-content">
 
                 <p>The Health Information National Trends Survey (HINTS) is a biennial, cross-sectional survey of a nationally-representative sample of American adults that is used to assess the impact of the health information environment. Specifically, HINTS measures how people access and use health information; how people use information technology to manage health and health information; and the degree to which people are engaged in healthy behaviors. Finally, several items in HINTS have a specific focus on cancer prevention and control.</p>
-                <p>Currently, six iterations of HINTS exist: HINTS 1 (2003), HINTS 2 (2005), HINTS 3 (2007), HINTS 4 Cycle 1 (2011), HINTS 4 Cycle 2 (2012), and HINTS 4 Cycle 3 (2013). As such, researchers can examine items and constructs that are common to all six iterations as a way to measure trends over time.</p>
-
-            </div>
+                <p>Currently, 11 iterations of HINTS exist: HINTS 1 (2003), HINTS 2 (2005), HINTS  3 (2007), HINTS Puerto Rico (2009), HINTS 4 Cycle 1 (2011), HINTS 4  Cycle 2 (2012), HINTS 4 Cycle 3 (2013), HINTS 4 Cycle 4 (2014), HINTS-FDA  (2015), HINTS-FDA Cycle 2 (2017), and HINTS 5 Cycle 1 (2017). As such,  researchers can examine items and constructs that are common to all six  iterations as a way to measure trends over time.</p>
+</div>
             <!--end .accordion-section-content-->
         </div>
         <!--end .accordion-section-->
@@ -52,8 +51,8 @@
             <a class="accordion-section-title" href="#accordion-4">What are the response rates for the available HINTS data?</a>
 
             <div id="accordion-4" class="accordion-section-content">
-                <p>HINTS 1 (2003) had a 33% response rate using the telephone mode. The HINTS 2 (2005) data was collected by the telephone mode and had a 21% response rate. Since HINTS 3 (2007) had two separate modes for collecting the data, there are separate response rates for the telephone mode (21%) and mail mode (31%). All cycles of HINTS 4 data were collected by the mail mode.  The following are the response rates for HINTS 4 iterations: HINTS 4 Cycle 1 (2011 [37%), HINTS 4 Cycle 2 (2012) [40%], HINTS 4 Cycle 3 (2013) [35%].</p>
-            </div>
+                <p>HINTS 1 (2003) had a 33% and HINTS, Puerto Rico (2009) had a 93%, response rate using the telephone mode. The  HINTS 2 (2005) data was collected by the telephone mode and had a 21% response  rate. Since HINTS 3 (2007) had two separate modes for collecting the data,  there are separate response rates for the telephone mode (21%) and mail mode  (31%). All cycles of HINTS 4 data were collected by the mail mode.&nbsp; The  following are the response rates for HINTS 4 iterations: HINTS 4 Cycle 1 (2011) [37%], HINTS 4  Cycle 2 (2012) [40%], HINTS 4 Cycle 3 (2013) [35%], HINTS, Puerto Rico (2009) [93%], HINTS 4 Cycle 4 (2014) [34%], HINTS 5 Cycle 1 (2017), the response  rate was [32%]. For the two HINTS-FDA iterations, the response rates were  HINTS-FDA (2015) [33%] and HINTS-FDA, Cycle 2 (2017) [34%]. For HINTS 5, Cycle  1 (2017) the response rate was [32%], and was conducted using a  self-administered mail questionnaire.</p>
+</div>
             <!--end .accordion-section-content-->
         </div>
         <!--end .accordion-section-->
@@ -115,8 +114,8 @@
             <a class="accordion-section-title" href="#accordion-11">Where can I find information on sampling procedures?</a>
 
             <div id="accordion-11" class="accordion-section-content">
-                <p>Each iteration of the survey has a final report that is available on the HINTS Web site. These final reports describe the sampling procedures in great detail. Briefly, there are two sampling methods used for the HINTS survey. The HINTS 1 (2003), HINTS 2 (2005), HINTS 3 (2007) iterations used a list-assisted random-digit-dial (RDD) sampling plan to collect data via a computer-assisted telephone interview. The HINTS 3 (2007) survey additionally used a comprehensive national listing of addresses available from the United States Postal Service to collect data via mailed questionnaire. All cycles of HINTS 4 collected data using an address frame and a mailed questionnaire.</p>
-            </div>
+                <p>Each iteration of the survey  has a final report that is available on the HINTS Web site. These final reports  describe the sampling procedures in great detail. Briefly, there are two  sampling methods used for the HINTS survey. The HINTS 1 (2003), HINTS 2 (2005),  HINTS 3 (2007) iterations used a list-assisted random-digit-dial (RDD) sampling  plan to collect data via a computer-assisted telephone interview. The HINTS 3  (2007) survey additionally used a comprehensive national listing of addresses  available from the United States Postal Service to collect data via mailed  questionnaire. All cycles of HINTS 4 and  HINTS 5 collected data using an address frame and a  mailed questionnaire.</p>
+</div>
             <!--end .accordion-section-content-->
         </div>
         <!--end .accordion-section-->
@@ -177,11 +176,11 @@
             <a class="accordion-section-title" href="#accordion-17">What modes have been used to collect HINTS data?</a>
 
             <div id="accordion-17" class="accordion-section-content">
-                <p>HINTS 1 (2003 And HINTS 2 (2005) were administered by land-line telephone using a random-digit-dial (RDD) sample frame.</p>
-                <p>HINTS 3 (2007) was administered in two different modes. One was by land-line telephone, with an interviewer reading the questions. The second was by mail. This involved sending a paper questionnaire to the respondent's home and asking the respondent to fill out the survey by him/herself.</p>
-                <p>The telephone mode was administered by drawing a sample using a RDD sample frame. This involves randomly generating telephone numbers among those exchanges that are used for landline telephones. The sample for the mail survey was based on a list of all addresses to which the United States postal service delivers residential mail.</p>
-                <p>All iterations of HINTS 4 were conducted using a self-administered mail questionnaire.</p>
-            </div>
+                <p>HINTS 1 (2003 And HINTS 2 (2005) were administered by landline telephone  using a random-digit-dial (RDD) sample frame.</p>
+<p>HINTS 3 (2007) was administered in two different modes. One was by  landline  telephone,  with an interviewer reading the questions. The second was by mail. This  involved sending a paper questionnaire to the respondent's home and asking the  respondent to fill out the survey by him/herself.</p>
+<p>The telephone mode was administered by drawing a sample using a  RDD sample frame. This involves randomly generating telephone numbers among  those exchanges that are used for landline telephones. The sample for the mail  survey was based on a list of all addresses to which the United States postal  service delivers residential mail.</p>
+<p>All iterations of HINTS 4 and HINTS 5 were  conducted using a self-administered mail questionnaire.</p>
+</div>
             <!--end .accordion-section-content-->
         </div>
         <!--end .accordion-section-->

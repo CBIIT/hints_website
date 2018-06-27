@@ -104,6 +104,134 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="UNSubscribeTo_SmokeFree_StringOnly">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_SmokeFree_StringOnlyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_SmokeFree_StringOnlyResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_BRP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_BRPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_BRPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_BRP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_BRPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_BRPResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_FLASHE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+            <s:element minOccurs="0" maxOccurs="1" name="objContactName" />
+            <s:element minOccurs="0" maxOccurs="1" name="objFormName" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_FLASHEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_FLASHEResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_FLASHE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_FLASHEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_FLASHEResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_cancercontrolplanet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_cancercontrolplanetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_cancercontrolplanetResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_cancercontrolplanet">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_cancercontrolplanetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_cancercontrolplanetResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_trec">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_trecResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_trecResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_trec">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_trecResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_trecResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
     </s:schema>
   </wsdl:types>
   <wsdl:message name="SubscribeToNciHintsUsersSoapIn">
@@ -148,6 +276,60 @@
   <wsdl:message name="UNSubscribeTo_SmokeFreeSoapOut">
     <wsdl:part name="parameters" element="tns:UNSubscribeTo_SmokeFreeResponse" />
   </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_SmokeFree_StringOnlySoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_SmokeFree_StringOnly" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_SmokeFree_StringOnlySoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_SmokeFree_StringOnlyResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_BRPSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_BRP" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_BRPSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_BRPResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_BRPSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_BRP" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_BRPSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_BRPResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_FLASHESoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_FLASHE" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_FLASHESoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_FLASHEResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_FLASHESoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_FLASHE" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_FLASHESoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_FLASHEResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_cancercontrolplanetSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_cancercontrolplanet" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_cancercontrolplanetSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_cancercontrolplanetResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_cancercontrolplanetSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_cancercontrolplanet" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_cancercontrolplanetSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_cancercontrolplanetResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_trecSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_trec" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_trecSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_trecResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_trecSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_trec" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_trecSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_trecResponse" />
+  </wsdl:message>
   <wsdl:portType name="SubscribeSoap">
     <wsdl:operation name="SubscribeToNciHintsUsers">
       <wsdl:input message="tns:SubscribeToNciHintsUsersSoapIn" />
@@ -176,6 +358,42 @@
     <wsdl:operation name="UNSubscribeTo_SmokeFree">
       <wsdl:input message="tns:UNSubscribeTo_SmokeFreeSoapIn" />
       <wsdl:output message="tns:UNSubscribeTo_SmokeFreeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_SmokeFree_StringOnly">
+      <wsdl:input message="tns:UNSubscribeTo_SmokeFree_StringOnlySoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_SmokeFree_StringOnlySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_BRP">
+      <wsdl:input message="tns:SubscribeTo_BRPSoapIn" />
+      <wsdl:output message="tns:SubscribeTo_BRPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_BRP">
+      <wsdl:input message="tns:UNSubscribeTo_BRPSoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_BRPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_FLASHE">
+      <wsdl:input message="tns:SubscribeTo_FLASHESoapIn" />
+      <wsdl:output message="tns:SubscribeTo_FLASHESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_FLASHE">
+      <wsdl:input message="tns:UNSubscribeTo_FLASHESoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_FLASHESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_cancercontrolplanet">
+      <wsdl:input message="tns:SubscribeTo_cancercontrolplanetSoapIn" />
+      <wsdl:output message="tns:SubscribeTo_cancercontrolplanetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_cancercontrolplanet">
+      <wsdl:input message="tns:UNSubscribeTo_cancercontrolplanetSoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_cancercontrolplanetSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_trec">
+      <wsdl:input message="tns:SubscribeTo_trecSoapIn" />
+      <wsdl:output message="tns:SubscribeTo_trecSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_trec">
+      <wsdl:input message="tns:UNSubscribeTo_trecSoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_trecSoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="SubscribeSoap" type="tns:SubscribeSoap">
@@ -243,6 +461,87 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_SmokeFree_StringOnly">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_SmokeFree_StringOnly" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_BRP">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_BRP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_BRP">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_BRP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_FLASHE">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_FLASHE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_FLASHE">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_FLASHE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_cancercontrolplanet">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_cancercontrolplanet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_cancercontrolplanet">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_cancercontrolplanet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_trec">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_trec" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_trec">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_trec" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="SubscribeSoap12" type="tns:SubscribeSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
@@ -302,6 +601,87 @@
     </wsdl:operation>
     <wsdl:operation name="UNSubscribeTo_SmokeFree">
       <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_SmokeFree" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_SmokeFree_StringOnly">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_SmokeFree_StringOnly" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_BRP">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_BRP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_BRP">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_BRP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_FLASHE">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_FLASHE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_FLASHE">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_FLASHE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_cancercontrolplanet">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_cancercontrolplanet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_cancercontrolplanet">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_cancercontrolplanet" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_trec">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_trec" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_trec">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_trec" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
