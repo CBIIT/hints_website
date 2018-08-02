@@ -9,6 +9,25 @@
 
     <h1>Survey Instruments</h1>
 
+
+    
+    <p>
+        <strong>HINTS 5, Cycle 2 (2018) Survey Materials</strong><br />
+
+        HINTS 5, Cycle 2 (2018) data were collected from January through May, 2018. The sample design for HINTS 5, Cycle 2 (2018) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
+    </p>
+    <p>The sample design for the HINTS 5, Cycle 2 (2018) survey consisted of two-stages. In the first stage, an equal-probability sample of addresses was selected from within each explicit sampling stratum. In the second-stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. Complete data were collected from 3,504 respondents.</p>
+    <ul>
+        <li><strong>HINTS 5, Cycle 2 (2018) Full-content, English Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle2_Annotated_Instrument_English.pdf" target="_blank">PDF</a>  2.4MB)</li>
+        <li><strong>HINTS 5, Cycle 2 (2018) Methodology Report:</strong>  (<a href="/docs/methodologyreports/HINTS5_Cycle_2_Methodology_Report.pdf" target="_blank">PDF</a>  596KB)</li>
+        <li><strong>HINTS 5, Cycle 2 (2018) Full-content, Spanish Version:</strong>  (<a href="/docs/Instruments/HINTS5_Cycle2_Annotated_Instrument_Spanish.pdf" target="_blank">PDF</a>  1.5MB)</li>
+    </ul>
+
+
+
+
+
+
     <p>
         <strong>HINTS 5, Cycle 1 (2017) Survey Materials</strong><br />
 
