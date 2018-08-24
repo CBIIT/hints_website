@@ -178,7 +178,7 @@
 
                     <div style="float: left; width: 80%;">
                         <br style="clear: none;" />
-                        &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 11/17/2014) PDF<br style="clear: none;" />
+                        &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 6/15/2018) PDF<br style="clear: none;" />
                         <br style="clear: none;" />
                         &#8211; <a href="/docs/HINTS_FactSheet_Spn.pdf" target="_blank">espa&#241;ol</a> (updated 12/2/2009) PDF
         <br style="clear: none;" />
