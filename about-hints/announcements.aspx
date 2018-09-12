@@ -45,6 +45,8 @@
     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcments.</a></p>
 
     
+        <h2 id="hints51Cancelled">HINTS Data Users Conference Cancelled</h2>
+    <p>Due to hurricane Florence, <strong><u>the HINTS Data  Users Conference has been cancelled</u></strong>. We deeply regret any inconvenience.  The Conference will be rescheduled for a later date.</p>
     
         <h2 id="hints51Data">HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Now Available for Download</h2>
         <p><strong>November 8, 2017</strong></p>

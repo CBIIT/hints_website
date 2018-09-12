@@ -18,11 +18,11 @@
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
                     
-                    <li data-thumbcaption="Registrations and Abstract Submissions Open for HINTS Data Users Conference" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
-                        <a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/">
-                            <img alt="Registrations and Abstract Submissions Open for HINTS Data Users Conference" src="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract.jpg" />
+                    <li data-thumbcaption="Due to hurricane Florence, the HINTS Data  Users Conference has been cancelled." data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
+                        <a href="/about-hints/announcements.aspx">
+                            <img alt="Due to hurricane Florence, the HINTS Data  Users Conference has been cancelled." src="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract.jpg" />
                         </a>
-                        <p class="flex_caption">Registrations and Abstract Submissions Open for HINTS Data Users Conference</p>
+                        <p class="flex_caption">Due to hurricane Florence, <strong><u>the HINTS Data  Users Conference has been cancelled</u></strong>.</p>
                     </li>
 
                     
@@ -113,7 +113,7 @@
             <div id="newsbox">
                 <h2>What's New</h2>
 
-                <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/Registration">Register for the HINTS Data Users Conference</a></p>
+                <p><a href=" /about-hints/announcements.aspx">HINTS Data Users Conference Cancelled</a></p>
                
                 
                 
@@ -122,8 +122,8 @@
                 
                  <%--<p class="newsdate">November 8, 2017</p>--%>
 
-                <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/">Save the Date: The Fifth HINTS Data Users Conference</a></p>
-           <%--     <p class="newsdate">November 7, 2017</p>--%>
+                  <%--        <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/">Save the Date: The Fifth HINTS Data Users Conference</a></p>
+      <p class="newsdate">November 7, 2017</p>--%>
 
                 <p><a href="/about-hints/announcements.aspx#Jul2017">Check out the HINTS-ASL Project</a></p>
              <%--   <p class="newsdate">July 19, 2017</p>--%>
