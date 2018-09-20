@@ -17,6 +17,16 @@
         <div class="col_5">
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
+
+                    
+                    <li data-thumbcaption="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief36_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_36.pdf ">
+                            <img alt="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" src="/_images/carousel/NCI_HINTS_DCCPS_Brief36.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests</p>
+                    </li>
+
+
                     
                     <li data-thumbcaption="Due to hurricane Florence, the HINTS Data  Users Conference has been cancelled." data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
                         <a href="/about-hints/announcements.aspx">
@@ -26,13 +36,6 @@
                     </li>
 
                     
-                    <li data-thumbcaption="HINTS Brief 35: Lost in Transition? Cancer Survivorship and Patient-Centered Communication" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief35_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_35.pdf ">
-                            <img alt="HINTS Brief 35: Lost in Transition? Cancer Survivorship and Patient-Centered Communication" src="/_images/carousel/NCI_HINTS_DCCPS_Brief35.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 35: Lost in Transition? Cancer Survivorship and Patient-Centered Communication</p>
-                    </li>
-
                     
                     <li data-thumbcaption="Using Calorie Information on Restaurant Menus" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_calorieuse_thumb.jpg">
                         <a href="/docs/Briefs/HINTS_Brief_34.pdf ">
