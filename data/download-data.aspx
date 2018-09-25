@@ -161,9 +161,9 @@
         </p>
         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B.</p>
         <ul>
-            <li><a href="/dataset/HINTS-5_Cycle1_SAS.zip">SAS data and supporting documents</a> (ZIP, 11.4 MB)</li>
-            <li><a href="/dataset/HINTS-5_Cycle1_STATA.zip">STATA data and supporting documents</a> (ZIP, 11.3 MB)</li>
-            <li><a href="/dataset/HINTS-5_Cycle1_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 10.9 MB)</li>
+            <li><a href="/dataset/HINTS-5_Cycle1_SAS.zip">SAS data and supporting documents</a> (ZIP, 11.5 MB)</li>
+            <li><a href="/dataset/HINTS-5_Cycle1_STATA.zip">STATA data and supporting documents</a> (ZIP, 11.4 MB)</li>
+            <li><a href="/dataset/HINTS-5_Cycle1_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 11.0 MB)</li>
         </ul>
 
                 <p><strong>HINTS-FDA, Cycle 2 (2017) dataset, updated May 2018</strong></p>
