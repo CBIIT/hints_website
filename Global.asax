@@ -11,7 +11,7 @@
     End Sub
         
     Sub Application_Error(ByVal sender As Object, ByVal e As EventArgs)
-        Response.Redirect("~/problem.aspx")
+        'Response.Redirect("~/problem.aspx")
     End Sub
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
