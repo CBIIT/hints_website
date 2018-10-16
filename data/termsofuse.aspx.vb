@@ -1,4 +1,4 @@
-﻿
+﻿Imports System.Net
 Partial Class data_termsofuse
     Inherits System.Web.UI.Page
 
@@ -55,6 +55,8 @@ Partial Class data_termsofuse
 
             Dim ws As New com.hintsmeeting.Subscribe
             Dim email_address As Object = txtemailTerms.Text
+
+            'System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             ws.SubscribeToNciHintsUsers(email_address)
             Response.Redirect("~/data/download-data.aspx", False)
         Catch ex As Exception

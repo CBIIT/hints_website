@@ -1,4 +1,4 @@
-﻿
+﻿Imports System.Net
 Imports Lyris.Lyris
 
 Partial Class subscribe_Default
@@ -29,6 +29,7 @@ Partial Class subscribe_Default
 
     Sub subscribeMe()
         Try
+            'System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim ws As New com.hintsmeeting.Subscribe
             Dim email_address As Object = txtemailTerms.Text
             ws.SubscribeToNciHintsUsers(email_address)
@@ -41,9 +42,10 @@ Partial Class subscribe_Default
 
     Sub UnSubscribeMe()
         Try
-         
 
 
+
+            'System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim ws As New com.hintsmeeting.Subscribe
             Dim email_address As Object = txtemailTerms.Text
             ws.UNSubscribeToNciHintsUsers(email_address)

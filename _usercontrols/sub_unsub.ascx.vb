@@ -1,4 +1,4 @@
-﻿
+﻿Imports System.Net
 Imports Lyris.Lyris
 
 Partial Class _usercontrols_sub_unsub
@@ -42,6 +42,7 @@ Partial Class _usercontrols_sub_unsub
 
 
 
+            'System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim ws As New com.hintsmeeting.Subscribe
             Dim email_address As Object = txtemailTerms.Text
             ws.UNSubscribeToNciHintsUsers(email_address)

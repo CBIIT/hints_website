@@ -18,6 +18,15 @@
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
 
+
+                                        <li data-thumbcaption="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief37_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_37.pdf ">
+                            <img alt="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief37.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults</p>
+                    </li>
+
+
                     
                     <li data-thumbcaption="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief36_thumb.jpg">
                         <a href="/docs/Briefs/HINTS_Brief_36.pdf ">
@@ -36,13 +45,7 @@
                     </li>
 
                     
-                    
-                    <li data-thumbcaption="Using Calorie Information on Restaurant Menus" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_calorieuse_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_34.pdf ">
-                            <img alt="Using Calorie Information on Restaurant Menus" src="/_images/carousel/NCI_HINTS_DCCPS_calorieuse.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS May Data Focus</p>
-                    </li>
+
 
 
                     <li data-thumbcaption="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1_thumb.jpg">
@@ -224,9 +227,9 @@
     </script>
 
 
-    <script type="text/javascript" src='<%=me.ResolveUrl("~/_scripts/jquery.flexslider-min.js")%>'></script>
-    <script type="text/javascript" src='<%=me.ResolveUrl("~/_scripts/carousel.js")%>'></script>
-    <script type="text/javascript" src='<%=me.ResolveUrl("~/_scripts/twitter_2017_07_12.js")%>'></script>
+    <script type="text/javascript" src='/_scripts/jquery.flexslider-min.js'></script>
+    <script type="text/javascript" src='/_scripts/carousel.js'></script>
+    <script type="text/javascript" src='/_scripts/twitterFetcher.js'></script>
     <%--Hiding breadcrumbs on this page--%>
     <script type="text/javascript">
         $("#breadcrumbs").hide();
@@ -272,6 +275,23 @@
                 }
 
             });
+
+
+            var configProfile = {
+                "profile": { "screenName": 'NCIHINTS' },
+                "domId": 'hints-tweets',
+                "maxTweets": 1,
+                "enableLinks": true,
+                "showUser": false,
+                "showTime": true,
+                "showImages": false,
+                "lang": 'en'
+            };
+            twitterFetcher.fetch(configProfile);
+
+
+
+
         });
 
     </script>
