@@ -119,7 +119,7 @@
             <div id="newsbox">
                 <h2>What's New</h2>
 
-                <p><a href=" /about-hints/announcements.aspx">HINTS Data Users Conference Cancelled</a></p>
+                <p><a href=" /about-hints/announcements.aspx#NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</a></p>
                
                 
                 
