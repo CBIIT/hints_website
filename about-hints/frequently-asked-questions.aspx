@@ -155,6 +155,22 @@
             </div>
             <!--end .accordion-section-content-->
         </div>
+
+         <!--end .accordion-section-->
+        <div class="accordion-section">
+            <a class="accordion-section-title" href="#accordion-15-2">Interested in International or Community HINTS?</a>
+
+            <div id="accordion-15-2" class="accordion-section-content">
+               
+<p>Are you a researcher interested in conducting a HINTS-like  health communication survey in your community or country? If so, you are  welcome to use HINTS items from our publicly available <a href="/data/survey-instruments.aspx">survey instruments</a> for your data collection effort. The NCI HINTS program encourages and supports  any opportunity to standardize measures and promote data harmonization for  health communication research. </p>
+<p>We are aware of several international health communication  surveys that utilize HINTS items, as well as local-level surveys that do so,  such as those conducted by NCI-designated cancer centers as part of the <a href="https://cancercontrol.cancer.gov/brp/hcirb/catchment-areas.html">Population  Health Assessment in Cancer Center Catchment Areas</a> P30  administrative supplement initiative. We hope that the NCI HINTS program can  continue to be a leader in health-related survey research, provide quality  measures for others to utilize, and be an exemplar program for other data  collection efforts to follow. </p>
+<p>Members of the NCI HINTS management team are available to  provide limited consultation to you and your research team on your data  collection effort. After you have reviewed our publicly available materials  including the methodology report, instrument, and data from the most recent  HINTS cycle, please contact us directly at <a href="mailto:NCIhints@mail.nih.gov">NCIhints@mail.nih.gov</a> and  someone from the NCI HINTS management team will get back to you about providing  in-kind consultation to your study. These activities are not managed by a  coordinating center, so you can expect to hear directly from NCI HINTS staff.</p>
+<p>Due to limited resources and competing priorities, any  further consultation and collaboration will be decided on a case-by-case basis  after an initial meeting with you and your research team. Because your health  communication survey is not initiated, led, monitored, or funded by NCI,  neither the HINTS name (in full or acronym) nor the HINTS logo should be used  for these unaffiliated projects. Moreover, while you are welcome to use HINTS  items, the NCI HINTS instruments should not be duplicated for external use.</p>
+            </div>
+            <!--end .accordion-section-content-->
+        </div>
+
+
         <!--end .accordion-section-->
     </div>
     <!-- Above General Questions ****************************************** -->

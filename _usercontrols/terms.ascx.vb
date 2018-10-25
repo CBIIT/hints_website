@@ -52,7 +52,7 @@ Partial Class _usercontrols_terms
 
     Private Sub Sendemail()
         Try
-            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+            'System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim HINTSMeeting_SubscribeService As New com.hintsmeeting.Subscribe
             Dim obj As Object = txtemailTermsService.Text
             HINTSMeeting_SubscribeService.SubscribeToNciHintsUsers(obj)
