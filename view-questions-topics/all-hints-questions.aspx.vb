@@ -21,12 +21,38 @@ Partial Class questionsfolder_all_hints_questions
         If Not Page.IsPostBack Then
             UC_Results.Visible = False
             objConnect.Open()
+            Cmd.CommandType = CommandType.StoredProcedure
             Cmd.CommandText = "List_Cycles"
             objDR = Cmd.ExecuteReader()
             CKLIst_Cyle.DataSource = objDR
             CKLIst_Cyle.DataBind()
             objDR.Close()
             Cmd.Parameters.Clear()
+
+            Dim BLN_first As Boolean = True
+
+
+            Cmd.CommandType = CommandType.Text
+            Cmd.CommandText = "select displayName from cycles order by PK_Cycle desc"
+            objDR = Cmd.ExecuteReader()
+            Do While objDR.Read()
+                If BLN_first = True Then
+                    BLN_first = False
+                    LIT_CycleList.Text = " and " & CheckNull(objDR("displayName"))
+                Else
+                    LIT_CycleList.Text = CheckNull(objDR("displayName")) & ", " & LIT_CycleList.Text
+
+                End If
+
+
+            Loop
+            objDR.Close()
+            Cmd.Parameters.Clear()
+
+
+
+
+
 
             Cmd.CommandType = CommandType.StoredProcedure
             Cmd.CommandText = "List_Sections_Without_HINTS"

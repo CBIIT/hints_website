@@ -7,7 +7,7 @@
     <link href="/Content/bootstrap-theme.min.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/buttons.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
-    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2017_11_16.js'></script>
+    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2018_11_16.js'></script>
     <style type="text/css">
         body {
             font-size: 1.2em !important;
@@ -223,7 +223,9 @@
         <div class="note-line" id="dv_LIT_Notes_wrapper">
             <div class="shim-a">Additional Notes:</div>
             <div class="shim-b">
-                <asp:Literal ID="LIT_Notes" runat="server"></asp:Literal>
+
+                <span id="LIT_Notes">None</span>
+
             </div>
         </div>
 

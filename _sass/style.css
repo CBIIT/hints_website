@@ -608,13 +608,13 @@ table td, table th {
 }
 
 .header #hints_logo {
-  margin-left: 20px;
-  background: url("../_images/hints-logo_only.png") no-repeat;
-  height: 80px;
-  width: 545px;
-  display: block;
-  background-size: 100%;
-  margin-top: 10px;
+    margin-left: 20px;
+    background: url("../_images/hints-logo_only_2018.png") no-repeat;
+    height: 80px;
+    width: 545px;
+    display: block;
+    background-size: 100%;
+    margin-top: 10px;
 }
 
 .header #hints_logo > span {

@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS -->
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link href='~/_css/style.css?v=2017_12_04' rel="stylesheet" type="text/css" />
+    <link href='~/_css/style.css?v=2018_11_14' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
 
 
@@ -239,26 +239,31 @@
                         <hr />
 
                         <ul id="footer_ext_links">
-                            <li><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
-                            <li><a href="http://www.nih.gov/">National Institutes of Health</a></li>
-                            <li><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
-                            <li><a href="http://www.usa.gov/">USA.gov</a></li>
+                            <li style="margin-right:3%;"><a href="http://www.hhs.gov/">U.S. Department of Health and Human Services</a></li>
+                            <li style="margin-right:3%;"><a href="http://www.nih.gov/">National Institutes of Health</a></li>
+                            <li style="margin-right:3%;"><a href="http://www.cancer.gov/">National Cancer Institute</a></li>
+                            <li style="margin-right:3%;"><a href="http://www.usa.gov/">USA.gov</a></li>
                         </ul>
-
-                        <p>
-                            NIH&hellip; Turning Discovery Into Health<sup>&reg;</sup>
+                    </div>
+                
+                    <div class="col_3">
+                        <p style="text-align:left; margin:3%;">
+                            Health Information National Trends Survey ℠ , HINTS ℠, and the HINTS ℠ logo are service marks of the US Department of Health and Human Services.
                         </p>
                     </div>
-                    <br />
-                    <div class="col_4">
-                        <p>
-                            A Service of the National Cancer Institute with support from<br />
-                            the <a href="http://cancercontrol.cancer.gov/hcirb/">Health Communication and Informatic Research Branch</a><br />
+                    <div class="col_3">
+                        <p style="text-align:left; margin:3%;">
+                            A Service of the National Cancer Institute with support from
+                            the <a href="http://cancercontrol.cancer.gov/hcirb/">Health Communication and Informatic Research Branch</a>
                             of the <a href="http://cancercontrol.cancer.gov">Division of Cancer Control and Population Sciences</a>
                         </p>
                     </div>
-                    <div class="col_2">
-                        <img style="width: 100%; max-width: 200px;" src="/_images/footer_icons_2017.png" alt="Department of Health & Human Services, National Institute of Health, National Cancer Institute" />
+                    <div class="col_6">
+                        <p>
+                            NIH&hellip; Turning Discovery Into Health<sup>&reg;</sup>
+                        </p>
+                        <br />
+                        <br />
                     </div>
                 </div>
             </div>

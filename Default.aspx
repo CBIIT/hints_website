@@ -19,6 +19,14 @@
                 <ul class="slides">
 
 
+                    
+
+                    <li data-thumbcaption="HINTS 5, Cycle 2 (2018) Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2_thumb.jpg">
+                        <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
+                            <img alt="HINTS 5, Cycle 2 (2018) Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2.jpg" /></a>
+                        <p class="flex_caption">HINTS 5, Cycle 2 (2018) Data Now Available for Download</p>
+                    </li>
+
                                         <li data-thumbcaption="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief37_thumb.jpg">
                         <a href="/docs/Briefs/HINTS_Brief_37.pdf ">
                             <img alt="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief37.jpg" />
@@ -37,22 +45,9 @@
 
 
                     
-                    <li data-thumbcaption="Due to hurricane Florence, the HINTS Data  Users Conference has been cancelled." data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
-                        <a href="/about-hints/announcements.aspx">
-                            <img alt="Due to hurricane Florence, the HINTS Data  Users Conference has been cancelled." src="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract.jpg" />
-                        </a>
-                        <p class="flex_caption">Due to hurricane Florence, <strong><u>the HINTS Data  Users Conference has been cancelled</u></strong>.</p>
-                    </li>
-
-                    
 
 
 
-                    <li data-thumbcaption="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1_thumb.jpg">
-                        <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
-                            <img alt="New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle1.jpg" /></a>
-                        <p class="flex_caption">New HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Data Now Available for Download</p>
-                    </li>
 
 
 
@@ -118,12 +113,12 @@
             </div>
             <div id="newsbox">
                 <h2>What's New</h2>
-
+                
+                <p><a href=" /about-hints/announcements.aspx#hints52">HINTS 5, Cycle 2 (2018) public use data available for download</a></p>
                 <p><a href=" /about-hints/announcements.aspx#NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</a></p>
                
                 
                 
-                 <p><a href="/about-hints/announcements.aspx#hints51Data">New HINTS data available for download!</a></p>
                
                 
                  <%--<p class="newsdate">November 8, 2017</p>--%>

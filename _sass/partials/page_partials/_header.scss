@@ -45,73 +45,86 @@
 }
 
 .header {
-	@include center($max-container-width);
-	/*@include bx-shadow(0, 35px, $light-grey);*/ 
-	height: 100px;
+    @include center($max-container-width);
+    /*@include bx-shadow(0, 35px, $light-grey);*/
+    height: 100px;
     background: url("../_images/hints_header_bg.png") no-repeat;
 
-    .col_4, .col_2 { 
+    .col_4, .col_2 {
 
-    	@media #{$medium-only} { width: 49%; } 
+        @media #{$medium-only} {
+            width: 49%;
+        }
 
-        @media #{$small-and-down} { padding-top: 0; }
+        @media #{$small-and-down} {
+            padding-top: 0;
+        }
     }
 
     .col_2 {
-    	padding-top: 10px;
+        padding-top: 10px;
 
-    	@media #{$small-and-down} { padding-top: 0; }
+        @media #{$small-and-down} {
+            padding-top: 0;
+        }
     }
 
-    @media #{$medium-and-down} { height: 64px; }
+    @media #{$medium-and-down} {
+        height: 64px;
+    }
 
-    @media #{$small-only} { height: 85px; }
-          
-      #hints_logo_text {
-           margin-top:34px;
-  margin-left: 18px;
-        }
-      #hints_logo_text_top {
-           font-weight:bold;
-            color:#000000
-        }
+    @media #{$small-only} {
+        height: 85px;
+    }
 
-	#hints_logo {
-		margin-left: 20px;
-        background: url("../_images/hints-logo_only.png") no-repeat;
+    #hints_logo_text {
+        margin-top: 34px;
+        margin-left: 18px;
+    }
+
+    #hints_logo_text_top {
+        font-weight: bold;
+        color: #000000
+    }
+
+    #hints_logo {
+        margin-left: 20px;
+        background: url("../_images/hints-logo_only_2018.png") no-repeat;
         height: 80px;
         width: 545px;
         display: block;
         background-size: 100%;
         margin-top: 10px;
 
-		> span { display: none; }
+        > span {
+            display: none;
+        }
 
 
 
-		@media #{$medium-only} { 
-			background-size: 68%;
-			margin-left: 6px;  
-			margin-top: 0;
-		}
+        @media #{$medium-only} {
+            background-size: 68%;
+            margin-left: 6px;
+            margin-top: 0;
+        }
 
-		@media #{$small-only} {
-			width: 80%;
-			margin-left: 10px;
-			height: 85px;
-			margin-top: 0;
-		}
+        @media #{$small-only} {
+            width: 80%;
+            margin-left: 10px;
+            height: 85px;
+            margin-top: 0;
+        }
 
-		@media #{$small-and-down} {
-			margin-top: 0;
-		}
+        @media #{$small-and-down} {
+            margin-top: 0;
+        }
 
-		@media #{$x-small-only} {
-			width: 95%;
-			margin-left: 10px;
-			height: 64px;
-		}
-	} 
+        @media #{$x-small-only} {
+            width: 95%;
+            margin-left: 10px;
+            height: 64px;
+        }
+    }
 }
 
 .navigation {

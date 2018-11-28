@@ -44,7 +44,11 @@
     <h1>Announcements</h1>
     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcments.</a></p>
 
-            <h2 id="NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</h2>
+
+    <h2 id="hints52">HINTS 5, Cycle 2 (2018) public use data available for download</h2>
+    <p>Our newest public use  dataset, HINTS 5, Cycle 2 (2018), is now <a href="/data/download-data.aspx">available for download</a>!  HINTS 5, Cycle 2 includes traditional HINTS items about health communication,  health information technology use, cancer knowledge, and cancer risk behaviors,  as well as new items such as communication needs around caregiving and  palliative care and social support. HINTS 5, Cycle 2 (2018) was fielded January  to May 2018 (N=3,504). HINTS 5, Cycle 2 (2018) also includes an expanded  analytics recommendations document, which includes guidance on how to merge  multiple HINTS datasets and how to conduct statistical modeling and inferential  statistics using SPSS.</p>
+        
+    <h2 id="NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</h2>
     
 <p>Learn how to merge HINTS data for statistical analysis. Dr.  Rick Moser, lead HINTS methodologist at the National Cancer Institute (NCI),  narrates a series of videos that demonstrate how to merge data from HINTS.</p>
 <p>  In this first video, he explains the benefits of merging two  or more sets of HINTS data and gives an overview of what to do within the SAS  software to merge and analyze the data.</p>

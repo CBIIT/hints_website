@@ -30,17 +30,7 @@ Partial Class questionsfolder_question_details
 
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
-
-
-
-
-
         If Not Page.IsPostBack Then
-
-
-
-
-
             objConnect.Open()
             Cmd.CommandType = CommandType.StoredProcedure
             Cmd.CommandText = "List_Sections"
@@ -234,6 +224,10 @@ Partial Class questionsfolder_question_details
             objDataAdapter.SelectCommand.Parameters.Add("@FK_Question", SqlDbType.NVarChar).Value = ViewState("QuestionID")
             objDataAdapter.Fill(objDataSetTemp)
             objDataAdapter.SelectCommand.Parameters.Clear()
+
+
+            RPTR_All.DataSource = objDataSetTemp
+            RPTR_All.DataBind()
 
             RPTR_AllDetails_BottomTable_Cycles.DataSource = objDataSetTemp
             RPTR_AllDetails_BottomTable_Cycles.DataBind()
