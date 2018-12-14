@@ -11,7 +11,8 @@
     </p>
 
     <ul>
-
+        
+        <li><strong>HINTS 5, Cycle 2 (2018) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS5_Cycle_2_Methodology_Report.pdf">PDF</a> 596 KB)</li>
         <li><strong>HINTS 5, Cycle 1 (2017) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS5_Cycle_1_Methodology_Rpt.pdf">PDF</a> 651 KB)</li>
         <li><strong>HINTS-FDA, Cycle 2 (2017) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS_FDA_Cycle2_Methodology_Rpt.pdf">PDF</a> 581 KB)</li>
         <li><strong>HINTS-FDA (2015) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS-FDA_Methodology_Report.pdf">PDF</a> 589 KB)</li>
