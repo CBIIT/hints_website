@@ -8,7 +8,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript" language="javascript"></script>
 
-    <script type="text/javascript" src='/_scripts/faq_accordian.js'></script>
+    <script type="text/javascript" src='/_scripts/faq_accordian_min.js'></script>
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">

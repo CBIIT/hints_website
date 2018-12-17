@@ -141,16 +141,7 @@
                 </div>
 
                 <table border="0" cellpadding="8" cellspacing="0" id="contactresult_table" summary="Result of inform us form submission" runat="server">
-
-                    <tr id="send_sucess_row" runat="server">
-                        <td>
-                            <strong>The following has been sent to a HINTS contact person:</strong>
-                            <br />
-                            <br />
-                            <asp:Literal ID="LIT_Body" runat="server"></asp:Literal>
-                        </td>
-                    </tr>
-                    <tr id="send_unsucess_row" runat="server">
+                   <tr id="send_unsucess_row" runat="server">
                         <td>There has been a problem with your submission.  Please use the back button of your browser to re-enter your information and try again.  If this error persists, please <a href="mailto:blakek@mail.nih.gov">contact the administrator directly</a>.</td>
                     </tr>
                 </table>

@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS -->
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link href='~/_css/style.css?v=2018_11_14' rel="stylesheet" type="text/css" />
+    <link href='~/_css/styles_min.css?v=2018_11_14' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
 
 

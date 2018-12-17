@@ -5,7 +5,7 @@
 	<meta name="Title" content="View Topics | HINTS"/>
     <meta name="Description" content="Explore HINTS questions by topic areas, which include health information seeking, tobacco understanding, and cancer perceptions."/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript" language="javascript"></script>
-    <script type="text/javascript" src='/_scripts/faq_accordian.js'></script>
+    <script type="text/javascript" src='/_scripts/faq_accordian_min.js'></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <h1>What Does Hints Tell Us About... All Topics</h1>

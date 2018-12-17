@@ -21,24 +21,24 @@
 
                     
 
-                    <li data-thumbcaption="HINTS 5, Cycle 2 (2018) Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2_thumb.jpg">
+                    <li data-thumbcaption="HINTS 5, Cycle 2 (2018) Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2_thumb.gif">
                         <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
-                            <img alt="HINTS 5, Cycle 2 (2018) Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2.jpg" /></a>
+                            <img alt="HINTS 5, Cycle 2 (2018) Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2.gif" /></a>
                         <p class="flex_caption">HINTS 5, Cycle 2 (2018) Data Now Available for Download</p>
                     </li>
 
-                                        <li data-thumbcaption="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief37_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_37.pdf ">
-                            <img alt="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief37.jpg" />
+                                        <li data-thumbcaption="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief37_rs_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_37.pdf">
+                            <img alt="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief37_rs.jpg" />
                         </a>
                         <p class="flex_caption">HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults</p>
                     </li>
 
 
                     
-                    <li data-thumbcaption="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief36_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_36.pdf ">
-                            <img alt="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" src="/_images/carousel/NCI_HINTS_DCCPS_Brief36.jpg" />
+                    <li data-thumbcaption="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief36_rs_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_36.pdf">
+                            <img alt="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" src="/_images/carousel/NCI_HINTS_DCCPS_Brief36_rs.jpg" />
                         </a>
                         <p class="flex_caption">HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests</p>
                     </li>
@@ -224,7 +224,7 @@
 
     <script type="text/javascript" src='/_scripts/jquery.flexslider-min.js'></script>
     <script type="text/javascript" src='/_scripts/carousel.js'></script>
-    <script type="text/javascript" src='/_scripts/twitterFetcher.js'></script>
+    <script type="text/javascript" src='/_scripts/twitterFetcher_min.js'></script>
     <%--Hiding breadcrumbs on this page--%>
     <script type="text/javascript">
         $("#breadcrumbs").hide();
