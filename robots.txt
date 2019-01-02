@@ -9,6 +9,7 @@ Disallow: /App_Code
 Disallow: /App_WebReferences
 Disallow: /error
 Disallow: /WS_Data
+Disallow: /_tmp_rwb
 
 
 
