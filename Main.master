@@ -11,7 +11,7 @@
     <!-- GOOGLE FONTS -->
 
     <link rel="shortcut icon" href="favicon.ico" />
-    <link href='~/_css/styles_min.css?v=2018_11_14' rel="stylesheet" type="text/css" />
+    <link href='~/_css/styles_min.css?v=2019_01_04' rel="stylesheet" type="text/css" />
     <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
 
 
@@ -46,7 +46,7 @@
             <div class="content">
                 <div class="top_header grid">
                     <a href="https://www.cancer.gov/" target="_blank">
-                        <img style="height: 100%;" src="/_images/nci-logo-full.svg" alt="National Cancer Institute" />
+                        <img style="height: 57px; margin-left:15px;margin-top:15px;margin-bottom:15px;" src="/_images/nci-logo-full.svg" alt="National Cancer Institute" />
                     </a>
                 </div>
                 <div class="header grid">
@@ -246,6 +246,11 @@
                         </ul>
                     </div>
                 
+                    <div class="col_6">
+                        <p>
+                            NIH&hellip; Turning Discovery Into Health<sup>&reg;</sup>
+                        </p>
+                    </div>
                     <div class="col_3">
                         <p style="text-align:left; margin:3%;">
                             Health Information National Trends Survey ℠ , HINTS ℠, and the HINTS ℠ logo are service marks of the US Department of Health and Human Services.
@@ -253,17 +258,10 @@
                     </div>
                     <div class="col_3">
                         <p style="text-align:left; margin:3%;">
-                            A Service of the National Cancer Institute with support from
-                            the <a href="http://cancercontrol.cancer.gov/hcirb/">Health Communication and Informatic Research Branch</a>
-                            of the <a href="http://cancercontrol.cancer.gov">Division of Cancer Control and Population Sciences</a>
+                            HINTS is a service of the National Cancer Institute with support from
+                            the <a href="http://cancercontrol.cancer.gov/hcirb/">Health Communication and Informatics Research Branch</a>
+                            of the <a href="http://cancercontrol.cancer.gov">Division of Cancer Control and Population Sciences.</a>
                         </p>
-                    </div>
-                    <div class="col_6">
-                        <p>
-                            NIH&hellip; Turning Discovery Into Health<sup>&reg;</sup>
-                        </p>
-                        <br />
-                        <br />
                     </div>
                 </div>
             </div>

@@ -497,13 +497,14 @@ table td, table th {
 
 /* Page Partials */
 .top_header {
-  height: 75px;
-  background-color: #ffffff;
-  padding: .75em;
-  max-width: 960px;
-  margin-right: auto;
-  margin-left: auto;
-  /*@include bx-shadow(0, 35px, $light-grey);*/
+    /*height: 75px; rwb increased height */
+    height: 105px;
+    background-color: #ffffff;
+    padding: .75em;
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    /*@include bx-shadow(0, 35px, $light-grey);*/
 }
 
 .top_header span {
