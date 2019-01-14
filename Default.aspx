@@ -26,15 +26,26 @@
                             <img alt="HINTS 5, Cycle 2 (2018) Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2.gif" /></a>
                         <p class="flex_caption">HINTS 5, Cycle 2 (2018) Data Now Available for Download</p>
                     </li>
+                    
+                    
+                    <li data-thumbcaption="The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
+                       
+                            <img alt="The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming" src="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract.jpg" />
 
-                                        <li data-thumbcaption="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief37_rs_thumb.jpg">
+                        <p class="flex_caption">The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming</p>
+                    </li>
+
+
+                    
+                    
+                    <li data-thumbcaption="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief37_rs_thumb.jpg">
                         <a href="/docs/Briefs/HINTS_Brief_37.pdf">
                             <img alt="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief37_rs.jpg" />
                         </a>
                         <p class="flex_caption">HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults</p>
                     </li>
 
-
+                    
                     
                     <li data-thumbcaption="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief36_rs_thumb.jpg">
                         <a href="/docs/Briefs/HINTS_Brief_36.pdf">
@@ -43,8 +54,6 @@
                         <p class="flex_caption">HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests</p>
                     </li>
 
-
-                    
 
 
 
