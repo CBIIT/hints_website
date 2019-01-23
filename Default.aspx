@@ -18,6 +18,7 @@
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
 
+                    
 
                     
 
@@ -27,6 +28,13 @@
                         <p class="flex_caption">HINTS 5, Cycle 2 (2018) Data Now Available for Download</p>
                     </li>
                     
+                    <li data-thumbcaption="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief38_thumb.gif">
+                        <a href="/docs/Briefs/HINTS_Brief_38.pdf">
+                            <img alt="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" src="/_images/carousel/NCI_HINTS_DCCPS_Brief38.gif" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)</p>
+                    </li>
+
                     
                     <li data-thumbcaption="The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
                        
@@ -47,14 +55,6 @@
 
                     
                     
-                    <li data-thumbcaption="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief36_rs_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_36.pdf">
-                            <img alt="HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests" src="/_images/carousel/NCI_HINTS_DCCPS_Brief36_rs.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 36: How Americans View the Accuracy and Value of Cancer Screening Tests</p>
-                    </li>
-
-
 
 
 
