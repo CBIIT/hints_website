@@ -37,10 +37,10 @@
 
                     
                     <li data-thumbcaption="The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
-                       
+                       <a href="https://www.scgcorp.com/hintsusersconf2019/Registration" target="_blank">
                             <img alt="The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming" src="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract.jpg" />
-
-                        <p class="flex_caption">The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming</p>
+                           </a>
+                        <p class="flex_caption">The HINTS Data Users Conference has been rescheduled for May 22-23, register today</p>
                     </li>
 
 
@@ -123,58 +123,12 @@
             <div id="newsbox">
                 <h2>What's New</h2>
                 
-                <p><a href=" /about-hints/announcements.aspx#hints52">HINTS 5, Cycle 2 (2018) public use data available for download</a></p>
-                <p><a href=" /about-hints/announcements.aspx#NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</a></p>
+                <p><a href="/meetings-trainings/2019-users-meeting.aspx">HINTS Data Users Conference Rescheduled for May 22-23, 2019</a></p>
+                <p><a href="/about-hints/announcements.aspx#hints52">HINTS 5, Cycle 2 (2018) public use data available for download</a></p>
+                <p><a href="/about-hints/announcements.aspx#NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</a></p>
                
                 
                 
-               
-                
-                 <%--<p class="newsdate">November 8, 2017</p>--%>
-
-                  <%--        <p><a target="_blank" href="https://www.scgcorp.com/HINTSConference2018/">Save the Date: The Fifth HINTS Data Users Conference</a></p>
-      <p class="newsdate">November 7, 2017</p>--%>
-
-                <p><a href="/about-hints/announcements.aspx#Jul2017">Check out the HINTS-ASL Project</a></p>
-             <%--   <p class="newsdate">July 19, 2017</p>--%>
-                
-                  <%--   
-                
-                <p><a href="/about-hints/announcements.aspx#Nov2016">Help spread the word about HINTS-FDA!</a></p>
-                <p class="newsdate">November  16, 2016</p>
-
-                <p><a href="/about-hints/announcements.aspx#Sept2016_webinar">How-To HINTS: A Practical Workshop</a></p>
-                <p class="newsdate">September  21, 2016</p>
-                      
-            <p><a href="/about-hints/announcements.aspx#June2016_FDA">New HINTS Data Now Available</a></p>
-            <p class="newsdate">June  29, 2016</p>  
-
-            <p><a href="/subscribe/default.aspx">Sign up to get updates on the latest HINTS</a></p>
-            <p class="newsdate">May  13, 2016</p>      
-
-            <p><a href="/about-hints/announcements.aspx#May2016_infographics">New HINTS Infographics Now Available</a></p>
-            <p class="newsdate">May  13, 2016</p>      
-
-
-         
-            <p><a href="/about-hints/announcements.aspx#APHA2015">Catch HINTS at APHA 2015!</a></p>
-            <p class="newsdate">November 3, 2015</p>      
-
-
-
-            <p><a href="/about-hints/announcements.aspx#PLOS">HINTS Featured in Post on Social Inequalities in Cancer Information Seeking</a></p>
-            <p class="newsdate">October 12, 2015</p>
-
-            <p><a href="/about-hints/announcements.aspx#newsocialmediaresources">New Social Media Resources for Students and Educators</a></p>
-            <p class="newsdate">August 14, 2015</p>
-
-            <p><a href="/about-hints/announcements.aspx#hintsvisitguam">HINTS Visits Guam!</a></p>
-            <p class="newsdate">August 4, 2015</p>
-            
-
-          <p><a href="/about-hints/announcements.aspx#downloadandshareinfographics">Download and Share HINTS Infographic and Infocards</a></p>
-            <p class="newsdate">July 16, 2015</p>      
-                --%>
 
                 <h3 id="currentbriefs">Current HINTS Briefs</h3>
 
