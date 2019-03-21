@@ -20,7 +20,7 @@
                 <p><strong><u>Registration</u></strong> </p>
                 <p>Registering  is free, but space is limited.&nbsp;<a href="https://www.scgcorp.com/hintsusersconf2019/Registration">Register Now</a>.</p>
                 <p><strong><u>Late-Breaking Abstract Submission </u></strong></p>
-                <p>There is still an opportunity  to showcase your research at this year&rsquo;s conference! We are accepting  late-breaking poster abstracts until March 20, 2019. </p>
+                <p>There is still an opportunity  to showcase your research at this year&rsquo;s conference! We are accepting  late-breaking poster abstracts until March 29, 2019. </p>
                 <p>Please visit the <a href="https://www.scgcorp.com/hintsusersconf2019/Abstracts">abstract submission</a> section of the conference website for more information and to see a description  of the various conference tracks. </p>
                 <p><strong><u>Conference Logistics</u></strong></p>
                 <table>
