@@ -10,7 +10,7 @@
 
     <div id="about_image">
         <a target="_blank" href="/docs/Hints_Factsheet.pdf">HINTS Fact Sheet<br />
-            <img src="/_images/Hints_Factsheet.png" alt="Image of HINTS Fact Sheet" /></a>
+            <img src="/_images/Hints_Factsheet.jpg" alt="Image of HINTS Fact Sheet" /></a>
     </div>
 
     <p>

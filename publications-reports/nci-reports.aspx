@@ -173,12 +173,12 @@
                 <h2>HINTS Factsheet</h2>
                 <div class="item_wrapper" style="overflow: hidden; width: 100%;">
                     <div style="float: left; width: 20%;">
-                        <img src="/_images/Hints_Factsheet.png" width="80" alt="Image of HINTS Fact Sheet" />
+                        <img src="/_images/Hints_Factsheet.jpg" width="80" alt="Image of HINTS Fact Sheet" />
                     </div>
 
                     <div style="float: left; width: 80%;">
                         <br style="clear: none;" />
-                        &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 6/15/2018) PDF<br style="clear: none;" />
+                        &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 4/15/2019) PDF<br style="clear: none;" />
                         <br style="clear: none;" />
                         &#8211; <a href="/docs/HINTS_FactSheet_Spn.pdf" target="_blank">espa&#241;ol</a> (updated 12/2/2009) PDF
         <br style="clear: none;" />
