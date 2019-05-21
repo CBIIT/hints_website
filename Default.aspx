@@ -19,6 +19,13 @@
                 <ul class="slides">
 
                     
+                    <li data-thumbcaption="HINTS Brief 39: Trust in Health Information Sources among American Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_39.pdf">
+                            <img alt="HINTS Brief 39: Trust in Health Information Sources among American Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 39: Trust in Health Information Sources among American Adults</p>
+                    </li>
+
 
                     
 
@@ -27,6 +34,10 @@
                             <img alt="HINTS 5, Cycle 2 (2018) Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2.gif" /></a>
                         <p class="flex_caption">HINTS 5, Cycle 2 (2018) Data Now Available for Download</p>
                     </li>
+
+                    
+                    
+
                     
                     <li data-thumbcaption="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief38_thumb.gif">
                         <a href="/docs/Briefs/HINTS_Brief_38.pdf">
@@ -45,14 +56,6 @@
 
 
                     
-                    
-                    <li data-thumbcaption="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief37_rs_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_37.pdf">
-                            <img alt="HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief37_rs.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 37: Beliefs About Nicotine and Low Nicotine Cigarettes Among US Adults</p>
-                    </li>
-
                     
                     
 
