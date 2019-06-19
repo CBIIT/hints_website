@@ -5,6 +5,26 @@
     <meta name="Title" content="2019 Users Meeting | HINTS" />
     <meta name="Description" content="Information and materials for the 2018 HINTS Users Conference" />
 
+
+    <style type="text/css">
+
+                   .eventdatetime {
+                       text-align: right;
+                padding-top:132px;
+                color:#386898;
+            }
+
+                   .specialBar {
+                       color:#79B052;
+                   }
+
+        @media only screen and (max-width: 800px) {
+
+            .eventdatetime {
+                padding-top: 0;
+            }
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -14,42 +34,56 @@
             <!--end of HINTS-banner-->
             <div id="logistics_pageContent">
                 <a name="skip"></a>
-                <h2>The Fifth HINTS Data Users Conference</h2>
 
-                <p>The fifth <a href="https://www.scgcorp.com/hintsusersconf2019/Default">HINTS Data Users Conference</a> will take place on May 22-23, 2019  at the DoubleTree Hotel in Bethesda, Maryland. The conference is an excellent  opportunity to learn more about research being conducted using Health  Information National Trends Survey (HINTS) data, as well as the role of HINTS  research in public health and clinical care. Register now to reserve your spot  at the conference.</p>
-                <p><strong><u>Registration</u></strong> </p>
-                <p>Registering  is free, but space is limited.&nbsp;<a href="https://www.scgcorp.com/hintsusersconf2019/Registration">Register Now</a>.</p>
-                <p><strong><u>Late-Breaking Abstract Submission </u></strong></p>
-                <p>There is still an opportunity  to showcase your research at this year&rsquo;s conference! We are accepting  late-breaking poster abstracts until March 29, 2019. </p>
-                <p>Please visit the <a href="https://www.scgcorp.com/hintsusersconf2019/Abstracts">abstract submission</a> section of the conference website for more information and to see a description  of the various conference tracks. </p>
-                <p><strong><u>Conference Logistics</u></strong></p>
-                <table>
-                    <tr valign="top">
-                        <td><strong>Title:</strong></td>
-                        <td>15 Years of HINTS:    Lessons Learned &amp; Future Directions<br />
-                            <br />
 
-                        </td>
-                    </tr>
-                    <tr valign="top">
-                        <td><strong>When:</strong></td>
-                        <td>May 22-23, 2019<br />
-                            9 AM–6 PM<br />
-                            <br />
-                        </td>
-                    </tr>
-                    <tr valign="top">
-                        <td><strong>Where:</strong></td>
-                        <td>DoubleTree Hotel
-                            <br />
-                            8120 Wisconsin Avenue<br />
-                            Bethesda, MD 20814</td>
-                    </tr>
-                </table>
 
-                <p><strong>Hotel Accommodations</strong>: A limited block of sleeping rooms for meeting participants has  been reserved at the DoubleTree Hotel in Bethesda, MD. <a href="https://www.scgcorp.com/hintsusersconf2019/Default">Visit the conference website</a> for more information and to book your room.</p>
-                <p><strong>Conference Website:</strong>&nbsp;<a href="https://www.scgcorp.com/hintsusersconf2019/Default">https://www.scgcorp.com/hintsusersconf2019/Default</a> </p>
-                <p><strong>Program Chairs:</strong>&nbsp;Bradford  Hesse &amp; Robin Vanderpool</p>
+                <div class="col_6">
+                    <div class="col_3">
+                        <img alt="2019 HINTS MEETING Logo" src="/_images/meetings/2019MeetingLogo_1.jpg" />
+                    </div>
+                    <div class="col_3 eventdatetime">
+                        <p>
+                            <strong>May 22-23, 2019 <span class="specialBar">|</span> Bethesda, MD</strong><br />
+                            DoubleTree Hotel, 8120 Wisconsin Avenue 
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div class="col_6" style="background-color: #E0F0CB">
+                    <div class="col_6">
+                        <h2 align="center" style="color:#000;">HINTS DATA USERS CONFERENCE</h2>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col_6">
+                    <div class="col_6">
+
+                        <p>The fifth annual HINTS Data Users Conference  took place on May 22-23, 2019 at the DoubleTree Hotel in Bethesda, Maryland.  The two-day conference showcased research utilizing Health Information National  Trends Survey (HINTS) data, as well as the role of HINTS research in public  health and clinical care.</p>
+                        <p>Click below to access materials from the  conference, including the 2019 agenda, poster list, and speaker bios.</p>
+                    </div>
+                </div>
+
+
+
+                <div class="col_6">
+                    <div class="col_2">
+                        <p align="center"><strong>Agenda</strong></p>
+                            <a href="/docs/meetings/NCI_HINTS_DataUsersConference_Agenda_v20.pdf"><img alt="Agendas PDF" src="/_images/meetings/2019agenda_Page_1.jpg" /></a>
+                    </div>
+                    <div class="col_2">
+                        <p align="center"><strong>Poster List</strong></p>
+                        <a href="/docs/meetings/18572_NCI_HINTS_Poster_List_2019_v06.pdf"><img alt="Posters PDF" src="/_images/meetings/2019poster_Page_01.jpg" /></a>
+                    </div>
+                    <div class="col_2">
+                        <p align="center"><strong>Speaker Bios</strong></p>
+                            <a href="/docs/meetings/18572_NCI_HINTS_Speaker_Bios_2019_v03.pdf"><img alt="Speakers PDF" src="/_images/meetings/2019speakers_Page_01.jpg" /></a>
+                    </div>
+                </div>
 
 
             </div>
