@@ -18,13 +18,15 @@
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
 
+
                     
-                    <li data-thumbcaption="HINTS Brief 39: Trust in Health Information Sources among American Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_39.pdf">
-                            <img alt="HINTS Brief 39: Trust in Health Information Sources among American Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs.jpg" />
+                    <li data-thumbcaption="HINTS Brief 40: Health Information Seeking Among Caregivers" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief40_rs_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_40.pdf">
+                            <img alt="HINTS Brief 40: Health Information Seeking Among Caregivers" src="/_images/carousel/NCI_HINTS_DCCPS_Brief40_rs.jpg" />
                         </a>
-                        <p class="flex_caption">HINTS Brief 39: Trust in Health Information Sources among American Adults</p>
+                        <p class="flex_caption">HINTS Brief 40: Health Information Seeking Among Caregivers</p>
                     </li>
+
 
 
                     
@@ -36,23 +38,24 @@
                     </li>
 
                     
-                    
+                                        
+                    <li data-thumbcaption="HINTS Brief 39: Trust in Health Information Sources among American Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_39.pdf">
+                            <img alt="HINTS Brief 39: Trust in Health Information Sources among American Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 39: Trust in Health Information Sources among American Adults</p>
+                    </li>
+
 
                     
-                    <li data-thumbcaption="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief38_thumb.gif">
+<%--                    <li data-thumbcaption="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief38_thumb.gif">
                         <a href="/docs/Briefs/HINTS_Brief_38.pdf">
                             <img alt="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" src="/_images/carousel/NCI_HINTS_DCCPS_Brief38.gif" />
                         </a>
                         <p class="flex_caption">HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)</p>
-                    </li>
+                    </li>--%>
 
                     
-                    <li data-thumbcaption="The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming" data-thumb="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract_thumb.jpg">
-                       <a href="https://www.scgcorp.com/hintsusersconf2019/Registration" target="_blank">
-                            <img alt="The HINTS Data Users Conference has been rescheduled for May 22-23, details forthcoming" src="/_images/carousel/NCI_HINTS_Carousel_Registrations_and_Abstract.jpg" />
-                           </a>
-                        <p class="flex_caption">The HINTS Data Users Conference has been rescheduled for May 22-23, register today</p>
-                    </li>
 
 
                     
