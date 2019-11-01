@@ -17,6 +17,15 @@
         <div class="col_5">
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
+                    
+
+                    
+                    <li data-thumbcaption="HINTS Brief 41: How Much Do Americans Know about Palliative Care?" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief41_rs_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_41.pdf">
+                            <img alt="HINTS Brief 41: How Much Do Americans Know about Palliative Care?" src="/_images/carousel/NCI_HINTS_DCCPS_Brief41_rs.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 41: How Much Do Americans Know about Palliative Care?</p>
+                    </li>
 
 
                     
