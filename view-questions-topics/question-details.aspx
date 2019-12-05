@@ -7,7 +7,7 @@
     <link href="/Content/bootstrap-theme.min.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/buttons.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
-    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2018_11_16.js'></script>
+    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2019_11_21.js'></script>
     <style type="text/css">
         body {
             font-size: 1.2em !important;
@@ -241,13 +241,6 @@
         </div>
 
         <div class="note-line">
-            <div class="shim-a">Articles that use this question:</div>
-            <div class="shim-b">
-                <span id="LIT_NoArticles">None</span>
-                <a target="_blank" id="HYP_articles_ByQuestion">View related articles</a>
-            </div>
-        </div>
-        <div class="note-line">
             <div class="shim-a">U.S. map from this question: </div>
             <div class="shim-b">
                 <span id="LIT_NoMap">None</span>
@@ -339,13 +332,6 @@
             </div>
 
 
-            <div class="note-line">
-                <div class="shim-a">Related articles:</div>
-                <div class="shim-b">
-                    <asp:Literal ID="LIT_AllNoArticles" Visible="false" runat="server">None</asp:Literal>
-                    <asp:HyperLink ID="HYP_articles_ByAllQuestion" Visible="false" runat="server">View related articles</asp:HyperLink>
-                </div>
-            </div>
         </div>
 
 

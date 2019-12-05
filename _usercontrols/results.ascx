@@ -64,26 +64,8 @@
                     </div>
 
                     <div class="col_6">
-                        <a href="javascript:void(0)" onclick="myJsFunc('#dvarticlelisting<%# Eval("PK_Question")%>');"
-                            class='<%# ShowHideClass(Eval("TotalArticles"))%>'>Read Related Articles</a>
-                        <div id='dvarticlelisting<%# Eval("PK_Question")%>' class="dvadvancedlistingbriefs">
-                            <asp:Repeater ID="Repeater1" DataSource='<%# GetBriefsArticles(Eval("PK_Question"),1) %>'
-                                runat="server">
-                                <ItemTemplate>
-                                    <a href='<%# Eval("LinkURL")%>' target="_blank">
-                                        <%# Eval("Title")%></a>
+       
 
-                                    <a href="/view-questions-topics/questions-by-article.aspx?PK_Article=<%# Server.UrlEncode(Eval("PK_Article")) %>">
-                                        <img src="/_images/icon-quest.gif" alt="View questions related to this article" title="View questions related to this article" border="0" />
-                                    </a>
-
-                                    <br />
-                                    <br />
-                                </ItemTemplate>
-                            </asp:Repeater>
-                        </div>
-                        <br />
-                        <br />
                         <a href="javascript:void(0)" onclick="myJsFunc('#dvbrieflisting<%# Eval("PK_Question")%>');"
                             class='<%# ShowHideClass(Eval("TotalBriefs"))%>'>Read HINTS Briefs</a>
                         <div id='dvbrieflisting<%# Eval("PK_Question")%>' class="dvadvancedlistingbriefs">

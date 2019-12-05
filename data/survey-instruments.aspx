@@ -10,7 +10,22 @@
     <h1>Survey Instruments</h1>
 
 
+        
+    <p>
+        <strong>HINTS 5, Cycle 3 (2019) Survey Materials</strong><br />
+
+        HINTS 5, Cycle 3 (2019) data were collected from January through April, 2019. The survey instrument is available for download below. Additional details and materials will be available once the full data is released. 
+    </p>
     
+    <ul>
+        <li><strong>HINTS 5, Cycle 3 (2019) Full-content, English Version:</strong>  (<a href="/docs/Instruments/HINTS5C3_Annotated_Instrument_English.pdf" target="_blank">PDF</a>  1.5MB)</li>
+    </ul>
+
+
+
+
+
+
     <p>
         <strong>HINTS 5, Cycle 2 (2018) Survey Materials</strong><br />
 

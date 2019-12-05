@@ -44,16 +44,16 @@ Partial Class questionsfolder_map_details
                 Cmd.Parameters.Clear()
 
 
-                Cmd.CommandText = "Get_Article_Count_ByQuestion"
-                Cmd.Parameters.Add("@FK_Question", SqlDbType.Int).Value = FK_Question
-                Cmd.Parameters.Add("@FK_ArticleType", SqlDbType.Int).Value = 1 ' 1 means article
-                If Cmd.ExecuteScalar() = 0 Then
-                    hyp_publink.Visible = False
-                Else
-                    hyp_publink.Visible = True
-                    hyp_publink.HRef = "/view-questions-topics/articles-by-question.aspx?PK_Question=" & FK_Question & "&ArtType=1"
-                End If
-                Cmd.Parameters.Clear()
+                '''''Cmd.CommandText = "Get_Article_Count_ByQuestion"
+                '''''Cmd.Parameters.Add("@FK_Question", SqlDbType.Int).Value = FK_Question
+                '''''Cmd.Parameters.Add("@FK_ArticleType", SqlDbType.Int).Value = 1 ' 1 means article
+                '''''If Cmd.ExecuteScalar() = 0 Then
+                '''''    hyp_publink.Visible = False
+                '''''Else
+                '''''    hyp_publink.Visible = True
+                '''''    hyp_publink.HRef = "/view-questions-topics/articles-by-question.aspx?PK_Question=" & FK_Question & "&ArtType=1"
+                '''''End If
+                '''''Cmd.Parameters.Clear()
 
                 Cmd.CommandText = "Get_Article_Count_ByQuestion"
                 Cmd.Parameters.Add("@FK_Question", SqlDbType.Int).Value = FK_Question

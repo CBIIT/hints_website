@@ -146,10 +146,6 @@ Partial Class _usercontrols_results
         Return TempContextDS
     End Function
 
-    Function SetURLForArticles(FK_Question As String, PK_ArticleType As Integer) As String
-        Return "~/view-questions-topics/articles-by-question.aspx?PK_Question=" & Server.UrlEncode(FK_Question) & "&ArtType=" & PK_ArticleType
-    End Function
-
     Function CheckAllYearsVis(TotalIncludeCount As Integer) As Boolean
 
         'Check to make sure there are results that are set to "include in chart" before adding All Years.

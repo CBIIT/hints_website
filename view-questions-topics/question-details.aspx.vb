@@ -187,19 +187,19 @@ Partial Class questionsfolder_question_details
             End If
             Cmd.Parameters.Clear()
 
-            Cmd.CommandType = CommandType.StoredProcedure
-            Cmd.CommandText = "List_Articles_ByQuestion"
-            Cmd.Parameters.Add("@FK_Question", SqlDbType.Int).Value = ViewState("QuestionID")
-            Cmd.Parameters.Add("@FK_ArticleType", SqlDbType.Int).Value = 1 ' @typeid = 1 means articles
-            If Cmd.ExecuteScalar() > 0 Then
-                LIT_AllNoArticles.Visible = False
-                HYP_articles_ByAllQuestion.Visible = True
-                HYP_articles_ByAllQuestion.NavigateUrl = "~/view-questions-topics/articles-by-question.aspx?ArtType=1&PK_Question=" & ViewState("QuestionID")
-            Else
-                LIT_AllNoArticles.Visible = True
-                HYP_articles_ByAllQuestion.Visible = False
+            '''''Cmd.CommandType = CommandType.StoredProcedure
+            '''''Cmd.CommandText = "List_Articles_ByQuestion"
+            '''''Cmd.Parameters.Add("@FK_Question", SqlDbType.Int).Value = ViewState("QuestionID")
+            '''''Cmd.Parameters.Add("@FK_ArticleType", SqlDbType.Int).Value = 1 ' @typeid = 1 means articles
+            '''''If Cmd.ExecuteScalar() > 0 Then
+            '''''    LIT_AllNoArticles.Visible = False
+            '''''    HYP_articles_ByAllQuestion.Visible = True
+            '''''    HYP_articles_ByAllQuestion.NavigateUrl = "~/view-questions-topics/articles-by-question.aspx?ArtType=1&PK_Question=" & ViewState("QuestionID")
+            '''''Else
+            '''''    LIT_AllNoArticles.Visible = True
+            '''''    HYP_articles_ByAllQuestion.Visible = False
 
-            End If
+            '''''End If
 
             objDR.Close()
             Cmd.Parameters.Clear()
