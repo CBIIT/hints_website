@@ -4,8 +4,8 @@
 <%@ Register Src="~/_usercontrols/sub_unsub.ascx" TagPrefix="uc1" TagName="sub_unsub" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-	<meta name="Title" content="Announcements | HINTS"/>
-    <meta name="Description" content="Subscribe for the latest HINTS announcements."/>
+    <meta name="Title" content="Announcements | HINTS" />
+    <meta name="Description" content="Subscribe for the latest HINTS announcements." />
 
     <style type="text/css">
         .imagediv {
@@ -43,71 +43,87 @@
 
     <h1>Announcements</h1>
     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcments.</a></p>
-
+    <h2 id="hints53">HINTS 5, Cycle 3 (2019) public use data available for download</h2>
+    <p>Our newest public use dataset, HINTS 5, Cycle 3 (2019), is <a href="/data/download-data.aspx">available for download</a>. HINTS 5, Cycle 3 (2019) features our standard health communication and health technology items, as well as extended content on behavioral risk factors for cancer, such as alcohol; diet, weight and physical activity; tobacco; sleep; and UV exposure. HINTS 5, Cycle 3 (2019) was fielded January to May 2019 (N=5,438). The dataset also includes expanded guidance on how to merge multiple HINTS datasets, how to conduct statistical modeling and inferential statistics using SPSS, as well as information on a push-to-Web mode pilot study that was fielded with HINTS 5, Cycle 3 (2019).</p>
 
     <h2 id="hints52">HINTS 5, Cycle 2 (2018) public use data available for download</h2>
     <p>Our newest public use  dataset, HINTS 5, Cycle 2 (2018), is now <a href="/data/download-data.aspx">available for download</a>!  HINTS 5, Cycle 2 includes traditional HINTS items about health communication,  health information technology use, cancer knowledge, and cancer risk behaviors,  as well as new items such as communication needs around caregiving and  palliative care and social support. HINTS 5, Cycle 2 (2018) was fielded January  to May 2018 (N=3,504). HINTS 5, Cycle 2 (2018) also includes an expanded  analytics recommendations document, which includes guidance on how to merge  multiple HINTS datasets and how to conduct statistical modeling and inferential  statistics using SPSS.</p>
-        
+
     <h2 id="NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</h2>
-    
-<p>Learn how to merge HINTS data for statistical analysis. Dr.  Rick Moser, lead HINTS methodologist at the National Cancer Institute (NCI),  narrates a series of videos that demonstrate how to merge data from HINTS.</p>
-<p>  In this first video, he explains the benefits of merging two  or more sets of HINTS data and gives an overview of what to do within the SAS  software to merge and analyze the data.</p>
-<p><iframe title="How to Merge HINTS Data Part 1 - Benefits of Merging and Setting Your Data Up" width="560" height="315" src="https://www.youtube.com/embed/6UHSPaBCLog" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-<p>  In this second video, he explains how to create indicator  variables and assign value labels to distinguish between two or more survey  iterations.</p>
-<p><iframe title="How to Merge HINTS Data Part 2 - Creating Indicator Variables and Assigning Value Labels" width="560" height="315" src="https://www.youtube.com/embed/Hd0u3CBkqT4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-<p>  In this third video, he explains how to create a new, merged  data set from two or more survey iterations and verify all the data is  accounted for in the new set.</p>
-<p><iframe title="How to Merge HINTS Data Part 3 - Creating a Merged Dataset and Verifying Your Data" width="560" height="315" src="https://www.youtube.com/embed/a5VuMoJHZh0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-<p>  In this fourth video, he explains how to run a quick  statistical analysis after creating a merged data set from two or more survey  iterations. </p>
-<p><iframe title="How to Merge HINTS Data Part 4 Running Analyses After Merging Your Data" width="560" height="315" src="https://www.youtube.com/embed/1xVgWICoFTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-<p>  In this fifth and final video, he performs a more advanced  statistical analysis and explains how to handle missing data. </p>
-<p><iframe title="How to Merge HINTS Data Part 5 - Advanced Analyses and Dealing with Missing Data" width="560" height="315" src="https://www.youtube.com/embed/9LGfy77LUfc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
-    
+
+    <p>Learn how to merge HINTS data for statistical analysis. Dr.  Rick Moser, lead HINTS methodologist at the National Cancer Institute (NCI),  narrates a series of videos that demonstrate how to merge data from HINTS.</p>
+    <p>In this first video, he explains the benefits of merging two  or more sets of HINTS data and gives an overview of what to do within the SAS  software to merge and analyze the data.</p>
+    <p>
+        <iframe title="How to Merge HINTS Data Part 1 - Benefits of Merging and Setting Your Data Up" width="560" height="315" src="https://www.youtube.com/embed/6UHSPaBCLog" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </p>
+    <p>In this second video, he explains how to create indicator  variables and assign value labels to distinguish between two or more survey  iterations.</p>
+    <p>
+        <iframe title="How to Merge HINTS Data Part 2 - Creating Indicator Variables and Assigning Value Labels" width="560" height="315" src="https://www.youtube.com/embed/Hd0u3CBkqT4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </p>
+    <p>In this third video, he explains how to create a new, merged  data set from two or more survey iterations and verify all the data is  accounted for in the new set.</p>
+    <p>
+        <iframe title="How to Merge HINTS Data Part 3 - Creating a Merged Dataset and Verifying Your Data" width="560" height="315" src="https://www.youtube.com/embed/a5VuMoJHZh0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </p>
+    <p>In this fourth video, he explains how to run a quick  statistical analysis after creating a merged data set from two or more survey  iterations. </p>
+    <p>
+        <iframe title="How to Merge HINTS Data Part 4 Running Analyses After Merging Your Data" width="560" height="315" src="https://www.youtube.com/embed/1xVgWICoFTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </p>
+    <p>In this fifth and final video, he performs a more advanced  statistical analysis and explains how to handle missing data. </p>
+    <p>
+        <iframe title="How to Merge HINTS Data Part 5 - Advanced Analyses and Dealing with Missing Data" width="560" height="315" src="https://www.youtube.com/embed/9LGfy77LUfc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </p>
 
 
 
 
-        <h2 id="hints51Cancelled">HINTS Data Users Conference Cancelled</h2>
+
+    <h2 id="hints51Cancelled">HINTS Data Users Conference Cancelled</h2>
     <p>Due to hurricane Florence, <strong><u>the HINTS Data  Users Conference has been cancelled</u></strong>. We deeply regret any inconvenience.  The Conference will be rescheduled for a later date.</p>
-    
-        <h2 id="hints51Data">HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Now Available for Download</h2>
-        <p><strong>November 8, 2017</strong></p>
+
+    <h2 id="hints51Data">HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Now Available for Download</h2>
+    <p><strong>November 8, 2017</strong></p>
 
 
-    <p>Our newest public use dataset, <a href="/data/download-data.aspx">HINTS 5, Cycle 1</a> (2017) is now available for download! HINTS 5, Cycle 1 is a collaboration with the DHHS Office of the National Coordinator for Health Information Technology (ONC), and merges traditional HINTS topics about health communication, cancer knowledge, and cancer risk behaviors with items assessing the public’s use of health information technology and medical records.
-</p>
-<p>HINTS has also posted the <a href="/data/download-data.aspx">HINTS-FDA, Cycle 2</a> (2017) public use dataset, providing insights on public perceptions about tobacco and communication related to tobacco. HINTS-FDA, Cycle 2 (2017) was developed in collaboration with the Food and Drug Administration’s (FDA) Center for Tobacco Products.</p>
-    
+    <p>
+        Our newest public use dataset, <a href="/data/download-data.aspx">HINTS 5, Cycle 1</a> (2017) is now available for download! HINTS 5, Cycle 1 is a collaboration with the DHHS Office of the National Coordinator for Health Information Technology (ONC), and merges traditional HINTS topics about health communication, cancer knowledge, and cancer risk behaviors with items assessing the public’s use of health information technology and medical records.
+    </p>
+    <p>HINTS has also posted the <a href="/data/download-data.aspx">HINTS-FDA, Cycle 2</a> (2017) public use dataset, providing insights on public perceptions about tobacco and communication related to tobacco. HINTS-FDA, Cycle 2 (2017) was developed in collaboration with the Food and Drug Administration’s (FDA) Center for Tobacco Products.</p>
 
 
-        <h2 id="Jul2017">Check  Out HINTS-ASL: Health-Related Information Seeking among Deaf Adults</h2>
-        <p><strong>July 19, 2017</strong></p>
+
+    <h2 id="Jul2017">Check  Out HINTS-ASL: Health-Related Information Seeking among Deaf Adults</h2>
+    <p><strong>July 19, 2017</strong></p>
 
 
     <p>Recently,  Dr. Poorna Kushalnagar from Gallaudet University created and administered a  version of the HINTS survey in ASL (American Sign Language). Her projects  focused on using an ASL version of HINTS items to understand trends in  searching, finding, and sharing information for health related decision making  amongst both deaf college students and adults. A video describing her research  and some key findings can be found below. </p>
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/lYeD8JBhWOg" frameborder="0" title="Check  Out HINTS-ASL: Health-Related Information Seeking among Deaf Adults" allowfullscreen></iframe></p>
-<p>Visit <a href="http://www.deafhealthqol.com/news/dhcqols-first-film-production">http://www.deafhealthqol.com/news/dhcqols-first-film-production</a> to learn more about Dr. &nbsp;Kushalnagar&rsquo;s work. </p>
+    <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/lYeD8JBhWOg" frameborder="0" title="Check  Out HINTS-ASL: Health-Related Information Seeking among Deaf Adults" allowfullscreen></iframe>
+    </p>
+    <p>Visit <a href="http://www.deafhealthqol.com/news/dhcqols-first-film-production">http://www.deafhealthqol.com/news/dhcqols-first-film-production</a> to learn more about Dr. &nbsp;Kushalnagar&rsquo;s work. </p>
 
 
 
     <h2 id="Nov2016"><a href="/docs/HINTS-FDA_Toolkit_for_Grad_School_Promotion_FINAL.pdf">HINTS Outreach Toolkit for Academic Institutions</a></h2>
     <p><strong>November 16, 2016</strong></p>
 
-        <p>Spread the word, HINTS-FDA data is now available for download! HINTS data is great for
+    <p>
+        Spread the word, HINTS-FDA data is now available for download! HINTS data is great for
          graduate students and researchers across all disciplines, from public health to health 
         informatics to communication. Help us get the word out about this free data resource by
          using the outreach toolkit found below. This toolkit offers resources that you can 
         distribute over social media, newsletters, or email to encourage your followers and 
         networks to take a closer look at HINTS-FDA and consider how they might use these data 
         in their research studies. Also, get the word out about our newest data with HINTS infocards
-         for graduate students and educators (see below).</p>
+         for graduate students and educators (see below).
+    </p>
 
-      <p>Click to enlarge the images below</p>
+    <p>Click to enlarge the images below</p>
     <div style="text-align: center; width: 70%; margin-left: auto; margin-right: auto;">
         <div style="overflow: hidden; width: 100%; text-align: center;">
             <div class="imagediv">
                 <a href="/_images/infocards/HINTS_Infocards_Cancer_Causes.jpg" target="_blank">
                     <img src="/_images/infocards/thumbs/HINTS_Infocards_Cancer_Causes.png"
-                      alt="HINTS Data Trends 2003 - 2015
+                        alt="HINTS Data Trends 2003 - 2015
 Americans who agree that it seems like everything causes cancer:
 2015: 54.2%
 2003: 46.9%
@@ -154,7 +170,7 @@ Americans who went to the internet FIRST to look for information about health or
             <div class="imagediv">
                 <a href="/_images/infocards/HINTS_Infocards_Lower_Cancer_Risk.jpg" target="_blank">
                     <img src="/_images/infocards/thumbs/HINTS_Infocards_Lower_Cancer_Risk.png"
-                       alt="HINTS Data Trends 2003 - 2015
+                        alt="HINTS Data Trends 2003 - 2015
 Americans who believe that there is something they can do to lower their chances of getting cancer:
 2015: 71.5%
 2003: 64.7%
@@ -169,7 +185,7 @@ Americans who believe that there is something they can do to lower their chances
             <div class="imagediv">
                 <a href="/_images/infocards/HINTS_Infocards_Multivitamin.jpg" target="_blank">
                     <img src="/_images/infocards/thumbs/HINTS_Infocards_Multivitamin.png"
-                      alt="Want Health Communications Data for Next Semester? We have new HINTS data for you!
+                        alt="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 Americans who have taken one or more multi-vitamins or multi-mineral supplements in the past 12 months:
 59.5%
 [Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
@@ -201,7 +217,7 @@ Americans who believe that some types of cigarettes are less harmful than others
             <div class="imagediv">
                 <a href="/_images/infocards/HINTS_Infocards_Trust_Tobacco_Info.jpg" target="_blank">
                     <img src="/_images/infocards/thumbs/HINTS_Infocards_Trust_Tobacco_Info.png"
-                      alt="Want Health Communications Data for Next Semester? We have new HINTS data for you!
+                        alt="Want Health Communications Data for Next Semester? We have new HINTS data for you!
 American who do NOT trust information about the health effects of using tobacco from tobacco companies:
 63.4%
 [Footer] Learn more about HINTS and download datasets at https://hints.cancer.gov, Follow us on Twitter"
@@ -214,8 +230,8 @@ American who do NOT trust information about the health effects of using tobacco 
 
 
 
-        </div>
-    
+    </div>
+
 
 
 
@@ -224,12 +240,12 @@ American who do NOT trust information about the health effects of using tobacco 
 
 
 
-            <p>
-                On May 4, 2016, presenters from the National Cancer Institute and the U.S. Food and Drug Administration
+    <p>
+        On May 4, 2016, presenters from the National Cancer Institute and the U.S. Food and Drug Administration
              came together to provide an overview of HINTS, review optimal ways for analyzing HINTS
              data, and present case studies that used HINTS data in an interactive workshop and
              webinar. Videos from this webinar are <a href="/meetings-trainings/how-to-hints-webinar.aspx">now available</a>. 
-            </p>
+    </p>
 
 
     <h2 id="June2016_FDA">New HINTS Data Now Available</h2>

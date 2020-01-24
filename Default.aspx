@@ -18,6 +18,11 @@
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
                     
+                    <li data-thumbcaption="HINTS 5, Cycle 3 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle3_thumb.gif">
+                        <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
+                            <img alt="HINTS 5, Cycle 3 Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle3.gif" /></a>
+                        <p class="flex_caption">HINTS 5, Cycle 3 Data Now Available for Download</p>
+                    </li>
 
                     
                     <li data-thumbcaption="HINTS Brief 41: How Much Do Americans Know about Palliative Care?" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief41_rs_thumb.jpg">
@@ -40,11 +45,6 @@
 
                     
 
-                    <li data-thumbcaption="HINTS 5, Cycle 2 (2018) Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2_thumb.gif">
-                        <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
-                            <img alt="HINTS 5, Cycle 2 (2018) Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle2.gif" /></a>
-                        <p class="flex_caption">HINTS 5, Cycle 2 (2018) Data Now Available for Download</p>
-                    </li>
 
                     
                                         
@@ -137,9 +137,9 @@
             </div>
             <div id="newsbox">
                 <h2>What's New</h2>
-                
+                   <p><a href="/about-hints/announcements.aspx#hints53">HINTS 5, Cycle 3 (2019) public use data available for download</a></p>
+             
                 <p><a href="/meetings-trainings/2019-users-meeting.aspx">HINTS Data Users Conference Rescheduled for May 22-23, 2019</a></p>
-                <p><a href="/about-hints/announcements.aspx#hints52">HINTS 5, Cycle 2 (2018) public use data available for download</a></p>
                 <p><a href="/about-hints/announcements.aspx#NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</a></p>
                
                 
