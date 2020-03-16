@@ -256,6 +256,20 @@
           </s:sequence>
         </s:complexType>
       </s:element>
+      <s:element name="wsdltest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="stremail" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="wsdltestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="wsdltestResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="SubscribeTo_nci_implementationscience">
         <s:complexType>
           <s:sequence>
@@ -281,6 +295,63 @@
         <s:complexType>
           <s:sequence>
             <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_nci_implementationscienceResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_TUSCPS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_TUSCPSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_TUSCPSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_TUSCPS">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_TUSCPSResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_TUSCPSResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_RWBSandBox2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+            <s:element minOccurs="1" maxOccurs="1" name="BLNSend_Welcome" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SubscribeTo_RWBSandBox2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SubscribeTo_RWBSandBox2Result" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_RWBSandBox2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="objemail" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UNSubscribeTo_RWBSandBox2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UNSubscribeTo_RWBSandBox2Result" type="s:string" />
           </s:sequence>
         </s:complexType>
       </s:element>
@@ -388,6 +459,12 @@
   <wsdl:message name="UNSubscribeTo_trecSoapOut">
     <wsdl:part name="parameters" element="tns:UNSubscribeTo_trecResponse" />
   </wsdl:message>
+  <wsdl:message name="wsdltestSoapIn">
+    <wsdl:part name="parameters" element="tns:wsdltest" />
+  </wsdl:message>
+  <wsdl:message name="wsdltestSoapOut">
+    <wsdl:part name="parameters" element="tns:wsdltestResponse" />
+  </wsdl:message>
   <wsdl:message name="SubscribeTo_nci_implementationscienceSoapIn">
     <wsdl:part name="parameters" element="tns:SubscribeTo_nci_implementationscience" />
   </wsdl:message>
@@ -399,6 +476,30 @@
   </wsdl:message>
   <wsdl:message name="UNSubscribeTo_nci_implementationscienceSoapOut">
     <wsdl:part name="parameters" element="tns:UNSubscribeTo_nci_implementationscienceResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_TUSCPSSoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_TUSCPS" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_TUSCPSSoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_TUSCPSResponse" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_TUSCPSSoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_TUSCPS" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_TUSCPSSoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_TUSCPSResponse" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_RWBSandBox2SoapIn">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_RWBSandBox2" />
+  </wsdl:message>
+  <wsdl:message name="SubscribeTo_RWBSandBox2SoapOut">
+    <wsdl:part name="parameters" element="tns:SubscribeTo_RWBSandBox2Response" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_RWBSandBox2SoapIn">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_RWBSandBox2" />
+  </wsdl:message>
+  <wsdl:message name="UNSubscribeTo_RWBSandBox2SoapOut">
+    <wsdl:part name="parameters" element="tns:UNSubscribeTo_RWBSandBox2Response" />
   </wsdl:message>
   <wsdl:portType name="SubscribeSoap">
     <wsdl:operation name="Insert_Application">
@@ -469,6 +570,10 @@
       <wsdl:input message="tns:UNSubscribeTo_trecSoapIn" />
       <wsdl:output message="tns:UNSubscribeTo_trecSoapOut" />
     </wsdl:operation>
+    <wsdl:operation name="wsdltest">
+      <wsdl:input message="tns:wsdltestSoapIn" />
+      <wsdl:output message="tns:wsdltestSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="SubscribeTo_nci_implementationscience">
       <wsdl:input message="tns:SubscribeTo_nci_implementationscienceSoapIn" />
       <wsdl:output message="tns:SubscribeTo_nci_implementationscienceSoapOut" />
@@ -476,6 +581,22 @@
     <wsdl:operation name="UNSubscribeTo_nci_implementationscience">
       <wsdl:input message="tns:UNSubscribeTo_nci_implementationscienceSoapIn" />
       <wsdl:output message="tns:UNSubscribeTo_nci_implementationscienceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_TUSCPS">
+      <wsdl:input message="tns:SubscribeTo_TUSCPSSoapIn" />
+      <wsdl:output message="tns:SubscribeTo_TUSCPSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_TUSCPS">
+      <wsdl:input message="tns:UNSubscribeTo_TUSCPSSoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_TUSCPSSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_RWBSandBox2">
+      <wsdl:input message="tns:SubscribeTo_RWBSandBox2SoapIn" />
+      <wsdl:output message="tns:SubscribeTo_RWBSandBox2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_RWBSandBox2">
+      <wsdl:input message="tns:UNSubscribeTo_RWBSandBox2SoapIn" />
+      <wsdl:output message="tns:UNSubscribeTo_RWBSandBox2SoapOut" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="SubscribeSoap" type="tns:SubscribeSoap">
@@ -633,6 +754,15 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="wsdltest">
+      <soap:operation soapAction="http://tempuri.org/wsdltest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SubscribeTo_nci_implementationscience">
       <soap:operation soapAction="http://tempuri.org/SubscribeTo_nci_implementationscience" style="document" />
       <wsdl:input>
@@ -644,6 +774,42 @@
     </wsdl:operation>
     <wsdl:operation name="UNSubscribeTo_nci_implementationscience">
       <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_nci_implementationscience" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_TUSCPS">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_TUSCPS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_TUSCPS">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_TUSCPS" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_RWBSandBox2">
+      <soap:operation soapAction="http://tempuri.org/SubscribeTo_RWBSandBox2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_RWBSandBox2">
+      <soap:operation soapAction="http://tempuri.org/UNSubscribeTo_RWBSandBox2" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -807,6 +973,15 @@
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="wsdltest">
+      <soap12:operation soapAction="http://tempuri.org/wsdltest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="SubscribeTo_nci_implementationscience">
       <soap12:operation soapAction="http://tempuri.org/SubscribeTo_nci_implementationscience" style="document" />
       <wsdl:input>
@@ -818,6 +993,42 @@
     </wsdl:operation>
     <wsdl:operation name="UNSubscribeTo_nci_implementationscience">
       <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_nci_implementationscience" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_TUSCPS">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_TUSCPS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_TUSCPS">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_TUSCPS" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SubscribeTo_RWBSandBox2">
+      <soap12:operation soapAction="http://tempuri.org/SubscribeTo_RWBSandBox2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UNSubscribeTo_RWBSandBox2">
+      <soap12:operation soapAction="http://tempuri.org/UNSubscribeTo_RWBSandBox2" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

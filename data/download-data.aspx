@@ -151,7 +151,7 @@
 
         
 
-        <p><strong>HINTS 5, Cycle 3 (2019) dataset, updated January 2020</strong></p>
+        <p><strong>HINTS 5, Cycle 3 (2019) dataset, updated March 2020</strong></p>
         <p>
            Total respondents: 5,438<br />
            Complete responses: 5,247<br />
@@ -160,9 +160,9 @@
         </p>
         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored in to the completion rate calculation.</p>
         <ul>
-            <li><a href="/dataset/HINTS5_Cycle3_SAS.zip">SAS data and supporting documents</a> (ZIP, 18.6 MB)</li>
-            <li><a href="/dataset/HINTS5_Cycle3_Stata.zip">STATA data and supporting documents</a> (ZIP, 18.5 MB)</li>
-            <li><a href="/dataset/HINTS5_Cycle3_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 18.5 MB)</li>
+            <li><a href="/dataset/HINTS5_Cycle3_SAS_03112020.zip">SAS data and supporting documents</a> (ZIP, 18.6 MB)</li>
+            <li><a href="/dataset/HINTS5_Cycle3_Stata_03112020.zip">STATA data and supporting documents</a> (ZIP, 18.5 MB)</li>
+            <li><a href="/dataset/HINTS5_Cycle3_SPSS_03112020.zip">SPSS data and supporting documents</a> (ZIP, 18.5 MB)</li>
         </ul>
 
 
