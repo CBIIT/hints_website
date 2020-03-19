@@ -182,10 +182,7 @@
             <li><a href="/dataset/HINTS_5_Cycle_2_STATA_03192020.zip">STATA data and supporting documents</a> (ZIP, 12.4 MB)</li>
             <li><a href="/dataset/HINTS_5_Cycle_2_SPSS_03192020.zip">SPSS data and supporting documents</a> (ZIP, 11.9 MB)</li>
         </ul>
-
-
-
-
+        
         <p><strong>HINTS 5, Cycle 1 (2017) dataset, updated May 2018</strong></p>
         <p>
             Total respondents: 3,285<br />
