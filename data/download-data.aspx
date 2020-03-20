@@ -169,7 +169,7 @@
 
 
 
-        <p><strong>HINTS 5, Cycle 2 (2018) dataset, updated March 2019</strong></p>
+        <p><strong>HINTS 5, Cycle 2 (2018) dataset, updated March 2020</strong></p>
         <p>
             Total respondents: 3,504<br />
             Complete responses: 3,434<br />
