@@ -74,13 +74,13 @@
 
     <p><a name="sponsors"></a><strong>HINTS Sponsors</strong></p>
     <p>
-        HINTS was developed by the <a href="http://cancercontrol.cancer.gov/hcirb/"
+        HINTS was developed by the <a href="https://cancercontrol.cancer.gov/brp/hcirb/"
             target="_blank">Health Communication and Informatics Research Branch (HCIRB)</a>
         of the <a target="_blank" href="http://cancercontrol.cancer.gov/">Division
                 of Cancer Control and Population Sciences (DCCPS)</a> as an outcome of the National
             Cancer Institute's Extraordinary Opportunity in Cancer Communications. To learn
             more about communication and informatics research at NCI, please visit the <a
-                href="http://cancercontrol.cancer.gov/hcirb/" target="_blank">HCIRB</a> and
+                href="https://cancercontrol.cancer.gov/brp/hcirb/" target="_blank">HCIRB</a> and
             <a target="_blank" href="http://cancercontrol.cancer.gov/">DCCPS Web
                 sites</a>.
     </p>
