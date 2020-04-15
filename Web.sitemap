@@ -57,12 +57,13 @@
       <siteMapNode url="~/meetings-trainings/2014-users-meeting.aspx" title="2014 Users Meeting" description="2014 Users Meeting">
         <siteMapNode url="~/meetings-trainings/2014-users-meeting-logistics.aspx" title="Logistics" description="Logistics"/>
         <siteMapNode url="~/meetings-trainings/2014-users-meeting-materials.aspx" title=" Meeting Materials" description=" Meeting Materials"/>
-        <siteMapNode url="~/meetings-trainings/2014-users-meeting-workshop-resources.aspx" title=" IDA Workshop Resources" description=" IDA Workshop Resources"/>
+        <siteMapNode url="~/meetings-trainings/2014-users-meeting-workshop-resources.aspx" title="IDA Workshop Resources" description="IDA Workshop Resources"/>
       </siteMapNode>
+      <siteMapNode url="~/meetings-trainings/how-to-merge-hints-data.aspx" title="How to Merge HINTS Data Video Series" description="How to Merge HINTS Data Video Series"/>
       <siteMapNode url="~/meetings-trainings/2018-users-meeting.aspx" title="HINTS Presentations" description="The Fifth HINTS Data Users Conference"/>
       <siteMapNode url="~/meetings-trainings/2019-users-meeting.aspx" title="HINTS Presentations" description="The Fifth HINTS Data Users Conference"/>
       <siteMapNode url="~/meetings-trainings/hints-presentations.aspx" title="HINTS Presentations" description="HINTS Presentations"/>
-      <siteMapNode url="~/meetings-trainings/how-to-hints-webinar.aspx" title="How-To HINTS: A Practical Workshop" description="How-To HINTS: A Practical Workshop"/>
+      <siteMapNode url="~/meetings-trainings/hints-educational-webinars.aspx" title="HINTS Educational Webinars" description="HINTS Educational Webinars"/>
     </siteMapNode>
 
     <siteMapNode url="~/about-hints/Default.aspx" title="About HINTS" description="About HINTS">

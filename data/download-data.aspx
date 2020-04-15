@@ -6,7 +6,6 @@
     <meta name="Title" content="Download Data | HINTS" />
     <meta name="Description" content="Download HINTS datasets in SAS, SPSS, or STATA format to conduct your own analyses. " />
 
-    <script type="text/javascript" src="/_scripts/jquery-3.1.1.min.js"></script>
     <script language="javascript" type="text/javascript">
 
 

@@ -337,7 +337,6 @@
 
     </div>
 
-    <script type="text/javascript" src="/_scripts/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="/_scripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="/_scripts/fusioncharts.js"></script>
     <script type="text/javascript" src="/_scripts/fusioncharts.charts.js"></script>

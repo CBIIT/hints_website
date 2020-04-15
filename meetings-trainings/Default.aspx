@@ -31,7 +31,7 @@
             </div>
             <div class="landingPageDiv_subtext">
                 <p>Watch this video presentation for tips on how to best analyze and use HINTS data.</p>
-                <p><a href="/meetings-trainings/how-to-hints-webinar.aspx">Read More</a></p>
+                <p><a href="/meetings-trainings/hints-educational-webinars.aspx">Read More</a></p>
 
             </div>
         </div>

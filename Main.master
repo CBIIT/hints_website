@@ -12,7 +12,7 @@
 
     <link rel="shortcut icon" href="favicon.ico" />
     <link href='~/_css/styles_min.css?v=2019_01_17' rel="stylesheet" type="text/css" />
-    <script type="text/javascript" src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
+    <script type="text/javascript" src='/_scripts/jquery-3.5.0.min.js'></script>
 
 
     <style type="text/css">
@@ -131,7 +131,7 @@
                                     by Item</a></li>
                                 <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                 <li><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
-                                <li><a href="/meetings-trainings/how-to-hints-webinar.aspx">How-to HINTS Webinar</a></li>
+                                <li  class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
                             </ul>
                         </li>
 
@@ -161,10 +161,11 @@
                         <li>
                             <a id="last_link" href="/meetings-trainings/default.aspx">Meetings/Trainings</a>
                             <ul class="child_menu">
+                                <li class="twoLineNav"><a href="/meetings-trainings/how-to-merge-hints-data.aspx">How-to Merge HINTS Data</a></li>
+                                <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
                                 <li class="twoLineNav"><a href="/meetings-trainings/2019-users-meeting.aspx">2019 HINTS Users Meeting</a></li>
                                 <li class="twoLineNav"><a href="/meetings-trainings/2014-users-meeting.aspx">2014 HINTS Users<br />
                                     Meeting</a></li>
-                                <li><a href="/meetings-trainings/how-to-hints-webinar.aspx">How-to HINTS Webinar</a></li>
 
 
 

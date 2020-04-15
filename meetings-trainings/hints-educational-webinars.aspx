@@ -1,4 +1,4 @@
-﻿<%@ Page Title="HINTS Educational Webinars | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="how-to-hints-webinar.aspx.vb" Inherits="meetingsfolder_how_to_hints_webinar" %>
+﻿<%@ Page Title="HINTS Educational Webinars | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="hints-educational-webinars.aspx.vb" Inherits="meetings_trainings_hints_educational_webinars" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">

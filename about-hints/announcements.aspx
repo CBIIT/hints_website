@@ -244,7 +244,7 @@ American who do NOT trust information about the health effects of using tobacco 
         On May 4, 2016, presenters from the National Cancer Institute and the U.S. Food and Drug Administration
              came together to provide an overview of HINTS, review optimal ways for analyzing HINTS
              data, and present case studies that used HINTS data in an interactive workshop and
-             webinar. Videos from this webinar are <a href="/meetings-trainings/how-to-hints-webinar.aspx">now available</a>. 
+             webinar. Videos from this webinar are <a href="/meetings-trainings/hints-educational-webinars.aspx">now available</a>. 
     </p>
 
 
