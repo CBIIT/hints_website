@@ -50,7 +50,7 @@ Partial Class questionsfolder_articles_by_questionDetails
                 Do While objDR.Read()
                     LIT_Question.Text = CheckNull(objDR("Question"))
                     QuestionName = CheckNull(objDR("Question"))
-                    hyp_Question.HRef = "/view-questions-topics/question-details.aspx?PK_Question=" & objDR("PK_Question")
+                    hyp_Question.HRef = "/view-questions-topics/question-details.aspx?qid=" & objDR("PK_Question")
                     PK_Question = objDR("PK_Question")
 
 
@@ -135,7 +135,7 @@ Partial Class questionsfolder_articles_by_questionDetails
         If sectionName.Length > 0 Then
             newNode1 = New SiteMapNode(SiteMap.Provider, "section", "~/advanced.aspx?tpc=" & sectionID)
             newNode1.ParentNode = currentNode.ParentNode
-            newNode2 = New SiteMapNode(SiteMap.Provider, "question", "~/view-questions-topics/question-details.aspx?PK_Question=" & PK_Question)
+            newNode2 = New SiteMapNode(SiteMap.Provider, "question", "~/view-questions-topics/question-details.aspx?qid=" & PK_Question)
             newNode2.ParentNode = newNode1
             currentNode.ParentNode = newNode2
 

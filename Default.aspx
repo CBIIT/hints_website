@@ -17,6 +17,15 @@
         <div class="col_5">
             <div id="homepage_carousel" class="flexslider col_6">
                 <ul class="slides">
+
+                                                            
+                    <li data-thumbcaption="HINTS Brief 42: E-cigarette Perceptions and Experimentation Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief42_rs_thumb.jpg">
+                        <a href="/docs/Briefs/HINTS_Brief_42.pdf">
+                            <img alt="HINTS Brief 42: E-cigarette Perceptions and Experimentation Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief42_rs.jpg" />
+                        </a>
+                        <p class="flex_caption">HINTS Brief 42: E-cigarette Perceptions and Experimentation Among US Adults</p>
+                    </li>
+
                     
                     <li data-thumbcaption="HINTS 5, Cycle 3 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle3_thumb.gif">
                         <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
@@ -47,13 +56,7 @@
 
 
                     
-                                        
-                    <li data-thumbcaption="HINTS Brief 39: Trust in Health Information Sources among American Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_39.pdf">
-                            <img alt="HINTS Brief 39: Trust in Health Information Sources among American Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief39_rs.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 39: Trust in Health Information Sources among American Adults</p>
-                    </li>
+
 
 
                     

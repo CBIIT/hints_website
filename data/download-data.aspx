@@ -182,7 +182,7 @@
             <li><a href="/dataset/HINTS_5_Cycle_2_SPSS_03192020.zip">SPSS data and supporting documents</a> (ZIP, 11.9 MB)</li>
         </ul>
         
-        <p><strong>HINTS 5, Cycle 1 (2017) dataset, updated May 2018</strong></p>
+        <p><strong>HINTS 5, Cycle 1 (2017) dataset, updated June 2020</strong></p>
         <p>
             Total respondents: 3,285<br />
             Complete responses: 3,191<br />
@@ -190,9 +190,9 @@
         </p>
         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B.</p>
         <ul>
-            <li><a href="/dataset/HINTS-5_Cycle1_SAS.zip">SAS data and supporting documents</a> (ZIP, 11.5 MB)</li>
-            <li><a href="/dataset/HINTS-5_Cycle1_STATA.zip">STATA data and supporting documents</a> (ZIP, 11.4 MB)</li>
-            <li><a href="/dataset/HINTS-5_Cycle1_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 11.0 MB)</li>
+            <li><a href="/dataset/HINTS-5_Cycle1_SAS.zip">SAS data and supporting documents</a> (ZIP, 10.8 MB)</li>
+            <li><a href="/dataset/HINTS-5_Cycle1_STATA.zip">STATA data and supporting documents</a> (ZIP, 10.7 MB)</li>
+            <li><a href="/dataset/HINTS-5_Cycle1_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 10.5 MB)</li>
         </ul>
 
         <p><strong>HINTS-FDA, Cycle 2 (2017) dataset, updated May 2018</strong></p>
@@ -241,7 +241,7 @@
 
 
         <p>
-            <strong>HINTS 4, Cycle 4 (2014) dataset, updated September 2017 (See history document for change details)</strong>
+            <strong>HINTS 4, Cycle 4 (2014) dataset, updated June 2020 (See history document for change details)</strong>
         </p>
         <p>
             Total respondents: 3,677<br />
@@ -257,11 +257,11 @@
         </p>
         <ul>
             <li><a href="/dataset/HINTS_4_Cycle_4_SAS.zip">SAS data and supporting documents</a>
-                (ZIP, 6.3 MB)</li>
+                (ZIP, 6.0 MB)</li>
             <li><a href="/dataset/HINTS_4_Cycle_4_STATA.zip">STATA data and supporting documents</a>
-                (ZIP, 6.2 MB)</li>
+                (ZIP, 5.8 MB)</li>
             <li><a href="/dataset/HINTS_4_Cycle_4_SPSS.zip">SPSS data and supporting documents</a>
-                (ZIP, 6.2 MB)</li>
+                (ZIP, 5.7 MB)</li>
         </ul>
 
 

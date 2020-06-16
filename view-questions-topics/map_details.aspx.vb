@@ -102,7 +102,7 @@ Partial Class questionsfolder_map_details
         If sectionName.Length > 0 Then
             newNode1 = New SiteMapNode(SiteMap.Provider, "section", "~/advanced.aspx?tpc=" & sectionID)
             newNode1.ParentNode = currentNode.ParentNode
-            newNode2 = New SiteMapNode(SiteMap.Provider, "question", "~/view-questions-topics/question-details.aspx?PK_Question=" & FK_Question)
+            newNode2 = New SiteMapNode(SiteMap.Provider, "question", "~/view-questions-topics/question-details.aspx?qid=" & FK_Question)
             newNode2.ParentNode = newNode1
             currentNode.ParentNode = newNode2
 
