@@ -1,18 +1,59 @@
-﻿
+﻿Imports System.Data
+Imports System.Data.SqlClient
+Imports System.Net
+Imports System.Web.Services
+Imports System.IO
+Imports System.Net.Mail
+Imports System.Net.Mail.Attachment
+Imports System.Web
+Imports System.Web.Script.Serialization
+
 Partial Class aboutfolder_contact_us
     Inherits System.Web.UI.Page
 
+    Protected Shared ReCaptcha_Key As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPublicKey")
+    Protected Shared ReCaptcha_Secret As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPrivateKey")
 
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
             contact_table.Visible = True
             contactresult_table.Visible = False
+            tr_captchaError_row.Visible = False
+
         End If
     End Sub
 
     Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnSubmit.Click
 
+        contactresult_table.Visible = False
+
+        If recaptchaValidate() Then
+
+            tr_captchaError_row.Visible = False
+
+            If Page.IsValid Then
+                DoSave()
+            Else
+                Exit Sub
+            End If
+            '                    <asp:Label ID="lblmsg" Text="" runat="server"></asp:Label>
+            'lblmsg.Text = "Valid Recaptcha"
+            'lblmsg.ForeColor = System.Drawing.Color.Green
+        Else
+            contactresult_table.Visible = True
+            send_sucess_row.Visible = False
+            send_unsucess_row.Visible = False
+            tr_captchaError_row.Visible = True
+            Exit Sub
+            'lblmsg.Text = "Not Valid Recaptcha"
+            'lblmsg.ForeColor = System.Drawing.Color.Red
+        End If
+
+    End Sub
+
+
+    Sub DoSave()
 
 
         If Page.IsValid Then
@@ -45,13 +86,38 @@ Partial Class aboutfolder_contact_us
                 send_sucess_row.Visible = True
                 send_unsucess_row.Visible = False
 
+
             Catch ex As Exception
+                contactresult_table.Visible = True
                 send_sucess_row.Visible = False
                 send_unsucess_row.Visible = True
             End Try
         End If
 
+
     End Sub
 
+    Public Function recaptchaValidate() As Boolean
+        Dim Response As String = Request.Form("g-recaptcha-response")
+        Dim Valid As Boolean = False
+        Dim req As HttpWebRequest = DirectCast(WebRequest.Create(Convert.ToString("https://www.google.com/recaptcha/api/siteverify?secret=" & ReCaptcha_Secret & "&response=") & Response), HttpWebRequest)
+        'Try
+        Using wResponse As WebResponse = req.GetResponse()
+
+            Using readStream As New StreamReader(wResponse.GetResponseStream())
+                Dim jsonResponse As String = readStream.ReadToEnd()
+                Dim js As New JavaScriptSerializer()
+                Dim data As Object = js.Deserialize(Of Object)(jsonResponse)
+                Valid = Convert.ToBoolean(data("success"))
+                'Context.Response.Write("<H1>xxxxxxxxx--" & data("success") & "--</h1>")
+            End Using
+        End Using
+
+        Return Valid
+        'Catch ex As WebException
+        '    Throw ex
+        'End Try
+
+    End Function
 End Class
 

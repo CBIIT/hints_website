@@ -11,6 +11,7 @@
 }
 
     </style>
+    <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     
@@ -100,7 +101,8 @@
            </div>
                  <br/>
            </div>
-
+       
+                    <div class="g-recaptcha" data-sitekey="6LfwqRoUAAAAAG5JZmHNYRZVZaZw8hiclIBawwHO"></div>
 
         <div id="dv_controls">   
             <div id="dv_controlSubmit" style="margin-right:43%;">
@@ -121,7 +123,10 @@
            </td>
           </tr>
           <tr id="send_unsucess_row" runat="server">
-			<td>There has been a problem with your submission.  Please use the back button of your browser to re-enter your information and try again.  If this error persists, please <a href="mailto:blakek@mail.nih.gov">contact the administrator directly</a>.</td>
+			<td class="required">There has been a problem with your submission.  Please use the back button of your browser to re-enter your information and try again.  If this error persists, please <a href="mailto:blakek@mail.nih.gov">contact the administrator directly</a>.</td>
+          </tr>
+          <tr id="tr_captchaError_row" runat="server">
+			<td class="required">You must specify that this form is being used for legitimate purposes.</td>
           </tr>
         </table>
 </div>
