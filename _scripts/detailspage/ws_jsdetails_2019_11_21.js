@@ -142,7 +142,7 @@ function SetVis() {
 
     $('#div_surveynotes').hide();
 
-    //console.log('CycleBeingDisplayed=' + CycleBeingDisplayed);
+    console.log('CycleBeingDisplayed=' + CycleBeingDisplayed);
 
     $('#cycle-sidebar input').removeClass('active-year');
 
@@ -370,12 +370,12 @@ function BuildDisplay() {
             //////}
 
             if ((QuestionDetails_ds[i].BriefCount >= 0) && (QuestionDetails_ds[i].BriefCount !== null)) {
-                $("#HYP_Briefs_ByQuestion").attr("href", "/view-questions-topics/articles_by_questionDetails.aspx?ArtType=2&PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails)
+                $("#HYP_Briefs_ByQuestion").attr("href", "/view-questions-topics/articles_by_questionDetails.aspx?PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails + "&ArtType=2");
                 $('#LIT_NoBriefs').hide();
-                $('#HYP_Briefs_ByQuestion').show
+                $('#HYP_Briefs_ByQuestion').show;
             }
             else {
-                $('#LIT_NoBriefs').show
+                $('#LIT_NoBriefs').show;
                 $('#HYP_Briefs_ByQuestion').hide();
             }
 

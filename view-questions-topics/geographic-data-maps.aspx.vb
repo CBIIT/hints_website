@@ -14,15 +14,15 @@ Partial Class questionsfolder_geographic_data_maps
         If Not Page.IsPostBack Then
 
 
-            objConnect.Open()
-            Cmd.CommandType = CommandType.StoredProcedure
-            Cmd.CommandText = "List_KnowledgeMaps"
-            objDR = Cmd.ExecuteReader()
-            DL_AllMaps.DataSource = objDR
-            DL_AllMaps.DataBind()
-            objDR.Close()
-            Cmd.Parameters.Clear()
-            objConnect.Close()
+            'objConnect.Open()
+            'Cmd.CommandType = CommandType.StoredProcedure
+            'Cmd.CommandText = "List_KnowledgeMaps"
+            'objDR = Cmd.ExecuteReader()
+            'DL_AllMaps.DataSource = objDR
+            'DL_AllMaps.DataBind()
+            'objDR.Close()
+            'Cmd.Parameters.Clear()
+            'objConnect.Close()
 
 
         End If

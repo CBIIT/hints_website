@@ -90,7 +90,7 @@ Partial Class questionsfolder_all_hints_questions
     End Sub
 
 
-    Protected Sub BTN_Search_Click(sender As Object, e As EventArgs) Handles BTN_Search.Click
+    Protected Sub BTN_Search_Click(sender As Object, e As EventArgs) Handles BTN_Search_page.Click
         RunSearch()
     End Sub
 

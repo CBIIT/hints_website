@@ -1,10 +1,10 @@
-﻿<%@ Page Title="Journals Using HINTS | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="hints-journals.aspx.vb" Inherits="publicationsfolder_hints_journals" %>
+﻿<%@ Page Title="Journals Using HINTS | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="hints-journals.aspx.vb" Inherits="publicationsfolder_hints_journals" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-	<meta name="Title" content="Journals Using HINTS | HINTS"/>
-    <meta name="Description" content="Browse all of the journals that have accepted manuscripts using HINTS data and the number of published articles for each journal."/>
-     <style type="text/css">
+    <meta name="Title" content="Journals Using HINTS | HINTS" />
+    <meta name="Description" content="Browse all of the journals that have accepted manuscripts using HINTS data and the number of published articles for each journal." />
+    <style type="text/css">
         p {
             padding-bottom: 0px !important;
         }
@@ -48,105 +48,116 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
 
-    <div class="grid">
-        <div class="col_6 ">
-
-            <h1>Where have HINTS data been published?</h1>
-
-
+    <div class="container col-lg-12 col-xl-7 col custom-wrapper">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
 
 
-            <p>HINTS data has been featured in <asp:Literal ID="LIT_ArticleCount" runat="server"></asp:Literal> articles and <asp:Literal ID="LIT_JournalCount" runat="server"></asp:Literal> peer reviewed journals since data was first released in 2003. This page lists all of the journals that have accepted manuscripts using HINTS data and the number of published articles for each journal. Journal titles are hyperlinked and will bring you to the home page for each journal.</p>
+                    <h1>Where have HINTS data been published?</h1>
 
-            <br />
-            <br />
 
-        </div>
-    </div>
 
-    <div class="grid">
-        <div class="col_3 ">
-            <table class="journaltable" border="1" cellspacing="0" cellpadding="0" align="center">
-                <tr class="tr_Header">
-                    <th width="60%">
-                        <p><strong>Journal</strong></p>
-                    </th>
-                    <th width="20%">
-                        <p><strong># of HINTS Pubs</strong></p>
-                    </th>
-                    <th width="20%">
-                        <p><strong>Impact Score</strong></p>
-                    </th>
-                </tr>
-                <asp:Repeater ID="RPTR_Col1" runat="server">
-                    <ItemTemplate>
 
-                        <asp:PlaceHolder ID="PLC_column1" Visible="<%# CheckVis_Col1()%>" runat="server">
-                        
-                        <tr class='<%# SET_BG()%>'>
-                            <td>
-                                <p><a target="_blank" href="<%# Eval("JournalURL") %>"><%# Eval("Journal")%></a></p>
-                            </td>
-                            <td>
-                                <p><%# Eval("numberofPubs")%></p>
-                            </td>
-                            <td>
-                                <p><%# Eval("ImpactScore")%></p>
-                            </td>
+                    <p>
+                        HINTS data has been featured in
+                    <asp:Literal ID="LIT_ArticleCount" runat="server"></asp:Literal>
+                        articles and
+                    <asp:Literal ID="LIT_JournalCount" runat="server"></asp:Literal>
+                        peer reviewed journals since data was first released in 2003. This page lists all of the journals that have accepted manuscripts using HINTS data and the number of published articles for each journal. Journal titles are hyperlinked and will bring you to the home page for each journal.
+                    </p>
+
+                    <br />
+                    <br />
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 ">
+                    <table class="journaltable" border="1" cellspacing="0" cellpadding="0" align="center">
+                        <tr class="tr_Header">
+                            <th width="60%">
+                                <p><strong>Journal</strong></p>
+                            </th>
+                            <th width="20%">
+                                <p><strong># of HINTS Pubs</strong></p>
+                            </th>
+                            <th width="20%">
+                                <p><strong>Impact Score</strong></p>
+                            </th>
                         </tr>
+                        <asp:Repeater ID="RPTR_Col1" runat="server">
+                            <ItemTemplate>
 
-                        </asp:PlaceHolder>
-                    </ItemTemplate>
-                </asp:Repeater>
-            </table>
+                                <asp:PlaceHolder ID="PLC_column1" Visible="<%# CheckVis_Col1()%>" runat="server">
 
-        </div>
-       
+                                    <tr class='<%# SET_BG()%>'>
+                                        <td>
+                                            <p><a target="_blank" href="<%# Eval("JournalURL") %>"><%# Eval("Journal")%></a></p>
+                                        </td>
+                                        <td>
+                                            <p><%# Eval("numberofPubs")%></p>
+                                        </td>
+                                        <td>
+                                            <p><%# Eval("ImpactScore")%></p>
+                                        </td>
+                                    </tr>
 
-        
-        <div class="col_3 ">
-            <table class="journaltable" border="1" cellspacing="0" cellpadding="0" align="center">
-                <tr class="tr_Header">
-                  <th width="60%">
-                        <p><strong>Journal</strong></p>
-                    </th>
-                    <th width="20%">
-                        <p><strong># of HINTS Pubs</strong></p>
-                    </th>
-                    <th width="20%">
-                        <p><strong>Impact Score</strong></p>
-                    </th>
-                </tr>
-                <asp:Repeater ID="RPTR_Col2" runat="server">
-                    <ItemTemplate>
+                                </asp:PlaceHolder>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </table>
 
-                        
-                        <asp:PlaceHolder ID="PLC_column2" Visible="<%# CheckVis_Col2()%>" runat="server">
-                        
-                        <tr class='<%# SET_BG()%>'>
-                            <td>
-                                <p><a target="_blank" href="<%# Eval("JournalURL") %>"><%# Eval("Journal")%></a></p>
-                            </td>
-                            <td>
-                                <p><%# Eval("numberofPubs")%></p>
-                            </td>
-                            <td>
-                                <p><%# Eval("ImpactScore")%></p>
-                            </td>
+                </div>
+
+
+
+                <div class="col-6 ">
+                    <table class="journaltable" border="1" cellspacing="0" cellpadding="0" align="center">
+                        <tr class="tr_Header">
+                            <th width="60%">
+                                <p><strong>Journal</strong></p>
+                            </th>
+                            <th width="20%">
+                                <p><strong># of HINTS Pubs</strong></p>
+                            </th>
+                            <th width="20%">
+                                <p><strong>Impact Score</strong></p>
+                            </th>
                         </tr>
+                        <asp:Repeater ID="RPTR_Col2" runat="server">
+                            <ItemTemplate>
 
-                        </asp:PlaceHolder>
+
+                                <asp:PlaceHolder ID="PLC_column2" Visible="<%# CheckVis_Col2()%>" runat="server">
+
+                                    <tr class='<%# SET_BG()%>'>
+                                        <td>
+                                            <p><a target="_blank" href="<%# Eval("JournalURL") %>"><%# Eval("Journal")%></a></p>
+                                        </td>
+                                        <td>
+                                            <p><%# Eval("numberofPubs")%></p>
+                                        </td>
+                                        <td>
+                                            <p><%# Eval("ImpactScore")%></p>
+                                        </td>
+                                    </tr>
+
+                                </asp:PlaceHolder>
 
 
-                    </ItemTemplate>
-                </asp:Repeater>
-            </table>
+                            </ItemTemplate>
+                        </asp:Repeater>
+                    </table>
 
-        </div>
 
-        
+
+
+
+
+
+                </div>
+            </div>
+        </section>
     </div>
-
-
 </asp:Content>
-

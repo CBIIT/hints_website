@@ -1,0 +1,238 @@
+﻿
+.FormItemWrapper
+{
+    width: 75%;
+    clear: left;
+}
+
+.FormLeftItem
+{
+    float: left;
+    width: 20%;
+}
+
+.FormRightItem
+{
+    float: left;
+    width: 70%;
+}
+
+#filterlinks
+{
+    clear: left;
+}
+
+
+.ButtonLink {
+    background: none;
+    border: none;
+    padding: 0 !important;
+    color: #2d73a2;
+    cursor: pointer;
+    text-decoration: underline;
+    clear: both;
+}
+
+.ButtonLink:hover
+{
+    text-decoration: none;
+}
+
+#dv_controls
+{
+    overflow: hidden;
+    width: 720px;
+}
+
+#dv_controlClear
+{
+    float: left;
+    padding-left: 3%;
+}
+
+#dv_controlSubmit
+{
+    float: right;
+    padding-right: 3%;
+}
+
+
+
+#dvlegend_advanced
+{
+    clear: left;
+    border: 1px black solid;
+    padding: 2%;
+    margin: 2%;
+     width:75%;
+ padding-top:1%;
+ padding-bottom:1%;
+ margin-bottom:1%;
+
+}
+.dvlegendtext
+{
+    margin: 5px;
+    margin-left: 0px;
+    padding: 5px;
+    padding-left: 0px;
+    width: auto;
+    float: left;
+     font-size:0.8em;
+}
+
+#dv_legendcaption
+{
+    float: right;
+    padding: 10px;
+}
+
+#dv_itemcount
+{
+    float: left;
+    padding: 10px;
+}
+
+
+
+.greencyle
+{
+    background: url(../_images/questions/greenbg.gif) center center;
+    background-repeat: no-repeat;
+     background-size:100% 100%;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    float: left;
+}
+.greencylewide
+{
+    background: url(../_images/questions/greenbg_wide.gif) center center;
+    background-repeat: no-repeat;
+     background-size:100% 100%;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    float: left;
+}
+.graycyle
+{
+    background: url(../_images/questions/graybg.gif) center center;
+    background-repeat: no-repeat;
+     background-size:100% 100%;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    float: left;
+    cursor: text;
+}
+
+
+.graycyle a:hover
+{
+    cursor: text;
+    text-decoration: none;
+}
+
+
+
+.graycylewide
+{
+    background: url(../_images/questions/graybg_wide.gif) center center;
+    background-repeat: no-repeat;
+     background-size:100% 100%;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    float: left;
+    cursor: text;
+}
+
+
+.graycylewide a:hover
+{
+    cursor: text;
+    text-decoration: none;
+}
+
+.allyearcycle
+{
+    background: url(../_images/questions/allyears.gif) center center;
+    background-repeat: repeat-x;
+    margin: 5px;
+    padding: 5px;
+    width: auto;
+    float: left;
+}
+
+
+#dv_questionresultsadvanced
+{
+    width: 95%;
+    border: 1px black solid;
+    clear: both;
+    margin-left:2%;
+}
+
+#dv_questionresultsadvanced hr
+{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dv_resultsheader
+{
+    background-color: #9ACD65;
+    padding: 5px;
+}
+
+
+.dv_questionwrapper
+{
+    overflow: hidden;
+    padding: 1%;
+}
+
+.dvadvancedlistingbriefs
+{
+  clear:left;
+   display:none;
+    padding-bottom:5px;
+   padding-left:10px;
+}
+
+.yesshow
+{
+ display:block;
+ padding-bottom:10px;
+}
+
+.noshow
+{
+ display:none;
+}
+
+.DVQuestionwording
+{
+    float: left;
+    width: 65%;
+    vertical-align: top;
+}
+
+.DV_Cyclelisting
+{
+    float: left;
+    width: 35%;
+}
+
+.DV_Cyclelisting a:link
+{
+    text-decoration: none;
+    color: #000000;
+}
+.DV_Cyclelisting a:visited
+{
+    text-decoration: none;
+    color: #000000;
+}

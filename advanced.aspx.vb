@@ -165,6 +165,10 @@ Partial Class advanced
 
         objDataAdapter.SelectCommand.CommandType = CommandType.StoredProcedure
         objDataAdapter.SelectCommand.CommandText = "[AdvancedSearch_ListQuestions_Wildcards]"
+        'objDataAdapter.SelectCommand.CommandText = "[AdvancedSearch_ListQuestions_Wildcards_DEBUG]"
+
+
+
 
         If fullstring = "" Then
             objDataAdapter.SelectCommand.Parameters.Add("@SearchTerm", SqlDbType.NVarChar).Value = System.DBNull.Value

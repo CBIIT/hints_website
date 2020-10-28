@@ -1,0 +1,379 @@
+﻿<%@ Master Language="VB" CodeFile="hintsmain.master.vb" Inherits="hintsmain" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Health Information National Trends Survey | HINTS</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+
+    <script src="https://use.fontawesome.com/9d39cd8908.js"></script>
+    <!-- Bootstrap CDN -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous" />
+    <script type="text/javascript" src="https://themes.getbootstrap.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp"></script>
+
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap CDN ends -->
+
+    <!-- Custom CSS overrides the Bootstrap CDN -->
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/inner.css">
+    <link rel="stylesheet" href="/css/cards.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body class="bg-light">
+
+    <form id="form1" runat="server">
+        <a id="skipNav" tabindex="1" class="sr-only sr-only-focusable" href="#main-content">
+            <span class="skiplink-text">Skip to main content</span>
+        </a>
+        <div class="covid-banner">
+            <div class="container banner-details">
+
+                <div class ="banner-title">
+                    <p>COVID-19 is an emerging, rapidly evolving situation.</p>
+                </div>
+
+               <div class="collapse banner-inner-content show" id="collapseContent">
+                    <p>What people with cancer should know: <a target="_blank" href="https://www.cancer.gov/coronavirus">https://www.cancer.gov/coronavirus</a></p>
+                    <p>Guidance for cancer researchers: <a target="_blank" href="https://www.cancer.gov/coronavirus-researchers">https://www.cancer.gov/coronavirus-researchers</a></p>
+                    <p> Get the latest public health information from CDC: <a target="_blank" href="https://www.coronavirus.gov/">https://www.coronavirus.gov</a></p>
+                    <p>Get the latest research information from NIH: <a target="_blank" href="https://www.nih.gov/coronavirus">https://www.nih.gov/coronavirus</a></p>
+                </div>
+
+                <div  class="banner-toggle">
+                  <a class="toggle-icon" data-toggle="collapse" href="#collapseContent" role="button" aria-expanded="false" aria-controls="collapseContent">
+                      resources
+                  </a>
+                </div>
+            </div>
+        </div>
+        <div class="col p-0">
+            <div class="container d-flex justify-content-between col-lg-12 col-xl-7 col custom-wrapper">
+                <nav
+                    class="navbar navbar-expand-lg navbar-light bg-light col-lg-12 pt-2 pb-2 pl-0 pr-0">
+                    <a href="https://www.cancer.gov/"
+                        class="navbar-brand d-flex align-items-center">
+                        <img src="/images/nih-logo-reg-2.png" alt="National Cancer Institute" class="desktop-logo" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div class="form-inline form-navbar my-2 my-lg-0 order-2 d-flex justify-content-center">
+
+
+                            <asp:TextBox ValidationGroup="GRP_Search" placeholder="Search HINTS Items" ToolTip="Enter Keyword" ID="SearchBoxText" runat="server"> </asp:TextBox>
+                            <asp:Button ID="BTN_Search" type="submit" runat="server" ImageAlign="AbsMiddle"
+                                ValidationGroup="GRP_Search" AlternateText="Search" ToolTip="Search" Text="Search" />
+
+
+
+                        </div>
+                        <asp:RequiredFieldValidator ID="SearchTextValid" ControlToValidate="SearchBoxText"
+                            ValidationGroup="GRP_Search" InitialValue="" Display="Dynamic" ForeColor="Red" Text="<br style='clear:both;'/>Please insert a keyword"
+                            runat="server" />
+                        <ul class="navbar-nav text-center nav-list nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/about-hints/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About HINTS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="menu1">
+                                    <li><a href="/about-hints/learn-more-about-hints.aspx">About HINTS</a></li>
+                                    <li><a href="/about-hints/announcements.aspx">Announcements</a></li>
+                                    <li><a href="/about-hints/frequently-asked-questions.aspx">FAQs</a></li>
+                                    <li><a href="/about-hints/data-collection-schedule.aspx">HINTS Schedule</a></li>
+                                    <li class="twoLineNav"><a href="/about-hints/contacted-by-hints.aspx">Were you contacted
+                                    <br>
+                                        by HINTS?</a></li>
+                                    <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/data/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
+                                    </li>
+                                    <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx">Summary Findings by Item</a></li>
+                                    <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
+                                    <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/view-questions-topics/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View Questions & Topics</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="/view-questions-topics/all-hints-questions.aspx">View Questions</a></li>
+                                    <li><a href="/view-questions-topics/hints-topics.aspx">View Topics</a></li>
+                                    <li><a href="/view-questions-topics/geographic-data-maps.aspx">Geographic Maps</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/publications-reports/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications & Reports</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="/publications-reports/hints-briefs.aspx">HINTS Briefs</a></li>
+                                    <li><a href="/publications-reports/nci-reports.aspx">NCI Reports</a></li>
+                                    <li class="twoLineNav"><a href="/publications-reports/hints-publications.aspx">Publications using<br>
+                                        HINTS Data</a></li>
+                                    <li><a href="/publications-reports/submit-hints-publication.aspx">Submit Publication</a></li>
+                                    <li><a href="/publications-reports/hints-journals.aspx">Journals Featuring HINTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/meetings-trainings/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Meetings & Trainings</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li class="twoLineNav"><a href="/meetings-trainings/how-to-merge-hints-data.aspx">How-to Merge HINTS Data</a></li>
+                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
+                                    <li class="twoLineNav"><a href="/meetings-trainings/2019-users-meeting.aspx">2019 HINTS Users Meeting</a></li>
+                                    <li class="twoLineNav"><a href="/meetings-trainings/2014-users-meeting.aspx">2014 HINTS Users Meeting</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </div>
+        <div class="menu-wrapper">
+            <div class="container col col-lg-12 col-xl-7 d-flex justify-content-between custom-wrapper">
+                <a href="/"
+                    class="navbar-brand align-items-center hints-logo">
+                    <img src="/images/hints-logo-registered.png" alt="National Cancer Institute" />
+                </a>
+                <div class="nav-scroller">
+                    <nav class="nav">
+                        <ul class="d-flex justify-content-between nav">
+                            <li><a href="/">Home</a>
+
+                            </li>
+                            <li class="dropdown">
+                                <a href="/about-hints/default.aspx" class="dropdown-toggle" id="navbarDropdown">About HINTS</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="/about-hints/learn-more-about-hints.aspx">About HINTS</a></li>
+                                    <li><a href="/about-hints/announcements.aspx">Announcements</a></li>
+                                    <li><a href="/about-hints/frequently-asked-questions.aspx">FAQs</a></li>
+                                    <li><a href="/about-hints/data-collection-schedule.aspx">HINTS Schedule</a></li>
+                                    <li class="twoLineNav"><a href="/about-hints/contacted-by-hints.aspx">Were you contacted by HINTS?</a></li>
+                                    <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/data/default.aspx" class="dropdown-toggle" id="navbarDropdown">Data</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
+                                    </li>
+                                    <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx">Summary Findings by Item</a></li>
+                                    <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
+                                    <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/view-questions-topics/default.aspx" class="dropdown-toggle" id="navbarDropdown">View Questions & Topics</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="/view-questions-topics/all-hints-questions.aspx">View Questions</a></li>
+                                    <li><a href="/view-questions-topics/hints-topics.aspx">View Topics</a></li>
+                                    <li><a href="/view-questions-topics/geographic-data-maps.aspx">Geographic Maps</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/publications-reports/default.aspx" class="dropdown-toggle" id="navbarDropdown">Publications & Reports</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="/publications-reports/hints-briefs.aspx">HINTS Briefs</a></li>
+                                    <li><a href="/publications-reports/nci-reports.aspx">NCI Reports</a></li>
+                                    <li class="twoLineNav"><a href="/publications-reports/hints-publications.aspx">Publications using<br>
+                                        HINTS Data</a></li>
+                                    <li><a href="/publications-reports/submit-hints-publication.aspx">Submit Publication</a></li>
+                                    <li><a href="/publications-reports/hints-journals.aspx">Journals Featuring HINTS</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="/meetings-trainings/default.aspx" class="dropdown-toggle" id="navbarDropdown">Meetings & Trainings</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a href="/meetings-trainings/how-to-merge-hints-data.aspx">How-to Merge HINTS Data</a></li>
+                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
+                                    <li><a href="/meetings-trainings/2019-users-meeting.aspx">2019 HINTS Users Meeting</a></li>
+                                    <li><a href="/meetings-trainings/2014-users-meeting.aspx">2014 HINTS Users Meeting</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="container col-lg-12 col-xl-7 col custom-wrapper">
+            <section>
+                <div class="row">
+                    <div class="col-md-12">
+                    
+                        <div id="breadcrumbs">
+                            <span><strong>You are here:</strong></span>
+                            <asp:SiteMapPath ID="smpTownHall" SkipLinkText="" CssClass="breadcrumbs" runat="server">
+                                <PathSeparatorTemplate>
+                                    &nbsp;&nbsp;>&nbsp;&nbsp;
+                                </PathSeparatorTemplate>
+                                <RootNodeTemplate>
+                                    <asp:HyperLink ID="hyRootNode1" runat="server" Text='<%# Eval("description") %>'
+                                        NavigateUrl='<%# Eval("url") %>' />
+                                </RootNodeTemplate>
+                                <NodeTemplate>
+                                    <asp:HyperLink ID="hypNode1" runat="server" Text='<%# Eval("description") %>' NavigateUrl='<%# Eval("url") %>' />
+                                </NodeTemplate>
+                                <CurrentNodeTemplate>
+                                    <%# Eval("description") %>
+                                </CurrentNodeTemplate>
+                            </asp:SiteMapPath>
+                        </div>
+
+                        <a name="main-content" id="main-content"></a>
+
+
+
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <!-- Footer -->
+        <footer class="pt-5 footer">
+            <!-- Footer Links -->
+            <div class="container col-lg-12 col-xl-7 col text-md-left">
+
+                <!-- Grid row -->
+                <div class="d-flex flex-wrap">
+
+                    <!-- Grid column -->
+                    <div class="col-md mb-md-0 mb-1">
+
+                        <!-- Links -->
+                        <h5>Follow HINTS</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a target="_blank" href="https://www.twitter.com/NCIHINTS" alt="twitter" class="twit-icon"></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md mb-md-0 mb-1">
+
+                        <!-- Links -->
+                        <h5>Contact Information</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="/about-hints/contact-us.aspx">Contact Us</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md mb-md-0 mb-1">
+
+                        <!-- Links -->
+                        <h5>More Information</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="/">HINTS Homepage</a>
+                            </li>
+                            <li>
+                                <a href="/about-hints/learn-more-about-hints.aspx">About HINTS</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md mb-md-0 mb-1">
+
+                        <!-- Links -->
+                        <h5>Policies</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://www.cancer.gov/global/web/policies/accessibility">Accessibility</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cancer.gov/policies/disclaimer">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cancer.gov/global/web/policies/foia">FOIA</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cancer.gov/policies/privacy-security">Privacy</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- HINTS Info -->
+            <div class="container footer-hints-info py-3">
+                <div class="row justify-content-center">
+
+                    <div class="col-xs-12 col-md-6">
+                        <!-- Left Content -->
+                        <p>Health Information National Trends Survey ®, HINTS ® and the HINTS logo, Registered ®, United States Patent and Trademark Office.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6">
+                        <!-- Right Content -->
+                        <p>HINTS is a service of the National Cancer Institute with support from the <a href="https://cancercontrol.cancer.gov/brp/hcirb/" target="_blank">Health Communication and Informatics Research Branch</a> of the <a href="https://cancercontrol.cancer.gov/" target="_blank">Division of Cancer Control and Population Sciences</a>.</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- HINTS Info -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">
+                <a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a>  |  <a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a>  |  <a href="https://www.cancer.gov/" target="_blank">National Cancer Institute</a>  |  <a href="https://www.usa.gov/" target="_blank">USA.gov</a>
+                <br>
+                NIH... Turning Discovery Into Health®
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+        <script
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </form>
+</body>
+</html>

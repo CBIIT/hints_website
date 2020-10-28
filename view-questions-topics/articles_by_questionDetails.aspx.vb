@@ -21,6 +21,7 @@ Partial Class questionsfolder_articles_by_questionDetails
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
+        'PK_QuestionDetails = 993
 
 
         If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("PK_QuestionDetails"))) = False Then
@@ -35,6 +36,7 @@ Partial Class questionsfolder_articles_by_questionDetails
         If Not Page.IsPostBack Then
             ARticleType = "1"
 
+
             If Test_RequestVar_IsNumeric(Server.HtmlEncode(Request.QueryString("ArtType"))) = False Then
                 Response.RedirectPermanent("~/default.aspx")
             Else
@@ -44,7 +46,7 @@ Partial Class questionsfolder_articles_by_questionDetails
                 Response.RedirectPermanent("~/default.aspx")
             Else
                 Cmd.CommandText = "Get_Question_AND_Details_By_DetailsID"
-                Cmd.Parameters.Add("@PK_QuestionDetails", SqlDbType.Int).Value = Server.HtmlEncode(Request.QueryString("PK_QuestionDetails"))
+                Cmd.Parameters.Add("@PK_QuestionDetails", SqlDbType.Int).Value = PK_QuestionDetails
                 objConnect.Open()
                 objDR = Cmd.ExecuteReader()
                 Do While objDR.Read()
@@ -97,7 +99,7 @@ Partial Class questionsfolder_articles_by_questionDetails
 
                 Cmd.CommandType = CommandType.StoredProcedure
                 Cmd.CommandText = "Get_SectionNumber_From_PK_QuestionDetails"
-                Cmd.Parameters.Add("@pk_questiondetails", SqlDbType.Int).Value = Server.HtmlEncode(Request.QueryString("PK_QuestionDetails"))
+                Cmd.Parameters.Add("@pk_questiondetails", SqlDbType.Int).Value = PK_QuestionDetails
                 sectionID = Cmd.ExecuteScalar()
                 Cmd.Parameters.Clear()
 

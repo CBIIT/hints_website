@@ -30,7 +30,7 @@
 
 
 
-    <siteMapNode url="~/view-questions-topics/Default.aspx" title="View Questions/Topics" description="View Questions/Topics">
+    <siteMapNode url="~/view-questions-topics/Default.aspx" title="View Questions &amp; Topics" description="View Questions &amp; Topics">
       <siteMapNode url="~/view-questions-topics/all-hints-questions.aspx" title="All HINTS Questions" description="All HINTS Questions">
         <siteMapNode url="~/view-questions-topics/question-details.aspx" title="HINTS Response" description="HINTS Response"/>
         <siteMapNode url="~/view-questions-topics/articles-by-question.aspx" title="Published Articles that use this HINTS Question" description="Published Articles that use this HINTS Question"/>
@@ -43,17 +43,17 @@
       <siteMapNode url="~/view-questions-topics/questions-by-article.aspx" title="Questions By Article" description="Questions By Article"/>
     </siteMapNode>
 
-    <siteMapNode url="~/publications-reports/Default.aspx" title="Publications/Reports" description="Publications/Reports">
+    <siteMapNode url="~/publications-reports/Default.aspx" title="Publications &amp; Reports" description="Publications &amp; Reports">
       <siteMapNode url="~/publications-reports/hints-briefs.aspx" title="HINTS Briefs" description="HINTS Briefs"/>
       <siteMapNode url="~/publications-reports/nci-reports.aspx" title="HINTS Reports and Materials" description="HINTS Reports and Materials">
         <siteMapNode url="~/publications-reports/users_data_handbook_accessible.aspx" title="HINTS: Analytic Methods to Examine Changes Across Years Using HINTS 2003 &amp; 2005 Data" description="HINTS: Analytic Methods to Examine Changes Across Years Using HINTS 2003 &amp; 2005 Data"/>
       </siteMapNode>
       <siteMapNode url="~/publications-reports/hints-publications.aspx" title="Published Articles Using HINTS Data" description="Published Articles Using HINTS Data"/>
       <siteMapNode url="~/publications-reports/submit-hints-publication.aspx" title="Submit Your Citation for a Publication" description="Submit Your Citation for a Publication"/>
-      <siteMapNode url="~/publications-reports/hints-journals.aspx" title="Suggested Journals for Publishing HINTS Findings" description="Suggested Journals for Publishing HINTS Findings"/>
+      <siteMapNode url="~/publications-reports/hints-journals.aspx" title="Journals Featuring HINTS" description="Journals Featuring HINTS"/>
     </siteMapNode>
 
-    <siteMapNode url="~/meetings-trainings/Default.aspx" title="Meetings/Trainings" description="Meetings/Trainings">
+    <siteMapNode url="~/meetings-trainings/Default.aspx" title="Meetings &amp; Trainings" description="Meetings &amp; Trainings">
       <siteMapNode url="~/meetings-trainings/2014-users-meeting.aspx" title="2014 Users Meeting" description="2014 Users Meeting">
         <siteMapNode url="~/meetings-trainings/2014-users-meeting-logistics.aspx" title="Logistics" description="Logistics"/>
         <siteMapNode url="~/meetings-trainings/2014-users-meeting-materials.aspx" title=" Meeting Materials" description=" Meeting Materials"/>

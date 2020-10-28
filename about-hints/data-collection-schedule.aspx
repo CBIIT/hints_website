@@ -1,15 +1,25 @@
-﻿<%@ Page Title="Data Collection Schedule | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="data-collection-schedule.aspx.vb" Inherits="aboutfolder_data_collection_schedule" %>
+﻿<%@ Page Title="Data Collection Schedule | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="data-collection-schedule.aspx.vb" Inherits="aboutfolder_data_collection_schedule" %>
 
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
-	<meta name="Title" content="Data Collection Schedule | HINTS"/>
-    <meta name="Description" content="An overview of upcoming HINTS data collection cycles."/>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <meta name="Title" content="Data Collection Schedule | HINTS" />
+    <meta name="Description" content="An overview of upcoming HINTS data collection cycles." />
 </asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
-     <div id="page_wrapper" class="grid">
-        <div class="col-6">
-            <h1>HINTS 5 Overview and Schedule</h1>
-            <p>To address emerging issues in the field of health communication more
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="container col-lg-12 col-xl-7 col custom-wrapper">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+
+
+
+
+
+
+
+                    <h1>HINTS 5 Overview and Schedule</h1>
+                    <p>
+                        To address emerging issues in the field of health communication more
                  quickly while still maintaining the ongoing measurement of trends, 
                 HINTS 5 will include four data collection cycles over the course of
                  4 years. The instrument for each data collection cycle will include 
@@ -21,13 +31,17 @@
                  HINTS-FDA data will be greater than 17,000 respondents. If you would like
                  to view or download previous HINTS survey instruments or methodology reports,
                  please visit our <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. HINTS
-                 5 instruments will be coming soon. </p>
-            <br />
-            <div style="text-align: center">
-                <img title="HINTS Overview and Schedule" src="/_images/HINTS4-flowchart_2017.jpg" alt="HINTS Overview and Schedule" />
-            </div>
+                 5 instruments will be coming soon.
+                    </p>
+                    <br />
+                    <div style="text-align: center">
+                        <img title="HINTS Overview and Schedule" src="/_images/HINTS4-flowchart_2017.jpg" alt="HINTS Overview and Schedule" />
+                    </div>
 
-        </div>
+
+                </div>
+            </div>
+        </section>
     </div>
 </asp:Content>
 

@@ -5,7 +5,7 @@
 
 <asp:PlaceHolder ID="PLC_results" Visible="false" runat="server">
     
-    <div class="dv_countcontainer">
+    <div class="dv_countcontainer" id="divtopanchor">
         <p style="font-size: 14px;margin-top:5px;"><strong style="font-size: 24px;"><asp:Literal ID="LIT_Count" runat="server"></asp:Literal></strong> Items found.</p>
     </div>
     <div class="clearfix"></div>
@@ -25,11 +25,11 @@
                 <p><span class="btn grey">&nbsp;&nbsp;&nbsp;</span> Response not available</p>
             </div>
         </div>
-    </asp:PlaceHolder>
-    
     <div class="col_3">
         <p><strong>*Select from the green boxes below to view survey responses.</strong></p>
     </div>
+    </asp:PlaceHolder>
+    
 
     <div class="dv_question results" style="clear: both;">
 
@@ -85,8 +85,10 @@
                                     <br />
                                 </ItemTemplate>
                             </asp:Repeater>
+                            
                         </div>
-
+                        
+                                    <br /><a  href="#divtopanchor">Back to top</a><br />
 
                     </div>
                 </div>

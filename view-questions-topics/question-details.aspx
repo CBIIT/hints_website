@@ -1,9 +1,8 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="question-details.aspx.vb" Inherits="questionsfolder_question_details" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="question-details.aspx.vb" Inherits="questionsfolder_question_details" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-  
-    <link href="/Content/bootstrap.min.css?v=2017_11_13" rel="stylesheet" />
+
     <link href="/Content/bootstrap-theme.min.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/buttons.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
@@ -12,108 +11,124 @@
         body {
             font-size: 1.2em !important;
         }
-
     </style>
 
+    <link rel="stylesheet" href="/css/questions.css?v=2020_05_28">
+    <script type="text/javascript" src='/_scripts/jquery-3.5.0.min.js'></script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-     <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
 
-    <div class="flex-container">
-        <div class="flex" id="cycle-sidebar">
-            <input onclick="ChangeCycleClicked(0)" type="button" id="btn_AllCycles" value="All Years" />
-            <asp:Repeater ID="RPTR_CycleButtons" runat="server">
-                <ItemTemplate>
-                    <input id='BTN_Cycle_<%# Eval("PK_Cycle")%>' type="button" class='<%# CheckActive(Eval("PK_Cycle")) %>' onclick='ChangeCycleClicked(<%# Eval("PK_Cycle") %>)' value="<%# Eval("DDLDisplay") %>" />
-                </ItemTemplate>
-            </asp:Repeater>
-        </div>
+        <div class="container col-lg-12 col-xl-7 col custom-wrapper">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
 
-        <div class="flex cycle-main" id="content">
-            <div class="main response">
-                <%--<h1 id="lbl_question" class="question"></h1>--%>
-                <div class="question-section">
-                    <h2 class="question"><asp:Literal ID="LIT_QuestionText" runat="server"></asp:Literal></h2>
-                    <a href="javascript:void(0)" id="question-trigger" class="btn-updated-dark">Select a New Question</a>
-                </div>
-                <div class="question-modal">
-                    <div class="question-modal-inner">
-                        Select Section: <br/>
-                        <asp:DropDownList ID="DDL_Sections" runat="server" DataValueField="PK_Section" DataTextField="SectionName"></asp:DropDownList>
-                        
-                        Select Question: <br/>
-                        <select id="DDL_Questions"></select> 
 
-                        <div id="question-label">Change Question to:</div>
-                        <div id="question-filler"></div>
-                        
-                        <input id="BTN_GotoNewQuestion" type="button" onclick="GoToNewQuestion()" value="Go To New Question" />
-                        <a href="javascript:void(0)" class="btn-updated-dark close-modal-question">Cancel</a>
+
+
+    <asp:PlaceHolder runat="server" Visible="true">
+
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+    <div class="container fullwidth">
+        <div class="row">
+            <div class="col-12 col-3" id="cycle-sidebar">
+                <input onclick="ChangeCycleClicked(0)" type="button" id="btn_AllCycles" value="All Years" />
+                <asp:Repeater ID="RPTR_CycleButtons" runat="server">
+                    <ItemTemplate>
+                        <input id='BTN_Cycle_<%# Eval("PK_Cycle")%>' type="button" class='<%# CheckActive(Eval("PK_Cycle")) %>' onclick='ChangeCycleClicked(<%# Eval("PK_Cycle") %>)' value="<%# Eval("DDLDisplay") %>" />
+                    </ItemTemplate>
+                </asp:Repeater>
+            </div>
+
+            <div class="col-12 col-9 cycle-main" id="content">
+                <div class="main response">
+                    <%--<h1 id="lbl_question" class="question"></h1>--%>
+                    <div class="question-section">
+                        <h2 class="question">
+                            <asp:Literal ID="LIT_QuestionText" runat="server"></asp:Literal></h2>
+                        <a href="javascript:void(0)" id="question-trigger" class="btn-updated-dark">Select a New Question</a>
                     </div>
-                </div>
-                <div id="allcycles_placeholdertext">
-                    <p style="font-size:1.3em;">You are viewing All Cycles. There is no data table available for all years, but please see the visualization below.</p>
-                </div>
+                    <div class="question-modal">
+                        <div class="question-modal-inner">
+                            Select Section:
+                            <br />
+                            <asp:DropDownList ID="DDL_Sections" runat="server" DataValueField="PK_Section" DataTextField="SectionName"></asp:DropDownList>
 
-                <div id="charts" style="display:none;">
+                            Select Question:
+                            <br />
+                            <select id="DDL_Questions"></select>
 
-                    <div class="table-responsive">
-                        <table class="table" id="table_data">
-                            <colgroup>
-                                <col span="1" />
-                                <col span="1" />
-                                <col span="2" />
-                                <col span="2" />
-                            </colgroup>
-                            <thead>
-                                <tr>
-                                    <th scope="col" colspan="2"><span class="emptyClass">Responses</span></th>
-                                    <th scope="col" colspan="2">ESTIMATED US ADULT POPULATION</th>
-                                    <th scope="col" colspan="2">SURVEY RESPONDENTS</th>
-                                </tr>
-                                <tr>
-                                    <th scope="col"><span class="emptyClass">Display Order</span></th>
-                                    <th scope="col" class="leftAlign">Response</th>
-                                    <th scope="col">Number</th>
-                                    <th scope="col">Percentage</th>
-                                    <th scope="col">Responses</th>
-                                    <th scope="col">Percentage</th>
-                                </tr>
-                            </thead>
-                            <!--tfoot>
-                            </tfoot-->
-                            <tbody id="tbdy_results">
-                        
-                        
-                                <asp:PlaceHolder ID="PLC_InvalidResponses" runat="server" Visible="false">
+                            <div id="question-label">Change Question to:</div>
+                            <div id="question-filler"></div>
+
+                            <input id="BTN_GotoNewQuestion" type="button" onclick="GoToNewQuestion()" value="Go To New Question" />
+                            <a href="javascript:void(0)" class="btn-updated-dark close-modal-question">Cancel</a>
+                        </div>
+                    </div>
+                    <div id="allcycles_placeholdertext">
+                        <p style="font-size: 1.3em;">You are viewing All Cycles. There is no data table available for all years, but please see the visualization below.</p>
+                    </div>
+
+                    <div id="charts" style="display: none;">
+
+                        <div class="table-responsive">
+                            <table class="table" id="table_data">
+                                <colgroup>
+                                    <col span="1" />
+                                    <col span="1" />
+                                    <col span="2" />
+                                    <col span="2" />
+                                </colgroup>
+                                <thead>
                                     <tr>
-                                        <td class="col-1">&nbsp;</td>
-                                        <td class="col-2 leftAlign">Invalid Responses</td>
-                                        <td class="col-3">&nbsp;</td>
-                                        <td class="col-4">&nbsp;</td>
-                                        <td class="col-4">
-                                            <asp:Literal ID="LIT_InvalidResponses" runat="server"></asp:Literal></td>
-                                        <td class="col-4">&nbsp;</td>
+                                        <th scope="col" colspan="2"><span class="emptyClass">Responses</span></th>
+                                        <th scope="col" colspan="2">ESTIMATED US ADULT POPULATION</th>
+                                        <th scope="col" colspan="2">SURVEY RESPONDENTS</th>
                                     </tr>
-                                </asp:PlaceHolder>
-                        
-                            </tbody>
-                        </table>
+                                    <tr>
+                                        <th scope="col"><span class="emptyClass">Display Order</span></th>
+                                        <th scope="col" class="leftAlign">Response</th>
+                                        <th scope="col">Number</th>
+                                        <th scope="col">Percentage</th>
+                                        <th scope="col">Responses</th>
+                                        <th scope="col">Percentage</th>
+                                    </tr>
+                                </thead>
+                                <!--tfoot>
+                            </tfoot-->
+                                <tbody id="tbdy_results">
+
+
+                                    <asp:PlaceHolder ID="PLC_InvalidResponses" runat="server" Visible="false">
+                                        <tr>
+                                            <td class="col-1">&nbsp;</td>
+                                            <td class="col-2 leftAlign">Invalid Responses</td>
+                                            <td class="col-3">&nbsp;</td>
+                                            <td class="col-4">&nbsp;</td>
+                                            <td class="col-4">
+                                                <asp:Literal ID="LIT_InvalidResponses" runat="server"></asp:Literal></td>
+                                            <td class="col-4">&nbsp;</td>
+                                        </tr>
+                                    </asp:PlaceHolder>
+
+                                </tbody>
+                            </table>
+                        </div>
+
                     </div>
+                    <!--  <div id="charts"> -->
 
                 </div>
-                <!--  <div id="charts"> -->
+                <!--<div class="main response">-->
 
             </div>
-            <!--<div class="main response">-->
-
+            <!--<div id="content">-->
         </div>
-    <!--<div id="content">-->
     </div>
-
-    <br/>
-    <br/>
+    <br />
+    <br />
 
     <div class="chart-options-row">
         <div class="chart-options-trigger" tabindex="0">
@@ -121,11 +136,19 @@
                 <span class="select-chart-type">Select Chart Type</span>
                 <ul class="chart-options chart-list">
                     <!-- DO NOT BREAK LI'S TO A NEW LINE, NEEDED FOR FORMATTING REASONS -->
-                    <li id="bar-chart-li" class="active-chart"><input type="button" id="btn_BarChartType" onclick='ChangeChartTypeClicked("bar2d")' value="Bar" /></li><li id="pie-chart-li"><input type="button" id="btn_PieChartType" onclick='    ChangeChartTypeClicked("pie3d")' value="Pie" /></li><li id="line-chart-li"><input type="button" id="btn_LineChartType" onclick='    ChangeChartTypeClicked("msline")' value="Line" /></li>
+                    <li id="bar-chart-li" class="active-chart">
+                        <input type="button" id="btn_BarChartType" onclick='ChangeChartTypeClicked("bar2d")' value="Bar" /></li>
+                    <li id="pie-chart-li">
+                        <input type="button" id="btn_PieChartType" onclick='    ChangeChartTypeClicked("pie3d")' value="Pie" /></li>
+                    <li id="line-chart-li">
+                        <input type="button" id="btn_LineChartType" onclick='    ChangeChartTypeClicked("msline")' value="Line" /></li>
                 </ul>
                 <ul class="chart-options percentages-list">
                     <!-- DO NOT BREAK LI'S TO A NEW LINE, NEEDED FOR FORMATTING REASONS -->
-                    <li id="btn_Est_LI" class="active-percentage"><input type="button" onclick='ChangeSummaryTypeClicked(1)' value="Estimated Percentage" /></li><li  id="btn_SAMPLE_LI"><input type="button" onclick='    ChangeSummaryTypeClicked(2)' value="Sample Percentage" /></li>
+                    <li id="btn_Est_LI" class="active-percentage">
+                        <input type="button" onclick='ChangeSummaryTypeClicked(1)' value="Estimated Percentage" /></li>
+                    <li id="btn_SAMPLE_LI">
+                        <input type="button" onclick='    ChangeSummaryTypeClicked(2)' value="Sample Percentage" /></li>
                 </ul>
             </div>
         </div>
@@ -134,9 +157,9 @@
 
 
     <div class="row">
-         <div class="col-sm-12 chart-pane">
-             <div id="allchart_instructions">Click response options in key to remove or add elements to the chart</div>
-             <div id="piechart_instructions">Click and drag pie chart to rotate</div>
+        <div class="col-sm-12 chart-pane">
+            <div id="allchart_instructions">Click response options in key to remove or add elements to the chart</div>
+            <div id="piechart_instructions">Click and drag pie chart to rotate</div>
             <div id="chart-container"></div>
 
             <div class="modal fade" id="exportModalPopup">
@@ -166,7 +189,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-12">            
+        <div class="col-sm-12">
             <div class="export-pane text-center">
                 <div class="btn-group">
                     <button id="exportModalPopupButton" type="button" class="btn btn-default btn-updated-dark" data-toggle="modal" data-target="#exportModalPopup">Export</button>
@@ -180,7 +203,7 @@
 
 
     <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-->
-    <div id="div_surveynotes" class="notes" style="clear: both; display:none;">
+    <div id="div_surveynotes" class="notes" style="clear: both; display: none;">
         <div class="note-head">
             Survey Notes
         </div>
@@ -209,7 +232,7 @@
         <div class="note-line">
             <div class="shim-a">Question source:</div>
             <div class="shim-b">
-                <div id="LIT_QuestionSource" ></div>
+                <div id="LIT_QuestionSource"></div>
             </div>
         </div>
         <div class="note-line">
@@ -248,7 +271,8 @@
             </div>
         </div>
 
-        <a class="back-to-top" href="#"><img src="/_images/back-to-top.png" alt="back to top"/>Back to top</a>
+        <a class="back-to-top" href="#">
+            <img src="/_images/back-to-top.png" alt="back to top" />Back to top</a>
     </div>
     <!--<div id="div_surveynotes" -->
 
@@ -258,7 +282,7 @@
 
 
 
-    <div id="dv_AllYears" style="display:none;">
+    <div id="dv_AllYears" style="display: none;">
         <div class="notes">
             <div class="note-head">
                 <a name="Surveynote">Survey Notes (All Years)</a>
@@ -271,10 +295,10 @@
             </div>
             <div class="table-responsive">
                 <table class="survey">
-                
+
                     <thead>
                         <tr>
-                
+
                             <th class="shim-a" style='width: <asp:Literal id="LIT_BottomTableLeftColumnWidth" runat="server"></asp:Literal>%'>Dataset(s):</th>
                             <asp:Repeater ID="RPTR_AllDetails_BottomTable_Cycles" runat="server">
                                 <ItemTemplate>
@@ -285,8 +309,8 @@
                             </asp:Repeater>
                         </tr>
                     </thead>
-                
-                
+
+
                     <tbody>
                         <tr>
                             <td class="shim-a">Question text:</td>
@@ -344,9 +368,18 @@
 
 
 
+    </asp:PlaceHolder>
 
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+    </div>
 </asp:Content>
-
 
 
 

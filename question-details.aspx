@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="question-details.aspx.vb" Inherits="question_details" %>
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="question-details.aspx.vb" Inherits="question_details" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">

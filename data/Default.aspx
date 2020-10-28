@@ -1,4 +1,4 @@
-﻿<%@ Page Title="HINTS data | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="datafolder_Default" %>
+﻿<%@ Page Title="HINTS data | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="datafolder_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 	<meta name="Title" content="HINTS data | HINTS"/>
@@ -8,65 +8,51 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-    <h1>Data</h1>
-    <p>HINTS nationally representative data is publicly available for researchers and health professionals to use for their own analyses.</p>
+   
 
-
-    <div class="col_6">
-        <div class="col_3 landingPageDiv">
-            <div class="landingPageDivHeader">
-                <h2>Download Data</h2>
-            </div>
-            <div class="landingPageDiv_subtext">
-                <p>Quickly access HINTS data, in SAS, SPSS, and STATA formats, and supporting documents</p>
-                <p><asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink></p>
-            </div>
-        </div>
-        <div class="col_3 landingPageDiv">
-            <div class="landingPageDivHeader">
-                <h2>Survey Instruments</h2>
-            </div>
-            <div class="landingPageDiv_subtext">
-                <p>Review survey instruments used to collect HINTS data.</p>
-                <p><a href="/data/survey-instruments.aspx">Read More</a></p>
-            </div>
-        </div>
-    </div>
-    <div class="col_6">
-        <div class="col_3 landingPageDiv">
-            <div class="landingPageDivHeader">
-                <h2>Methodology Reports</h2>
-            </div>
-            <div class="landingPageDiv_subtext">
-                <p>Find out more about the procedures used to collect and analyze HINTS data.</p>
-                <p><a href="/data/methodology-reports.aspx">Read More</a></p>
-            </div>
-        </div>
-        <div class="col_3 landingPageDiv">
-            <div class="landingPageDivHeader">
-                <h2>How-to-HINTS Webinar</h2>
-            </div>
-            <div class="landingPageDiv_subtext">
-                <p>Watch this webinar for tips on how to best analyze and use HINTS data.</p>
-                <p><a href="/meetings-trainings/hints-educational-webinars.aspx">Read More</a></p>
-            </div>
-        </div>
-    </div>
 
 
     
-    <div class="col_6">
-        <div class="col_3 landingPageDiv">
-            <div class="landingPageDivHeader">
-                <h2>Summary Findings by Item</h2>
+    <div class="container col-lg-12 col-xl-7 col custom-wrapper">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <h1 class="pl-3 pr-3 col-12">Data</h1>
+                        <p class="pl-3 pr-3">HINTS nationally representative data is publicly available for researchers and health professionals to use for their own analyses.</p>
+                        <div class="card-deck mb-4 mr-0 ml-0">
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Download Data</h5>
+                                    <p class="card-text">Quickly access HINTS data, in SAS, SPSS, and STATA formats, and supporting documents</p>
+                                    <p class="card-text"><asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Survey Instruments</h5>
+                                    <p class="card-text">Review survey instruments used to collect HINTS data.</p>
+                                    <p class="card-text"><a href="/data/survey-instruments.aspx">Read More</a></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Methodology Reports</h5>
+                                    <p class="card-text">Find out more about the procedures used to collect and analyze HINTS data.</p>
+                                    <p class="card-text"><a href="/data/methodology-reports.aspx">Read More</a></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                                            <div class="card-body p-4">
+                                                                <h5 class="card-title">Summary Findings by Item</h5>
+                                                                <p class="card-text">View summary data for each HINTS question across all HINTS survey administrations.</p>
+                                                                <p class="card-text"><a href="/view-questions-topics/all-hints-questions.aspx?all=1">Read More</a></p>
+                                                            </div>
+                                                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="landingPageDiv_subtext">
-                <p>View summary data for each HINTS question across all HINTS survey administrations.</p>
-                <p><a href="/view-questions-topics/all-hints-questions.aspx?all=1">Read More</a></p>
-            </div>
-        </div>
-
+        </section>
     </div>
-
 </asp:Content>
-

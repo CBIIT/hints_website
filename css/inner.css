@@ -1,0 +1,552 @@
+﻿
+#breadcrumbs {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #333333;
+}
+
+.required {
+    color: red;
+}
+
+.fullwidth {
+    max-width: 100% !important;
+}
+
+/* form stuff */
+.btn-updated-light {
+    background: #386898;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    padding: 10px 25px;
+}
+
+.btn-updated-dark, #exportModalPopupButton, #BTN_GotoNewQuestion {
+    background: #00334b;
+    color: white;
+    text-shadow: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    padding: 10px 25px;
+}
+
+    .btn-updated-dark:hover, #exportModalPopupButton:hover, #BTN_GotoNewQuestion:hover {
+        background: #002638;
+        text-decoration: none;
+        color: white;
+    }
+
+
+.dv_controls {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 20px;
+    float: left;
+}
+
+    .dv_controls > div {
+        display: inline-block;
+    }
+
+    .dv_controls input {
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+/* form stuff ^^^^^^^^^^^^^^^^ */
+
+#exportModalPopupButton {
+    margin-bottom: 30px;
+    padding: 10px 50px;
+}
+
+
+.pad-down-ncireports {
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.briefsThumb {
+    border: 1px solid #000;
+    float: left;
+    margin-right: 2%;
+}
+
+.brieflistingbox {
+    padding-bottom: 14px;
+}
+
+
+
+
+
+
+.accordion {
+    overflow: hidden;
+    background: #ffffff;
+    -moz-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.25);
+    -webkit-box-sizing: box-border;
+    -moz-box-sizing: box-border;
+    box-sizing: box-border;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+    .accordion * {
+        -webkit-box-sizing: box-border;
+        -moz-box-sizing: box-border;
+        box-sizing: box-border;
+    }
+
+/*----- Section Titles -----*/
+.accordion-section-title {
+    width: 100%;
+    padding: 15px;
+    display: block;
+    background: #E2EEF9;
+    border-bottom: 1px solid #000000;
+    transition: all linear 0.15s;
+    color: #000000;
+    -webkit-transition: background-color 500ms ease-out 0s;
+    -moz-transition: background-color 500ms ease-out 0s;
+    transition: background-color 500ms ease-out 0s;
+}
+
+    .accordion-section-title::before {
+        content: "\002B";
+        display: inline-block;
+        font-size: 18px;
+        color: #000000;
+        margin-right: 10px;
+    }
+
+    .accordion-section-title:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #386898;
+    }
+
+.active {
+    /*color: #ffffff;*/
+    /*background-color: #386898;*/
+}
+
+    /*.active::before {
+        content: "\2013";*/
+        /*color: #ffffff;*/
+    /*}*/
+
+.accordion-section:last-child .accordion-section-title {
+    border-bottom: none;
+}
+
+/*----- Section Content -----*/
+.accordion-section-content {
+    padding: 15px;
+    border: 1px solid #000000;
+    border-top: 0;
+}
+
+#accordion-25 span:first-child, #accordion-25 span:nth-child(3) {
+    display: none;
+}
+
+#nav-home .active {
+    background-color: red;
+}
+
+#about_image {
+    float: right;
+    width: 200px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+    #about_image img {
+        border: 1px solid #4A851F;
+        padding-right: 0px;
+    }
+
+
+
+/*
+Subscribe modal below
+*/
+.modalDialog_SubUnSub {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    -webkit-transition: opacity 400ms ease-in 1s;
+    -moz-transition: opacity 400ms ease-in 1s;
+    transition: opacity 400ms ease-in 1s;
+    display: none;
+}
+
+    .modalDialog_SubUnSub > div {
+        position: relative;
+        padding: 5px 20px;
+        margin-top: 3%;
+        max-width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        background: #ffffff;
+    }
+
+    .modalDialog_SubUnSub:target {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+#closeModal_SubUnSub {
+    background-color: #959595;
+    color: #ffffff;
+    position: absolute;
+    line-height: 25px;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 12px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000000;
+    -webkit-box-shadow: 1px 1px 3px #000000;
+    box-shadow: 1px 1px 3px #000000;
+}
+
+    #closeModal_SubUnSub:hover {
+        background-color: #7aabcc;
+    }
+/*
+      Subscribe modal above
+  */
+
+/* /about-hints/contacted-by-hints.aspx */
+#participate_spa_link {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+/*  form items */
+
+#page_wrapper_publication_search
+.FormItemWrapper, #page_wrapper_inform_us
+.FormItemWrapper {
+    clear: left;
+    padding: 0.5%;
+}
+
+#page_wrapper_publication_search
+.FormLeftItem, #page_wrapper_inform_us
+.FormLeftItem {
+    float: left;
+    width: 21%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#page_wrapper_publication_search
+.FormRightItem, #page_wrapper_inform_us
+.FormRightItem {
+    float: none;
+}
+
+    #page_wrapper_publication_search
+    .FormRightItem
+    select, #page_wrapper_inform_us
+    .FormRightItem select {
+        padding: 0.5%;
+    }
+
+    #page_wrapper_publication_search
+    .FormRightItem
+    #file_error, #page_wrapper_inform_us
+    .FormRightItem #file_error {
+        color: red;
+        margin-left: 30%;
+    }
+
+#page_wrapper_publication_search #publications_search_wrapper #contactresult_table, #page_wrapper_inform_us #publications_search_wrapper #contactresult_table {
+    margin-bottom: 10%;
+}
+
+#page_wrapper_publication_search #dv_controls, #page_wrapper_inform_us #dv_controls {
+    margin: 4%;
+    margin-top: 5%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+    #page_wrapper_publication_search #dv_controls #dv_controlSubmit, #page_wrapper_inform_us #dv_controls #dv_controlSubmit {
+        float: right;
+        margin-right: 50%;
+    }
+
+    #page_wrapper_publication_search #dv_controls #dv_controlClear, #page_wrapper_inform_us #dv_controls #dv_controlClear {
+        float: left;
+        padding-right: 10%;
+    }
+
+#page_wrapper_publication_search #filterlinks
+.ButtonLink, #page_wrapper_inform_us #filterlinks
+.ButtonLink {
+    background: none;
+    border: none;
+    padding: 0 !important;
+    color: #2d73a2;
+    cursor: pointer;
+    text-decoration: underline;
+    clear: both;
+}
+
+    #page_wrapper_publication_search #filterlinks
+    .ButtonLink:hover, #page_wrapper_inform_us #filterlinks
+    .ButtonLink:hover {
+        text-decoration: none;
+    }
+
+#page_wrapper_publication_search #results_wrapper, #page_wrapper_inform_us #results_wrapper {
+    width: 99%;
+    padding-left: 1%;
+    border: 1px black solid;
+    margin-left: 2%;
+}
+
+    #page_wrapper_publication_search #results_wrapper h1, #page_wrapper_inform_us #results_wrapper h1 {
+        text-align: center;
+        padding: 2%;
+    }
+
+    #page_wrapper_publication_search #results_wrapper h2, #page_wrapper_inform_us #results_wrapper h2 {
+        padding-left: 5%;
+        font-weight: bold;
+    }
+
+    #page_wrapper_publication_search #results_wrapper ul, #page_wrapper_inform_us #results_wrapper ul {
+        list-style: circle;
+    }
+
+        #page_wrapper_publication_search #results_wrapper ul li, #page_wrapper_inform_us #results_wrapper ul li {
+            padding: 2%;
+        }
+
+    #page_wrapper_publication_search #results_wrapper #Noresult, #page_wrapper_inform_us #results_wrapper #Noresult {
+        margin: 5%;
+    }
+
+    #page_wrapper_publication_search #results_wrapper hr, #page_wrapper_inform_us #results_wrapper hr {
+        width: 85%;
+        margin-left: 4%;
+        padding-left: 0%;
+    }
+
+.MultiLineTextBox {
+    resize: horizontal;
+    max-width: 50%;
+}
+
+.SingleLineTextBox {
+    max-width: 300px;
+}
+
+.table_right input {
+    width: 250px;
+}
+
+#field_comments textarea {
+    width: 250px;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+#pub_pres_list .list_wrapper {
+    margin: 2%;
+}
+
+    #pub_pres_list .list_wrapper br {
+        clear: both;
+    }
+
+#dvMsg {
+    color: Red;
+    display: none;
+    margin-left: 30%;
+}
+
+#page_wrapper_contact_us h1 {
+    margin-left: 5%;
+}
+
+#page_wrapper_contact_us #dv_controls {
+    margin: 3%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+    #page_wrapper_contact_us #dv_controls #dv_controlSubmit {
+        float: right;
+        margin-right: 43%;
+    }
+
+    #page_wrapper_contact_us #dv_controls #dv_controlClear {
+        float: left;
+        padding-right: 10%;
+    }
+
+#page_wrapper_contact_us
+.FormItemWrapper {
+    clear: left;
+    padding: 0.5%;
+}
+
+#page_wrapper_contact_us
+.FormLeftItem {
+    float: left;
+    width: 21%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+#page_wrapper_contact_us
+.FormRightItem {
+    float: none;
+}
+
+    #page_wrapper_contact_us
+    .FormRightItem input {
+        width: 250px;
+    }
+
+#page_wrapper_contact_us textarea {
+    width: 250px;
+}
+/* form Items ^^^^^^^^^^^^^^^^^^*/
+
+/* data agreement form */
+
+.TermsHidden {
+    display: none;
+}
+
+.TermsShow {
+    display: block;
+}
+/* data agreement form ^^^^^^^^^^^^^^^^^^*/
+
+
+/* Knowledge Maps*/
+
+#item_left {
+    float: left;
+    width: 70px;
+}
+
+#item_right {
+    float: right;
+    text-align: left;
+    width: 670px;
+    margin-bottom: .5em;
+}
+
+#knowledge_maps_wrapper img {
+    border-color: #ffffff;
+    vertical-align: top;
+}
+
+#knowledge_maps_wrapper #lblMap {
+    width: 100%;
+}
+
+#knowledge_maps_wrapper br {
+    clear: both;
+}
+/* Knowledge Maps^^^^^^^^^^^^^^^^^^*/
+
+
+
+/*Styling below is for the meeting pages*/
+#HINTS-banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menuTabs {
+    /* margin-left: 15%; */
+    height: 50px;
+    background: #0059A6;
+    border: 1px solid #0059A6;
+    margin: 0;
+    padding: 0;
+}
+
+    #menuTabs
+    li {
+        float: left;
+        position: relative;
+        margin-right: 5px;
+    }
+
+    #menuTabs a {
+        text-decoration: none;
+        display: block;
+    }
+
+    #menuTabs .HintsTab, #menuTabs .HintsnormalTab {
+        border-top: none;
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        height: 48px;
+        line-height: 16px;
+        padding: 15px 0;
+        text-align: center;
+        vertical-align: text-top;
+        width: 100px;
+    }
+
+    #menuTabs .HintsTab {
+        color: #ffffff;
+    }
+
+        #menuTabs .HintsTab a {
+            color: #ffffff;
+        }
+
+    #menuTabs .HintsnormalTab {
+        background: #fff;
+        color: #000;
+    }
+
+        #menuTabs .HintsnormalTab a {
+            color: #ffffff;
+        }
+
+            #menuTabs .HintsnormalTab a:hover {
+                color: #005bab;
+                text-decoration: underline;
+            }
+
+
+/*Styling ABOVE ^^^^^^^^ is for the meeting pages*/

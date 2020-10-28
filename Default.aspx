@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Health Information National Trends Survey | HINTS" Language="VB" MasterPageFile="~/Main.master" AutoEventWireup="false"
+﻿<%@ Page Title="Health Information National Trends Survey | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false"
     CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
@@ -7,210 +7,226 @@
 
 
 </asp:Content>
+
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
+    <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-ride="carousel">
 
-    <div class="grid">
+        <div class="carousel-inner">
+            <div class="carousel-item active" id="homeSlider">
 
-
-
-        <div class="col_5">
-            <div id="homepage_carousel" class="flexslider col_6">
-                <ul class="slides">
-
-                                                            
-                    <li data-thumbcaption="HINTS Brief 42: E-cigarette Perceptions and Experimentation Among US Adults" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief42_rs_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_42.pdf">
-                            <img alt="HINTS Brief 42: E-cigarette Perceptions and Experimentation Among US Adults" src="/_images/carousel/NCI_HINTS_DCCPS_Brief42_rs.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 42: E-cigarette Perceptions and Experimentation Among US Adults</p>
-                    </li>
-
-                    
-                    <li data-thumbcaption="HINTS 5, Cycle 3 Data Now Available for Download" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle3_thumb.gif">
-                        <a id="hints_download_carousel" runat="server" href="~/data/download-data.aspx">
-                            <img alt="HINTS 5, Cycle 3 Data Now Available for Download" src="/_images/carousel/NCI_HINTS_DCCPS_Hints5Cycle3.gif" /></a>
-                        <p class="flex_caption">HINTS 5, Cycle 3 Data Now Available for Download</p>
-                    </li>
-
-                    
-                    <li data-thumbcaption="HINTS Brief 41: How Much Do Americans Know about Palliative Care?" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief41_rs_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_41.pdf">
-                            <img alt="HINTS Brief 41: How Much Do Americans Know about Palliative Care?" src="/_images/carousel/NCI_HINTS_DCCPS_Brief41_rs.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 41: How Much Do Americans Know about Palliative Care?</p>
-                    </li>
-
-
-                    
-                    <li data-thumbcaption="HINTS Brief 40: Health Information Seeking Among Caregivers" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief40_rs_thumb.jpg">
-                        <a href="/docs/Briefs/HINTS_Brief_40.pdf">
-                            <img alt="HINTS Brief 40: Health Information Seeking Among Caregivers" src="/_images/carousel/NCI_HINTS_DCCPS_Brief40_rs.jpg" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 40: Health Information Seeking Among Caregivers</p>
-                    </li>
-
-
-
-                    
-
-
-                    
-
-
-
-                    
-<%--                    <li data-thumbcaption="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" data-thumb="/_images/carousel/NCI_HINTS_DCCPS_Brief38_thumb.gif">
-                        <a href="/docs/Briefs/HINTS_Brief_38.pdf">
-                            <img alt="HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)" src="/_images/carousel/NCI_HINTS_DCCPS_Brief38.gif" />
-                        </a>
-                        <p class="flex_caption">HINTS Brief 38: Growth in Patient-Provider Internet Communication (2003–2013)</p>
-                    </li>--%>
-
-                    
-
-
-                    
-                    
-                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </ul>
-            </div>
-
-            <div class="homepage_boxes">
-                <div class="col_4">
-                    <div id="hintsbox1">
-                        <img alt="What is HINTS?" src="/_images/greenpeople2.jpg" />
-                        <h2>What is HINTS?</h2>
-                        <p>HINTS collects data about the use of cancer-related information by the American public. These data provide opportunities to understand and improve health communication. <a href="/about-hints/learn-more-about-hints.aspx">Read More ></a></p>
-                        <h2>Get and Use HINTS Data</h2>
-                        <p>Download publically available, nationally representative HINTS data for your next secondary analysis. <a id="hints_access_data" runat="server" href="~/data/download-data.aspx">Access Data ></a><a id="hints_access_data_NoJs" runat="server" href="~/terms.aspx">Access Data ></a></p>
-                        <h2>Sign Up for HINTS Updates</h2>
-                        <p><a href="/subscribe/default.aspx">Sign up to get updates</a> on the latest HINTS data releases, publications, and website features.</p>
+                <div class="container carousel-caption d-block col-lg-12 col-xl-7 custom-wrapper">
+                    <h2>What is HINTS?</h2>
+                    <p class="col-lg-12 col-xl-12 pl-0">The Health Information National Trends Survey (HINTS) regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used to monitor changes in the rapidly evolving fields of health communication and health information technology and to create more effective health communication strategies across different populations.</p>
+                    <div class="slider-btn">
+                        <a href="/about-hints/learn-more-about-hints.aspx" alt="learn more" class="learn-more">Learn More</a>
                     </div>
                 </div>
-
-                <div class="col_2">
-                    <div class="topic_header">
-                        <img alt="Twitter" src="/_images/twitter-bird_transparent.gif" /><p>Our Latest Tweets</p>
-                    </div>
-                    <div class="topic_list">
-                        <ul>
-                            <div class="twitter">
-                                <div id="hints-tweets"></div>
-                            </div>
-                            <p id="visitTwitter"><a href="https://twitter.com/NCIHINTS" class="readmorelink" target="_blank">Visit our Twitter page ></a></p>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!--Closes col_5-->
-
-        <div class="col_1">
-            <div id="smbox">
-                <h2>Social Media</h2>
-                <div id="smlinks">
-                    <a href="http://www.twitter.com/NCIHINTS" target="_blank">
-                        <img alt="Twitter" class="smimage" src="/_images/twitter.png" /></a>
-                    <img alt="Share" class="smimage smbackground" src="/_images/shareplus.png" />
-                    <img alt="Email" class="smimage smbackground" src="/_images/email.png" />
-                    <div class="addthis_sharing_toolbox"></div>
-
-                    <!-- 2 images above act as backgrounds so the icons appear imediatly when addthis is loading -->
-                </div>
-            </div>
-            <div id="submitPubs">
-                <h2>New HINTS Publication?</h2>
-                <div id="submitPubsBtn"><a href="/publications-reports/submit-hints-publication.aspx">Submit Here</a></div>
-            </div>
-            <div id="newsbox">
-                <h2>What's New</h2>
-                   <p><a href="/about-hints/announcements.aspx#hints53">HINTS 5, Cycle 3 (2019) public use data available for download</a></p>
-             
-                <p><a href="/meetings-trainings/2019-users-meeting.aspx">HINTS Data Users Conference Rescheduled for May 22-23, 2019</a></p>
-                <p><a href="/about-hints/announcements.aspx#NewVideosAvailable">New Videos on How to Merge HINTS Data Now Available</a></p>
-               
-                
-                
-
-                <h3 id="currentbriefs">Current HINTS Briefs</h3>
-
-                <asp:Repeater ID="RPTR_Briefs" runat="server">
-                    <ItemTemplate>
-                        <a class="twobriefs" runat="server" target="_blank" href='<%# Eval("LinkURL") %>'><%# Eval("Title") %></a>
-                        <br />
-                        <p class="newsdate">
-                            <%# Eval("PubMonthEnglish")%>  <%# Eval("PubYear")%>
-                          (<%# GetFileSize(Eval( "LinkURL" ))%>)
-                        </p>
-                    </ItemTemplate>
-                </asp:Repeater>
-
-                <p><a class="rm" href="/publications-reports/hints-briefs.aspx">View All Briefs ></a></p>
-
             </div>
         </div>
-
     </div>
-    <link rel="stylesheet" href='<%=Me.ResolveUrl("~/_css/flexslider.css?v=2017_11_13")%>' type="text/css" />
 
-    <script type="text/javascript" language="javascript">
-        $(document).ready(function () {
+    <div class="container col-lg-12 col-xl-7 col custom-wrapper">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row py-3 resources">
+                        <div class="col-xs-12 col-sm-4 pd-r padding-025" id="res-box">
+                            <div
+                                class="rounded-0 shadow bg-white box pd-5 pd">
+                                <div class="hint-ribbon">
+                                    <img
+                                        src="/images/hints-logo.png"
+                                        alt="National Cancer Institute" />
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="font-weight-bold">Download Data</h3>
+                                    <p>Nationally representative HINTS data are free to download and analyze. HINTS data are available in SAS, SPSS, and STATA formats.</p>
+                                    <a href="/data/download-data.aspx" alt="download data" class="font-weight-bold">Download Data ></a>
+                                </div>
+                            </div>
+                        </div>
 
-            //toggle the links depending on JS turned on
-            $('#hints_access_data_NoJs').css('display', 'none');
-            $('#hints_access_data').css('display', 'block');
-            $('#hints_download_carousel').css('display', 'block');
+                        <div class="col-xs-12 col-sm-4 pd-r padding-0" id="res-box">
+                            <div
+                                class="rounded-0 shadow bg-white box pd-5 pd">
+                                <div class="hint-ribbon">
+                                    <img
+                                        src="/images/hints-logo.png"
+                                        alt="National Cancer Institute" />
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="font-weight-bold">HINTS Briefs</h3>
+                                    <p>HINTS <em>Briefs</em> provide a snapshot of noteworthy, data-driven HINTS research findings. Many <em>Briefs</em> summarize research findings from recent peer-reviewed journal articles using HINTS data.</p>
+                                    <a href="/publications-reports/hints-briefs.aspx" alt="HINTS Briefs" class="font-weight-bold">View All Briefs ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-4 pd-l" id="res-box">
+                            <div
+                                class="rounded-0 shadow bg-white box pd-5 pd">
+                                <div class="hint-ribbon">
+                                    <img
+                                        src="/images/hints-logo.png"
+                                        alt="National Cancer Institute" />
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="font-weight-bold">HINTS Items</h3>
+                                    <p class="text-left">The HINTS <em>online codebook</em> provides summary data for HINTS items across all cycles, including estimated U.S. population values, interactive data visualizations, and the ability to look at trend data over time at the item level. </p>
+                                    <a href="/view-questions-topics/all-hints-questions.aspx" alt="View HINTS Online Codebook" class="font-weight-bold">View HINTS Online Codebook></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 
 
-            checkCookie(); // see if cookies are enabled, force to page if so
-            
-            function checkCookie() {
-                var cookieEnabled = navigator.cookieEnabled;
-                if (!cookieEnabled) {
-                    document.cookie = "TermsAccepted";
-                    cookieEnabled = document.cookie.indexOf("TermsAccepted") != -1;
-                }
-                return cookieEnabled || showCookieFail();
-            }
+    <div class="container col-lg-12 col-xl-7 col mt-5 mb-5 custom-wrapper">
+        <section>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="position-absolute top-center top-md-left circle-color mt-n8 ml-md-n8">
+                        <svg width="185" height="186" viewBox="0 0 185 186" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+                            <circle cx="4" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="42" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="62" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="82" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="102" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="122" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="142" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="162" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="180" cy="4" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="42" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="62" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="82" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="102" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="122" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="142" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="162" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="180" cy="22" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="42" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="42" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="62" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="62" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="82" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="82" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="102" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="102" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="122" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="122" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="142" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="142" r="4" fill="currentColor"></circle>
+                            <circle cx="4" cy="162" r="4" fill="currentColor"></circle>
+                            <circle cx="22" cy="162" r="4" fill="currentColor"></circle>
+
+                        </svg>
 
 
-            function showCookieFail() {
-                $('#hints_access_data_NoJs').css('display', 'block');
-                $('#hints_access_data').css('display', 'none');
-                $('#hints_download_carousel').css('display', 'none');
-            }
-        });
+                        <h1 class="news-title">What's New</h1>
+                    </div>
+                    <div class="row news-block">
+                        <!-- Card -->
+                        <div class="box bg-white p-2 col-md-8 custom-shadow">
+                            <div class="card-stack-item mb-9">
+                                <div class="card card-lg rounded overflow-hidden p-4" style="transform: translateY(calc(0rem)) scale(1);">
+                                    <div class="row no-gutters" style="opacity: 1;">
+                                        <div class="card-body text-left">
 
 
+                                            <!-- Heading -->
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 5, Cycle 3 (2019) Data Now Available
+                                            </h4>
 
-   
-    </script>
+                                            <!-- Text -->
+                                            <p>
+                                                Our newest public use dataset, HINTS 5, Cycle 3 (2019), is now available for download in SPSS, SAS, and STATA formats.
+                                            </p>
+
+                                            <!-- Link -->
+                                            <a class="h6 text-decoration-none mt-auto" href="/data/download-data.aspx">Access Data >
+                                            </a>
+                                            <hr>
+                                            <!-- Heading -->
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">Explore How to Merge HINTS Data
+                                            </h4>
+
+                                            <!-- Text -->
+                                            <p>
+                                               Learn how to merge HINTS data for statistical analysis in a series of videos.
+                                            </p>
+
+                                            <!-- Link -->
+                                            <a class="h6 text-decoration-none mt-auto" href="/meetings-trainings/how-to-merge-hints-data.aspx">Learn More >
+                                            </a>
+                                            <hr>
+                                            <!-- Heading -->
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">Sign Up for HINTS Updates
+                                            </h4>
+
+                                            <!-- Text -->
+                                            <p>
+                                                <a class="h6 text-decoration-none mt-auto" href="/subscribe/default.aspx">Sign up to get updates</a> on the latest HINTS data releases, publications, and website features.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box col-md-4 text-right twitter-stats">
+                            <h3 class="font-family-open-sans font-weight-bold mt-5">Our Latest Tweets</h3>
+<%--                            <ul>
+                                <li>
+                                    <span class="font-family-open-sans" style="font-size: 18px;">Want to learn more about HINTS data? Check out our How-To HINTS webinar online at</span><br>
+                                    <a class="h6 text-decoration-none mt-auto" href="https://buff.ly/2S4vENi">https://buff.ly/2S4vENi</a>
+                                </li>
+                                <li>
+                                    <span class="font-family-open-sans" style="font-size: 18px;">Want to learn more about HINTS data? Check out our How-To HINTS webinar online at</span><br>
+                                    <a class="h6 text-decoration-none mt-auto" href="https://buff.ly/2S4vENi">https://buff.ly/2S4vENi</a>
+                                </li>
+                                <li>
+                                    <span class="font-family-open-sans" style="font-size: 18px;">Want to learn more about HINTS data? Check out our How-To HINTS webinar online at</span><br>
+                                    <a class="h6 text-decoration-none mt-auto" href="https://buff.ly/2S4vENi">https://buff.ly/2S4vENi</a>
+                                </li>
+                            </ul>--%>
 
 
-    <script type="text/javascript" src='/_scripts/jquery.flexslider-min.js'></script>
-    <script type="text/javascript" src='/_scripts/carousel.js'></script>
+                                     <div id="hints-tweets"></div>
+
+                
+                            <a target="_blank" href="https://twitter.com/NCIHINTS" class="h4 text-decoration-none mt-auto font-weight-bold">Visit our Twitter page >></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+                <div class="rwb_contactby btn-updated-dark ">
+                            <p ><a  href="/about-hints/contacted-by-hints.aspx">Were you contacted to participate in HINTS?</a></p>
+                            </div>
+
+
+    
     <script type="text/javascript" src='/_scripts/twitterFetcher_min.js'></script>
-    <%--Hiding breadcrumbs on this page--%>
+
+        <%--Hiding breadcrumbs on this page--%>
     <script type="text/javascript">
         $("#breadcrumbs").hide();
     </script>
 
+
+    
     <script type="text/javascript">
         window.onload = function () {
             var anchors = document.getElementById('hints-tweets').getElementsByTagName('a');
@@ -230,28 +246,6 @@
                 }
                 return strString
             }
-
-
-            $('img').each(function () {
-                var $img = $(this);
-                var filename = $img.attr('src')
-                var alttext = $img.attr('alt')
-
-                if ((filename.indexOf("/_images/carousel/") == 0) && (filename.indexOf("_thumb") >= 1)) {
-                    //console.log('----' + filename);
-                    //console.log(filename.indexOf("/_images/carousel/"));
-                    //console.log(filename.indexOf("_thumb"));
-                    if (typeof attr == typeof undefined || attr == false) {
-                        alttext = filename.substring(0, filename.lastIndexOf('.'));
-                        alttext = alttext.replace("/_images/carousel/", "");
-                        alttext = alttext.replace("_thumb", "");
-                        alttext = StripDeliminators(alttext, "_")
-                        $img.attr('alt', alttext);
-                    }
-                }
-
-            });
-
 
             var configProfile = {
                 "profile": { "screenName": 'NCIHINTS' },
@@ -273,5 +267,5 @@
     </script>
 
 
-
 </asp:Content>
+

@@ -7,20 +7,18 @@ Imports System.Net.Mail
 Imports System.Net.Mail.Attachment
 Imports System.Web
 Imports System.Web.Script.Serialization
-
 Partial Class aboutfolder_contact_us
     Inherits System.Web.UI.Page
 
+
     Protected Shared ReCaptcha_Key As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPublicKey")
     Protected Shared ReCaptcha_Secret As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPrivateKey")
-
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
             contact_table.Visible = True
             contactresult_table.Visible = False
             tr_captchaError_row.Visible = False
-
         End If
     End Sub
 

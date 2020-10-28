@@ -26,8 +26,10 @@
                             <asp:PlaceHolder ID="Year" Visible=<%# IsTypePubOrPres(Eval("FK_ArticleType"))%> runat="server"><%# Eval("PubYear")%>&nbsp </asp:PlaceHolder>
                             <asp:PlaceHolder ID="URL" Visible=<%# IsTypePubOrPres(Eval("FK_ArticleType"))%> runat="server">   <%# CheckifURLAvailable(Eval("Title"), Eval("LinkURL"))%>&nbsp</asp:PlaceHolder>
                             <asp:PlaceHolder ID="Journal" Visible=<%# IsTypePubOrPres(Eval("FK_ArticleType"))%> runat="server"> <em> <%# Eval("Journal")%></em> &nbsp </asp:PlaceHolder>
-                            <asp:PlaceHolder ID="Citation" Visible=<%# IsTypePubOrPres(Eval("FK_ArticleType"))%> runat="server"> <%# Eval("Citation")%> <br/><br/></asp:PlaceHolder>
+                            <asp:PlaceHolder ID="Citation" Visible=<%# IsTypePubOrPres(Eval("FK_ArticleType"))%> runat="server"> <%# Eval("Citation")%></asp:PlaceHolder>
+              
                </div>
+             
                 </div>
               
         </ItemTemplate>
