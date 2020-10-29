@@ -5,7 +5,8 @@
     <meta name="Title" content="Health Information National Trends Survey | HINTS" />
     <meta name="Description" content="HINTS collects data about the use of cancer and health-related information by the American public and provides it for free public use." />
 
-
+    
+    <link rel="stylesheet" href="/css/home.css">
 </asp:Content>
 
 
@@ -21,10 +22,13 @@
 
                 <div class="container carousel-caption d-block col-lg-12 col-xl-7 custom-wrapper">
                     <h2>What is HINTS?</h2>
-                    <p class="col-lg-12 col-xl-12 pl-0">The Health Information National Trends Survey (HINTS) regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used to monitor changes in the rapidly evolving fields of health communication and health information technology and to create more effective health communication strategies across different populations.</p>
-                    <div class="slider-btn">
-                        <a href="/about-hints/learn-more-about-hints.aspx" alt="learn more" class="learn-more">Learn More</a>
-                    </div>
+                    <p class="col-lg-12 col-xl-12 pl-0">The Health Information National Trends Survey (HINTS) regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used to monitor changes in the rapidly evolving fields of health communication and health information technology and to create more effective health communication strategies across different populations.
+                        <br />
+                         <a  href="/about-hints/learn-more-about-hints.aspx" alt="learn more" class="rwb_learnmore slider-btn learn-more">Learn More</a>
+                  
+                    </p>
+               
+                       
                 </div>
             </div>
         </div>
