@@ -163,9 +163,9 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored in to the completion rate calculation.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS5_Cycle2_SAS_10132020.zip">SAS data and supporting documents</a> (ZIP, 12.5 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle2_STATA_10132020.zip">STATA data and supporting documents</a> (ZIP, 12.4 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle2_SPSS_10132020.zip">SPSS data and supporting documents</a> (ZIP, 11.9 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle3_SAS_03112020.zip">SAS data and supporting documents</a> (ZIP, 12.5 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle3_Stata_03112020.zip">STATA data and supporting documents</a> (ZIP, 12.4 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle3_SPSS_03112020.zip">SPSS data and supporting documents</a> (ZIP, 11.9 MB)</li>
                         </ul>
 
 
