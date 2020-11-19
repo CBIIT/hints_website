@@ -16,24 +16,15 @@
                         </div>
                         <!--end of HINTS-banner-->
                         <div id="logistics_pageContent">
-                            <ul id="menuTabs">
-                                <li class="HintsTab"><a href="/meetings-trainings/2014-users-meeting.aspx">Home</a></li>
-                                <li class="HintsTab"><a href="/docs/HINTS-2013-Conference-Agenda.pdf">Agenda</a></li>
-                                <li class="HintsnormalTab">Logistics</li>
-                                <li class="HintsTab"><a href="/meetings-trainings/2014-users-meeting-materials.aspx">
-                                    <p style="margin-top: -8px;">
-                                        Meeting Materials
-                                    </p>
-                                </a></li>
-                                <li class="HintsTab"><a href="/meetings-trainings/2014-users-meeting-workshop-resources.aspx">
-                                    <p style="margin-top: -8px;">
-                                        IDA Workshop Resources
-                                    </p>
-                                </a></li>
-                            </ul>
+
                             <a name="skip"></a>
-                            <br style="clear: left;" />
-                            <br />
+                            <ul>
+                                <li><a href="/meetings-trainings/2014-users-meeting.aspx">Home</a></li>
+                                <li><a target="_blank" href="/docs/HINTS-2013-Conference-Agenda.pdf">Agenda</a></li>
+                                <li><a href="/meetings-trainings/2014-users-meeting-logistics.aspx">Logistics</a></li>
+                                <li><a href="/meetings-trainings/2014-users-meeting-materials.aspx">Meeting Materials</a></li>
+                                <li><a href="/meetings-trainings/2014-users-meeting-workshop-resources.aspx">IDA Workshop Resources</a></li>
+                            </ul>
                             <h2>Health Information National Trends Survey (HINTS) Users Meeting
                     <br />
                                 January 9-10, 2014 | Rockville, Maryland
@@ -65,18 +56,8 @@
                     fares, schedules, and estimated travel times from other stops, can be found at <a
                         href="http://www.wmata.com" target="_blank">http://www.wmata.com/</a>.&nbsp;
                             </p>
-                            <p>
-                                A complimentary NIH shuttle provides transportation from the Shady Grove Metro Station
-                    to the NCI Shady Grove Building. During commuting times (6:00 – 9:30 a.m. and 3:00
-                    – 7:00 p.m.), service runs every 15 minutes. Between the hours of 9:30 a.m. and
-                    3:00 p.m., there is a shuttle every 30 minutes. The shuttle schedule is available
-                    at the following link: <a href="https://mail.nih.gov/owa/redir.aspx?C=rX1XbcG6TEyeo40yhV9R1oJniLd5vtAI9xY2FA95AurrN5kp92csVwAuBOMpKfrWrkQ_dVhtcUw.&amp;URL=http%3a%2f%2fnewcampus.cancer.gov%2fwp-content%2fuploads%2f2013%2f09%2fNCI-Shady-Grove-Shuttle-Schedule.pdf"
-                        target="_blank">http://newcampus.cancer.gov/wp-content/uploads/2013/09/NCI-Shady-Grove-Shuttle-Schedule.pdf</a>
-                            </p>
-                            <p>
-                                There is also a shuttle that runs from the main lobby of Building 31 on the NIH
-                    Main Campus to NCI Shady Grove every thirty minutes between 7:15 a.m. and 6:45 p.m.
-                            </p>
+
+    
                             <h3 class="large_h3">Parking</h3>
                             <p>
                                 There is also free parking available at NCI Shady Grove- guests are welcome to park

@@ -17,27 +17,15 @@
                             </div>
                             <!--end of HINTS-banner-->
                             <div id="pageContent">
-                                <ul id="menuTabs">
-                                    <li class="HintsTab"><a href="/meetings-trainings/2014-users-meeting.aspx">Home</a></li>
-                                    <li class="HintsTab"><a href="/docs/HINTS-2013-Conference-Agenda.pdf  target="_blank"">Agenda</a></li>
 
-                                    <li class="HintsTab"><a href="/meetings-trainings/2014-users-meeting-logistics.aspx">Logistics</a></li>
-                                    <li class="HintsnormalTab">
-                                        <p style="margin-top: -8px;">
-                                            Meeting Materials
-                                        </p>
-                                    </li>
-
-
-                                    <li class="HintsTab"><a href="/meetings-trainings/2014-users-meeting-workshop-resources.aspx">
-                                        <p style="margin-top: -8px;">
-                                            IDA Workshop Resources
-                                        </p>
-                                    </a></li>
-                                </ul>
                                 <a name="skip"></a>
-                                <br style="clear: left;" />
-                                <br />
+                                <ul>
+                                    <li><a href="/meetings-trainings/2014-users-meeting.aspx">Home</a></li>
+                                    <li><a target="_blank" href="/docs/HINTS-2013-Conference-Agenda.pdf">Agenda</a></li>
+                                    <li><a href="/meetings-trainings/2014-users-meeting-logistics.aspx">Logistics</a></li>
+                                    <li><a href="/meetings-trainings/2014-users-meeting-materials.aspx">Meeting Materials</a></li>
+                                    <li><a href="/meetings-trainings/2014-users-meeting-workshop-resources.aspx">IDA Workshop Resources</a></li>
+                                </ul>
                                 <h2>Health Information National Trends Survey (HINTS) Users Meeting
                     <br />
                                     January 9-10, 2014 | Rockville, Maryland
