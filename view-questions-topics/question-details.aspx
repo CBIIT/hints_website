@@ -6,7 +6,7 @@
     <link href="/Content/bootstrap-theme.min.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/buttons.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
-    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2019_11_21.js'></script>
+    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2021_01_13.js'></script>
     <style type="text/css">
         body {
             font-size: 1.2em !important;
@@ -242,6 +242,16 @@
             </div>
         </div>
 
+
+        
+        <div class="note-line" id="dv_LIT_variablename_wrapper">
+            <div class="shim-a">Variable Name:</div>
+            <div class="shim-b">
+
+                <span id="LIT_variablename">variablename</span>
+
+            </div>
+        </div>
 
         <div class="note-line" id="dv_LIT_Notes_wrapper">
             <div class="shim-a">Additional Notes:</div>

@@ -150,12 +150,12 @@
 
 
                                             <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 5, Cycle 3 (2019) Data Now Available
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 5, Cycle 4 (2020) Data Now Available
                                             </h4>
 
                                             <!-- Text -->
                                             <p>
-                                                Our newest public use dataset, HINTS 5, Cycle 3 (2019), is now available for download in SPSS, SAS, and STATA formats.
+                                                Our newest public use dataset, HINTS 5, Cycle 4 (2020), is now available for download in SPSS, SAS, and STATA formats.
                                             </p>
 
                                             <!-- Link -->

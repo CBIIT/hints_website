@@ -6,65 +6,6 @@
     <meta name="Title" content="Download Data | HINTS" />
     <meta name="Description" content="Download HINTS datasets in SAS, SPSS, or STATA format to conduct your own analyses. " />
 
-    <script language="javascript" type="text/javascript">
-
-
-        //function checkCookie() {
-        //    var cookieEnabled = navigator.cookieEnabled;
-        //    if (!cookieEnabled) {
-        //        document.cookie = "TermsAccepted";
-        //        cookieEnabled = document.cookie.indexOf("TermsAccepted") != -1;
-        //    }
-        //    return cookieEnabled || showCookieFail();
-        //}
-
-
-        //function showCookieFail() {
-        //    alert('failed');
-
-
-        //}
-
-        //checkCookie();
-
-        //// within a window load,dom ready or something like that place your:
-        //if (checkCookie()) {
-        //    alert("turned on");
-        //}
-        //else {
-        //    alert('turned off');
-        //}
-
-
-
-        //var isGood = getCookie('TermsAccepted')
-
-        ////console.log("here===" + getCookie('TermsAccepted') + "----");
-
-        //if (isGood) {
-        //    if (isGood != 'Accepted') {
-        //        alert('redirected');
-        //    }
-        //}
-
-
-        //function getCookie(cname) {
-        //    var name = cname + "=";
-        //    var decodedCookie = decodeURIComponent(document.cookie);
-        //    var ca = decodedCookie.split(';');
-        //    for (var i = 0; i < ca.length; i++) {
-        //        var c = ca[i];
-        //        while (c.charAt(0) == ' ') {
-        //            c = c.substring(1);
-        //        }
-        //        if (c.indexOf(name) == 0) {
-        //            return c.substring(name.length, c.length);
-        //        }
-        //    }
-        //    return "";
-        //}
-
-    </script>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container col-lg-12 col-xl-7 col custom-wrapper">
@@ -151,7 +92,23 @@
                     </div>
                     <div id="dv_data" runat="server" class="TermsHidden">
 
+                        
 
+
+
+                        <p><strong>HINTS 5, Cycle 4 (2020) dataset, updated January 2021</strong></p>
+                        <p>
+                           Total respondents: 3,865<br />
+                            Complete responses: 3,792<br />
+                            Partial responses**: 73
+
+                        </p>
+                        <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
+                        <ul>
+                            <li><a href="/dataset/HINTS5_Cycle4_SAS_20210111.zip">SAS data and supporting documents</a> (ZIP, 12.1 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_Stata_20210111.zip">STATA data and supporting documents</a> (ZIP, 12.1 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_SPSS_20210111.zip">SPSS data and supporting documents</a> (ZIP, 11.7 MB)</li>
+                        </ul>
 
 
                         <p><strong>HINTS 5, Cycle 3 (2019) dataset, updated March 2020</strong></p>
