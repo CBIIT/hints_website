@@ -163,16 +163,16 @@
                                             </a>
                                             <hr>
                                             <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">Explore How to Merge HINTS Data
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Brief 44: Indoor Tanning Trends Among US Adults
                                             </h4>
 
                                             <!-- Text -->
                                             <p>
-                                               Learn how to merge HINTS data for statistical analysis in a series of videos.
+                                              Download the latest HINTS Brief, which examines trends in indoor tanning among US adults between 2007 and 2018.
                                             </p>
 
                                             <!-- Link -->
-                                            <a class="h6 text-decoration-none mt-auto" href="/meetings-trainings/how-to-merge-hints-data.aspx">Learn More >
+                                            <a class="h6 text-decoration-none mt-auto" href="/docs/Briefs/HINTS_Brief_44.pdf">Download Brief >
                                             </a>
                                             <hr>
                                             <!-- Heading -->
