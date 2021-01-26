@@ -111,7 +111,7 @@
                         </ul>
 
 
-                        <p><strong>HINTS 5, Cycle 3 (2019) dataset, updated March 2020</strong></p>
+                        <p><strong>HINTS 5, Cycle 3 (2019) dataset, updated March 2020 <span class="required">(NOTE: Corrected data file coming March 2021)</span></strong></p>
                         <p>
                             Total respondents: 5,438<br />
                             Complete responses: 5,247<br />
