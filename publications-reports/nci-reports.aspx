@@ -182,12 +182,12 @@
                                         <h2>HINTS Factsheet</h2>
 
                                          <div class="book book_img">
-                                            <img src="/_images/reports/07_hints_factsheets.png" alt="Image of HINTS Fact Sheet" />
+                                            <img src="/_images/reports/Hints_Factsheet_repoorts_2021.jpg" alt="Image of HINTS Fact Sheet" />
                                          </div>
 
                                          <div class="book book_info">
                                             <br style="clear: none;" />
-                                            &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 4/15/2019) PDF<br style="clear: none;" />
+                                            &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 2/26/2021) PDF<br style="clear: none;" />
                                             <br style="clear: none;" />
                                             &#8211; <a href="/docs/HINTS_FactSheet_Spn.pdf" target="_blank">Espa&#241;ol</a> (updated 12/2/2009) PDF
                                             <br style="clear: none;" />
