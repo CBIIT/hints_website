@@ -58,9 +58,9 @@
                     <p>The sampling strategy for both Cycle 3 and the Web Pilot consisted of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household using the Next Birthday method for respondent selection. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. In the Web Pilot, respondents were offered the choice to respond via paper (in English or Spanish) or via a web survey (in English only). Complete data were collected from 5,247 respondents.</p>
 
                     <ul>
-                        <li><strong>HINTS 5, Cycle 3 (2019) Full-content, English Version:</strong>&nbsp;(<a href="/docs/Instruments/HINTS5C3_Annotated_Instrument_English.pdf" target="_blank">PDF</a>&nbsp;1.5MB)</li>
-                        <li><strong>HINTS 5, Cycle 3 (2019) Methodology Report:</strong>&nbsp;(<a href="/docs/Instruments/HINTS5_Cycle3_MethodologyReport.pdf" target="_blank">PDF</a>&nbsp;797KB)</li>
-                        <li><strong>HINTS 5, Cycle 3 (2019) Full-content, Spanish Version:</strong>&nbsp;(<a href="/docs/Instruments/HINTS5C3_AnnotatedInstrumentSpanish.pdf" target="_blank">PDF</a>&nbsp;1.5MB)</li>
+                        <li><strong>HINTS 5, Cycle 3 (2019) Full-content, English Version:</strong>&nbsp;(<a href="/docs/Instruments/HINTS5C3_Annotated_Instrument_English.pdf" target="_blank">PDF</a>&nbsp;1.5 MB)</li>
+                        <li><strong>HINTS 5, Cycle 3 (2019) Methodology Report:</strong>&nbsp;(<a href="/docs/Instruments/HINTS5_Cycle3_MethodologyReport.pdf" target="_blank">PDF</a> 1.1 MB)</li>
+                        <li><strong>HINTS 5, Cycle 3 (2019) Full-content, Spanish Version:</strong>&nbsp;(<a href="/docs/Instruments/HINTS5C3_AnnotatedInstrumentSpanish.pdf" target="_blank">PDF</a>&nbsp;1.5 MB)</li>
                     </ul>
 
 

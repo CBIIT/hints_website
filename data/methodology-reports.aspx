@@ -21,7 +21,10 @@
                     <ul>
                         <li><strong>HINTS 5, Cycle 4 (2020) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS5_Cycle4_MethodologyReport.pdf">PDF</a> 1.4 MB)</li>
 
-                        <li><strong>HINTS 5, Cycle 3 (2019) Methodology Report:</strong> (<a href="/docs/Instruments/HINTS5_Cycle3_MethodologyReport.pdf">PDF</a> 797 KB) and <strong>Web Pilot Report:</strong> (<a href="/docs/methodologyreports/HINTS_WebPilotResultsReport.pdf">PDF</a> 3.2 MB)</li>
+                        <li><strong>HINTS 5, Cycle 3 (2019) Methodology Report:</strong> (<a href="/docs/Instruments/HINTS5_Cycle3_MethodologyReport.pdf">PDF</a> 1.1 MB) and <strong>Web Pilot Report:</strong> (<a href="/docs/methodologyreports/HINTS_WebPilotResultsReport.pdf">PDF</a> 3.3 MB)</li>
+                        
+                        
+                        
                         <li><strong>HINTS 5, Cycle 2 (2018) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS5_Cycle_2_Methodology_Report.pdf">PDF</a> 596 KB)</li>
                         <li><strong>HINTS 5, Cycle 1 (2017) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS5_Cycle_1_Methodology_Rpt.pdf">PDF</a> 651 KB)</li>
                         <li><strong>HINTS-FDA, Cycle 2 (2017) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS_FDA_Cycle2_Methodology_Rpt.pdf">PDF</a> 581 KB)</li>
