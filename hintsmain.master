@@ -66,13 +66,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="container banner-details">
 
                 <div class ="banner-title">
-                    <p>COVID-19 is an emerging, rapidly evolving situation.</p>
+                    <p>COVID-19</p>
                 </div>
 
                <div class="collapse banner-inner-content show" id="collapseContent">
                     <p>What people with cancer should know: <a target="_blank" href="https://www.cancer.gov/coronavirus">https://www.cancer.gov/coronavirus</a></p>
-                    <p>Guidance for cancer researchers: <a target="_blank" href="https://www.cancer.gov/coronavirus-researchers">https://www.cancer.gov/coronavirus-researchers</a></p>
-                    <p> Get the latest public health information from CDC: <a target="_blank" href="https://www.coronavirus.gov/">https://www.coronavirus.gov</a></p>
+                    <%--<p>Guidance for cancer researchers: <a target="_blank" href="https://www.cancer.gov/coronavirus-researchers">https://www.cancer.gov/coronavirus-researchers</a></p>--%>
+                    <p> Get the latest public health information from CDC: <a target="_blank" href="https://www.cancer.gov/coronavirus">https://www.cancer.gov/coronavirus</a></p>
                     <p>Get the latest research information from NIH: <a target="_blank" href="https://www.covid19.nih.gov/">https://www.covid19.nih.gov/</a></p>
                 </div>
 
