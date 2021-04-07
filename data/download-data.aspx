@@ -111,7 +111,7 @@
                         </ul>
 
 
-                        <p><strong>HINTS 5, Cycle 3 (2019) dataset, updated March 2021</strong></p>
+                        <p><strong>HINTS 5, Cycle 3 (2019) dataset, updated April 2021</strong></p>
                         <p>
                             Total respondents: 5,438<br />
                             Complete responses: 5,247<br />
@@ -120,7 +120,7 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored in to the completion rate calculation.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS5_Cycle3_SAS_20210305.zip">SAS data and supporting documents</a> (ZIP, 19.2 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle3_SAS_20210305.zip">SAS data and supporting documents</a> (ZIP, 19.3 MB)</li>
                             <li><a href="/dataset/HINTS5_Cycle3_Stata_20210305.zip">STATA data and supporting documents</a> (ZIP, 19.1 MB)</li>
                             <li><a href="/dataset/HINTS5_Cycle3_SPSS_20210305.zip">SPSS data and supporting documents</a> (ZIP, 19.1 MB)</li>
                         </ul>
@@ -202,7 +202,7 @@
 
 
                         <p>
-                            <strong>HINTS 4, Cycle 4 (2014) dataset, updated October 2020 (See history document for change details)</strong>
+                            <strong>HINTS 4, Cycle 4 (2014) dataset, updated April 2021 (See history document for change details)</strong>
                         </p>
                         <p>
                             Total respondents: 3,677<br />
@@ -218,11 +218,11 @@
                         </p>
                         <ul>
                             <li><a href="/dataset/HINTS4_Cycle4_SAS.zip">SAS data and supporting documents</a>
-                                (ZIP, 6.0 MB)</li>
-                            <li><a href="/dataset/HINTS4_Cycle4_SPSS.zip">STATA data and supporting documents</a>
-                                (ZIP, 5.9 MB)</li>
+                                (ZIP, 8.6 MB)</li>
+                            <li><a href="/dataset/HINTS4_Cycle4_Stata.zip">STATA data and supporting documents</a>
+                                (ZIP, 8.5 MB)</li>
                             <li><a href="/dataset/HINTS4_Cycle4_SPSS.zip">SPSS data and supporting documents</a>
-                                (ZIP, 5.8 MB)</li>
+                                (ZIP, 8.4 MB)</li>
                         </ul>
 
 
@@ -231,7 +231,7 @@
 
 
                         <p>
-                            <strong>HINTS 4, Cycle 3 (2013) dataset, updated October 2020 (See history document for change details)</strong>
+                            <strong>HINTS 4, Cycle 3 (2013) dataset, updated April 2021 (See history document for change details)</strong>
                         </p>
                         <p>
                             Total respondents: 3,185<br />
@@ -244,11 +244,11 @@
                         </p>
                         <ul>
                             <li><a href="/dataset/HINTS4_Cycle3_SAS.zip">SAS data and supporting documents</a>
-                                (ZIP, 5.0 MB)</li>
+                                (ZIP, 8.0 MB)</li>
                             <li><a href="/dataset/HINTS4_Cycle3_Stata.zip">STATA data and supporting documents</a>
-                                (ZIP, 4.8 MB)</li>
+                                (ZIP, 7.8 MB)</li>
                             <li><a href="/dataset/HINTS4_Cycle3_SPSS.zip">SPSS data and supporting
-            documents</a> (ZIP, 4.6 MB)</li>
+            documents</a> (ZIP, 7.6 MB)</li>
                         </ul>
                         <p>
                             <strong>HINTS 4, Cycle 2 (2012) dataset, updated October 2020 (See history document for change details)</strong>
