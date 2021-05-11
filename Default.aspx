@@ -149,6 +149,20 @@
                                         <div class="card-body text-left">
 
 
+                                                                    <!-- Heading -->
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Errors, Remediation, and Recommendations
+                                            </h4>
+
+                                            <!-- Text -->
+                                            <p>
+                                             Access important information about HINTS data errors, remediation procedures, and resultant recommendations
+                                            </p>
+
+                                            <!-- Link -->
+                                            <a class="h6 text-decoration-none mt-auto" href="/data/data-remediation.aspx">Visit page ></a>
+                                            <hr>
+
+
                                             <!-- Heading -->
                                             <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 5, Cycle 4 (2020) Data Now Available
                                             </h4>
@@ -162,19 +176,10 @@
                                             <a class="h6 text-decoration-none mt-auto" href="/data/download-data.aspx">Access Data >
                                             </a>
                                             <hr>
-                                            <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Brief 44: Indoor Tanning Trends Among US Adults
-                                            </h4>
+                    
 
-                                            <!-- Text -->
-                                            <p>
-                                              Download the latest HINTS Brief, which examines trends in indoor tanning among US adults between 2007 and 2018.
-                                            </p>
 
-                                            <!-- Link -->
-                                            <a class="h6 text-decoration-none mt-auto" href="/docs/Briefs/HINTS_Brief_44.pdf">Download Brief >
-                                            </a>
-                                            <hr>
+
                                             <!-- Heading -->
                                             <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">Sign Up for HINTS Updates
                                             </h4>

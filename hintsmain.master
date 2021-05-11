@@ -47,6 +47,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/inner.css">
     <link rel="stylesheet" href="/css/cards.css">
+    <link rel="stylesheet" href="/css/additional.css">
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -136,6 +137,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
+                                    <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Remediation</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -203,6 +205,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
+                                    <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Remediation</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">

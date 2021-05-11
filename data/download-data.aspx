@@ -92,13 +92,18 @@
                     </div>
                     <div id="dv_data" runat="server" class="TermsHidden">
 
-                        
+
+                        <div id="calloutBox">
+                            <p>
+                                Visit the <a href="/data/data-remediation.aspx">HINTS Data Errors, Remediation, and Recommendations</a> page to access important information about HINTS data errors, remediation procedures, and resultant recommendations
+                            </p>
+                        </div>
 
 
 
                         <p><strong>HINTS 5, Cycle 4 (2020) dataset, updated March 2021</strong></p>
                         <p>
-                           Total respondents: 3,865<br />
+                            Total respondents: 3,865<br />
                             Complete responses: 3,792<br />
                             Partial responses**: 73
 
