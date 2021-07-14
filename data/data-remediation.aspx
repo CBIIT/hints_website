@@ -25,8 +25,11 @@
                         <li>If the results rely on reporting population counts or totals.</li>
                         <li>If a small change in the statistical significance of a result would affect your conclusions. For example, if the result is based on a result that is significant close to a 5% level (if that is the criteria used in the analysis).</li>
                     </ol>
-                    <p>In both cases, we advise re-running the analysis and deciding if the results differ enough to merit reporting an erratum to the journal.</p>
 
+                    <p>In both cases, we advise re-running the analysis and deciding if the results differ enough to merit reporting an erratum to the journal.</p>
+                    <p>Additionally, the final weighted distribution for HINTS 4 Cycle 4 (2014) had a disproportionate number of males in the higher education groups. This issue arose because the raking step involving gender and education was carried out differently in H4C4 than in prior HINTS cycles. Raking involves forcing the distributions for several different demographic breakouts to the national totals. In the interest of maintaining a distribution of education for males that is closer to the national population, new weights were created that enforced tighter controls on these two variables.</p>
+                    <p>Several different types of analyses were run to compare results using the prior weights (distributed with the original dataset) and the revised weights (corrected in June 2021). These analyses involved examining percentages, regression estimates, and trends. The results that differed were those based on small sample sizes (e.g., a those age 90 and over) or effects of education that were close to statistical significance at the p&lt;0.05 level.</p>
+                    <p>HINTS data users who have completed, or are currently conducting, analyses using HINTS 4, Cycle 4 (2014) data should re-run final analyses using the revised weights in the data files that were updated in June 2021. Results are not likely to change for effects not related to education; however, it is best to be sure that results based on small sample sizes or results that were/are close to or marginally significant do not change when the revised weights are used.</p>
                 </div>
             </div>
         </section>

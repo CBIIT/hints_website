@@ -207,7 +207,7 @@
 
 
                         <p>
-                            <strong>HINTS 4, Cycle 4 (2014) dataset, updated April 2021 (See history document for change details)</strong>
+                            <strong>HINTS 4, Cycle 4 (2014) dataset, updated June 2021 (See history document for change details)</strong>
                         </p>
                         <p>
                             Total respondents: 3,677<br />
