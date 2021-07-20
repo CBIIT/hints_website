@@ -25,7 +25,7 @@
       <siteMapNode url="~/data/download-data.aspx" title="Public Use Dataset" description="Public Use Dataset"/>
       <siteMapNode url="~/data/survey-instruments.aspx" title="Survey Instruments" description="Survey Instruments"/>
       <siteMapNode url="~/data/methodology-reports.aspx" title="Methodology Reports" description="Methodology Reports"/>
-      <siteMapNode url="~/data/data-remediation.aspx" title="Data Remediation" description="Data Remediation"/>
+      <siteMapNode url="~/data/data-remediation.aspx" title="Data Errors and Remediation" description="Data Errors and Remediation"/>
     </siteMapNode>
 
 
