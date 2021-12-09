@@ -394,18 +394,18 @@ function BuildDisplay() {
 
 
 
-            //*********** Have to hide if not populated
-            if (QuestionDetails_ds[i].KnowledgeMap1 !== null) {
-                $("#HYP_KnowledgeMap").attr("href", "/view-questions-topics/map_details.aspx?qdid=" + QuestionDetails_ds[i].PK_QuestionDetails)
+            //////////*********** Have to hide if not populated
+            ////////if (QuestionDetails_ds[i].KnowledgeMap1 !== null) {
+            ////////    $("#HYP_KnowledgeMap").attr("href", "/view-questions-topics/map_details.aspx?qdid=" + QuestionDetails_ds[i].PK_QuestionDetails)
 
-                $('#LIT_NoMap').hide();
-                $('#HYP_KnowledgeMap').show();
-            }
-            else {
+            ////////    $('#LIT_NoMap').hide();
+            ////////    $('#HYP_KnowledgeMap').show();
+            ////////}
+            ////////else {
 
-                $('#LIT_NoMap').show();
-                $('#HYP_KnowledgeMap').hide();
-            }
+            ////////    $('#LIT_NoMap').show();
+            ////////    $('#HYP_KnowledgeMap').hide();
+            ////////}
 
 
             $("#LIT_Criteria_DESC").text('');

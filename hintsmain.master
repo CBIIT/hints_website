@@ -138,6 +138,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
                                     <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
+                                    <li class="twoLineNav"><a href="/data/data-merging-tool.aspx">HINTS Data Merging Code Tool</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -206,6 +207,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
                                     <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
+                                    <li class="twoLineNav"><a href="/data/data-merging-tool.aspx">HINTS Data Merging Code Tool</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">

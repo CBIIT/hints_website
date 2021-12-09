@@ -1,0 +1,18 @@
+﻿.datamergeouter {
+    overflow: hidden;
+    width: 100%;
+}
+
+.datamergecolumn {
+    float: left;
+    width: 50%;
+}
+
+.dv_Pnl53_Hide {
+    display: none;
+}
+
+.dv_Pnl53_show {
+    display: block;
+}
+
