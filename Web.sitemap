@@ -26,6 +26,7 @@
       <siteMapNode url="~/data/survey-instruments.aspx" title="Survey Instruments" description="Survey Instruments"/>
       <siteMapNode url="~/data/methodology-reports.aspx" title="Methodology Reports" description="Methodology Reports"/>
       <siteMapNode url="~/data/data-remediation.aspx" title="Data Errors and Remediation" description="Data Errors and Remediation"/>
+      <siteMapNode url="~/data/data-merging-tool.aspx" title="HINTS Data Merging Code Tool" description="HINTS Data Merging Code Tool"/>
     </siteMapNode>
 
 
