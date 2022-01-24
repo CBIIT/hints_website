@@ -92,10 +92,15 @@
                     </div>
                     <div id="dv_data" runat="server" class="TermsHidden">
 
-
+                        
                         <div id="calloutBox">
                             <p>
                                 Visit the <a href="/data/data-remediation.aspx">HINTS Data Errors, Remediation, and Recommendations</a> page to access important information about HINTS data errors, remediation procedures, and resultant recommendations
+                            </p>
+                        </div>
+                        <div id="calloutBox2">
+                            <p>
+                              If you require access to detailed geographic information or variables that have been suppressed in the public use datasets, please visit the <a href="/data/restricted-data.aspx">Request Restricted HINTS Datasets</a> page to learn how you can request restricted-use HINTS data
                             </p>
                         </div>
 

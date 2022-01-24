@@ -5,7 +5,7 @@
     <meta name="Title" content="Submit Publication | HINTS" />
     <meta name="Description" content="In order to help cultivate a community of HINTS users, HINTS encourages users to submit articles so they can be posted on the HINTS website." />
     <script type="text/javascript" src='<%=Me.ResolveUrl("~/_scripts/ValidateFileSize.js")%>'></script>
-    <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
+    <link rel="stylesheet" href="/css/hpot.css">
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -110,7 +110,7 @@
                                         <div class="FormItemWrapper">
                                             <div class="FormLeftItem">
                                                 <asp:Label ID="Month" AssociatedControlID="DDL_month" runat="server" Text="Publish Month/Year"></asp:Label>
-                                                <asp:Label style="visibility:hidden;" ID="Year" CssClass="skipnav_hidden" AssociatedControlID="DDL_year" runat="server" Text="*Publish Month/Year"></asp:Label>
+                                                <asp:Label Style="visibility: hidden;" ID="Year" CssClass="skipnav_hidden" AssociatedControlID="DDL_year" runat="server" Text="*Publish Month/Year"></asp:Label>
                                             </div>
                                             <div class="FormRightItem">
                                                 <asp:DropDownList ID="DDL_month" runat="server">
@@ -142,8 +142,10 @@
                                             Uploaded file too large. Please upload file < 5 MB  
                                         </div>
 
-                                        <div class="g-recaptcha" data-sitekey="6LfwqRoUAAAAAG5JZmHNYRZVZaZw8hiclIBawwHO"></div>
-
+                                        <div class="rwbtrickery">
+                                            <asp:TextBox ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
+                                            <label class="sr-only" for="rwbNotEmail">This is for bot prevention; leave this field blank</label>
+                                        </div>
 
                                         <div id="dv_controls">
                                             <div id="dv_controlSubmit">

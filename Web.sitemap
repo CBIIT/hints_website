@@ -27,6 +27,7 @@
       <siteMapNode url="~/data/methodology-reports.aspx" title="Methodology Reports" description="Methodology Reports"/>
       <siteMapNode url="~/data/data-remediation.aspx" title="Data Errors and Remediation" description="Data Errors and Remediation"/>
       <siteMapNode url="~/data/data-merging-tool.aspx" title="HINTS Data Merging Code Tool" description="HINTS Data Merging Code Tool"/>
+		  <siteMapNode url="~/data/restricted-data.aspx" title="Request Restricted Data" description="Request Restricted Data"/>
     </siteMapNode>
 
 

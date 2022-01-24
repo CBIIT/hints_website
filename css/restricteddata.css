@@ -1,0 +1,44 @@
+﻿.dv_question {
+    border: none !important;
+    padding: 1%;
+}
+
+
+.MultiLineTextBox_75 {
+    resize: horizontal;
+    width: 75%;
+}
+
+.restricteddiv_wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.divleft {
+    float: left;
+    /*width: 35%;*/
+}
+.divright {
+    float: left;
+    /*width: 65%;*/
+    margin-left:10px;
+}
+
+.divright label {
+    margin-left:5px;
+}
+
+
+.restricteddata_image {
+    max-width: 1200px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.restricteddata_clearboth {
+    clear: both;
+    padding-top:34px;
+}
+
+.dv_question label {
+    margin-top: -6px !important;
+}

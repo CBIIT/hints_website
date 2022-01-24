@@ -26,7 +26,8 @@
                                     <h5 class="card-title">Download Data</h5>
                                     <p class="card-text">Quickly access HINTS data, in SAS, SPSS, and STATA formats, and supporting documents</p>
                                     <p class="card-text">
-                                        <asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink></p>
+                                        <asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink>
+                                    </p>
                                 </div>
                             </div>
                             <div class="card">
@@ -50,8 +51,8 @@
                                     <p class="card-text"><a href="/view-questions-topics/all-hints-questions.aspx?all=1">Read More</a></p>
                                 </div>
                             </div>
-                            
-                               <div class="card">
+
+                            <div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">HINTS Data Errors, Remediation, and Recommendations</h5>
                                     <p class="card-text">Access important information about HINTS data errors, remediation procedures, and resultant recommendations</p>
@@ -59,14 +60,26 @@
                                 </div>
                             </div>
 
-                            
-                               <div class="card">
+
+                            <div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">HINTS Data Merging Code Tool</h5>
                                     <p class="card-text">Use this interactive tool to develop SAS code to merge multiple iterations of HINTS data. </p>
                                     <p class="card-text"><a href="/data/data-merging-tool.aspx">Read More</a></p>
                                 </div>
                             </div>
+
+
+
+
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Request Restricted HINTS Datasets</h5>
+                                    <p class="card-text">Request restricted-use HINTS datasets that contain geocodes and suppressed variables using the form found on this page.</p>
+                                    <p class="card-text"><a href="/data/restricted-data.aspx">Read More</a></p>
+                                </div>
+                            </div>
+
 
                         </div>
                     </div>

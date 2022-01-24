@@ -4,12 +4,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta name="Title" content="Contact Us | HINTS" />
     <meta name="Description" content="Contact us or visit our FAQ page to get information on the HINTS program." />
-    <style type="text/css">
-        #page_wrapper_contact_us h1 {
-            margin-left: 0;
-        }
-    </style>
-    <script type="text/javascript" src='https://www.google.com/recaptcha/api.js'></script>
+
+    <link rel="stylesheet" href="/css/hpot.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
@@ -106,8 +102,12 @@
                                 <br />
                             </div>
 
-                            
-                    <div class="g-recaptcha" data-sitekey="6LfwqRoUAAAAAG5JZmHNYRZVZaZw8hiclIBawwHO"></div>
+                            <div class="rwbtrickery">
+                                <asp:TextBox ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
+                                <label class="sr-only" for="rwbNotEmail">This is for bot prevention; leave this field blank</label>
+                            </div>
+
+
                             <div id="dv_controls">
                                 <div id="dv_controlSubmit" style="margin-right: 63%;">
                                     <asp:Button ID="btnSubmit" CausesValidation="true" runat="server" Text="Submit" />
@@ -132,12 +132,10 @@
                                     <strong>Thank you for your submission.  Someone will contact you shortly.</strong>
                                 </td>
                             </tr>
-          <tr id="send_unsucess_row" runat="server">
-			<td class="required">There has been a problem with your submission.  Please use the back button of your browser to re-enter your information and try again.  If this error persists, please <a href="mailto:blakek@mail.nih.gov">contact the administrator directly</a>.</td>
-          </tr>
-          <tr id="tr_captchaError_row" runat="server">
-			<td class="required">You must specify that this form is being used for legitimate purposes.</td>
-          </tr>
+                            <tr id="send_unsucess_row" runat="server">
+                                <td class="required">There has been a problem with your submission.  Please use the back button of your browser to re-enter your information and try again.  If this error persists, please <a href="mailto:blakek@mail.nih.gov">contact the administrator directly</a>.</td>
+                            </tr>
+
                         </table>
                     </div>
 
@@ -146,6 +144,10 @@
             </div>
         </section>
     </div>
+
+
+
+
 </asp:Content>
 
 

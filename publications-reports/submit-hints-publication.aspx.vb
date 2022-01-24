@@ -18,8 +18,6 @@ Partial Class publicationsfolder_submit_hints_publication
     Dim strConnect As String = ConfigurationManager.ConnectionStrings("dbConnectionString").ConnectionString
     Dim objConnect As New SqlConnection(strConnect)
 
-    Protected Shared ReCaptcha_Key As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPublicKey")
-    Protected Shared ReCaptcha_Secret As String = System.Configuration.ConfigurationManager.AppSettings("ReCaptchaPrivateKey")
 
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
@@ -45,27 +43,17 @@ Partial Class publicationsfolder_submit_hints_publication
     Protected Sub BTN_Submit_Click(sender As Object, e As EventArgs) Handles BTN_Submit.Click
 
 
-        'If Not recaptcha.IsValid Then
-        '    cvRecaptcha.IsValid = False
-        'Else
-        '    cvRecaptcha.IsValid = True
-        'End If
 
 
-        If recaptchaValidate() Then
 
+        If rwbNotEmail.Text <> "" Then
+            Response.Redirect("/error/potential.aspx")
+        Else
             If Page.IsValid Then
                 DoSave()
             Else
                 Exit Sub
             End If
-            '                    <asp:Label ID="lblmsg" Text="" runat="server"></asp:Label>
-            'lblmsg.Text = "Valid Recaptcha"
-            'lblmsg.ForeColor = System.Drawing.Color.Green
-        Else
-            Exit Sub
-            'lblmsg.Text = "Not Valid Recaptcha"
-            'lblmsg.ForeColor = System.Drawing.Color.Red
         End If
 
 
@@ -144,26 +132,4 @@ Partial Class publicationsfolder_submit_hints_publication
     End Sub
 
 
-    Public Function recaptchaValidate() As Boolean
-        Dim Response As String = Request.Form("g-recaptcha-response")
-        Dim Valid As Boolean = False
-        Dim req As HttpWebRequest = DirectCast(WebRequest.Create(Convert.ToString("https://www.google.com/recaptcha/api/siteverify?secret=" & ReCaptcha_Secret & "&response=") & Response), HttpWebRequest)
-        'Try
-        Using wResponse As WebResponse = req.GetResponse()
-
-            Using readStream As New StreamReader(wResponse.GetResponseStream())
-                Dim jsonResponse As String = readStream.ReadToEnd()
-                Dim js As New JavaScriptSerializer()
-                Dim data As Object = js.Deserialize(Of Object)(jsonResponse)
-                Valid = Convert.ToBoolean(data("success"))
-                'Context.Response.Write("<H1>--" & data("success") & "--</h1>")
-            End Using
-        End Using
-
-        Return Valid
-        'Catch ex As WebException
-        '    Throw ex
-        'End Try
-
-    End Function
 End Class
