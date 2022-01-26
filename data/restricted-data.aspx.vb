@@ -108,6 +108,7 @@ Partial Class data_restricted_data
                 Message.IsBodyHtml = True
 
 
+                ' rwb
                 SmtpClient.Send(Message)
                 Message.To.Clear()
                 SB_body = Nothing

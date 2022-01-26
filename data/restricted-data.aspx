@@ -23,7 +23,7 @@
 
 
                         <h1>Request Restricted HINTS Datasets</h1>
-                        <p>In order to request a restricted-use dataset that contain geocodes and suppressed variables (see table at bottom of page for details on these variables), please either fill out and submit the interactive form below or fill out the <a href="/docs/HINTS_Restricted_Data_Request_Form.pdf" target="_blank">Restricted Data Request Form</a> and email it to <a href="mailto:NCIHINTS@mail.nih.gov">NCIHINTS@mail.nih.gov</a> for review. Someone from the NCI HINTS Management Team will respond to you within two weeks of your request. </p>
+                        <p>In order to request a restricted-use dataset that contains geocodes and suppressed variables (see table at bottom of page for details on these variables), please either fill out and submit the interactive form below or fill out the <a href="/docs/HINTS_Restricted_Data_Request_Form.pdf" target="_blank">Restricted Data Request Form</a> and email it to <a href="mailto:NCIHINTS@mail.nih.gov">NCIHINTS@mail.nih.gov</a> for review. Someone from the NCI HINTS Management Team will respond to you within two weeks of your request. </p>
                       
                         <p>1. Which iteration(s) of the HINTS restricted use data are you requesting? (check all that apply)</p>
 
