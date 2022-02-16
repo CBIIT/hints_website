@@ -7,6 +7,7 @@
     .dv_question label {
         display: block;
         padding-left: 28px;
+        margin-top: -5px;
     }
 
     .dv_question input {
