@@ -63,27 +63,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a id="skipNav" tabindex="1" class="sr-only sr-only-focusable" href="#main-content">
             <span class="skiplink-text">Skip to main content</span>
         </a>
-        <div class="covid-banner">
-            <div class="container banner-details">
-
-                <div class ="banner-title">
-                    <p>COVID-19</p>
-                </div>
-
-               <div class="collapse banner-inner-content show" id="collapseContent">
-                    <p>What people with cancer should know: <a target="_blank" href="https://www.cancer.gov/coronavirus">https://www.cancer.gov/coronavirus</a></p>
-                    <%--<p>Guidance for cancer researchers: <a target="_blank" href="https://www.cancer.gov/coronavirus-researchers">https://www.cancer.gov/coronavirus-researchers</a></p>--%>
-                    <p> Get the latest public health information from CDC: <a target="_blank" href="https://www.cdc.gov/coronavirus/">https://www.cdc.gov/coronavirus/</a></p>
-                    <p>Get the latest research information from NIH: <a target="_blank" href="https://www.covid19.nih.gov/">https://www.covid19.nih.gov/</a></p>
-                </div>
-
-                <div  class="banner-toggle">
-                  <a class="toggle-icon" data-toggle="collapse" href="#collapseContent" role="button" aria-expanded="false" aria-controls="collapseContent">
-                      resources
-                  </a>
-                </div>
-            </div>
-        </div>
+       
         <div class="col p-0">
             <div class="container d-flex justify-content-between col-lg-12 col-xl-7 col custom-wrapper">
                 <nav
@@ -331,6 +311,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li>
                                 <a href="/about-hints/learn-more-about-hints.aspx">About HINTS</a>
                             </li>
+                            <li>
+                                <a href="https://www.cancer.gov/research/key-initiatives/covid-19/coronavirus-research-initiatives">NCI COVID-19 Resources</a>
+                            </li>
                         </ul>
 
                     </div>
@@ -343,16 +326,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <ul class="list-unstyled">
                             <li>
-                                <a href="https://www.cancer.gov/global/web/policies/accessibility">Accessibility</a>
+                                <a target="_blank" href="https://www.cancer.gov/global/web/policies/accessibility">Accessibility</a>
                             </li>
                             <li>
-                                <a href="https://www.cancer.gov/policies/disclaimer">Disclaimer</a>
+                                <a target="_blank" href="https://www.cancer.gov/policies/disclaimer">Disclaimer</a>
                             </li>
                             <li>
-                                <a href="https://www.cancer.gov/global/web/policies/foia">FOIA</a>
+                                <a target="_blank" href="https://www.cancer.gov/global/web/policies/foia">FOIA</a>
                             </li>
                             <li>
-                                <a href="https://www.cancer.gov/policies/privacy-security">Privacy</a>
+                                <a target="_blank" href="https://www.cancer.gov/policies/privacy-security">Privacy</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a>
                             </li>
                         </ul>
 
