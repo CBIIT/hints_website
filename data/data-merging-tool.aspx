@@ -6,7 +6,7 @@
     <meta name="Title" content="HINTS Data Merging Code Tool | HINTS" />
     <meta name="Description" content="Use this interactive tool to develop SAS code to merge multiple iterations of HINTS data. " />
 
-    <script src="/_scripts/datamergingcode/code.js"></script>
+    <script src="/_scripts/datamergingcode/gencode.js"></script>
     <link rel="stylesheet" href="/css/datamergingcode.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -18,7 +18,7 @@
 
                     <h1>HINTS Data Merging Code Tool</h1>
 
-                    <p>Use this interactive tool to develop SAS code (version 9.3 or higher) to merge multiple iterations of HINTS data, as well as generate example/template analysis code for frequencies/cross-tabulations and logistic and linear regressions. Stata code is currently in development and will be added to the tool in the future.</p>
+                    <p>Use this interactive tool to develop SAS (version 9.3 or higher) and Stata code to merge multiple iterations of HINTS data, as well as generate example/template analysis code for frequencies/cross-tabulations and logistic and linear regressions. </p>
                     <h2>Why would you want to merge two or more sets of HINTS data? </h2>
                     <p>Combining multiple iterations of HINTS data can help to fulfill two key goals:</p>
                     <ol>
@@ -31,6 +31,12 @@
 
                     <h3>Merging Tool</h3>
 
+                    <p>
+                        Select Your Data Format:<br />
+                        <input id="RD_SAS" name="gp_codetype" checked="checked" type="radio" value="SAS" /> <label for="RD_SAS">SAS</label><br />
+                        <input id="RD_STATA" name="gp_codetype" type="radio" value="Stata" /> <label for="RD_STATA">Stata</label>
+                        <%-- STATA is V2 --%>
+                    </p>
 
                     <div class="datamergeouter">
                         <div class="datamergecolumn">
