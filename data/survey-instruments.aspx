@@ -16,6 +16,10 @@
                     <h1 id="topTOC">Survey Instruments</h1>
 
                     <ul>
+                        <li><a href="#H2021_SM">HINTS-SEER (2021) Survey Materials</a></li>
+
+
+
                         <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) Survey Materials</a></li>
                         <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) Survey Materials</a></li>
                         <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) Survey Materials</a></li>
@@ -34,6 +38,21 @@
 
 
 
+                    <p id="H2021_SM">
+                        <strong>HINTS-SEER (2021) Survey Materials </strong>
+                        <br />
+
+                        In 2021, NCI undertook a pilot project to oversample cancer survivors for HINTS using three cancer registries from the Surveillance, Epidemiology, and End Results (SEER) Program (<a target="_blank" href="https://seer.cancer.gov">https://seer.cancer.gov</a>) as a sampling frame of cancer survivors. The pilot project, called HINTS-SEER, was designed to provide a larger sample of cancer survivors for HINTS analyses. The instrument closely resembles survey items and topics found on HINTS 5, Cycle 4 (2020), and includes other topics relevant to cancer survivors. A unique aspect of the HINTS-SEER dataset is that key data elements from the cancer registry datasets are linked to the HINTS survey responses, providing a more in-depth view of each respondent&rsquo;s cancer diagnosis.
+                    </p>
+                    <p>HINTS-SEER data were collected from January 11, 2021 through August 20, 2021. Once the SEER registries obtained consent to share individual mailing addresses, the mailing protocol for all three HINTS-SEER cohorts (Iowa Cancer Registry, Greater Bay Area Cancer Registry, and New Mexico Tumor Registry) followed a modified Dillman approach (Dillman, et al., 2009) with a total of four mailings: an initial mailing, a reminder postcard, and two follow-up mailings. Individuals in each sample received the first mailing and reminder postcard, while only non-respondents received the subsequent survey mailings. Complete data were collected from 1,234 respondents.</p>
+                    <ul>
+                        <li><strong>HINTS-SEER (2021) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS_SEER_AnnotatedInstrumentEnglish.pdf" target="_blank">PDF</a> 4.4MB)</li>
+                      </ul>
+
+                    <p><a href="#topTOC">Return to Top</a></p>
+
+
+
                     <p id="H5C4">
                         <strong>HINTS 5, Cycle 4 (2020) Survey Materials</strong><br />
 
@@ -42,8 +61,8 @@
                     <p>The sample design for the HINTS 5, Cycle 4 (2020) survey consisted of two-stages. In the first stage, an equal-probability sample of addresses was selected from within each explicit sampling stratum. In the second-stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. Complete data were collected from 3,865 respondents.</p>
 
                     <ul>
-                        <li><strong>HINTS 5, Cycle 4 (2020) Full-content, English Version: </strong>&nbsp;(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentEnglish.pdf" target="_blank">PDF</a>&nbsp;1.8MB)</li>
-                        <li><strong>HINTS 5, Cycle 4 (2020) Full-content, Spanish Version:</strong>&nbsp;(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentSpanish.pdf" target="_blank">PDF</a>&nbsp;1.2MB)</li>
+                        <li><strong>HINTS 5, Cycle 4 (2020) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentEnglish.pdf" target="_blank">PDF</a> 1.8MB)</li>
+                        <li><strong>HINTS 5, Cycle 4 (2020) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentSpanish.pdf" target="_blank">PDF</a> 1.2MB)</li>
                     </ul>
 
 
@@ -66,7 +85,7 @@
 
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="H5C2">
                         <strong>HINTS 5, Cycle 2 (2018) Survey Materials</strong><br />
 
@@ -84,7 +103,7 @@
 
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="H5C1">
                         <strong>HINTS 5, Cycle 1 (2017) Survey Materials</strong><br />
 
@@ -100,7 +119,7 @@
 
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="FDAc2">
                         <strong>HINTS-FDA, Cycle 2 (2017) Survey Materials</strong><br />
                         HINTS-FDA, Cycle 2 (2017) data were collected from January through May, 2017. The sample design for HINTS-FDA, Cycle 2 (2017) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
@@ -116,7 +135,7 @@
                     <p><a href="#topTOC">Return to Top</a></p>
 
 
-                    
+
                     <p id="FDA2015">
                         <strong>HINTS-FDA (2015) Survey Materials</strong><br />
                         HINTS-FDA (2015) data  were collected from May through September, 2015. The sample design for HINTS-FDA (2015)<strong> </strong>consisted of a  single-mode mail survey, using the Next Birthday Method for respondent  selection.
@@ -133,7 +152,7 @@
 
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="H4C4">
                         <strong>HINTS 4, Cycle 4 (2014) Survey Materials</strong><br />
                         HINTS 4, Cycle 4 (2014) data were collected from August through November, 2014. The sample design for HINTS 4, Cycle 4 (2014) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
@@ -150,12 +169,12 @@
                         <li><strong>HINTS 4, Cycle 4 (2014) Reduced-content, Spanish Version:</strong> (<a href="/docs/Instruments/HINTS_Cycle_4_Spanish_Reduced_Annotated_Form.pdf" target="_blank">PDF</a> 495 KB)</li>
                     </ul>
 
-                    
-                    
+
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
 
-                    
+
                     <p id="H4C3">
                         <strong>HINTS 4, Cycle 3 (2013) Survey Materials</strong><br />
                         HINTS 4, Cycle 3 (2013) data were collected from September 2013 through December 2013. The sample design for HINTS 4, Cycle 3 (2013) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
@@ -169,12 +188,12 @@
                         <li><strong>HINTS 4, Cycle 3 (2013) Full-content, Spanish Version:</strong> (<a href="/docs/Instruments/HINTS_4_Cycle_3_Spanish_Full_Annotated_508c.pdf" target="_blank">PDF</a> 628 KB)</li>
                         <li><strong>HINTS 4, Cycle 3 (2013) Reduced-content, Spanish Version:</strong> (<a href="/docs/Instruments/HINTS_4_Cycle_3_Spanish_Reduced_Annotated_508c.pdf" target="_blank">PDF</a> 2 MB)</li>
                     </ul>
-                    
-                    
+
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
 
-                    
+
                     <p id="H4C2">
                         <strong>HINTS 4, Cycle 2 (2012) Survey Materials</strong><br />
                         HINTS 4, Cycle 2 (2012) data were collected from October 2012 through January 2013. The sample design for HINTS 4, Cycle 2 (2012) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
@@ -188,12 +207,12 @@
                         <li><strong>HINTS 4, Cycle 2 (2012) Full-content, Spanish Version:</strong> (<a href="/docs/Instruments/HINTS_4_Cycle_2_Spanish.pdf" target="_blank">PDF</a> 540 KB)</li>
                         <li><strong>HINTS 4, Cycle 2 (2012) Methodology Report:</strong> (<a href="/docs/Instruments/HINTS_4_Cycle2_Methods_Report.pdf" target="_blank">PDF</a> 533 KB)</li>
                     </ul>
-                    
-                    
+
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
 
-                    
+
                     <p id="H4C1">
                         <strong>HINTS 4, Cycle 1 (2011) Survey Materials</strong><br />
                         HINTS 4, Cycle 1 (2011) data were collected from October 2011 through February 2012. The sample design for HINTS 4, Cycle 1 (2011) consisted of a single-mode mail survey, with two methods of respondent selection: the “All Adult” method and the “Next Birthday” method. The sampling consisted of a two-stage stratified sample of addresses used by Marketing Systems Group (MSG).
@@ -211,11 +230,11 @@
                         <li><strong>Next-Birthday, Reduced-content, Spanish Version:</strong> (<a href="/docs/Instruments/HINTS4Cycle1_NBReducedContentSpanishSurvey.pdf" target="_blank">PDF</a> 590 KB)</li>
                     </ul>
 
-                    
-                    
+
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="HINTSPR2009">
                         <strong>HINTS Puerto Rico 2009</strong><br />
                         The University of Puerto Rico Comprehensive Cancer Center, the Puerto Rico Behavioral Risk Factors Surveillance System, and the U.S. National Cancer Institute, implemented HINTS in Puerto Rico in 2009. A total of 639 (603 complete and 36 partially complete) interviews were conducted. Documentation is available to assist with analyzing the HINTS Puerto Rico data, including instructions on how to combine the dataset with HINTS 2007 for comparisons. See the Final Report below for more information  about the design, testing, and implementation of the HINTS Puerto Rico survey.  You may also <a id='hyp_instruments_download_inner' runat="server" href="~/data/survey-instruments.aspx#openModal">download the complete dataset</a>.
@@ -226,11 +245,11 @@
                         <li><strong>English language full instrument not available.</strong></li>
                     </ul>
 
-                    
-                    
+
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="HINTS3">
                         <strong>HINTS 3 (2008) Survey Materials</strong><br />
                         HINTS 3 (2008) data were collected from January 2008 through May 2008.  The sample design for HINTS 3 (2008) consisted of two samples with each sample selected from a separate sample frame. One sample was drawn as a Random Digit Dial telephone survey, using a Computer Assisted Telephone Interview (CATI) format. The CATI survey for HINTS 3 (2008) was conducted using the same methodology as HINTS 2 and 1.  Survey administration averaged 30 minutes per respondent.  Data were collected from 4,092  respondents via CATI.
@@ -247,10 +266,10 @@
                         <li><strong>HINTS 3 (2008) CATI Instrument (Spanish)</strong> (<a href="/docs/Instruments/HINTS 2007 CATI Instrument (Spanish).pdf" target="_blank">PDF</a> 450 KB)</li>
                     </ul>
 
-                    
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="HINTS2">
                         <a id="H2"></a><strong>HINTS 2 (2005) Survey Materials</strong><br />
                         HINTS 2 data were collected from February 2005 through August 2005.  HINTS 2 was fielded as a Random Digit Dial telephone survey, using a Computer Assisted Telephone Interview (CATI) format to accommodate complex skip-patterns. Data collection procedures were identical to HINTS 2003.  Survey administration averaged 30 minutes per respondent. Data were collected from 5,586 respondents. Materials describing the 2005 administration of the survey are available below. See the Final Report  below for more information about the design, testing, and implementation of the HINTS 2 survey.  You may also
@@ -261,11 +280,11 @@
                         <li><strong>HINTS 2 (2005) Main Survey Instrument (English):</strong> (<a href="/docs/Instruments/HINTS_2005_Instrument-English.pdf" target="_blank">PDF</a> 510 KB)</li>
                         <li><strong>HINTS 2 (2005) Main Survey Instrument (Spanish):</strong> (<a href="/docs/Instruments/HINTS_2005_Instrument-Spanish.pdf" target="_blank">PDF</a> 475 KB)</li>
                     </ul>
-                    
-                    
+
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
-                    
+
                     <p id="HINTS1">
                         <strong><a id="H1"></a>HINTS 1 (2003) Survey Materials</strong><br />
                         The first collection of HINTS data was conducted from October 2002 to April 2003. This initial data collection effort was fielded as a Random Digit Dial telephone survey, using a Computer Assisted Telephone Interview (CATI) format to accommodate complex skip-patterns. Telephone numbers were generated at random from a sampling frame of all telephone exchanges throughout the 50 United States. Numbers were submitted to a telephone matching service to remove nonresidential numbers, where feasible, before calling. Screening calls were then placed to households. Interviewers followed an on-screen sampling algorithm to select a single sampled person from all adults 18 years and older in the household.  Survey administration averaged 30 minutes per respondent. Data were collected from 6,369 respondents.  See the Final Report link below for more information about the design, testing, and implementation of the HINTS 2003 survey.
@@ -281,7 +300,7 @@
                     </ul>
 
                     <p>Learn about mode, trends and more in the <a href="/about-hints/frequently-asked-questions.aspx">HINTS FAQ</a>.</p>
-                    
+
                     <p><a href="#topTOC">Return to Top</a></p>
 
                 </div>

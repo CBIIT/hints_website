@@ -92,7 +92,7 @@
                     </div>
                     <div id="dv_data" runat="server" class="TermsHidden">
 
-                        
+
                         <div id="calloutBox">
                             <p>
                                 Visit the <a href="/data/data-remediation.aspx">HINTS Data Errors, Remediation, and Recommendations</a> page to access important information about HINTS data errors, remediation procedures, and resultant recommendations
@@ -100,9 +100,44 @@
                         </div>
                         <div id="calloutBox2">
                             <p>
-                              If you require access to detailed geographic information or variables that have been suppressed in the public use datasets, please visit the <a href="/data/restricted-data.aspx">Request Restricted HINTS Datasets</a> page to learn how you can request restricted-use HINTS data
+                                If you require access to detailed geographic information or variables that have been suppressed in the public use datasets, please visit the <a href="/data/restricted-data.aspx">Request Restricted HINTS Datasets</a> page to learn how you can request restricted-use HINTS data
                             </p>
                         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        <p><strong>HINTS-SEER (2021) dataset, updated November 2022</strong></p>
+                        <p>
+                            Total respondents: 1,258<br>
+                            Complete responses: 1,189<br>
+                            Partial responses**: 45<br>
+                            Ineligible responses: 24
+                        </p>
+                        <p>Because the HINTS-SEER dataset contains linked medical diagnosis variables and there is a potential for disclosure, HINTS-SEER is not a public-use data file that is available for download without first applying to use the data via the HINTS <a href="/data/restricted-data.aspx">restricted-use data request form</a>. Once the form has been submitted, it will be reviewed by a subcommittee of analysts and a member of the HINTS management team will be in touch with you via email within 2 weeks to discuss your request. To learn more about HINTS-SEER, please consult the <a href="/docs/Instruments/HINTS_SEER_AnnotatedInstrumentEnglish.pdf" target="_blank">survey instrument</a>.</p>
+                        <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions in Sections A and B were answered. Only questions required of every respondent were factored into the completion rate calculation.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
