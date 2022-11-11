@@ -47,6 +47,7 @@
                     <p>HINTS-SEER data were collected from January 11, 2021 through August 20, 2021. Once the SEER registries obtained consent to share individual mailing addresses, the mailing protocol for all three HINTS-SEER cohorts (Iowa Cancer Registry, Greater Bay Area Cancer Registry, and New Mexico Tumor Registry) followed a modified Dillman approach (Dillman, et al., 2009) with a total of four mailings: an initial mailing, a reminder postcard, and two follow-up mailings. Individuals in each sample received the first mailing and reminder postcard, while only non-respondents received the subsequent survey mailings. Complete data were collected from 1,234 respondents.</p>
                     <ul>
                         <li><strong>HINTS-SEER (2021) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS_SEER_AnnotatedInstrumentEnglish.pdf" target="_blank">PDF</a> 4.4MB)</li>
+                       <li><strong>HINTS-SEER (2021) Methodology Report: </strong>(<a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">PDF</a> 5.6MB)</li>
                       </ul>
 
                     <p><a href="#topTOC">Return to Top</a></p>
