@@ -149,6 +149,20 @@
                                         <div class="card-body text-left">
 
 
+                                            
+                                            <!-- Heading -->
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">2023 HINTS Data Users Conference</h4>
+
+                                            <!-- Text -->
+                                            <p>
+                                               Get information about the upcoming HINTS Data Users Conference, happening September 21-22, 2023 in Bethesda, MD. 
+                                            </p>
+
+                                            <!-- Link -->
+                                            <a class="h6 text-decoration-none mt-auto" href="/meetings-trainings/2023-users-meeting.aspx">Visit page ></a>
+                                            <hr>
+
+
                                                                     <!-- Heading -->
                                             <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Errors, Remediation, and Recommendations
                                             </h4>
@@ -163,19 +177,6 @@
                                             <hr>
 
 
-                                            <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 5, Cycle 4 (2020) Data Now Available
-                                            </h4>
-
-                                            <!-- Text -->
-                                            <p>
-                                                Our newest public use dataset, HINTS 5, Cycle 4 (2020), is now available for download in SPSS, SAS, and STATA formats.
-                                            </p>
-
-                                            <!-- Link -->
-                                            <a class="h6 text-decoration-none mt-auto" href="/data/download-data.aspx">Access Data >
-                                            </a>
-                                            <hr>
                     
 
 

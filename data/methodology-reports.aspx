@@ -19,6 +19,9 @@
                     </p>
 
                     <ul>
+                            <li><strong>HINTS-SEER (2021) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf">PDF</a> 5.6 MB)</li>
+
+
                         <li><strong>HINTS 5, Cycle 4 (2020) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS5_Cycle4_MethodologyReport.pdf">PDF</a> 1.4 MB)</li>
 
                         <li><strong>HINTS 5, Cycle 3 (2019) Methodology Report:</strong> (<a href="/docs/Instruments/HINTS5_Cycle3_MethodologyReport.pdf">PDF</a> 1.1 MB) and <strong>Web Pilot Report:</strong> (<a href="/docs/methodologyreports/HINTS_WebPilotResultsReport.pdf">PDF</a> 3.3 MB)</li>
