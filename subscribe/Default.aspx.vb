@@ -16,14 +16,24 @@ Partial Class subscribe_Default
 
 
     Protected Sub btnSubmit_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btnSubmit.Click
-        If Page.IsValid Then
-            If rdSub.Checked Then
-                subscribeMe()
-            ElseIf rdUnsub.Checked Then
-                UnSubscribeMe()
+        If rwbNotEmail.Text <> "" Then
+            Response.Redirect("/error/potential.aspx")
+        Else
+            If Page.IsValid Then
+                DoSave()
             Else
                 Exit Sub
             End If
+        End If
+    End Sub
+
+    Sub DoSave()
+        If rdSub.Checked Then
+            subscribeMe()
+        ElseIf rdUnsub.Checked Then
+            UnSubscribeMe()
+        Else
+            Exit Sub
         End If
     End Sub
 

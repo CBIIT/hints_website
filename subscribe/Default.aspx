@@ -1,6 +1,7 @@
 ﻿<%@ Page Title="Subscribe/Unsubscribe" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="subscribe_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <link rel="stylesheet" href="/css/hpot.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
     <div class="container col-lg-12 col-xl-7 col custom-wrapper">
@@ -33,7 +34,10 @@
                             <asp:RadioButton ID="rdUnsub" Text="Un-subscribe" TextAlign="Right" runat="server"
                                 GroupName="listserv" />&nbsp;
                             </p>
-
+                            <div class="rwbtrickery">
+                                <asp:TextBox autocomplete="new-password" ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
+                                <label class="sr-only" for="rwbNotEmail">This is for bot prevention; leave this field blank</label>
+                            </div>
                             <p>
                                 <asp:Button ID="btnSubmit" runat="server" Text="Accept" />
                             </p>

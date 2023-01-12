@@ -35,6 +35,20 @@ Partial Class data_restricted_data
 
 
     Protected Sub BTN_SubmitRestrictedData_Click(sender As Object, e As EventArgs) Handles BTN_SubmitRestrictedData.Click
+
+        If rwbNotEmail.Text <> "" Then
+            Response.Redirect("/error/potential.aspx")
+        Else
+            If Page.IsValid Then
+                DoSave()
+            Else
+                Exit Sub
+            End If
+        End If
+
+    End Sub
+
+    Sub DoSave()
         If Page.IsValid Then
 
 
@@ -124,11 +138,6 @@ Partial Class data_restricted_data
                 PLC_Issue.Visible = True
                 PLC_thankyou.Visible = False
             End Try
-
-
-
-
-
 
 
 

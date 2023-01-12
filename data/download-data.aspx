@@ -5,6 +5,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta name="Title" content="Download Data | HINTS" />
     <meta name="Description" content="Download HINTS datasets in SAS, SPSS, or STATA format to conduct your own analyses. " />
+    <link rel="stylesheet" href="/css/hpot.css">
+
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -84,6 +86,14 @@
                                     ValidationGroup="mainpage_GP" Display="Dynamic" ErrorMessage="&lt;br/&gt;Please enter a valid email address."
                                     ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                             </p>
+
+                            <div class="rwbtrickery">
+                                <p>
+                                <asp:TextBox autocomplete="new-password" ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
+                                <label class="sr-only" for="rwbNotEmail">This is for bot prevention; leave this field blank</label>
+                                    </p>
+                            </div>
+
                             <p>
                                 <asp:Button ID="btnSubmit_SinglePage" ValidationGroup="mainpage_GP" runat="server" Text="Accept" />
                             </p>
@@ -127,7 +137,8 @@
                         <hr />
 
                         <h2 id="HDLP"><strong>HINTS Data Linkage Project 2020 (HDLP)</strong></h2>
-                        <p>The HINTS Data Linkage Project 2020 (HDLP) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) merged with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The data were linked at the county level and support doing novel analyses. Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to use the data via the HINTS restricted-use data request form</a>. Once the application has been submitted, it will be reviewed by a subcommittee of analysts and a member of the HINTS management team will be in touch with you via email within 2 weeks to discuss your request. </p>
+                        <p>The HINTS Data Linkage Project 2020 (HDLP) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). <a target="_blank" href="/docs/methodologyreports/HDLP2020_External_Variables_Codebook.pdf">See the HDLP external variables codebook</a> for a list of all variables. </p>
+                        <p>Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>. </p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
 

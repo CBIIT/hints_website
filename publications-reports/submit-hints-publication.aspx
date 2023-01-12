@@ -143,7 +143,7 @@
                                         </div>
 
                                         <div class="rwbtrickery">
-                                            <asp:TextBox ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
+                                            <asp:TextBox autocomplete="new-password" ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
                                             <label class="sr-only" for="rwbNotEmail">This is for bot prevention; leave this field blank</label>
                                         </div>
 
