@@ -13,7 +13,7 @@
                 <div class="col-md-12">
                     <div class="row">
                         <h1 class="pl-3 pr-3 col-12">About HINTS</h1>
-                        <p class="pl-3 pr-3">Since 2003, HINTS has collected nationally representative data that tracks changes in health communication and information technology. On this page, you can find answers to frequently asked questions. View the latest HINTS data collection schedule. Find out how to participate in a HINTS survey, or submit a question or request.</p>
+                        <p class="pl-3 pr-3">Since 2003, HINTS has collected nationally representative data that tracks changes in health communication and information technology. On this page, you can find answers to frequently asked questions, view the latest HINTS data collection schedule, find out how to participate in a HINTS survey, or submit a question or request.</p>
                         <div class="card-deck mb-4 mr-0 ml-0">
                             <div class="card">
                                 <div class="card-body p-4">

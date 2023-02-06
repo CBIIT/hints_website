@@ -19,7 +19,7 @@
                 <div class="col-md-12">
                     <div class="row">
                         <h1 class="pl-3 pr-3 col-12">Data</h1>
-                        <p class="pl-3 pr-3">HINTS nationally representative data is publicly available for researchers and health professionals to use for their own analyses.</p>
+                        <p class="pl-3 pr-3">HINTS nationally representative data is mostly publicly available for researchers and health professionals to use for their own analyses. However, some HINTS data requires a restricted data request.</p>
                         <div class="card-deck mb-4 mr-0 ml-0">
                             <div class="card">
                                 <div class="card-body p-4">
@@ -75,7 +75,7 @@
                             <div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">Request Restricted HINTS Datasets</h5>
-                                    <p class="card-text">Request restricted-use HINTS datasets that contain geocodes and suppressed variables using the form found on this page.</p>
+                                    <p class="card-text">Request restricted-use HINTS datasets that contain geocodes and suppressed variables or restricted-use-only datasets using the form found on this page.</p>
                                     <p class="card-text"><a href="/data/restricted-data.aspx">Read More</a></p>
                                 </div>
                             </div>

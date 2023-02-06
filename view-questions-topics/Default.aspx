@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <h1 class="pl-3 pr-3 col-12">View Questions & Topics</h1>
+                        <h1 class="pl-3 pr-3 col-12">View Questions</h1>
                         <p class="pl-3 pr-3">View estimated U.S. population values, charts and data visualizations, and trends over time for each HINTS question and browse HINTS questions by topic.</p>
                         <div class="card-deck mb-4 mr-0 ml-0">
                             <div class="card">
@@ -23,13 +23,6 @@
                                     <h5 class="card-title">View Questions</h5>
                                     <p class="card-text">Search or browse HINTS questions and data across all survey iterations.</p>
                                     <p class="card-text"><a href="/view-questions-topics/all-hints-questions.aspx">Read More</a></p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body p-4">
-                                    <h5 class="card-title">View Topics</h5>
-                                    <p class="card-text">Find related questions, briefs and publications on topics covered in HINTS research.</p>
-                                    <p class="card-text"><a href="/view-questions-topics/hints-topics.aspx">Read More</a></p>
                                 </div>
                             </div>
                             <div class="card">

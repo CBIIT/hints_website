@@ -14,10 +14,14 @@ Partial Class publicationsfolder_hints_publications
     Dim dtable As New DataTable
     Dim dview As DataView
     Public previousYear As String
+    Public FirstYear As Boolean = True
+
+
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
         If Not Page.IsPostBack Then
+            FirstYear = True
 
             objConnect.Open()
             Cmd.CommandType = CommandType.StoredProcedure
@@ -30,6 +34,16 @@ Partial Class publicationsfolder_hints_publications
             UC_Articles.Visible = True
             objDR.Close()
             Cmd.Parameters.Clear()
+
+
+            Cmd.CommandType = CommandType.StoredProcedure
+            Cmd.CommandText = "List_Article_Years"
+            objDR = Cmd.ExecuteReader()
+            RPTR_PubJumplinks.DataSource = objDR
+            RPTR_PubJumplinks.DataBind()
+            objDR.Close()
+            Cmd.Parameters.Clear()
+
             objConnect.Close()
 
         End If

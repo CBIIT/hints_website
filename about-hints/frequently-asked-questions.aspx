@@ -53,6 +53,11 @@
                         <li><a href="#accordion-17">What modes have been used to collect HINTS data?</a></li>
                         <li><a href="#accordion-18">Why was HINTS 3 (2007) collected using 2 modes?</a></li>
                         <li><a href="#accordion-20">What are mode effects?</a></li>
+                        <li><a href="#accordion-20_b">Do I need to consider mode effects if I'm looking at trends across HINTS years?</a></li>
+
+                        
+
+
                         <li><a href="#accordion-21">How can I tell if I need to be concerned about mode effects?</a></li>
                         <li><a href="#accordion-22">How do I address mode effects in my analyses?</a></li>
                         <li><a href="#accordion-23">What should I do if some of the items in my analysis have mode effects and some do not?</a></li>
@@ -67,7 +72,6 @@
                         <li><a href="#accordion-28">Do I need to consider mode effects if I'm looking at trends across HINTS years?</a></li>
                         <li><a href="#accordion-29">How can I tell if an item is appropriate to examine in trends analyses?</a></li>
                         <li><a href="#accordion-30">Do I need to consider differences in response rates or sample demographics when examining trends across HINTS years?</a></li>
-                        <li><a href="#accordion-31">Do I need to consider mode effects if I am looking at trends across HINTS years?</a></li>
                         <li><a href="#accordion-32">How do I examine trends across HINTS iterations that include HINTS 3 (2007)?</a></li>
                         <li><a href="#accordion-33">Where do I find information about how composite variables were created and other changes to the data? </a></li>
 
@@ -86,7 +90,7 @@
                             <div>
 
                                 <p>The Health Information National Trends Survey (HINTS) is a biennial, cross-sectional survey of a nationally-representative sample of American adults that is used to assess the impact of the health information environment. Specifically, HINTS measures how people access and use health information; how people use information technology to manage health and health information; and the degree to which people are engaged in healthy behaviors. Finally, several items in HINTS have a specific focus on cancer prevention and control.</p>
-                                <p>Currently, 11 iterations of HINTS exist: HINTS 1 (2003), HINTS 2 (2005), HINTS  3 (2007), HINTS Puerto Rico (2009), HINTS 4 Cycle 1 (2011), HINTS 4  Cycle 2 (2012), HINTS 4 Cycle 3 (2013), HINTS 4 Cycle 4 (2014), HINTS-FDA  (2015), HINTS-FDA Cycle 2 (2017), and HINTS 5 Cycle 1 (2017). As such,  researchers can examine items and constructs that are common to all six  iterations as a way to measure trends over time.</p>
+                                <p>Currently, 16 iterations of HINTS exist: HINTS 1 (2003), HINTS 2 (2005), HINTS 3 (2007), HINTS Puerto Rico (2009), HINTS 4 Cycle 1 (2011), HINTS 4 Cycle 2 (2012), HINTS 4 Cycle 3 (2013), HINTS 4 Cycle 4 (2014), HINTS-FDA (2015), HINTS-FDA Cycle 2 (2017), HINTS 5 Cycle 1 (2017), HINTS 5 Cycle 2 (2018), HINTS 5 Cycle 3 (2019), HINTS 5 Cycle 4 (2020), HINTS Data Linkage Project (2020), and HINTS-SEER (2021). As such, researchers can examine items and constructs that are common to multiple iterations as a way to measure trends over time.</p>
                             </div>
                             <!--end .accordion-section-content-->
                         </div>
@@ -113,7 +117,7 @@
                             <strong>What are the response rates for the available HINTS data?</strong>
 
                             <div>
-                                <p>HINTS 1 (2003) had a 33% and HINTS, Puerto Rico (2009) had a 93%, response rate using the telephone mode. The  HINTS 2 (2005) data was collected by the telephone mode and had a 21% response  rate. Since HINTS 3 (2007) had two separate modes for collecting the data,  there are separate response rates for the telephone mode (21%) and mail mode  (31%). All cycles of HINTS 4 data were collected by the mail mode.&nbsp; The  following are the response rates for HINTS 4 iterations: HINTS 4 Cycle 1 (2011) [37%], HINTS 4  Cycle 2 (2012) [40%], HINTS 4 Cycle 3 (2013) [35%], HINTS, Puerto Rico (2009) [93%], HINTS 4 Cycle 4 (2014) [34%], HINTS 5 Cycle 1 (2017), the response  rate was [32%]. For the two HINTS-FDA iterations, the response rates were  HINTS-FDA (2015) [33%] and HINTS-FDA, Cycle 2 (2017) [34%]. For HINTS 5, Cycle  1 (2017) the response rate was [32%], and was conducted using a  self-administered mail questionnaire.</p>
+                                <p>HINTS 1 (2003) had a 33% and HINTS, Puerto Rico (2009) had a 93%, response rate using the telephone mode. The HINTS 2 (2005) data was collected by the telephone mode and had a 21% response rate. Since HINTS 3 (2007) had two separate modes for collecting the data, there are separate response rates for the telephone mode (21%) and mail mode (31%). All cycles of HINTS 4 data were collected by the mail mode.  The following are the response rates for HINTS 4 iterations: HINTS 4 Cycle 1 (2011) [37%], HINTS 4 Cycle 2 (2012) [40%], HINTS 4 Cycle 3 (2013) [35%], HINTS, Puerto Rico (2009) [93%], HINTS 4 Cycle 4 (2014) [34%]. For the two HINTS-FDA iterations, the response rates were HINTS-FDA (2015) [33%] and HINTS-FDA, Cycle 2 (2017) [34%]. The following are the response rates for HINTS 5 iterations: HINTS 5, Cycle 1 (2017) [32%], HINTS 5, Cycle 2 (2018) [33%], HINTS 5, Cycle 3 (2019) [30%], HINTS 5, Cycle 4 (2020) [37%].</p>
                             </div>
                             <!--end .accordion-section-content-->
                         </div>
@@ -131,7 +135,7 @@
                             <strong>Do I need permission to use the data?</strong>
 
                             <div>
-                                <p>No. All data from every HINTS survey are available on the HINTS Web site for public use.</p>
+                                <p>It depends. Many datasets are available on the HINTS Web site for public use. However, some data from HINTS surveys are restricted-use and need to be requested <a href="/data/restricted-data.aspx">here</a>.</p>
                             </div>
                             <!--end .accordion-section-content-->
                         </div>
@@ -282,6 +286,19 @@
                             <!--end .accordion-section-content-->
                         </div>
                         <!--end .accordion-section-->
+
+                        
+                        <div class="accordion-section" id="accordion-20_b">
+                            <strong>Do I need to consider mode effects if I'm looking at trends across HINTS years?</strong>
+
+                            <div>
+                                <p>You do need to consider mode effects for trend analyses. If there is a mode effect, use the RDD sample. This keeps mode consistent across the different HINTS surveys.</p>
+                            </div>
+                            <!--end .accordion-section-content-->
+                        </div>
+                        <!--end .accordion-section-->
+
+
                         <div class="accordion-section" id="accordion-21">
                             <strong>How can I tell if I need to be concerned about mode effects?</strong>
 
@@ -395,14 +412,7 @@
                             <!--end .accordion-section-content-->
                         </div>
                         <!--end .accordion-section-->
-                        <div class="accordion-section" id="accordion-31">
-                            <strong>Do I need to consider mode effects if I am looking at trends across HINTS years?</strong>
-
-                            <div>
-                                <p>Since HINTS 3 (2007) was administered through both mail and RDD surveys, you do need to consider mode effects for trend analyses if you are using this iteration. While the telephone method allowed HINTS&rsquo; users to trend with previous iterations that used the same method, the mail mode provided a baseline for trending data in future iterations. If there are no differences between RDD and mailed surveys for HINTS 3 (2007), use the combined sample and respective weights.  If there are significant differences between HINTS 3 (2007) modes, use the RDD sample and weights to trend with previous iterations and use the mail sample and weights for subsequent iterations. This keeps mode consistent across the different HINTS surveys.</p>
-                            </div>
-                            <!--end .accordion-section-content-->
-                        </div>
+                     
                         <!--end .accordion-section-->
                         <div class="accordion-section" id="accordion-32">
                             <strong>How do I examine trends across HINTS iterations that include HINTS 3 (2007)?</strong>

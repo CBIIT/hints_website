@@ -20,7 +20,8 @@
                                 <h1>HINTS Reports and Materials</h1>
 
                                 <h2>HINTS How-to Webinar</h2>
-                                <p>On May 4, 2016, presenters from the National Cancer Institute and the U.S. Food and Drug Administration
+                                <p>
+                                    On May 4, 2016, presenters from the National Cancer Institute and the U.S. Food and Drug Administration
                                  came together to provide an overview of HINTS, review optimal ways for analyzing HINTS
                                  data, and present case studies that used HINTS data in an interactive workshop and
                                  webinar. Videos from this webinar are <a href="/meetings-trainings/hints-educational-webinars.aspx">now available</a>.
@@ -33,7 +34,7 @@
                                         <div class="row">
 
                                             <div class="item_wrapper col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
-                                                <div class="book book_img" >
+                                                <div class="book book_img">
                                                     <img id="image_first" src="/_images/reports/08_ida_workshop.png" alt="Integrative analytic methods using population-level cross-sectional data" />
                                                 </div>
 
@@ -151,50 +152,51 @@
                             <!-- HINTS overview & factsheet -->
                             <div id="overview_factsheet" class="col-12">
                                 <div class="col-12">
-                                <div class="container fullwidth">
-                                    <div class="row">
+                                    <div class="container fullwidth">
+                                        <div class="row">
 
-                                        <!-- Overview -->
-                                        <div id="overview" class="overview_materials col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
+                                            <!-- Overview -->
+                                            <div id="overview" class="overview_materials col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
 
-                                        <h2>HINTS Overview Materials</h2>
+                                                <h2>HINTS Overview Materials</h2>
 
-                                        <div class="book book_img">
-                                            <img src="/_images/reports/06_hints_brochure.png" alt="HINTS Health Information National Trends Survey Brochure" />
-                                        </div>
+                                                <div class="book book_img">
+                                                    <img src="/_images/reports/06_hints_brochure.png" alt="HINTS Health Information National Trends Survey Brochure" />
+                                                </div>
 
-                                        <div class="book book_info">
-                                            <strong>HINTS Health Information National Trends Survey Brochure</strong>
-                                            <br style="clear: none;" />
-                                            <br style="clear: none;" />
-                                            Summary brochure describing the survey, its respondents, how the data can be used,
+                                                <div class="book book_info">
+                                                    <strong>HINTS Health Information National Trends Survey Brochure</strong>
+                                                    <br style="clear: none;" />
+                                                    <br style="clear: none;" />
+                                                    Summary brochure describing the survey, its respondents, how the data can be used,
         and how HINTS helps researchers, planners, and the American public.
                 <p>
                     <a href="/docs/brochure_acc.pdf" target="_blank">Download PDF</a>
                 </p>
-                                            <br />
+                                                    <br />
+                                                </div>
+
+                                            </div>
+
+                                            <!-- Factsheet -->
+                                            <div id="factsheet" class="overview_materials col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
+                                                <h2>HINTS Factsheet</h2>
+
+                                                <div class="book book_img">
+                                                    <img src="/_images/reports/Hints_Factsheet_repoorts_2021.jpg" alt="Image of HINTS Fact Sheet" />
+                                                </div>
+
+                                                <div class="book book_info">
+                                                    <br style="clear: none;" />
+                                                    &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 2/26/2021) PDF<br style="clear: none;" />
+                                                    <br style="clear: none;" />
+                                                    &#8211; <a href="/docs/HINTS_FactSheet_Spn.pdf" target="_blank">Espa&#241;ol</a> (updated 12/2/2009) PDF
+                                            <br style="clear: none;" />
+                                                </div>
+
+                                            </div>
                                         </div>
-
                                     </div>
-
-                                    <!-- Factsheet -->
-                                    <div id="factsheet" class="overview_materials col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
-                                        <h2>HINTS Factsheet</h2>
-
-                                         <div class="book book_img">
-                                            <img src="/_images/reports/Hints_Factsheet_repoorts_2021.jpg" alt="Image of HINTS Fact Sheet" />
-                                         </div>
-
-                                         <div class="book book_info">
-                                            <br style="clear: none;" />
-                                            &#8211; <a href="/docs/Hints_Factsheet.pdf" target="_blank">English</a> (updated 2/26/2021) PDF<br style="clear: none;" />
-                                            <br style="clear: none;" />
-                                            &#8211; <a href="/docs/HINTS_FactSheet_Spn.pdf" target="_blank">Espa&#241;ol</a> (updated 12/2/2009) PDF
-                                            <br style="clear: none;" />
-                                         </div>
-
-                                    </div>
-                                </div></div>
                                 </div>
                             </div>
 
@@ -205,12 +207,7 @@
                                 To see a list of peer-reviewed publications using HINTS data visit <a href="/publications-reports/hints-publications.aspx">Published Articles Using HINTS Data</a>.<br />
 
                                 <br style="clear: both;" />
-                                <br />
-                                <h2>HINTS Users Meeting (January 9-10, 2014) 
-                                </h2>
-                                <p>
-                                    Sponsored by the National Cancer Institute (NCI), <a href="/meetings-trainings/2014-users-meeting.aspx">the meeting</a> focused on research using HINTS data and the application of HINTS research to public health and clinical care.
-                                </p>
+   
                             </div>
                         </div>
                     </div>

@@ -9,10 +9,12 @@ Partial Class _usercontrols_articles
     Dim objDR As SqlDataReader
     Public previousYear As String
     Public blnDisplayYear As Boolean
+    Public FirstYear As Boolean = True
 
 
 
     Public Sub BuildResults(ResultsDataview As DataView)
+
 
         If ResultsDataview.Table.Rows.Count > 0 Then
 
@@ -55,7 +57,16 @@ Partial Class _usercontrols_articles
             End If
             If previousYear <> currentYear Then
                 previousYear = currentYear
-                Return "<h3>" & currentYear & "</h3>"
+
+                If FirstYear = True Then
+                    FirstYear = False
+                    Return "<h3 id='YR_" & currentYear & "'>" & currentYear & "</h3>"
+                Else
+
+                    Return "<p><a href='#topTOC'>Return to Top</a></p><h3 id='YR_" & currentYear & "'>" & currentYear & "</h3>"
+
+                End If
+
             Else
                 Return String.Empty
             End If

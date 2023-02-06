@@ -48,6 +48,26 @@
 
                     <h1>Announcements</h1>
                     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcements.</a></p>
+
+
+
+
+                    <h2 id="HDLP">HINTS Data Linkage Project 2020 (HDLP) restricted use data now available to request</h2>
+                    <p>The HINTS Data Linkage Project 2020 (HDLP) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). <a href="/docs/methodologyreports/HDLP2020_External_Variables_Codebook.pdf" target="_blank">See the HDLP external variables codebook</a> for a list of all variables.</p>
+                    <p>Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>.</p>
+
+                    <h2 id="SEER">HINTS-SEER (2021) restricted use data now available to request</h2>
+                    <p>In 2021, NCI undertook a pilot project to oversample cancer survivors for HINTS using three cancer registries from the Surveillance, Epidemiology, and End Results (SEER) Program (<a href="https://seer.cancer.gov/" target="_blank">https://seer.cancer.gov</a>) as a sampling frame of cancer survivors. The pilot project, called HINTS-SEER, was designed to provide a larger sample of cancer survivors for HINTS analyses. The instrument closely resembles survey items and topics found on HINTS 5, Cycle 4 (2020), and includes other topics relevant to cancer survivors. A unique aspect of the HINTS-SEER dataset is that key data elements from the cancer registry datasets are linked to the HINTS survey responses, providing a more in-depth view of each respondent&rsquo;s cancer diagnosis.</p>
+                    <p>HINTS-SEER data were collected from January 11, 2021 through August 20, 2021. Once the SEER registries obtained consent to share individual mailing addresses, the mailing protocol for all three HINTS-SEER cohorts (Iowa Cancer Registry, Greater Bay Area Cancer Registry, and New Mexico Tumor Registry) followed a modified Dillman approach (Dillman, et al., 2009) with a total of four mailings: an initial mailing, a reminder postcard, and two follow-up mailings. Individuals in each sample received the first mailing and reminder postcard, while only non-respondents received the subsequent survey mailings. Complete data were collected from 1,234 respondents.</p>
+                    <p>Because the HINTS-SEER dataset contains linked medical diagnosis variables and there is a potential for disclosure, HINTS-SEER is not a public-use data file that is available for download without first applying to use the data via the HINTS <a href="/data/restricted-data.aspx">restricted-use data request form</a>. Once the form has been submitted, it will be reviewed by a subcommittee of analysts and a member of the HINTS management team will be in touch with you via email within 2 weeks to discuss your request. To learn more about HINTS-SEER, please consult the <a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">methodology report</a> and <a href="/docs/Instruments/HINTS_SEER_AnnotatedInstrumentEnglish.pdf" target="_blank">survey instrument</a>.</p>
+
+                    <h2 id="hints54">HINTS 5, Cycle 4 (2020) public use data available for download</h2>
+                    <p>Our newest public use dataset, HINTS 5, Cycle 4 (2020), is <a href="/data/download-data.aspx">available for download</a>. HINTS 5, Cycle 4 (2020) data were collected from February through June, 2020. Complete data were collected from 3,865 respondents. </p>
+
+
+
+
+
                     <h2 id="hints53">HINTS 5, Cycle 3 (2019) public use data available for download</h2>
                     <p>Our newest public use dataset, HINTS 5, Cycle 3 (2019), is <a href="/data/download-data.aspx">available for download</a>. HINTS 5, Cycle 3 (2019) features our standard health communication and health technology items, as well as extended content on behavioral risk factors for cancer, such as alcohol; diet, weight and physical activity; tobacco; sleep; and UV exposure. HINTS 5, Cycle 3 (2019) was fielded January to May 2019 (N=5,438). The dataset also includes expanded guidance on how to merge multiple HINTS datasets, how to conduct statistical modeling and inferential statistics using SPSS, as well as information on a push-to-Web mode pilot study that was fielded with HINTS 5, Cycle 3 (2019).</p>
 
@@ -59,30 +79,30 @@
                     <p>Learn how to merge HINTS data for statistical analysis. Dr.  Rick Moser, lead HINTS methodologist at the National Cancer Institute (NCI),  narrates a series of videos that demonstrate how to merge data from HINTS.</p>
                     <p>In this first video, he explains the benefits of merging two  or more sets of HINTS data and gives an overview of what to do within the SAS  software to merge and analyze the data.</p>
                     <div class="video-container">
-                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 1 - Benefits of Merging and Setting Your Data Up"  src="https://www.youtube.com/embed/6UHSPaBCLog" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 1 - Benefits of Merging and Setting Your Data Up" src="https://www.youtube.com/embed/6UHSPaBCLog" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <p>In this second video, he explains how to create indicator  variables and assign value labels to distinguish between two or more survey  iterations.</p>
                     <div class="video-container">
-                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 2 - Creating Indicator Variables and Assigning Value Labels"  src="https://www.youtube.com/embed/Hd0u3CBkqT4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 2 - Creating Indicator Variables and Assigning Value Labels" src="https://www.youtube.com/embed/Hd0u3CBkqT4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <p>In this third video, he explains how to create a new, merged  data set from two or more survey iterations and verify all the data is  accounted for in the new set.</p>
                     <div class="video-container">
-                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 3 - Creating a Merged Dataset and Verifying Your Data"  src="https://www.youtube.com/embed/a5VuMoJHZh0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 3 - Creating a Merged Dataset and Verifying Your Data" src="https://www.youtube.com/embed/a5VuMoJHZh0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <p>In this fourth video, he explains how to run a quick  statistical analysis after creating a merged data set from two or more survey  iterations. </p>
                     <div class="video-container">
-                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 4 Running Analyses After Merging Your Data"  src="https://www.youtube.com/embed/1xVgWICoFTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 4 Running Analyses After Merging Your Data" src="https://www.youtube.com/embed/1xVgWICoFTE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
                     <p>In this fifth and final video, he performs a more advanced  statistical analysis and explains how to handle missing data. </p>
                     <div class="video-container">
-                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 5 - Advanced Analyses and Dealing with Missing Data"  src="https://www.youtube.com/embed/9LGfy77LUfc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                        <iframe class="iframe-responsive" title="How to Merge HINTS Data Part 5 - Advanced Analyses and Dealing with Missing Data" src="https://www.youtube.com/embed/9LGfy77LUfc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </div>
 
 
 
 
 
-             <%--       <h2 id="hints51Cancelled">HINTS Data Users Conference Cancelled</h2>
+                    <%--       <h2 id="hints51Cancelled">HINTS Data Users Conference Cancelled</h2>
                     <p>Due to hurricane Florence, <strong><u>the HINTS Data  Users Conference has been cancelled</u></strong>. We deeply regret any inconvenience.  The Conference will be rescheduled for a later date.</p>--%>
 
                     <h2 id="hints51Data">HINTS 5, Cycle 1 and HINTS-FDA, Cycle 2 Now Available for Download</h2>
@@ -102,7 +122,7 @@
 
                     <p>Recently,  Dr. Poorna Kushalnagar from Gallaudet University created and administered a  version of the HINTS survey in ASL (American Sign Language). Her projects  focused on using an ASL version of HINTS items to understand trends in  searching, finding, and sharing information for health related decision making  amongst both deaf college students and adults. A video describing her research  and some key findings can be found below. </p>
                     <div class="video-container">
-                        <iframe class="iframe-responsive"  src="https://www.youtube.com/embed/lYeD8JBhWOg" frameborder="0" title="Check  Out HINTS-ASL: Health-Related Information Seeking among Deaf Adults" allowfullscreen></iframe>
+                        <iframe class="iframe-responsive" src="https://www.youtube.com/embed/lYeD8JBhWOg" frameborder="0" title="Check  Out HINTS-ASL: Health-Related Information Seeking among Deaf Adults" allowfullscreen></iframe>
                     </div>
                     <p>Visit <a href="http://www.deafhealthqol.com/news/dhcqols-first-film-production">http://www.deafhealthqol.com/news/dhcqols-first-film-production</a> to learn more about Dr. &nbsp;Kushalnagar&rsquo;s work. </p>
 

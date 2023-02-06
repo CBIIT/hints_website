@@ -5,7 +5,8 @@
        
  <asp:Repeater ID="RPTR_Pubs" runat="server">
         <ItemTemplate>
-
+            
+                        
             <%# AddGroupingRowIfYearHasChanged(Eval("PubYear"))%>
 
             <div class="list_wrapper">

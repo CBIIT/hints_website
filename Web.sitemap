@@ -33,13 +33,12 @@
 
 
 
-	  <siteMapNode url="~/view-questions-topics/Default.aspx" title="View Questions &amp; Topics" description="View Questions &amp; Topics">
+	  <siteMapNode url="~/view-questions-topics/Default.aspx" title="View Questions &amp; Topics" description="View Questions">
       <siteMapNode url="~/view-questions-topics/all-hints-questions.aspx" title="All HINTS Questions" description="All HINTS Questions">
         <siteMapNode url="~/view-questions-topics/question-details.aspx" title="HINTS Response" description="HINTS Response"/>
         <siteMapNode url="~/view-questions-topics/articles-by-question.aspx" title="Published Articles that use this HINTS Question" description="Published Articles that use this HINTS Question"/>
         <siteMapNode url="~/view-questions-topics/articles_by_questionDetails.aspx" title="Published Articles that use this HINTS Question" description="Published Articles that use this HINTS Question"/>
       </siteMapNode>
-      <siteMapNode url="~/view-questions-topics/hints-topics.aspx" title="View Topics" description="View Topics"/>
       <siteMapNode url="~/view-questions-topics/geographic-data-maps.aspx" title="HINTS Knowledge Maps" description="HINTS Knowledge Maps">
         <siteMapNode url="~/view-questions-topics/map_details.aspx" title="View Map" description="View Map"/>
       </siteMapNode>

@@ -23,7 +23,7 @@
                         <a name="what"></a><strong>What HINTS Does</strong>
                     </p>
                     <p>
-                      The Health Information National Trends Survey (HINTS) collects nationally representative data routinely about the American public's
+                        The Health Information National Trends Survey (HINTS) collects nationally representative data routinely about the American public's
             use of cancer-related information. The survey:
                     </p>
                     <ul>
@@ -31,8 +31,7 @@
                         <li>Identifies changing communications trends and practices</li>
                         <li>Assesses cancer information access and usage</li>
                         <li>Provides information about how cancer risks are perceived</li>
-                        <li>Offers a testbed to researchers to test new theories in health
-                communication </li>
+                        <li>Enables researchers to test new theories in health communication</li>
                     </ul>
 
                     <p>
@@ -53,7 +52,7 @@
 
 
 
-                    <p><a name="presentations"></a><strong>NCI Presentations</strong></p>
+                    <%--                    <p><a name="presentations"></a><strong>NCI Presentations</strong></p>
                     <p>
                         The following presentations were presented to researchers at the National Cancer
             Institute. They are provided here as background to the survey and the analytic methodologies
@@ -65,26 +64,22 @@
                         <li>Webinar: HINTS: Progress, Plans and Potentials, presented 6-27-2007
                 <a href="/docs/webinar_6-27-07.wmv" target="_blank">WMV</a> (7.2
                 MB)</li>
-                    </ul>
+                    </ul>--%>
 
                     <p>
-                        <strong><a name="usermeeting"></a>HINTS Users Meeting (January 9-10, 2014) </strong>
+                        <strong><a name="usermeeting"></a>HINTS Users Meeting (May 22-23, 2019)</strong>
                     </p>
                     <p>
-                        Sponsored by the National Cancer Institute (NCI), <a href="/meetings-trainings/2014-users-meeting.aspx">the meeting</a> focused on research using HINTS data and the application of HINTS research to public health and clinical care.
+                        The fifth annual <a href="/meetings-trainings/2019-users-meeting.aspx">HINTS Data Users Conference</a> took place on May 22-23, 2019 at the DoubleTree Hotel in Bethesda, Maryland. The two-day conference showcased research utilizing Health Information National Trends Survey (HINTS) data, as well as the role of HINTS research in public health and clinical care.
                     </p>
 
                     <p><a name="sponsors"></a><strong>HINTS Sponsors</strong></p>
                     <p>
-                        HINTS was developed by the <a href="https://cancercontrol.cancer.gov/brp/hcirb/"
-                            target="_blank">Health Communication and Informatics Research Branch (HCIRB)</a>
-                        of the <a target="_blank" href="http://cancercontrol.cancer.gov/">Division
-                of Cancer Control and Population Sciences (DCCPS)</a> as an outcome of the National
-            Cancer Institute's Extraordinary Opportunity in Cancer Communications. To learn
-            more about communication and informatics research at NCI, please visit the <a
-                href="https://cancercontrol.cancer.gov/brp/hcirb/" target="_blank">HCIRB</a> and
-            <a target="_blank" href="http://cancercontrol.cancer.gov/">DCCPS Web
-                sites</a>.
+                        HINTS was developed by the <a href="https://cancercontrol.cancer.gov/brp/hcirb/" target="_blank">Health Communication and Informatics Research Branch (HCIRB)</a>
+                        of the <a target="_blank" href="http://cancercontrol.cancer.gov/">Division of Cancer Control and Population Sciences (DCCPS)</a> as an outcome of the National
+            Cancer Institute's Extraordinary Opportunity in Cancer Communications. To learn more about communication and informatics research at NCI, please visit the <a
+                href="https://cancercontrol.cancer.gov/brp/hcirb/" target="_blank">HCIRB</a> and <a target="_blank" href="http://cancercontrol.cancer.gov/">DCCPS Web
+                sites</a>. HINTS was co-sponsored by both the Food and Drug Administration (FDA) and ONC (Office of the National Coordinator for Health Information Technology).
                     </p>
                     <p>
                         For additional information about the HINTS program, please use our <a href="/about-hints/contact-us.aspx">contact form</a> or email <a href="mailto:NCIhints@mail.nih.gov">NCIhints@mail.nih.gov</a>.

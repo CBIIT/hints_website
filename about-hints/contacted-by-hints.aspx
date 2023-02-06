@@ -15,7 +15,7 @@
 
                     <h1>Were You Contacted to Participate in HINTS?</h1>
 
-                    <p>Congratulations on being selected to participate in the Health Information National Trends Survey, also known as HINTS! The goal of HINTS is to learn what health information people want to know and where they go to find it. Over 50,000 people across the United States have participated in HINTS since 2003.</p>
+                    <p>Congratulations on being selected to participate in the Health Information National Trends Survey, also known as HINTS! The goal of HINTS is to learn what health information people want to know and where they go to find it. Tens of thousands of people across the United States have participated in HINTS since 2003.</p>
                     <p>
                         By completing the questionnaire you received, you will help us learn what health information you and your family need and how to make it available to you.<br />
                     </p>
