@@ -16,9 +16,9 @@
                     <h1 id="topTOC">Survey Instruments</h1>
 
                     <ul>
+                        <li><a href="#H6SurvMat">HINTS 6 (2022) Survey Materials</a></li>
                         <li><a href="#H2021_SM">HINTS-SEER (2021) Survey Materials</a></li>
                         <li><a href="#HDLP2020">HINTS Data Linkage Project 2020 (HDLP)</a></li>
-
                         <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) Survey Materials</a></li>
                         <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) Survey Materials</a></li>
                         <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) Survey Materials</a></li>
@@ -38,8 +38,29 @@
 
                     <hr />
 
+
+
+                    <h2 id="H6SurvMat">
+                        <strong>HINTS 6 (2022) Survey Materials</strong></h2>
+                    <p>HINTS 6 (2022) data were collected from March through November 2022. HINTS 6 (2022) consisted of two modes, with respondents being offered a paper survey or web option.</p>
+                    <p>The sampling strategy for HINTS 6 (2022) consisted of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. A total of 6,252 surveys were included in the final dataset. </p>
+                    <p>HINTS 6 (2022) included an embedded methodological experiment comparing two mixed mode approaches: concurrent and sequential (also known as the control and treatment groups). Households in the concurrent (control) group received a cover letter with the link to the web survey and their unique access code as well as a paper survey with each mailing (including their first mailing). Households in the sequential (treatment) group received only a cover letter with the link to the web survey and their unique access code with their first mailing—they did not receive a paper survey in their first mailing. In subsequent mailings, these households received the link to the web survey and their unique access code as well as the paper survey. </p>
+
+                    <ul>
+                        <li><strong>HINTS 6 (2022) ) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 1.7MB)</li>
+                    </ul>
+
+                    <p><a href="#topTOC">Return to Top</a></p>
+
+
+
+
+
+
+
+
                     <h2 id="H2021_SM">
-                        <strong>HINTS-SEER (2021) Survey Materials </strong></h2>
+                        <strong>HINTS-SEER (2021) Survey Materials</strong></h2>
 
 
                     <p>

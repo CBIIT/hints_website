@@ -30,6 +30,9 @@
                     <p>Your participation is voluntary, and your responses will be kept private under the Privacy Act of 1974. Your answers cannot be connected to your name or any other information that could identify you or your household, to the extent provided by law. To read more about the Privacy Act, visit the U.S. Department of Justice Web site at&nbsp;<a href="http://www.justice.gov/opcl/privacyact1974.htm" target="_blank">http://www.justice.gov/opcl/privacyact1974.htm</a>.</p>
                     <p>We have contracted with the research firm Westat to conduct the survey. To learn more about Westat, visit their Web site at&nbsp;<a href="http://www.westat.com/" target="_blank">www.Westat.com</a>.</p>
                     <p><strong>If you have any questions about HINTS or you need another copy of the questionnaire, please call Westat toll-free at <a href="tel:18887386805">1-888-738-6805</a>.</strong></p>
+
+                    <p><strong>The HINTS Panel</strong></p>
+                    <p>If you completed a HINTS survey and provided us with an email address to be recontacted to participate in future surveys, please look for an email from <a href="mailto:HINTSPanel@westat.com">HINTSPanel@westat.com</a> or visit <a href="http://hints-panel.org">http://hints-panel.org</a> to learn more about the HINTS Panel and your role in it. </p>
                     <p>Thank you in advance for contributing to this important national study.</p>
                     <p id="participate_spa_link">Si prefiere recibir la encuesta en Español, por favor llame <a href="tel:18887386812">1-888-738-6812</a>.</p>
 

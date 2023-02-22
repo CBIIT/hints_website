@@ -15,6 +15,35 @@
                     <h1>HINTS Educational Webinars</h1>
 
                     <p>Learn more about how to use and work with HINTS data with  our series of educational webinars. </p>
+
+
+                    <!-- **************************************************************** -->
+                    <!-- **************************************************************** -->
+
+                    <h2>HINTS-SEER: Sampling Cancer Survivors for the Health Information National Trends Survey</h2>
+
+                    <p>In January 2023, the Behavioral Research Program in the National Cancer Institute&rsquo;s Division of Cancer Control and Population Sciences recorded a tutorial about HINTS-SEER, a data collection effort to sample cancer survivors for the Health Information National Trends Survey (HINTS) using three cancer registries within the Surveillance, Epidemiology, and End Results (SEER) program. In the tutorial, NCI staff cover the project&rsquo;s background, aims, and methodology; review how to request access to the data; and discuss methodological and statistical considerations for using the HINTS-SEER data.</p>
+
+                    <div class="video-container_seer">
+                        <iframe class="iframe-responsive" title="HINTS-SEER: Sampling Cancer Survivors for the Health Information National Trends Survey"
+                            src="https://nci.rev.vbrick.com/embed?id=959c03ea-e262-47e0-83aa-5352a4db4fc1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+
+
+                    <hr />
+
+                    <!-- **************************************************************** -->
+                    <!-- **************************************************************** -->
+
+
+
+
+
+
+
+
+
+
                     <h2>Health Information National Trends Survey (HINTS) 5 Cycle 3 Data: A How-To  Guide for Using the New Data in your Research</h2>
                     <p>
                         The National Cancer Institute&rsquo;s Behavioral Research Program  (BRP) hosted a webinar on March 26, 2020 that provided information on the  latest iteration of the Health Information National Trends Survey (HINTS 5  Cycle 3) that was released to the public in January 2020.<br />
@@ -37,8 +66,12 @@
                     <iframe class="iframe-responsive" style="margin:15px;" title="Health Information National Trends Survey (HINTS) 5 Cycle 3 Data: A How-To  Guide for Using the New Data in your Research"
                        src="https://www.youtube.com/embed/aPim4M1jUws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                        </div>
+                    <hr />
 
+                    <!-- **************************************************************** -->
+                    <!-- **************************************************************** -->
 
+                    <hr />
 
                     <h2>How-To HINTS: A Practical Workshop</h2>
 

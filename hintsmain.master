@@ -44,7 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Bootstrap CDN ends -->
 
     <!-- Custom CSS overrides the Bootstrap CDN -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_2023_02_09.css">
     <link rel="stylesheet" href="/css/inner.css">
     <link rel="stylesheet" href="/css/cards.css">
     <link rel="stylesheet" href="/css/additional_2023_02_06.css">
@@ -126,7 +126,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="/view-questions-topics/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View Questions</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/view-questions-topics/all-hints-questions.aspx">View Questions</a></li>
-                                    <li><a href="/view-questions-topics/hints-topics.aspx">View Topics</a></li>
                                     <li><a href="/view-questions-topics/geographic-data-maps.aspx">Geographic Maps</a></li>
                                 </ul>
                             </li>
@@ -197,7 +196,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="/view-questions-topics/default.aspx" class="dropdown-toggle" id="navbarDropdown">View Questions</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/view-questions-topics/all-hints-questions.aspx">View Questions</a></li>
-                                    <li><a href="/view-questions-topics/hints-topics.aspx">View Topics</a></li>
                                     <li><a href="/view-questions-topics/geographic-data-maps.aspx">Geographic Maps</a></li>
                                 </ul>
                             </li>

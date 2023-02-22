@@ -19,13 +19,7 @@
                             <div id="books_materials" class="col-12">
                                 <h1>HINTS Reports and Materials</h1>
 
-                                <h2>HINTS How-to Webinar</h2>
-                                <p>
-                                    On May 4, 2016, presenters from the National Cancer Institute and the U.S. Food and Drug Administration
-                                 came together to provide an overview of HINTS, review optimal ways for analyzing HINTS
-                                 data, and present case studies that used HINTS data in an interactive workshop and
-                                 webinar. Videos from this webinar are <a href="/meetings-trainings/hints-educational-webinars.aspx">now available</a>.
-                                </p>
+
 
                                 <h2>Books &#38; Reports</h2>
 
@@ -159,29 +153,6 @@
                                             <div id="overview" class="overview_materials col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
 
                                                 <h2>HINTS Overview Materials</h2>
-
-                                                <div class="book book_img">
-                                                    <img src="/_images/reports/06_hints_brochure.png" alt="HINTS Health Information National Trends Survey Brochure" />
-                                                </div>
-
-                                                <div class="book book_info">
-                                                    <strong>HINTS Health Information National Trends Survey Brochure</strong>
-                                                    <br style="clear: none;" />
-                                                    <br style="clear: none;" />
-                                                    Summary brochure describing the survey, its respondents, how the data can be used,
-        and how HINTS helps researchers, planners, and the American public.
-                <p>
-                    <a href="/docs/brochure_acc.pdf" target="_blank">Download PDF</a>
-                </p>
-                                                    <br />
-                                                </div>
-
-                                            </div>
-
-                                            <!-- Factsheet -->
-                                            <div id="factsheet" class="overview_materials col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
-                                                <h2>HINTS Factsheet</h2>
-
                                                 <div class="book book_img">
                                                     <img src="/_images/reports/Hints_Factsheet_repoorts_2021.jpg" alt="Image of HINTS Fact Sheet" />
                                                 </div>
@@ -194,21 +165,25 @@
                                             <br style="clear: none;" />
                                                 </div>
 
+
                                             </div>
+                                            <!-- close above -->
+
+
+                                            <!-- Scientific Publications -->
+                                            <div id="factsheet" class="overview_materials col-lg-6 col-md-12 col-sm-12 pad-down-ncireports">
+
+                                                <h2>Scientific Publications Using HINTS</h2>
+                                                <p>To see a list of peer-reviewed publications using HINTS data visit <a href="/publications-reports/hints-publications.aspx">Published Articles Using HINTS Data</a>.</p>
+
+
+                                            </div>
+                                            <!-- close above -->
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- Scientific Publications -->
-                            <div id="scientific_publications" class="col-12">
-                                <h2>Scientific Publications Using HINTS</h2>
-
-                                To see a list of peer-reviewed publications using HINTS data visit <a href="/publications-reports/hints-publications.aspx">Published Articles Using HINTS Data</a>.<br />
-
-                                <br style="clear: both;" />
-   
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -18,24 +18,10 @@
 
 
                     <h1>HINTS 5 Overview and Schedule</h1>
-                    <p>
-                        To address emerging issues in the field of health communication more
-                 quickly while still maintaining the ongoing measurement of trends, 
-                HINTS 5 will include four data collection cycles over the course of
-                 4 years. The instrument for each data collection cycle will include 
-                a core module of common items for trending in addition to special topic
-                 modules to be implemented only in some of the cycles, increasing capacity
-                 of the HINTS instruments to include a broader array of topics and measures.
-                 Additionally, a second cycle of HINTS-FDA will be fielded in 2017. The
-                 combined sample size for all four cycles of HINTS 5 and additional cycle of
-                 HINTS-FDA data will be greater than 17,000 respondents. If you would like
-                 to view or download previous HINTS survey instruments or methodology reports,
-                 please visit our <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. HINTS
-                 5 instruments will be coming soon.
-                    </p>
+                   <p>Following the annual data collection cadence of the four HINTS 5 cycles of data, HINTS has returned to a biennial data collection, starting with HINTS 6. The instrument for HINTS 6 included a core module of common items for trending in addition to a variety of items on special topics, increasing the capacity of the HINTS instruments to include a broader array of topics and measures over time. If you would like to view or download previous HINTS survey instruments or methodology reports, please visit our <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. </p>
                     <br />
                     <div style="text-align: center">
-                        <img title="HINTS Overview and Schedule" src="/_images/HINTS4-flowchart_2017.jpg" alt="HINTS Overview and Schedule" />
+                        <img title="HINTS Overview and Schedule" src="/_images/HINTS4-flowchart_2023.jpg" alt="HINTS Overview and Schedule" />
                     </div>
 
 
