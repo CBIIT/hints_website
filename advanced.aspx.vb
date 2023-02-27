@@ -99,8 +99,6 @@ Partial Class advanced
         TXT_SearchBox.Text = ""
         DDL_Section.ClearSelection()
         DDL_WhoAsked.ClearSelection()
-        CK_ArticleAttached.Checked = False
-        CK_BriefsAttached.Checked = False
         Dim anitem As ListItem
         For Each anitem In CKLIst_Cyle.Items
             anitem.Selected = False
@@ -178,8 +176,6 @@ Partial Class advanced
         'Response.Write("<h1>fullstring=" & fullstring & "</h1>")
         'Response.Write("<h1>WildCardString=" & "%" & WildCardString & "%" & "</h1>")
         objDataAdapter.SelectCommand.Parameters.Add("@FK_Section", SqlDbType.Int).Value = DDL_Section.SelectedValue
-        objDataAdapter.SelectCommand.Parameters.Add("@WithArticles", SqlDbType.Bit).Value = CK_ArticleAttached.Checked
-        objDataAdapter.SelectCommand.Parameters.Add("@WithBriefs", SqlDbType.Bit).Value = CK_BriefsAttached.Checked
 
 
         If Array_CyclesSelected.Length = 0 Then

@@ -79,7 +79,7 @@ $(document).ready(function () {
 });
 
 function GoToNewQuestion() {
-    window.location = "/view-questions-topics/question-details.aspx?nq=1&qid=" + $('#DDL_Questions option:selected').val();
+    window.location = "/view-questions/question-detail.aspx?nq=1&qid=" + $('#DDL_Questions option:selected').val();
 }
 
 function Populate_QuestionDDL() {
@@ -369,43 +369,6 @@ function BuildDisplay() {
             else {
                 $('#dv_LIT_Notes_wrapper').hide();
             }
-
-
-            //////if ((QuestionDetails_ds[i].ArticleCount >= 0) && (QuestionDetails_ds[i].ArticleCount !== null)) {
-           
-            //////    $("#HYP_articles_ByQuestion").attr("href", "/view-questions-topics/articles_by_questionDetails.aspx?ArtType=1&PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails)
-            //////    $('#LIT_NoArticles').hide();
-            //////    $('#HYP_articles_ByQuestion').show
-            //////}
-            //////else {
-            //////    $('#LIT_NoArticles').show
-            //////    $('#HYP_articles_ByQuestion').hide();
-            //////}
-
-            if ((QuestionDetails_ds[i].BriefCount >= 0) && (QuestionDetails_ds[i].BriefCount !== null)) {
-                $("#HYP_Briefs_ByQuestion").attr("href", "/view-questions-topics/articles_by_questionDetails.aspx?PK_QuestionDetails=" + QuestionDetails_ds[i].PK_QuestionDetails + "&ArtType=2");
-                $('#LIT_NoBriefs').hide();
-                $('#HYP_Briefs_ByQuestion').show;
-            }
-            else {
-                $('#LIT_NoBriefs').show;
-                $('#HYP_Briefs_ByQuestion').hide();
-            }
-
-
-
-            //////////*********** Have to hide if not populated
-            ////////if (QuestionDetails_ds[i].KnowledgeMap1 !== null) {
-            ////////    $("#HYP_KnowledgeMap").attr("href", "/view-questions-topics/map_details.aspx?qdid=" + QuestionDetails_ds[i].PK_QuestionDetails)
-
-            ////////    $('#LIT_NoMap').hide();
-            ////////    $('#HYP_KnowledgeMap').show();
-            ////////}
-            ////////else {
-
-            ////////    $('#LIT_NoMap').show();
-            ////////    $('#HYP_KnowledgeMap').hide();
-            ////////}
 
 
             $("#LIT_Criteria_DESC").text('');

@@ -105,27 +105,5 @@ Public Class QuestionDataService
         Return JsonConvert.SerializeObject(objDataTable)
     End Function
 
-    '<WebMethod()> _
-    'Public Function List_DataCollectionMethods_ByQuestion_Cycle(FK_Question As Integer, FK_Cycle As Integer) As String
-    '    Dim strConnect As String = ConfigurationManager.ConnectionStrings("dbConnectionString").ConnectionString
-    '    Dim objConnect As New SqlConnection(strConnect)
-    '    Dim Cmd As New SqlCommand("", objConnect)
-    '    Dim objDataAdapter As New SqlDataAdapter("", objConnect)
-    '    Dim objDataSet As New DataSet()
-    '    Dim objDataTable As DataTable
-
-
-
-    '    objDataAdapter.SelectCommand.CommandType = CommandType.StoredProcedure
-    '    objDataAdapter.SelectCommand.CommandText = "List_DataCollectionMethods_ByQuestion_Cycle"
-    '    objDataAdapter.SelectCommand.Parameters.Add("@FK_Question", SqlDbType.Int).Value = FK_Question
-    '    objDataAdapter.SelectCommand.Parameters.Add("@FK_Cycle", SqlDbType.Int).Value = FK_Cycle
-    '    objDataAdapter.Fill(objDataSet, "DC_methods_ds")
-    '    objDataTable = objDataSet.Tables("DC_methods_ds")
-    '    objConnect.Close()
-    '    objDataAdapter.SelectCommand.Parameters.Clear()
-
-    '    Return JsonConvert.SerializeObject(objDataTable)
-    'End Function
 
 End Class

@@ -14,8 +14,6 @@ Partial Class _usercontrols_results
     'FK_Section
     'SectionName
     'PK_Question
-    'TotalArticles
-    'TotalBriefs
     '********************************************************************
     '********************************************************************
     '********************************************************************
@@ -84,21 +82,6 @@ Partial Class _usercontrols_results
         Return obj_AllCycles_DataView
     End Function
 
-    Function GetBriefsArticles(FK_Question As Integer, FK_ArticleType As Integer) As DataView
-        objDataAdapter.SelectCommand.CommandType = CommandType.StoredProcedure
-        objDataAdapter.SelectCommand.CommandText = "List_Articles_ByQuestion"
-        objDataAdapter.SelectCommand.Parameters.Add("@FK_Question", SqlDbType.Int).Value = FK_Question
-        objDataAdapter.SelectCommand.Parameters.Add("@FK_ArticleType", SqlDbType.Int).Value = FK_ArticleType
-        ' @typeid = 2 means brief
-
-        Dim objDataSetinner As New System.Data.DataSet
-        objDataAdapter.Fill(objDataSetinner, "newbrieflisting")
-        objConnect.Close()
-        objDataAdapter.SelectCommand.Parameters.Clear()
-        Return objDataSetinner.Tables("newbrieflisting").DefaultView
-
-    End Function
-
     Function CheckVisHeader(FK_Section As Integer) As Boolean
         If strPrevSection = FK_Section Then
             Return False
@@ -128,7 +111,7 @@ Partial Class _usercontrols_results
 
     Function getURL(PK_QuestionDetails As Object, FK_Question As Object, PK_Cycle As String) As String
         If CheckNull(PK_QuestionDetails) <> "" Then
-            Return "/view-questions-topics/question-details.aspx?PK_Cycle=" & PK_Cycle & "&qid=" & FK_Question
+            Return "/view-questions/question-detail.aspx?PK_Cycle=" & PK_Cycle & "&qid=" & FK_Question
         Else
             Return "javascript:void(0)"
         End If

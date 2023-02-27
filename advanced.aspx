@@ -67,22 +67,6 @@
                                 </div>
                                 <div class="FormItemWrapper">
                                     <div class="FormLeftItem">
-                                        <asp:Label ID="Label2" AssociatedControlID="CK_ArticleAttached" runat="server" Text="Article(s) attached:"></asp:Label>
-                                    </div>
-                                    <div class="FormRightItem">
-                                        <asp:CheckBox ID="CK_ArticleAttached" runat="server" />
-                                    </div>
-                                </div>
-                                <div class="FormItemWrapper">
-                                    <div class="FormLeftItem">
-                                        <asp:Label ID="Label3" AssociatedControlID="CK_BriefsAttached" runat="server" Text="Brief(s) attached:"></asp:Label>
-                                    </div>
-                                    <div class="FormRightItem">
-                                        <asp:CheckBox ID="CK_BriefsAttached" runat="server" />
-                                    </div>
-                                </div>
-                                <div class="FormItemWrapper">
-                                    <div class="FormLeftItem">
                                         <asp:Label ID="Label4" AssociatedControlID="DDL_WhoAsked" runat="server" Text="Who was asked:"></asp:Label>
                                     </div>
                                     <div class="FormRightItem">

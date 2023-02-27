@@ -114,7 +114,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
                                     </li>
-                                    <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx">Summary Findings by Item</a></li>
+                                    <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
                                     <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
@@ -123,10 +123,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="/view-questions-topics/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View Questions</a>
+                                <a href="/view-questions/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View Questions</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a href="/view-questions-topics/all-hints-questions.aspx">View Questions</a></li>
-                                    <li><a href="/view-questions-topics/geographic-data-maps.aspx">Geographic Maps</a></li>
+                                    <li><a href="/view-questions/all-hints-questions.aspx">View Questions</a></li>
+                                    <li><a href="/view-questions/geographic-data-maps.aspx">Geographic Maps</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -184,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
                                     </li>
-                                    <li class="twoLineNav"><a href="/view-questions-topics/all-hints-questions.aspx">Summary Findings by Item</a></li>
+                                    <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
                                     <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
@@ -193,10 +193,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="dropdown">
-                                <a href="/view-questions-topics/default.aspx" class="dropdown-toggle" id="navbarDropdown">View Questions</a>
+                                <a href="/view-questions/default.aspx" class="dropdown-toggle" id="navbarDropdown">View Questions</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a href="/view-questions-topics/all-hints-questions.aspx">View Questions</a></li>
-                                    <li><a href="/view-questions-topics/geographic-data-maps.aspx">Geographic Maps</a></li>
+                                    <li><a href="/view-questions/all-hints-questions.aspx">View Questions</a></li>
+                                    <li><a href="/view-questions/geographic-data-maps.aspx">Geographic Maps</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">

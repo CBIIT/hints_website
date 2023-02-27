@@ -82,7 +82,7 @@
                                 <div class="card-content">
                                     <h3 class="font-weight-bold">HINTS Items</h3>
                                     <p class="text-left">The HINTS <em>online codebook</em> provides summary data for HINTS items across all cycles, including estimated U.S. population values, interactive data visualizations, and the ability to look at trend data over time at the item level. </p>
-                                    <a href="/view-questions-topics/all-hints-questions.aspx" alt="View HINTS Online Codebook" class="font-weight-bold">View HINTS Online Codebook></a>
+                                    <a href="/view-questions/all-hints-questions.aspx" alt="View HINTS Online Codebook" class="font-weight-bold">View HINTS Online Codebook></a>
                                 </div>
                             </div>
                         </div>

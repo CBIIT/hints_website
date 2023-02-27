@@ -48,7 +48,7 @@
                                 <div class="card-body p-4">
                                     <h5 class="card-title">Summary Findings by Item</h5>
                                     <p class="card-text">View summary data for each HINTS question across all HINTS survey administrations.</p>
-                                    <p class="card-text"><a href="/view-questions-topics/all-hints-questions.aspx?all=1">Read More</a></p>
+                                    <p class="card-text"><a href="/view-questions/all-hints-questions.aspx?all=1">Read More</a></p>
                                 </div>
                             </div>
 

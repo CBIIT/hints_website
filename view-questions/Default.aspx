@@ -1,4 +1,5 @@
-﻿<%@ Page Title="View HINTS questions | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="questionsfolder_Default" %>
+﻿<%@ Page Title="View HINTS questions | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="Default.aspx.vb" Inherits="view_questions_Default" %>
+
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta name="Title" content="View HINTS questions | HINTS" />
@@ -22,14 +23,14 @@
                                 <div class="card-body p-4">
                                     <h5 class="card-title">View Questions</h5>
                                     <p class="card-text">Search or browse HINTS questions and data across all survey iterations.</p>
-                                    <p class="card-text"><a href="/view-questions-topics/all-hints-questions.aspx">Read More</a></p>
+                                    <p class="card-text"><a href="/view-questions/all-hints-questions.aspx">Read More</a></p>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">Geographic Maps</h5>
                                     <p class="card-text">Illustrate regional similarities and differences by viewing HINTS data points in a "weather map" fashion.</p>
-                                    <p class="card-text"><a href="/view-questions-topics/geographic-data-maps.aspx">Read More</a></p>
+                                    <p class="card-text"><a href="/view-questions/geographic-data-maps.aspx">Read More</a></p>
                                 </div>
                             </div>
                         </div>

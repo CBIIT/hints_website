@@ -20,22 +20,6 @@
         from recent peer-reviewed journal articles using HINTS data.
                     </p>
 
-                    <div class="FormItemWrapper">
-                        <p>
-                            <strong>Narrow your results by section... </strong>
-                        </p>
-                    </div>
-                    <div class="FormItemWrapper">
-
-                        <asp:Label ID="Label1" AssociatedControlID="DDL_Section" runat="server" Text="Section Name:"></asp:Label>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <asp:DropDownList ID="DDL_Section" DataValueField="PK_Section" DataTextField="SectionName"
-                            AutoPostBack="true" runat="server">
-                        </asp:DropDownList>
-
-                    </div>
-                    <br />
-                    <br />
 
                     <!-- https://bootsnipp.com/snippets/exE6D -->
                     <div class="container fullwidth">
