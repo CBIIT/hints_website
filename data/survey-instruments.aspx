@@ -47,7 +47,7 @@
                     <p>HINTS 6 (2022) included an embedded methodological experiment comparing two mixed mode approaches: concurrent and sequential (also known as the control and treatment groups). Households in the concurrent (control) group received a cover letter with the link to the web survey and their unique access code as well as a paper survey with each mailing (including their first mailing). Households in the sequential (treatment) group received only a cover letter with the link to the web survey and their unique access code with their first mailing—they did not receive a paper survey in their first mailing. In subsequent mailings, these households received the link to the web survey and their unique access code as well as the paper survey. </p>
 
                     <ul>
-                        <li><strong>HINTS 6 (2022) ) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 1.7MB)</li>
+                        <li><strong>HINTS 6 (2022) ) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 2.8MB)</li>
                     </ul>
 
                     <p><a href="#topTOC">Return to Top</a></p>

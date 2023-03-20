@@ -170,6 +170,21 @@
                         <img src="/_images/restricteddata.jpg" alt="Request Restricted HINTS Datasets" class="restricteddata_image" />
 
                         <p class="notes">Not every variable will be available in each HINTS dataset. Please refer to the codebooks to ascertain what variables are or are not available on a particular dataset.</p>
+
+
+                        <br />
+
+                        <h2>HINTS-SEER Overview</h2>
+
+                        <p>The HINTS-SEER pilot study was conducted from January to July, 2021. HINTS-SEER was a unique HINTS data collection effort conducted by the National Cancer Institute (NCI) in partnership with the NCI Surveillance, Epidemiology, and End Results (SEER) Program (<a href="https://seer.cancer.gov/">https://seer.cancer.gov/</a>) and three SEER registries (Iowa, New Mexico, and Greater Bay Area), to assess cancer communication practices, information preferences, risk behaviors, attitudes, and cancer knowledge among a sample of cancer survivors. Because the HINTS-SEER dataset contains linked medical diagnosis variables and there is a small disclosure risk, HINTS-SEER is not a public-use data file that is available for download without first applying to use the data and signing a stringent data use agreement. To learn more about HINTS-SEER, please consult the <a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf">methodology report</a>, <a href="/docs/Instruments/HINTS_SEER_AnnotatedInstrumentEnglish.pdf">survey instrument</a>, and <a href="/meetings-trainings/hints-educational-webinars.aspx">informational webinar</a>. </p>
+
+                        <h2>HINTS-SEER Data Considerations</h2>
+
+                        <p>When making a request to receive the restricted-use HINTS-SEER data file, keep in mind that the HINTS program does not recommend combining HINTS-SEER with other HINTS datasets to create a larger sample size given the differences in sampling methods between HINTS-SEER and the probability-based HINTS population surveys. Additionally, analysts should be careful about reporting results from cells with fewer than 25 responses and should consider the accuracy and precision of those results and report sample sizes in their publications. Please indicate a plan for dealing with small cell sizes when applying for HINTS-SEER data.</p>
+
+
+
+
                     </asp:PlaceHolder>
                     <asp:PlaceHolder ID="PLC_thankyou" Visible="false" runat="server">
                         <asp:Literal ID="LIT_Body" Visible="false" runat="server"></asp:Literal>

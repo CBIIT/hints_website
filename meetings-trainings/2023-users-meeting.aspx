@@ -12,20 +12,19 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="rwb_center">
-                    <img class="rwb_2023_conference_Image" alt="20th anniversary Logo" src="/_images/meetings/NCI_HINTS_20th_Anniversary_Logo_1200_opt.png" />                
-                        </div>
+                        <img class="rwb_2023_conference_Image" alt="20th anniversary Logo" src="/_images/meetings/NCI_HINTS_20th_Anniversary_Logo_1200_opt.png" />
+                    </div>
 
-                    <h1>Save the Date for the 2023 HINTS Data Users Conference – Celebrating 20 Years of HINTS</h1>
+                    <h1>2023 HINTS Data Users Conference – Celebrating 20 Years of HINTS</h1>
 
 
                     <p>Conference Dates: September 21-22, 2023</p>
 
                     <p>Conference Location: Natcher Conference Center (Building 45), NIH Main Campus, Bethesda, MD </p>
 
-                    <p>Additional information about the conference, including registration information and the meeting website, will be coming soon. </p>
 
-
-
+                    <p>Please visit the conference website at the link below for more information and to register for the meeting: </p>
+                    <p><a href="https://conference.luminacorps.com/HINTS2023/">https://conference.luminacorps.com/HINTS2023/</a></p>
 
 
                 </div>

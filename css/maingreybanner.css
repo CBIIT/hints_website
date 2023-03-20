@@ -1,0 +1,23 @@
+﻿
+.usa-banner__header-text {
+    font-size: 12px;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-top: 0;
+    display: flex;
+    margin: 0.75rem;
+    font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+    color: #000000;
+    font-weight: 400;
+}
+
+    .usa-banner__header-text:before {
+        display: flex;
+        margin-right: 1.0rem;
+        content: url(/_images/a865e6abb9d70c0a2852.png);
+    }
+
+.menu-wrapper_greybanner {
+    background-color: #f2f2f2;
+    height: 30px;
+}
