@@ -195,27 +195,17 @@
                             </div>
                         </div>
                         <div class="box col-md-4 text-right twitter-stats">
-                            <h3 class="font-family-open-sans font-weight-bold mt-5">Our Latest Tweets</h3>
-<%--                            <ul>
-                                <li>
-                                    <span class="font-family-open-sans" style="font-size: 18px;">Want to learn more about HINTS data? Check out our How-To HINTS webinar online at</span><br>
-                                    <a class="h6 text-decoration-none mt-auto" href="https://buff.ly/2S4vENi">https://buff.ly/2S4vENi</a>
-                                </li>
-                                <li>
-                                    <span class="font-family-open-sans" style="font-size: 18px;">Want to learn more about HINTS data? Check out our How-To HINTS webinar online at</span><br>
-                                    <a class="h6 text-decoration-none mt-auto" href="https://buff.ly/2S4vENi">https://buff.ly/2S4vENi</a>
-                                </li>
-                                <li>
-                                    <span class="font-family-open-sans" style="font-size: 18px;">Want to learn more about HINTS data? Check out our How-To HINTS webinar online at</span><br>
-                                    <a class="h6 text-decoration-none mt-auto" href="https://buff.ly/2S4vENi">https://buff.ly/2S4vENi</a>
-                                </li>
-                            </ul>--%>
+                            <h3 class="font-family-open-sans font-weight-bold mt-5 rwb_margin_bottom_minus_6">Our Latest Tweets</h3>
 
 
-                                     <div id="hints-tweets"></div>
+                       <%--     https://publish.twitter.com/--%>
 
-                
-                            <a target="_blank" href="https://twitter.com/NCIHINTS" class="h4 text-decoration-none mt-auto font-weight-bold">Visit our Twitter page >></a>
+                <br />
+                            <a class="twitter-timeline" data-width="358" data-height="451" href="https://twitter.com/NCIHINTS?ref_src=twsrc%5Etfw">Tweets by NCIHINTS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                            
+
+
                         </div>
                     </div>
                 </div>
@@ -228,53 +218,12 @@
 
 
     
-    <script type="text/javascript" src='/_scripts/twitterFetcher_min.js'></script>
 
         <%--Hiding breadcrumbs on this page--%>
     <script type="text/javascript">
         $("#breadcrumbs").hide();
     </script>
 
-
-    
-    <script type="text/javascript">
-        window.onload = function () {
-            var anchors = document.getElementById('hints-tweets').getElementsByTagName('a');
-            for (var i = 0; i < anchors.length; i++) {
-                anchors[i].setAttribute('target', '_blank');
-            }
-        }
-
-
-        
-        $(document).ready(function() {
-
-
-            function StripDeliminators(strString, strToStrip) {
-                while (strString.indexOf(strToStrip) >= 0) {
-                    strString = strString.replace(strToStrip, " ");
-                }
-                return strString
-            }
-
-            var configProfile = {
-                "profile": { "screenName": 'NCIHINTS' },
-                "domId": 'hints-tweets',
-                "maxTweets": 1,
-                "enableLinks": true,
-                "showUser": false,
-                "showTime": true,
-                "showImages": false,
-                "lang": 'en'
-            };
-            twitterFetcher.fetch(configProfile);
-
-
-
-
-        });
-
-    </script>
 
 
 </asp:Content>
