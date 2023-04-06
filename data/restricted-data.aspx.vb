@@ -2,6 +2,8 @@
 Imports System.Data.SqlClient
 Imports GenericHelper.GenericHelper
 Imports System.Net.Mail
+Imports System.Net
+
 Partial Class data_restricted_data
     Inherits System.Web.UI.Page
 
@@ -139,7 +141,23 @@ Partial Class data_restricted_data
                 PLC_thankyou.Visible = False
             End Try
 
+            Try
 
+                If chkAcceptTerm_SinglePage.Checked Then
+                    Dim ws As New com.hintsmeeting.Subscribe
+                    Dim email_address As Object = txt_email.Text
+
+                    System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+                    ws.SubscribeToNciHintsUsers(email_address)
+                End If
+
+
+
+
+
+            Catch ex As Exception
+                Response.Write("<h1>" & ex.ToString & "</h1>")
+            End Try
 
 
         Else

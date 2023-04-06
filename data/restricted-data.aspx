@@ -159,6 +159,18 @@
                         </div>
 
 
+
+
+                        <div class="FormItemWrapper">
+                            <div class="FormLeftItem">
+                                <asp:CheckBox ID="chkAcceptTerm_SinglePage" runat="server" />
+                                <asp:Label CssClass="marginleft_5px" ID="Label8" runat="server" AssociatedControlID="chkAcceptTerm_SinglePage" Text="Sign up for email updates about HINTS "></asp:Label>
+                                <br />
+                                <br />
+                            </div>
+                        </div>
+
+
                         <div class="dv_controls">
                             <div>
                                 <asp:Button ID="BTN_SubmitRestrictedData" ValidationGroup="grp_restform" class="btn-updated-dark" runat="server" Text="Submit" />
