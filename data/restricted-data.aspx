@@ -179,7 +179,7 @@
 
                         <h2 class="restricteddata_clearboth">Geocode and Suppressed Variables</h2>
 
-                        <img src="/_images/restricteddata.jpg" alt="Request Restricted HINTS Datasets" class="restricteddata_image" />
+                        <img src="/_images/restricteddata.png" alt="Request Restricted HINTS Datasets" class="restricteddata_image" />
 
                         <p class="notes">Not every variable will be available in each HINTS dataset. Please refer to the codebooks to ascertain what variables are or are not available on a particular dataset.</p>
 

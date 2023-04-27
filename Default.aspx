@@ -150,6 +150,21 @@
 
 
                                             
+                                                                    <!-- Heading -->
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 6 (2022) public use data available for download
+                                            </h4>
+
+                                            <!-- Text -->
+                                            <p>
+                                            Our newest public use dataset, HINTS 6 (2022), is now available for download. 
+                                            </p>
+
+                                            <!-- Link -->
+                                            <a class="h6 text-decoration-none mt-auto" href="/data/download-data.aspx">Download Data ></a>
+                                            <hr>
+
+
+                                            
                                             <!-- Heading -->
                                             <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">2023 HINTS Data Users Conference</h4>
 
@@ -163,18 +178,6 @@
                                             <hr>
 
 
-                                                                    <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Errors, Remediation, and Recommendations
-                                            </h4>
-
-                                            <!-- Text -->
-                                            <p>
-                                             Access important information about HINTS data errors, remediation procedures, and resultant recommendations
-                                            </p>
-
-                                            <!-- Link -->
-                                            <a class="h6 text-decoration-none mt-auto" href="/data/data-remediation.aspx">Visit page ></a>
-                                            <hr>
 
 
                     

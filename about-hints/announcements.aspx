@@ -49,6 +49,18 @@
                     <h1>Announcements</h1>
                     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcements.</a></p>
 
+                    
+                    
+
+                    <h2 id="H6">HINTS 6 (2022) public use data available for download</h2>
+                    <p>Posted April 20, 2023</p>
+
+                    <p>Our newest public use dataset, HINTS 6 (2022), is now <a href="/data/download-data.aspx">available for download</a>. In addition to the traditional items on health communication, the use of digital technology, and cancer risk awareness that HINTS is known for, HINTS 6 (2022) also covers new topics, such as social media and misinformation, telehealth, and the social determinants of health. HINTS 6 (2022) was fielded from March through November 2022 (N=6,252). </p>
+
+                    
+
+
+
 
 
 
