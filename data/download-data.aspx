@@ -137,7 +137,7 @@
 
                         <hr />
 
-                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated April 26, 2023</strong></h2>
+                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated May 1, 2023</strong></h2>
                    
                            <p>
                             Total respondents: 6,252<br>
@@ -146,10 +146,10 @@
                         </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                                                 <ul>
-                            <li><a href="/dataset/HINTS6_SAS_20230426.zip">SAS data and supporting documents</a> (ZIP, 16.1 MB)</li>
-                            <li><a href="/dataset/HINTS6_STATA_20230426.zip">STATA data and supporting documents</a> (ZIP, 15.9 MB)</li>
-                            <li><a href="/dataset/HINTS6_SPSS_20230426.zip">SPSS data and supporting documents</a> (ZIP, 15.0 MB)</li>
-                            <li><a href="/dataset/HINTS6_R_20230426.zip">R data and supporting documents</a> (ZIP, 13.9 MB)</li>
+                            <li><a href="/dataset/HINTS6_SAS_20230501.zip">SAS data and supporting documents</a> (ZIP, 21.0 MB)</li>
+                            <li><a href="/dataset/HINTS6_STATA_20230501.zip">STATA data and supporting documents</a> (ZIP, 20.8 MB)</li>
+                            <li><a href="/dataset/HINTS6_SPSS_20230501.zip">SPSS data and supporting documents</a> (ZIP, 19.9 MB)</li>
+                            <li><a href="/dataset/HINTS6_R_20230501.zip">R data and supporting documents</a> (ZIP, 18.8 MB)</li>
                         </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
