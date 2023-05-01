@@ -116,7 +116,7 @@
 
 
                         <ul>
-                            <li><a href="#H6">HINTS 6 (2022) dataset, updated April 20, 2023</a></li>
+                            <li><a href="#H6">HINTS 6 (2022) dataset, updated May 1, 2023</a></li>
                             <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP)</a></li>
                             <li><a href="#SEER2021">HINTS-SEER (2021) dataset, updated November 2022</a></li>
                             <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated May 2022</a></li>
