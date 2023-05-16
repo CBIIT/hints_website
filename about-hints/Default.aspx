@@ -37,17 +37,24 @@
                                 </div>
                             </div>
                             <div class="card">
-                                                            <div class="card-body p-4">
-                                                                <h5 class="card-title">HINTS Schedule</h5>
-                                                                <p class="card-text">Get an overview of current HINTS data collection cycles.</p>
-                                                                <p class="card-text"><a href="/about-hints/data-collection-schedule.aspx">Read More</a></p>
-                                                            </div>
-                                                        </div>
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">HINTS Schedule</h5>
+                                    <p class="card-text">Get an overview of current HINTS data collection cycles.</p>
+                                    <p class="card-text"><a href="/about-hints/data-collection-schedule.aspx">Read More</a></p>
+                                </div>
+                            </div>
                             <div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">Were You Contacted by HINTS?</h5>
                                     <p class="card-text">Learn why it is important to participate in a HINTS survey.</p>
                                     <p class="card-text"><a href="/about-hints/contacted-by-hints.aspx">Read More</a></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">What Makes HINTS Unique</h5>
+                                    <p class="card-text">Discover what makes HINTS unique as compared to other surveys.</p>
+                                    <p class="card-text"><a href="/about-hints/hints-unique.aspx">Read More</a></p>
                                 </div>
                             </div>
                             <div class="card">

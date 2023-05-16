@@ -48,6 +48,8 @@
 
                     <ul>
                         <li><strong>HINTS 6 (2022) ) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 2.8MB)</li>
+                        <li><strong>HINTS 6 (2022) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS_6_MethodologyReport.pdf">PDF</a> 2.9 MB)</li>
+
                     </ul>
 
                     <p><a href="#topTOC">Return to Top</a></p>
