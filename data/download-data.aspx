@@ -131,8 +131,8 @@
                             <li><a href="#H4C1">HINTS 4, Cycle 1 (2011) dataset, updated October 2020 (See history document for change details)</a></li>
                             <li><a href="#H_PR">HINTS Puerto Rico 2009</a></li>
                             <li><a href="#H2007">HINTS 2007 Dataset, updated February 2009</a></li>
-                            <li><a href="#H2005">HINTS 2005 Dataset, updated June 2006</a></li>
-                            <li><a href="#H2003">HINTS 2003 Dataset, updated June 2006</a></li>
+                            <li><a href="#H2005">HINTS 2005 Dataset, updated May 2023</a></li>
+                            <li><a href="#H2003">HINTS 2003 Dataset, updated May 2023</a></li>
                         </ul>
 
                         <hr />
@@ -468,7 +468,7 @@
 
 
                         <h2 id="H2005">
-                            <strong>HINTS 2005 Dataset, updated June 2006 </strong>
+                            <strong>HINTS 2005 Dataset, updated May 2023</strong>
                         </h2>
                         <p>
                             The full dataset (n=5586) includes respondents who completed the entire interview
@@ -476,9 +476,9 @@
         Cancer Questions only (Partial Completes: n=192).
                         </p>
                         <ul>
-                            <li><a href="/dataset/HINTS-2005-SAS-Public-Internet6-02-06.ZIP">SAS data and supporting
-            documents</a> (ZIP, 4.71 MB)</li>
+                            <li><a href="/dataset/HINTS-2005-SAS-Public-Internet6-02-06.ZIP">SAS data and supporting documents</a> (ZIP, 4.71 MB)</li>
                             <li><a href="/dataset/HINTS-2005-SPSS-Public-Internet6-02-06.ZIP">SPSS data and supporting documents</a> (ZIP, 4.56 MB)</li>
+                            <li><a href="/dataset/HINTS_2005_Stata_Public_Internet.ZIP">STATA data and supporting documents</a> (ZIP, 5.86 MB)</li>
                         </ul>
                         <p><a href="#topTOC">Return to Top</a></p>
 
@@ -486,7 +486,7 @@
 
 
                         <h2 id="H2003">
-                            <strong>HINTS 2003 Dataset, updated June 2006  </strong>
+                            <strong>HINTS 2003 Dataset, updated May 2023 </strong>
                         </h2>
                         <p>
                             The full dataset (n=6369) includes respondents who completed the entire interview
@@ -494,9 +494,9 @@
         Cancer Questions only (Partial Completes: n=220).
                         </p>
                         <ul>
-                            <li><a href="/dataset/HINTS-2003-SAS-Internet-Public_6-2-06.ZIP">SAS data and supporting
-            documents</a> (ZIP, 5.41 MB)</li>
+                            <li><a href="/dataset/HINTS-2003-SAS-Internet-Public_6-2-06.ZIP">SAS data and supporting documents</a> (ZIP, 5.41 MB)</li>
                             <li><a href="/dataset/HINTS-2003-SPSS-Public-Internet_6-2-06.ZIP">SPSS data and supporting documents</a> (ZIP, 5.28 MB)</li>
+                            <li><a href="/dataset/HINTS_2003_Stata_Internet_Public.ZIP">STATA data and supporting documents</a> (ZIP, 6.62 MB)</li>
                         </ul>
                         <p>
                             You may also download the Codebook for interpreting data values along with unweighted
