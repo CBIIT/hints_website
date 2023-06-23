@@ -1,6 +1,7 @@
 ﻿Imports GenericHelper.GenericHelper
 Imports Lyris.Lyris
 Imports System.Net
+Imports System.Net.Mail
 
 Partial Class _usercontrols_terms
     Inherits System.Web.UI.UserControl
@@ -55,7 +56,13 @@ Partial Class _usercontrols_terms
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim HINTSMeeting_SubscribeService As New com.hintsmeeting.Subscribe
             Dim obj As Object = txtemailTermsService.Text
-            HINTSMeeting_SubscribeService.SubscribeToNciHintsUsers(obj)
+
+
+
+            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                HINTSMeeting_SubscribeService.SubscribeToNciHintsUsers(obj)
+            End If
+
         Catch ex As Exception
             Response.Write("<h1>" & ex.ToString & "</h1>")
         End Try

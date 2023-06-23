@@ -269,6 +269,9 @@ a.learn-more:hover {
     background-image: url(../images/twitter.png);
     background-repeat: no-repeat;
     background-position: 32% 0%;
+ }
+.twitter-stats-paddingleft {
+    padding-left: 58px !important;
 }
 
 .twitter-stats ul {

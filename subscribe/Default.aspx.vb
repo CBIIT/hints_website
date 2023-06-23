@@ -1,4 +1,5 @@
 ﻿Imports System.Net
+Imports System.Net.Mail
 Imports Lyris.Lyris
 
 Partial Class subscribe_Default
@@ -42,7 +43,10 @@ Partial Class subscribe_Default
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim ws As New com.hintsmeeting.Subscribe
             Dim email_address As Object = txtemailTerms.Text
-            ws.SubscribeToNciHintsUsers(email_address)
+
+            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                ws.SubscribeToNciHintsUsers(email_address)
+            End If
 
             MultiView1.SetActiveView(VW_Subscribed)
         Catch ex As Exception
@@ -55,7 +59,11 @@ Partial Class subscribe_Default
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
             Dim ws As New com.hintsmeeting.Subscribe
             Dim email_address As Object = txtemailTerms.Text
-            ws.UNSubscribeToNciHintsUsers(email_address)
+
+
+            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                ws.UNSubscribeToNciHintsUsers(email_address)
+            End If
 
             MultiView1.SetActiveView(VW_UNSubscribed)
         Catch ex As Exception

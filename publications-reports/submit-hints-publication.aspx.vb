@@ -30,7 +30,6 @@ Partial Class publicationsfolder_submit_hints_publication
 
 
         TXT_title.Focus()
-        file_error.Text = ""
         title_wrapper.Visible = True
         If Not Page.IsPostBack Then
             informus_form.Visible = True
@@ -62,16 +61,14 @@ Partial Class publicationsfolder_submit_hints_publication
     Sub DoSave()
 
 
-        If (FileUpload1.HasFile And FileUpload1.PostedFile.ContentLength > 5242880) Then
-            file_error.Text = "Uploaded file too large. Please upload file < 5 MB"
-            Return
-        End If
 
         If Page.IsValid Then
-            Dim br As New BinaryReader(FileUpload1.PostedFile.InputStream)
-            Dim bytes As Byte() = br.ReadBytes(FileUpload1.PostedFile.InputStream.Length)
+
+
+
             Try
 
+                Dim SB_body As New StringBuilder
 
                 Dim strMonth As String = "not answered"
 
@@ -90,12 +87,36 @@ Partial Class publicationsfolder_submit_hints_publication
                 End If
 
                 System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-                Dim ws As New com.hintsmeeting.Subscribe
+                'Dim ws As New com.hintsmeeting.Subscribe
 
-                ws.Insert_Application(TXT_title.Text, TXT_journal.Text, TXT_author.Text, TXT_Allauthors.Text, TXT_authorEmail.Text, strMonth, strYear, FileUpload1.FileName, bytes, FileUpload1.PostedFile.ContentType, DateTime.Now().ToString("d"))
+                'ws.Insert_Application(TXT_title.Text, TXT_journal.Text, TXT_author.Text, TXT_Allauthors.Text, TXT_authorEmail.Text, strMonth, strYear, FileUpload1.FileName, bytes, FileUpload1.PostedFile.ContentType, DateTime.Now().ToString("d"))
 
 
 
+                'Dim SmtpClient As New System.Net.Mail.SmtpClient("localhost")
+                Dim SmtpClient As New System.Net.Mail.SmtpClient(System.Configuration.ConfigurationManager.AppSettings("EmailHost").ToString)
+                Dim Message As System.Net.Mail.MailMessage = New System.Net.Mail.MailMessage
+
+                SB_body.Append("<strong>Title:</strong> " & TXT_title.Text & "<br/>")
+                SB_body.Append("<strong>Journal:</strong> " & TXT_journal.Text & "<br/>")
+                SB_body.Append("<strong>Primary Author:</strong> " & TXT_author.Text & "<br/>")
+                SB_body.Append("<strong>All Author:</strong> " & TXT_Allauthors.Text & "<br/>")
+                SB_body.Append("<strong>Corresponding Author Email:</strong> " & TXT_authorEmail.Text & "<br/>")
+                SB_body.Append("<strong>Publish Date:</strong> " & strMonth & "/" & strYear & "<br/>")
+
+                Message.To.Clear()
+                Message.To.Add(System.Configuration.ConfigurationManager.AppSettings("AdminSubmitPub"))
+                Message.From = New System.Net.Mail.MailAddress("rel.breedlove@icf.com")
+                Message.Subject = "HINTS: Publication Submission From Web Site"
+                Message.Body = SB_body.ToString
+                Message.IsBodyHtml = True
+
+
+                If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                    SmtpClient.Send(Message)
+                End If
+                Message.To.Clear()
+                SB_body = Nothing
 
                 informus_form.Visible = False
                 title_wrapper.Visible = False
@@ -107,10 +128,11 @@ Partial Class publicationsfolder_submit_hints_publication
 
 
             Catch ex As Exception
+
                 send_unsucess_row.Visible = True
             End Try
-
         End If
+
 
     End Sub
 

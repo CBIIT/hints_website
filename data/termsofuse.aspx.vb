@@ -57,7 +57,12 @@ Partial Class data_termsofuse
             Dim email_address As Object = txtemailTerms.Text
 
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-            ws.SubscribeToNciHintsUsers(email_address)
+
+
+            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                ws.SubscribeToNciHintsUsers(email_address)
+            End If
+
             Response.Redirect("~/data/download-data.aspx", False)
         Catch ex As Exception
             Response.Write("<h1>" & ex.ToString & "</h1>")

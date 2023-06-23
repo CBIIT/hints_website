@@ -7,6 +7,7 @@
 
     
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/randomimages.css">
 </asp:Content>
 
 
@@ -197,7 +198,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="box col-md-4 text-right twitter-stats">
+                        <div class="box col-md-4 twitter-stats twitter-stats-paddingleft">
                             <h3 class="font-family-open-sans font-weight-bold mt-5 rwb_margin_bottom_minus_6">Our Latest Tweets</h3>
 
 
@@ -215,9 +216,110 @@
             </div>
         </section>
     </div>
-                <div class="rwb_contactby btn-updated-dark ">
-                            <p ><a  href="/about-hints/contacted-by-hints.aspx">Were you contacted to participate in HINTS?</a></p>
+
+
+    
+    <div class="container col-lg-12  col-xl-7 col custom-wrapper">
+        <section>
+            <div class="row">
+                
+                <div class="col-md-8">
+
+                <%--***** Random image wrapper VVVVVVV--%>
+                <div class=" pd-r padding-025  rwbrnd_wrapper">
+                    <div class="rounded-0 shadow bg-white box pd-5 pd">
+                        <div class="hint-ribbon">
+                            <img
+                                src="/images/hints-logo.png"
+                                alt="National Cancer Institute" />
+                        </div>
+
+
+                        <%--***** Random image card VVVVVVV--%>
+                        <div class="card-content rwbrndmDiv">
+                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
+                            <p class="randomImageText">Have you ever looked for information about cancer from any source? HINTS 6 (2022)</p>
+                            <img src="/_images/randomimages/Random1_700.jpg" width="100%" alt="Chart Results for question">
+                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=14&qid=401" alt="View Question" class="font-weight-bold">View Question ></a>
+                        </div>
+                        <%--***** Random image card ^^^^^^^^^^^--%>
+
+
+                        <%--***** Random image card VVVVVVV--%>
+                        <div class="card-content rwbrndmDiv">
+                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
+                            <p class="randomImageText">Have any of your health care providers, including doctors, nurses, or office staff ever encouraged you to use an online medical record? (All Years)</p>
+                            <img src="/_images/randomimages/Random2_700.jpg" width="100%" alt="Chart Results for question">
+                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?qid=1639" alt="View Question" class="font-weight-bold">View Question ></a>
+                        </div>
+                        <%--***** Random image card ^^^^^^^^^^^--%>
+
+
+                        <%--***** Random image card VVVVVVV--%>
+                        <div class="card-content rwbrndmDiv">
+                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
+                            <p class="randomImageText">Do you have friends or family members that you talk to about your health? HINTS 6 (2022)</p>
+                            <img src="/_images/randomimages/Random3_700.jpg" width="100%" alt="Chart Results for question">
+                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=14&qid=874" alt="View Question" class="font-weight-bold">View Question ></a>
+                        </div>
+                        <%--***** Random image card ^^^^^^^^^^^--%>
+
+
+                        <%--***** Random image card VVVVVVV--%>
+                        <div class="card-content rwbrndmDiv">
+                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
+                            <p class="randomImageText">How much of the health information that you see on social media do you think is false or misleading? HINTS 6 (2022)</p>
+                            <img src="/_images/randomimages/Random4_700.jpg" width="100%" alt="Chart Results for question">
+                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=14&qid=1848" alt="View Question" class="font-weight-bold">View Question ></a>
+                        </div>
+                        <%--***** Random image card ^^^^^^^^^^^--%>
+
+
+                        <%--***** Random image card VVVVVVV--%>
+                        <div class="card-content rwbrndmDiv">
+                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
+                            <p class="randomImageText">In the past 12 months, have you used a computer, smartphone, or other electronic means to look up test results? HINTS 6 (2022)</p>
+                            <img src="/_images/randomimages/Random5_700.jpg" width="100%" alt="Chart Results for question">
+                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=13&qid=1614" alt="View Question" class="font-weight-bold">View Question ></a>
+                        </div>
+                        <%--***** Random image card ^^^^^^^^^^^--%>
+                    </div>
+                </div>
+
+
+                <%--***** Random image wrapper ^^^^^^^^^^^^^^^--%>
+
+                    </div>
+                
+                <div class="col-md-4">
+
+
+
+                               <div class=" pd-r padding-025">
+                            <div
+                                class="rounded-0 shadow bg-white box pd-5 pd">
+                                <div class="hint-ribbon">
+                                    <img
+                                        src="/images/hints-logo.png"
+                                        alt="National Cancer Institute" />
+                                </div>
+                                <div class="card-content">
+                                    <h3 class="font-weight-bold">Were You Contacted to Participate in HINTS?</h3>
+                                 
+                            <p >Click below to learn more about the HINTS survey, get details about your participation, and to view contact information.</p>
+                                    <a href="/about-hints/contacted-by-hints.aspx" alt="download data" class="font-weight-bold">Details ></a>
+                                </div>
                             </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </div>
+
+
+
+
+
 
 
     
@@ -227,7 +329,8 @@
         $("#breadcrumbs").hide();
     </script>
 
-
+    
+        <script src="/_scripts/randomimages.js"></script>
 
 </asp:Content>
 

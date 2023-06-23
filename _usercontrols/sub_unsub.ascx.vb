@@ -30,7 +30,12 @@ Partial Class _usercontrols_sub_unsub
         Try
             Dim ws As New com.hintsmeeting.Subscribe
             Dim email_address As Object = txtemailTerms.Text
-            ws.SubscribeToNciHintsUsers(email_address)
+
+
+            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                ws.SubscribeToNciHintsUsers(email_address)
+            End If
+
 
         Catch ex As Exception
             Response.Redirect("~/problem.aspx")

@@ -125,7 +125,11 @@ Partial Class data_restricted_data
 
 
                 ' rwb
-                SmtpClient.Send(Message)
+
+
+                If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                    SmtpClient.Send(Message)
+                End If
                 Message.To.Clear()
                 SB_body = Nothing
 
@@ -148,7 +152,12 @@ Partial Class data_restricted_data
                     Dim email_address As Object = txt_email.Text
 
                     System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-                    ws.SubscribeToNciHintsUsers(email_address)
+
+
+                    If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                        ws.SubscribeToNciHintsUsers(email_address)
+                    End If
+
                 End If
 
 

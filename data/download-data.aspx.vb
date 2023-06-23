@@ -89,7 +89,11 @@ Partial Class datafolder_download_data
             Dim email_address As Object = txtemailTerms.Text
 
             System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-            ws.SubscribeToNciHintsUsers(email_address)
+
+            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                ws.SubscribeToNciHintsUsers(email_address)
+            End If
+
             'Response.Redirect("~/data/download-data.aspx", False)
 
 

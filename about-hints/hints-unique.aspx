@@ -14,11 +14,7 @@
                     <h1>What Makes HINTS Unique</h1>
 
                     <h2>Communication &amp; Technology Focus</h2>
-                    <style type="text/css">
-                        .li_spacing {
-                            padding-bottom: 15px;
-                        }
-                    </style>
+
 
                     <p>The National Cancer Institute&rsquo;s Health Information National Trends Survey (HINTS) is the only nationally representative, federally funded survey that includes items related to health and cancer communication, information technology, and the information environment in addition to items related to health-related knowledge, attitudes, and behaviors. This communication and technology focus allows researchers to monitor changes in the health communication environment and study the impact of communication on key processes affecting the health of American adults.</p>
                     <p>Examples of Health/Cancer Communication and Information Technology items:</p>
@@ -35,10 +31,10 @@
                         <li class="li_spacing">Medical Records/EHRs:<br>
                             <a href="/view-questions/question-detail.aspx?PK_Cycle=14&qid=1639">Have any of your health care providers, including doctors, nurses, or office staff ever encouraged you to use an online medical record?</a></li>
 
-                        <li>Patient-Provider Communication:</li>
-                    </ul>
+                        <li>Patient-Provider Communication:
+                 
                     <p><em>The following questions are about your communication with all doctors, nurses, or other health professionals you saw during the past 12 months.</em></p>
-                    <ul>
+                
                         <ul type="circle">
                             <li><a href="/view-questions/question-detail.aspx?PK_Cycle=14&qid=719"><em>How often did they spend enough time with you?</em></a></li>
                             <li><a href="/view-questions/question-detail.aspx?PK_Cycle=14&qid=717"><em>How often did they explain things in a way you could understand?</em></a></li>
@@ -47,6 +43,7 @@
                             <li><a href="/view-questions/question-detail.aspx?PK_Cycle=14&qid=723"><em>How often did doctors, nurses, or other health professionals give you the chance to ask all the health-related questions you had?</em></a></li>
                             <li><a href="/view-questions/question-detail.aspx?PK_Cycle=14&qid=724"><em>How often did doctors, nurses, or other health professionals give the attention you needed to your feelings and emotions?</em></a></li>
                         </ul>
+                            </li>
                     </ul>
                     <h2>Policy Support</h2>
                     <p>

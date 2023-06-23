@@ -6,7 +6,7 @@
     <link href="/Content/bootstrap-theme.min.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/buttons.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
-    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2023_02_23.js'></script>
+    <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2023_07_08.js'></script>
     <style type="text/css">
         body {
             font-size: 1.2em !important;
@@ -301,7 +301,7 @@
                     <thead>
                         <tr>
 
-                            <th class="shim-a" style='width: <asp:Literal id="LIT_BottomTableLeftColumnWidth" runat="server"></asp:Literal>%'>Dataset(s):</th>
+                            <th class="shim-a" style='width: <asp:Literal id="LIT_BottomTableLeftColumnWidth" runat="server"></asp:Literal>%'>Data-set(s):</th>
                             <asp:Repeater ID="RPTR_AllDetails_BottomTable_Cycles" runat="server">
                                 <ItemTemplate>
                                     <th>

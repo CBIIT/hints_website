@@ -63,8 +63,9 @@ Partial Class aboutfolder_contact_us
                 Message.IsBodyHtml = True
 
 
-                SmtpClient.Send(Message)
-                'Response.Write("Email Sent")
+                If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+                    SmtpClient.Send(Message)
+                End If
                 Message.To.Clear()
                 SB_body = Nothing
 

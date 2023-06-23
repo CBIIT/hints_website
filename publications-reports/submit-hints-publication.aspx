@@ -125,22 +125,7 @@
                                             <br />
                                         </div>
 
-                                        <div class="FormItemWrapper">
-                                            <div class="FormLeftItem">
-                                                <asp:Label ID="AttachmentFile" AssociatedControlID="FileUpload1" runat="server" Text="Attachment (optional):"></asp:Label>
-                                            </div>
-                                            <div class="FormRightItem">
-                                                <asp:FileUpload ID="FileUpload1" runat="server" ClientIDMode="Static" onchange="validateFileSize();" />
-                                                <asp:RegularExpressionValidator ID="FileUpLoadValidator" runat="server" ErrorMessage="Please upload pdf files only." ValidationExpression="^.*\.(pdf)$" ControlToValidate="FileUpload1" CssClass="required"> 
-                                                </asp:RegularExpressionValidator>
-                                                <br />
-                                                <br />
-                                                <asp:Label ID="file_error" runat="server"></asp:Label>
-                                            </div>
-                                        </div>
-                                        <div id="dvMsg">
-                                            Uploaded file too large. Please upload file < 5 MB  
-                                        </div>
+
 
                                         <div class="rwbtrickery">
                                             <asp:TextBox autocomplete="new-password" ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />

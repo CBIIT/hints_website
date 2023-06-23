@@ -12,6 +12,7 @@ namespace Hints.ChartingPrototype_GetData
     {
 
         private const string CycleId_ColumnName = "CycleId";
+        private const string CycleId_displayorder_ColumnName = "displayorder";
         private const string CycleDisplayText_ColumnName = "CycleDisplayText";
         private const string CycleCitationText_ColumnName = "CycleCitationText";
         private const string DeliveryTypeId_ColumnName = "DeliveryTypeId";
@@ -43,12 +44,7 @@ namespace Hints.ChartingPrototype_GetData
             SqlCommand Cmd = new SqlCommand("", objConnect);
             SqlDataReader objDR = default(SqlDataReader);
 
-
-
-
             string strSurveyQuestionText = "";
-
-
 
             Cmd.CommandType = CommandType.StoredProcedure;
             Cmd.CommandText = "[Get_Question]";
@@ -78,6 +74,7 @@ namespace Hints.ChartingPrototype_GetData
             {
                 //  GETTING THE VALUES IN THE ROW
                 string cycleId = cycleData.Rows[i][CycleId_ColumnName].ToString();
+                string displayorder = cycleData.Rows[i][CycleId_displayorder_ColumnName].ToString();
                 string cycleDisplayText = cycleData.Rows[i][CycleDisplayText_ColumnName].ToString();
                 string summaryTypeId = cycleData.Rows[i][SummaryTypeId_ColumnName].ToString();
                 string summaryTypeDisplayText = cycleData.Rows[i][SummaryTypeDisplayText_ColumnName].ToString();
@@ -97,7 +94,7 @@ namespace Hints.ChartingPrototype_GetData
                 }
                 else
                 {
-                    surveyCycle = new SurveyCycle(cycleId, cycleDisplayText, citationData[cycleId], (cycleId == "0"));
+                    surveyCycle = new SurveyCycle(cycleId, cycleDisplayText, citationData[cycleId], displayorder, (cycleId == "0"));
                     result.SurveyCycles.Add(cycleId, surveyCycle);
                 }
 
@@ -138,13 +135,24 @@ namespace Hints.ChartingPrototype_GetData
             objDataAdapter.SelectCommand.CommandType = CommandType.StoredProcedure;
             objDataAdapter.SelectCommand.CommandText = "CHARTING_ListAllResults_For_PK_Question";
             objDataAdapter.SelectCommand.Parameters.Add("@PK_Question", SqlDbType.NVarChar).Value = PK_Question;
-            objDataAdapter.Fill(objDataSet, "NewRequestTopics");
+            objDataAdapter.Fill(objDataSet, "FullDatasetOfAllResultsForQuestion");
             //objDataView = objDataSet.Tables["NewRequestTopics"].DefaultView;
             objConnect.Close();
             objDataAdapter.SelectCommand.Parameters.Clear();
 
 
-            DataTable dt = objDataSet.Tables["NewRequestTopics"];
+
+
+
+
+
+            // loop for missing responses RWB
+
+
+
+
+
+            DataTable dt = objDataSet.Tables["FullDatasetOfAllResultsForQuestion"];
 
 
             return dt;
@@ -214,15 +222,18 @@ namespace Hints.ChartingPrototype_GetData
             public string DisplayText { get; set; }
             public string CitationText { get; set; }
             public bool IsForAllCycles { get; set; }
+            public string Displayorder { get; set; }
             public OrderedDictionary DataSummaryTypes { get; set; }
 
-            public SurveyCycle(string id, string displayText, string citationText, bool isForAllCycles)
+            public SurveyCycle(string id, string displayText, string citationText, string displayorder, bool isForAllCycles)
             {
                 Id = id;
                 DisplayText = displayText;
                 CitationText = citationText;
                 IsForAllCycles = isForAllCycles;
+                Displayorder = displayorder;
                 DataSummaryTypes = new OrderedDictionary();
+
             }
         }
 

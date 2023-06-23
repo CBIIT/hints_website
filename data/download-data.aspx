@@ -119,7 +119,7 @@
                             <li><a href="#H6">HINTS 6 (2022) dataset, updated May 16, 2023</a></li>
                             <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP)</a></li>
                             <li><a href="#SEER2021">HINTS-SEER (2021) dataset, updated November 2022</a></li>
-                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated May 2022</a></li>
+                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated June 2023</a></li>
                             <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) dataset, updated April 2021</a></li>
                             <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) dataset, updated October 2020</a></li>
                             <li><a href="#H5C1">HINTS 5, Cycle 1 (2017) dataset, updated June 2020</a></li>
@@ -197,7 +197,7 @@
 
 
 
-                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2020) dataset, updated May 2022</strong></h2>
+                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2020) dataset, updated June 2023</strong></h2>
                         <p>
                             Total respondents: 3,865<br />
                             Complete responses: 3,792<br />
@@ -206,9 +206,9 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS5_Cycle4_SAS_20220519.zip">SAS data and supporting documents</a> (ZIP, 12.5 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle4_STATA_202201519.zip">STATA data and supporting documents</a> (ZIP, 12.5 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle4_SPSS_20220519.zip">SPSS data and supporting documents</a> (ZIP, 11.9 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_SAS_20230618.zip">SAS data and supporting documents</a> (ZIP, 12.3 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_STATA_20230618.zip">STATA data and supporting documents</a> (ZIP, 12.4 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_SPSS_20230618.zip">SPSS data and supporting documents</a> (ZIP, 12.0 MB)</li>
                         </ul>
                         <p><a href="#topTOC">Return to Top</a></p>
 
