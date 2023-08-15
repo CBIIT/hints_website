@@ -6,7 +6,7 @@
     <meta name="Title" content="HINTS Data Merging Code Tool | HINTS" />
     <meta name="Description" content="Use this interactive tool to develop SAS code to merge multiple iterations of HINTS data. " />
 
-    <script src="/_scripts/datamergingcode/gencode.js"></script>
+    <script src="/_scripts/datamergingcode/gencode_20230803.js"></script>
     <link rel="stylesheet" href="/css/datamergingcode.css">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -69,10 +69,13 @@
 
 
 
-
+                            
 
                             <input id="ck_Cycle-54" type="checkbox" value="HINTS 5 CYCLE 4" />
                             <label for="ck_Cycle-54">HINTS 5 CYCLE 4 (2020)</label><br />
+
+                            <input id="ck_Cycle-6" type="checkbox" value="HINTS 6" />
+                            <label for="ck_Cycle-6">HINTS 6 (2022)</label><br />
                         </div>
 
 

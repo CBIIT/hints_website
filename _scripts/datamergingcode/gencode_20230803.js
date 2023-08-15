@@ -62,6 +62,7 @@ $(document).ready(function () {
         counterOne = 0;
 
         // loop for the top part
+        // setting the counter, no need for changes for new item
         $('input[type=checkbox]').each(function () {
             if ((this.checked) && (this.id.indexOf("ck_Cycle-") >= 0)) {
                 // this is for the very top list of selected checkboxes
@@ -120,6 +121,15 @@ $(document).ready(function () {
                         selectedCycles.push('hints54wgts');
                         break;
                         ;
+
+                        // RWB ADD THIS WHEN ADDING NEW CYCLE
+                    case 'HINTS 6':
+                        totalcode += setTextperCheckboxMIDDLE_SAS('tempHINTS6', 'hints6_public', counterOne);
+                        selectedCycles.push('hints6wgts');
+                        break;
+                        ;
+
+
                     default:
                         totalcode = totalcode;
                         break;
@@ -132,6 +142,15 @@ $(document).ready(function () {
 
         // loop for the bottom ABOVE array list part
         totalcode += 'data merge_hints;\n';
+
+
+        // HERE ***********************************
+
+        if ($("#ck_Cycle-6").is(':checked') == true) {
+            totalcode += '    length APP_REGION $2;\n';
+        }
+
+
         totalcode += '    set ';
         $('input[type=checkbox]').each(function () {
             if ((this.checked) && (this.id.indexOf("ck_Cycle-") >= 0)) {
@@ -161,6 +180,14 @@ $(document).ready(function () {
                         totalcode += ' tempHINTS5CYCLE4';
                         break;
                         ;
+
+
+                    // RWB ADD THIS WHEN ADDING NEW CYCLE
+                    case 'HINTS 6':
+                        totalcode += ' tempHINTS6';
+                        break;
+                        ;
+
                     default:
                         totalcode = totalcode;
                         break;
@@ -199,9 +226,18 @@ $(document).ready(function () {
                         break;
                         ;
                     case 'HINTS 5 CYCLE 4':
-                        totalcode += setTextperCheckboxArrayList_SAS('hints54wgts', 'person_finwt1-person_finwt50');
+                        totalcode += setTextperCheckboxArrayList_SAS('hints54wgts', 'PERSON_FINWT1-PERSON_FINWT50');
                         break;
                         ;
+
+
+                    // RWB ADD THIS WHEN ADDING NEW CYCLE
+                    case 'HINTS 6':
+                        totalcode += setTextperCheckboxArrayList_SAS('hints6wgts', 'PERSON_FINWT1-PERSON_FINWT50');
+                        break;
+                        ;
+
+
                     default:
                         totalcode = totalcode;
                         break;
@@ -536,6 +572,20 @@ $(document).ready(function () {
                         selectedCycles.push('hints54wgts');
                         break;
                         ;
+
+
+
+
+                    // RWB ADD THIS WHEN ADDING NEW CYCLE
+                        case 'HINTS 6':
+                        totalcode += setTextperCheckboxMIDDLE_STATA('tempHINTS6', 'hints6_public', TotalCountOfBoxesSelected);
+                        selectedCycles.push('hints6wgts');
+                        break;
+                        ;
+
+
+
+
                     default:
                         totalcode = totalcode;
                         break;
@@ -627,6 +677,27 @@ $(document).ready(function () {
                         counterOne += 1;
                         break;
                         ;
+
+
+
+
+
+
+                    // RWB ADD THIS WHEN ADDING NEW CYCLE
+                        case 'HINTS 6':
+                        if (firstcycle == '') {
+                            firstcycle = 'hints6_public';
+                        }
+                        else {
+                            cyclelistWithOutFirstCycleSelected += '"REPLACE-WITH-YOUR-TEMP-FOLDER-PATH-HERE\\hints6_public.dta" ';
+                        }
+                        allCycleList += counterOne + ' "HINTS 6" ';
+                        counterOne += 1;
+                        break;
+                        ;
+
+
+
                     default:
                         totalcode = totalcode;
                         break;
@@ -898,7 +969,7 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
 
 
 
-
+    //alert(varOne);
 
 
     //////////////////////////////////
@@ -929,7 +1000,15 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
       
     }
     else {
-        tempstring += 'gen nwgt0 = person_finwt0\n\n';
+
+        if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
+            tempstring += 'gen nwgt0 = PERSON_FINWT0\n\n';
+
+        }
+        else {
+            tempstring += 'gen nwgt0 = person_finwt0\n\n';
+        }
+
     }
 
     ////////////////////////////
@@ -1008,13 +1087,30 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
         }
     }
     else {
-        if (setTextperCheckboxMIDDLE_STATA_LoopYouAreOn == 1) {
-            tempstring += '         gen nwgt`n1\' = person_finwt`n1\'\n';
-        }
-        else {
-            tempstring += '         gen nwgt`n1\' = person_finwt0\n';
+
+        if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
+            if (setTextperCheckboxMIDDLE_STATA_LoopYouAreOn == 1) {
+                tempstring += '         gen nwgt`n1\' =PERSON_FINWT`n1\'\n';
+            }
+            else {
+                tempstring += '         gen nwgt`n1\' =PERSON_FINWT0\n';
+
+            }
 
         }
+        else {
+            if (setTextperCheckboxMIDDLE_STATA_LoopYouAreOn == 1) {
+                tempstring += '         gen nwgt`n1\' = person_finwt`n1\'\n';
+            }
+            else {
+                tempstring += '         gen nwgt`n1\' = person_finwt0\n';
+
+            }
+        }
+
+
+
+
     }
 
 
@@ -1038,7 +1134,20 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
             }
         }
         else {
-            tempstring += '         gen nwgt`x' + innerloopcounter + '\' = person_finwt';
+
+
+            if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
+                tempstring += '         gen nwgt`x' + innerloopcounter + '\' = PERSON_FINWT';
+
+            }
+            else {
+                tempstring += '         gen nwgt`x' + innerloopcounter + '\' = person_finwt';
+            }
+
+
+
+
+
         }
 
 
