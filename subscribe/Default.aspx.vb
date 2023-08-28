@@ -78,7 +78,7 @@ Partial Class subscribe_Default
 
         Catch ex As Exception
 
-            Response.Redirect("~/problem.aspx")
+            Response.Write("<h1>error=" & ex.ToString() & "</h1>")
         End Try
     End Function
 
