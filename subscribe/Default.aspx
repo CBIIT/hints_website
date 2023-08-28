@@ -27,13 +27,8 @@
                                     Display="Dynamic" ErrorMessage="&lt;br/&gt;Please enter a valid email address."
                                     ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                             </p>
-
-                            <p>
-                                <asp:RadioButton ID="rdSub" Text="Subscribe" TextAlign="Right" Checked="true" GroupName="listserv"
-                                    runat="server" />&nbsp;
-                            <asp:RadioButton ID="rdUnsub" Text="Un-subscribe" TextAlign="Right" runat="server"
-                                GroupName="listserv" />&nbsp;
-                            </p>
+                            <p><a target="_blank" href="https://public.govdelivery.com/accounts/USNIHNCI/subscriber/new?preferences=true#tab1">Unsubscribe/Manage your subscriptions</a></p>
+                 
                             <div class="rwbtrickery">
                                 <asp:TextBox autocomplete="new-password" ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
                                 <label class="sr-only" for="rwbNotEmail">This is for bot prevention; leave this field blank</label>

@@ -1,6 +1,9 @@
 ﻿Imports System.Net
+Imports System.Threading.Tasks
+Imports System.Net.Http.Headers
+Imports System.Net.Http
+Imports System.Activities.Expressions
 Imports System.Net.Mail
-Imports Lyris.Lyris
 
 Partial Class subscribe_Default
     Inherits System.Web.UI.Page
@@ -29,47 +32,90 @@ Partial Class subscribe_Default
     End Sub
 
     Sub DoSave()
-        If rdSub.Checked Then
-            subscribeMe()
-        ElseIf rdUnsub.Checked Then
-            UnSubscribeMe()
-        Else
-            Exit Sub
-        End If
+        'If rdSub.Checked Then
+        '    subscribeMe()
+        'ElseIf rdUnsub.Checked Then
+        '    UnSubscribeMe()
+        'Else
+        '    Exit Sub
+        'End If
+        SubscribeToGovDelivery().Wait()
     End Sub
 
-    Sub subscribeMe()
-        Try
-            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-            Dim ws As New com.hintsmeeting.Subscribe
-            Dim email_address As Object = txtemailTerms.Text
 
+    Private Async Function SubscribeToGovDelivery() As Task
+
+        Try
             If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
-                ws.SubscribeToNciHintsUsers(email_address)
+
+
+
+                Using client As HttpClient = New HttpClient()
+                    client.DefaultRequestHeaders.Authorization = CreateBasicAuthenticationHeader()
+                    Dim sb As StringBuilder = New StringBuilder()
+                    sb.AppendLine("<subscriber>")
+                    sb.AppendLine("<email>" & txtemailTerms.Text & "</email>")
+                    sb.AppendLine("<send-notifications type='boolean'>false</send-notifications>")
+                    sb.AppendLine("<topics type='array'>")
+                    sb.AppendLine("<topic>")
+                    sb.AppendLine("<code>USNIHNCI_331</code>")
+                    sb.AppendLine("</topic>")
+                    sb.AppendLine("</topics>")
+                    sb.AppendLine("</subscriber>")
+                    Dim xml = sb.ToString()
+                    Dim httpContent = New StringContent(xml, Encoding.UTF8, "application/xml")
+                    Dim responseObj = Await client.PostAsync(System.Configuration.ConfigurationManager.AppSettings("govdel_site"), httpContent).ConfigureAwait(False)
+
+                    If responseObj.StatusCode = HttpStatusCode.OK Then
+                        MultiView1.SetActiveView(VW_Subscribed)
+                    Else
+                        Response.Redirect("~/problem.aspx")
+                    End If
+
+                    MultiView1.SetActiveView(VW_Subscribed)
+                End Using
             End If
 
-            MultiView1.SetActiveView(VW_Subscribed)
         Catch ex As Exception
+
             Response.Redirect("~/problem.aspx")
         End Try
-    End Sub
-
-    Sub UnSubscribeMe()
-        Try
-            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-            Dim ws As New com.hintsmeeting.Subscribe
-            Dim email_address As Object = txtemailTerms.Text
+    End Function
 
 
-            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
-                ws.UNSubscribeToNciHintsUsers(email_address)
-            End If
 
-            MultiView1.SetActiveView(VW_UNSubscribed)
-        Catch ex As Exception
-            Response.Redirect("~/problem.aspx")
-        End Try
+    'Sub UnSubscribeMe()
+    '    Try
+    '        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+    '        Dim ws As New com.hintsmeeting.Subscribe
+    '        Dim email_address As Object = txtemailTerms.Text
 
-    End Sub
+
+    '        If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
+    '            ws.UNSubscribeToNciHintsUsers(email_address)
+    '        End If
+
+    '        MultiView1.SetActiveView(VW_UNSubscribed)
+    '    Catch ex As Exception
+    '        Response.Redirect("~/problem.aspx")
+    '    End Try
+
+    'End Sub
+
+
+
+    Private Function CreateBasicAuthenticationHeader() As AuthenticationHeaderValue
+        Dim apiUser = System.Configuration.ConfigurationManager.AppSettings("govdel_user")
+        Dim apiKey = System.Configuration.ConfigurationManager.AppSettings("govdel_pass")
+        Dim byteArray = Encoding.ASCII.GetBytes(apiUser & ":" & apiKey)
+        Dim header = New AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray))
+        Return header
+    End Function
+
+    Private Shared Function GetSubscriberId(ByVal emailAddress As String) As String
+        Dim bytes = Encoding.UTF8.GetBytes(emailAddress)
+        Return Convert.ToBase64String(bytes)
+    End Function
+
 
 End Class

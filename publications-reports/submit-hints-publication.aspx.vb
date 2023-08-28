@@ -87,10 +87,6 @@ Partial Class publicationsfolder_submit_hints_publication
                 End If
 
                 System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-                'Dim ws As New com.hintsmeeting.Subscribe
-
-                'ws.Insert_Application(TXT_title.Text, TXT_journal.Text, TXT_author.Text, TXT_Allauthors.Text, TXT_authorEmail.Text, strMonth, strYear, FileUpload1.FileName, bytes, FileUpload1.PostedFile.ContentType, DateTime.Now().ToString("d"))
-
 
 
                 'Dim SmtpClient As New System.Net.Mail.SmtpClient("localhost")

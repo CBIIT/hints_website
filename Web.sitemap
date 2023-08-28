@@ -20,7 +20,6 @@
 
 
 	  <siteMapNode url="~/data/Default.aspx" title="HINTS Data" description="HINTS Data">
-		  <siteMapNode url="~/data/termsofuse.aspx" title="HINTS Data Terms of Use" description="HINTS Data Terms of Use"/>
 		  <siteMapNode url="~/data/download-data.aspx" title="Public Use Dataset" description="Public Use Dataset"/>
 		  <siteMapNode url="~/data/survey-instruments.aspx" title="Survey Instruments" description="Survey Instruments"/>
 		  <siteMapNode url="~/data/methodology-reports.aspx" title="Methodology Reports" description="Methodology Reports"/>

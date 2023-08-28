@@ -2,7 +2,6 @@
 
 
 <%@ Register Src="~/_usercontrols/results.ascx" TagName="results" TagPrefix="uc1" %>
-<%@ Register Src="~/_usercontrols/sub_unsub.ascx" TagPrefix="uc1" TagName="sub_unsub" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta name="Title" content="View HINTS questions | HINTS" />
