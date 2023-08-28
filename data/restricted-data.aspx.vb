@@ -184,6 +184,7 @@ Partial Class data_restricted_data
             If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
 
 
+                System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 
                 Using client As HttpClient = New HttpClient()
                     client.DefaultRequestHeaders.Authorization = CreateBasicAuthenticationHeader()

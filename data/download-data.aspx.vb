@@ -120,6 +120,8 @@ Partial Class datafolder_download_data
 
 
 
+                System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
+
                 Using client As HttpClient = New HttpClient()
                     client.DefaultRequestHeaders.Authorization = CreateBasicAuthenticationHeader()
                     Dim sb As StringBuilder = New StringBuilder()
