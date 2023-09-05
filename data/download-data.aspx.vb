@@ -124,24 +124,16 @@ Partial Class datafolder_download_data
 
                 Using client As HttpClient = New HttpClient()
                     client.DefaultRequestHeaders.Authorization = CreateBasicAuthenticationHeader()
-                    Dim sb As StringBuilder = New StringBuilder()
-                    sb.AppendLine("<subscriber>")
-                    sb.AppendLine("<email>" & txtemailTerms.Text & "</email>")
-                    sb.AppendLine("<send-notifications type='boolean'>false</send-notifications>")
-                    sb.AppendLine("<topics type='array'>")
-                    sb.AppendLine("<topic>")
-                    sb.AppendLine("<code>USNIHNCI_331</code>")
-                    sb.AppendLine("</topic>")
-                    sb.AppendLine("</topics>")
-                    sb.AppendLine("</subscriber>")
-                    Dim xml = sb.ToString()
+
+                    Dim xml = CreateXMLForCall(txtemailTerms.Text, "USNIHNCI_331")
+
                     Dim httpContent = New StringContent(xml, Encoding.UTF8, "application/xml")
                     Dim responseObj = Await client.PostAsync(System.Configuration.ConfigurationManager.AppSettings("govdel_site"), httpContent).ConfigureAwait(False)
 
                     If responseObj.StatusCode = HttpStatusCode.OK Then
                         'Do Nothing
                     Else
-                        Response.Redirect("~/problem.aspx")
+                        Response.Write("<h3>" & responseObj.StatusCode.ToString & "</h3>")
                     End If
 
                 End Using
@@ -149,10 +141,25 @@ Partial Class datafolder_download_data
 
         Catch ex As Exception
 
-            Response.Redirect("~/problem.aspx")
+            Response.Write("<h3>" & ex.ToString & "</h3>")
         End Try
     End Function
 
+
+    Function CreateXMLForCall(stremailAddress As String, strTopic As String) As String
+        Dim sb As StringBuilder = New StringBuilder()
+        sb.AppendLine("<subscriber>")
+        sb.AppendLine("<email>" & stremailAddress & "</email>")
+        sb.AppendLine("<send-notifications type='boolean'>false</send-notifications>")
+        sb.AppendLine("<topics type='array'>")
+        sb.AppendLine("<topic>")
+        sb.AppendLine("<code>" & strTopic & "</code>")
+        sb.AppendLine("</topic>")
+        sb.AppendLine("</topics>")
+        sb.AppendLine("</subscriber>")
+
+        Return sb.ToString()
+    End Function
 
     Protected Sub CustomValidator1_ServerValidate(source As Object, args As System.Web.UI.WebControls.ServerValidateEventArgs) Handles CustomValidator1.ServerValidate
         If chkAcceptTerm_SinglePage.Checked Then

@@ -188,24 +188,16 @@ Partial Class data_restricted_data
 
                 Using client As HttpClient = New HttpClient()
                     client.DefaultRequestHeaders.Authorization = CreateBasicAuthenticationHeader()
-                    Dim sb As StringBuilder = New StringBuilder()
-                    sb.AppendLine("<subscriber>")
-                    sb.AppendLine("<email>" & txt_email.Text & "</email>")
-                    sb.AppendLine("<send-notifications type='boolean'>false</send-notifications>")
-                    sb.AppendLine("<topics type='array'>")
-                    sb.AppendLine("<topic>")
-                    sb.AppendLine("<code>USNIHNCI_331</code>")
-                    sb.AppendLine("</topic>")
-                    sb.AppendLine("</topics>")
-                    sb.AppendLine("</subscriber>")
-                    Dim xml = sb.ToString()
+
+                    Dim xml = CreateXMLForCall(txt_email.Text, "USNIHNCI_331")
+
                     Dim httpContent = New StringContent(xml, Encoding.UTF8, "application/xml")
                     Dim responseObj = Await client.PostAsync(System.Configuration.ConfigurationManager.AppSettings("govdel_site"), httpContent).ConfigureAwait(False)
 
                     If responseObj.StatusCode = HttpStatusCode.OK Then
                         ' Do Nothing
                     Else
-                        Response.Redirect("~/problem.aspx")
+                        Response.Write("<h3>" & responseObj.StatusCode.ToString & "</h3>")
                     End If
 
                 End Using
@@ -213,11 +205,25 @@ Partial Class data_restricted_data
 
         Catch ex As Exception
 
-            Response.Redirect("~/problem.aspx")
+            Response.Write("<h3>" & ex.ToString & "</h3>")
         End Try
     End Function
 
 
+    Function CreateXMLForCall(stremailAddress As String, strTopic As String) As String
+        Dim sb As StringBuilder = New StringBuilder()
+        sb.AppendLine("<subscriber>")
+        sb.AppendLine("<email>" & stremailAddress & "</email>")
+        sb.AppendLine("<send-notifications type='boolean'>false</send-notifications>")
+        sb.AppendLine("<topics type='array'>")
+        sb.AppendLine("<topic>")
+        sb.AppendLine("<code>" & strTopic & "</code>")
+        sb.AppendLine("</topic>")
+        sb.AppendLine("</topics>")
+        sb.AppendLine("</subscriber>")
+
+        Return sb.ToString()
+    End Function
 
     Private Function CreateBasicAuthenticationHeader() As AuthenticationHeaderValue
         Dim apiUser = System.Configuration.ConfigurationManager.AppSettings("govdel_user")

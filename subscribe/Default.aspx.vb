@@ -2,15 +2,10 @@
 Imports System.Threading.Tasks
 Imports System.Net.Http.Headers
 Imports System.Net.Http
-Imports System.Activities.Expressions
-Imports System.Net.Mail
+
 
 Partial Class subscribe_Default
     Inherits System.Web.UI.Page
-
-
-
-    Public strbody As String = ""
 
     Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
         If Not Page.IsPostBack Then
@@ -32,14 +27,13 @@ Partial Class subscribe_Default
     End Sub
 
     Sub DoSave()
-        'If rdSub.Checked Then
-        '    subscribeMe()
-        'ElseIf rdUnsub.Checked Then
-        '    UnSubscribeMe()
-        'Else
-        '    Exit Sub
-        'End If
-        SubscribeToGovDelivery().Wait()
+        If rdSub.Checked Then
+            SubscribeToGovDelivery().Wait()
+        ElseIf rdUnsub.Checked Then
+            UNSubscribeToGovDelivery().Wait()
+        Else
+            Exit Sub
+        End If
     End Sub
 
 
@@ -53,56 +47,77 @@ Partial Class subscribe_Default
 
                 Using client As HttpClient = New HttpClient()
                     client.DefaultRequestHeaders.Authorization = CreateBasicAuthenticationHeader()
-                    Dim sb As StringBuilder = New StringBuilder()
-                    sb.AppendLine("<subscriber>")
-                    sb.AppendLine("<email>" & txtemailTerms.Text & "</email>")
-                    sb.AppendLine("<send-notifications type='boolean'>false</send-notifications>")
-                    sb.AppendLine("<topics type='array'>")
-                    sb.AppendLine("<topic>")
-                    sb.AppendLine("<code>USNIHNCI_331</code>")
-                    sb.AppendLine("</topic>")
-                    sb.AppendLine("</topics>")
-                    sb.AppendLine("</subscriber>")
-                    Dim xml = sb.ToString()
+                    Dim xml = CreateXMLForCall(txtemailTerms.Text, "USNIHNCI_331")
                     Dim httpContent = New StringContent(xml, Encoding.UTF8, "application/xml")
                     Dim responseObj = Await client.PostAsync(System.Configuration.ConfigurationManager.AppSettings("govdel_site"), httpContent).ConfigureAwait(False)
 
                     If responseObj.StatusCode = HttpStatusCode.OK Then
                         MultiView1.SetActiveView(VW_Subscribed)
                     Else
-                        Response.Redirect("~/problem.aspx")
+                        MultiView1.SetActiveView(VW_Problem)
                     End If
 
-                    MultiView1.SetActiveView(VW_Subscribed)
                 End Using
             End If
 
         Catch ex As Exception
-
-            Response.Redirect("~/problem.aspx")
+            Response.Write("<h3>" & ex.ToString & "</h3>")
         End Try
     End Function
 
 
+    Private Async Function UNSubscribeToGovDelivery() As Task
 
-    'Sub UnSubscribeMe()
-    '    Try
-    '        System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
-    '        Dim ws As New com.hintsmeeting.Subscribe
-    '        Dim email_address As Object = txtemailTerms.Text
+        Try
+            If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
 
 
-    '        If CBool(System.Configuration.ConfigurationManager.AppSettings("ScanIsGoing")) = False Then
-    '            ws.UNSubscribeToNciHintsUsers(email_address)
-    '        End If
+                System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12
 
-    '        MultiView1.SetActiveView(VW_UNSubscribed)
-    '    Catch ex As Exception
-    '        Response.Redirect("~/problem.aspx")
-    '    End Try
+                Using client As HttpClient = New HttpClient()
+                    client.DefaultRequestHeaders.Authorization = CreateBasicAuthenticationHeader()
+                    Dim sb As StringBuilder = New StringBuilder()
+                    Dim xml = CreateXMLForCall(txtemailTerms.Text, "USNIHNCI_331")
+                    Dim httpContent = New StringContent(xml, Encoding.UTF8, "application/xml")
 
-    'End Sub
+                    Dim request = New HttpRequestMessage With {
+                         .Method = HttpMethod.Delete,
+                          .RequestUri = New Uri(System.Configuration.ConfigurationManager.AppSettings("govdel_site")),
+                          .Content = httpContent
+                       }
+                    Dim responseobj = Await client.SendAsync(request).ConfigureAwait(False)
 
+                    ' Dim responseObj = Await client.PostAsync(System.Configuration.ConfigurationManager.AppSettings("govdel_site"), httpContent).ConfigureAwait(False)
+
+                    If responseObj.StatusCode = HttpStatusCode.OK Then
+                        MultiView1.SetActiveView(VW_UNSubscribed)
+                    Else
+                        MultiView1.SetActiveView(VW_Problem_Unsub)
+                    End If
+
+                End Using
+            End If
+
+        Catch ex As Exception
+            Response.Write("<h3>" & ex.ToString & "</h3>")
+        End Try
+    End Function
+
+
+    Function CreateXMLForCall(stremailAddress As String, strTopic As String) As String
+        Dim sb As StringBuilder = New StringBuilder()
+        sb.AppendLine("<subscriber>")
+        sb.AppendLine("<email>" & stremailAddress & "</email>")
+        sb.AppendLine("<send-notifications type='boolean'>false</send-notifications>")
+        sb.AppendLine("<topics type='array'>")
+        sb.AppendLine("<topic>")
+        sb.AppendLine("<code>" & strTopic & "</code>")
+        sb.AppendLine("</topic>")
+        sb.AppendLine("</topics>")
+        sb.AppendLine("</subscriber>")
+
+        Return sb.ToString()
+    End Function
 
 
     Private Function CreateBasicAuthenticationHeader() As AuthenticationHeaderValue

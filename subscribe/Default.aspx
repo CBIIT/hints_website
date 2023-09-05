@@ -27,8 +27,12 @@
                                     Display="Dynamic" ErrorMessage="&lt;br/&gt;Please enter a valid email address."
                                     ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
                             </p>
-                            <p><a target="_blank" href="https://public.govdelivery.com/accounts/USNIHNCI/subscriber/new?preferences=true#tab1">Unsubscribe/Manage your subscriptions</a></p>
-                 
+                            <p>
+                                <asp:RadioButton ID="rdSub" Text="Subscribe" TextAlign="Right" Checked="true" GroupName="listserv"
+                                    runat="server" />&nbsp;
+                            <asp:RadioButton ID="rdUnsub" Text="Un-subscribe" TextAlign="Right" runat="server"
+                                GroupName="listserv" />&nbsp;
+                            </p>
                             <div class="rwbtrickery">
                                 <asp:TextBox autocomplete="new-password" ID="rwbNotEmail" TabIndex="-1" Text="" runat="server" />
                                 <label class="sr-only" for="rwbNotEmail">This is for bot prevention; leave this field blank</label>
@@ -43,6 +47,12 @@
                         </asp:View>
                         <asp:View ID="VW_UNSubscribed" runat="server">
                             <p>You have been unsubscribed from the HINTS email listserv</p>
+                        </asp:View>
+                        <asp:View ID="VW_Problem_Unsub" runat="server">
+                            <p>That email address does not appear to be in the system.</p>
+                        </asp:View>
+                        <asp:View ID="VW_Problem" runat="server">
+                            <p>There appears to be a problem, please try again.</p>
                         </asp:View>
                     </asp:MultiView>
 
