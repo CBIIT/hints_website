@@ -71,12 +71,20 @@
 
 
 
-
+                            
                             <div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">Request Restricted HINTS Datasets</h5>
                                     <p class="card-text">Request restricted-use HINTS datasets that contain geocodes and suppressed variables or restricted-use-only datasets using the form found on this page.</p>
                                     <p class="card-text"><a href="/data/restricted-data.aspx">Read More</a></p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">PRICSSA Information</h5>
+                                    <p class="card-text">Access the HINTS Preferred Reporting Items for Complex Sample Survey Analysis (PRICSSA) checklist.</p>
+                                    <p class="card-text"><a href="/data/pricssa.aspx">Read More</a></p>
                                 </div>
                             </div>
 

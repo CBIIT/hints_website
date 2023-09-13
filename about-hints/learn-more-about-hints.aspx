@@ -15,8 +15,8 @@
                     <h1>About HINTS</h1>
 
                     <div id="about_image">
-                        <a target="_blank" href="/docs/Hints_Factsheet.pdf">HINTS Fact Sheet<br />
-                            <img src="/_images/Hints_Factsheet_2021.jpg" alt="Image of HINTS Fact Sheet" /></a>
+                        <a target="_blank" href="/docs/Hints_Factsheet_2023.pdf">HINTS Fact Sheet<br />
+                            <img src="/_images/Hints_Factsheet_2023.png" alt="Image of HINTS Fact Sheet" /></a>
                     </div>
 
                     <p>
