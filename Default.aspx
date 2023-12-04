@@ -199,13 +199,13 @@
                             </div>
                         </div>
                         <div class="box col-md-4 twitter-stats twitter-stats-paddingleft">
-                            <h3 class="font-family-open-sans font-weight-bold mt-5 rwb_margin_bottom_minus_6">Our Latest Tweets</h3>
+                            <h3 class="font-family-open-sans font-weight-bold mt-5 rwb_margin_bottom_minus_6">Our Latest Posts</h3>
 
 
                        <%--     https://publish.twitter.com/--%>
 
                 <br />
-                            <a class="twitter-timeline" data-width="358" data-height="451" href="https://twitter.com/NCIHINTS?ref_src=twsrc%5Etfw">Tweets by NCIHINTS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            <a class="twitter-timeline" data-width="358" data-height="451" href="https://twitter.com/NCIHINTS?ref_src=twsrc%5Etfw">Posts by NCIHINTS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                             
 

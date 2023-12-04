@@ -706,9 +706,15 @@ $(document).ready(function () {
             }
         });
 
+        /*******************************************************************************************************************************
+        *  Update By: De-Shunda Jones                                                                                                  *
+        *  Purpose: Update add "force" after "append using statement" to force merge of data to ignore variable formatting difference  *
+        *  Affected Lines: 717 updated                                                                                                 *
+        *  Date: 11/22/2023                                                                                                            *
+        *******************************************************************************************************************************/
 
         totalcode += 'use "REPLACE-WITH-YOUR-TEMP-FOLDER-PATH-HERE\\' + firstcycle + '.dta", clear\n\n';
-        totalcode += 'append using ' + cyclelistWithOutFirstCycleSelected + ', generate(cycles)\n\n';
+        totalcode += 'append using ' + cyclelistWithOutFirstCycleSelected + ', generate(cycles) force\n\n';
         totalcode += 'tab cycles\n\n';
         totalcode += 'label define cycles ' + allCycleList + '\n\n';
         totalcode += 'label values cycles cycles\n\n';
@@ -966,8 +972,20 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
     ////////var tempstring = 'data ' + varOne + ';\n';
     var tempstring = 'use "REPLACE-WITH-YOUR-PATH-HERE\\' + libraryvariable + '.dta", clear \n\n';
 
+    /************************************************************************************************************
+    *  Update By: De-Shunda Jones                                                                               *
+    *  Purpose: Update add "rename _all, lower" will convert all variables in dataset to lowercase              *
+    *  Affected Lines: 982 - 987 added                                                                          *
+    *  Date: 11/22/2023                                                                                         *
+    ************************************************************************************************************/
 
+    if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
 
+        tempstring += '* RENAMES ALL VARIABLES TO LOWERCASE FOR MERGING WITH PREVIOUS CYCLES THAT CONTAIN DIFFERENT TEXT CASE FORMATS \n\n';
+        tempstring += 'rename _all, lower \n\n';
+
+    }
+    else {}
 
     //alert(varOne);
 
@@ -981,25 +999,32 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
         tempstring += '* rename existing nwgt variables for HINTS 5 Cycle 3\n';
         tempstring += 'forvalues n1 = 0 / 150 {\n';
         tempstring += '     ren nwgt`n1\' h5c3_nwgt`n1\'\n';
-        tempstring +=' }\n';
+        tempstring += ' }\n';
 
 
         if ($('#RD_All').is(':checked')) {
             tempstring += 'gen nwgt0 = tg_all_finwt0\n\n';
-            }
+        }
         if ($('#RD_Paper').is(':checked')) {
             tempstring += 'gen nwgt0 = tg1_finwt0\n\n';
-            }
+        }
         if ($('#RD_Web').is(':checked')) {
             tempstring += 'gen nwgt0 = tg2_finwt0\n\n';
-            }
+        }
         if ($('#RD_Bonus').is(':checked')) {
             tempstring += 'gen nwgt0 = tg3_finwt0\n\n';
-            }
+        }
 
-      
+
     }
-    else {
+    /************************************************************************************************************
+    *  Update By: De-Shunda Jones                                                                               *
+    *  Purpose: Update "Person_fintwt()" variable from uppercase to lowercase for HINTS 5 CYCLE 4 and HINTS 6   *
+    *  Affected Lines: 1026 - 1036 Commented out; 1037 added                                                    *
+    *  Date: 11/22/2023                                                                                         *
+    ************************************************************************************************************/
+
+   /*else {
 
         if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
             tempstring += 'gen nwgt0 = PERSON_FINWT0\n\n';
@@ -1009,7 +1034,8 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
             tempstring += 'gen nwgt0 = person_finwt0\n\n';
         }
 
-    }
+    }*/
+    else { tempstring += 'gen nwgt0 = person_finwt0\n\n'; }
 
     ////////////////////////////
 
@@ -1087,8 +1113,14 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
         }
     }
     else {
+        /************************************************************************************************************
+        *  Update By: De-Shunda Jones                                                                               *
+        *  Purpose: Update "Person_fintwt()" variable from uppercase to lowercase for HINTS 5 CYCLE 4 and HINTS 6   *
+        *  Affected Lines: 1122 - 1140 Commented out; 1142 - 1148 added                                             *
+        *  Date: 11/22/2023                                                                                         *
+        ************************************************************************************************************/
 
-        if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
+        /*if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
             if (setTextperCheckboxMIDDLE_STATA_LoopYouAreOn == 1) {
                 tempstring += '         gen nwgt`n1\' =PERSON_FINWT`n1\'\n';
             }
@@ -1099,15 +1131,22 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
 
         }
         else {
-            if (setTextperCheckboxMIDDLE_STATA_LoopYouAreOn == 1) {
-                tempstring += '         gen nwgt`n1\' = person_finwt`n1\'\n';
-            }
-            else {
-                tempstring += '         gen nwgt`n1\' = person_finwt0\n';
+                if (setTextperCheckboxMIDDLE_STATA_LoopYouAreOn == 1) {
+                    tempstring += '         gen nwgt`n1\' = person_finwt`n1\'\n';
+                }
+                else {
+                    tempstring += '         gen nwgt`n1\' = person_finwt0\n';
 
-            }
+                }
+        }*/
+
+        if (setTextperCheckboxMIDDLE_STATA_LoopYouAreOn == 1) {
+            tempstring += '         gen nwgt`n1\' = person_finwt`n1\'\n';
         }
+        else {
+            tempstring += '         gen nwgt`n1\' = person_finwt0\n';
 
+        }
 
 
 
@@ -1133,7 +1172,14 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
                 tempstring += '         gen nwgt`x' + innerloopcounter + '\' = tg3_finwt';
             }
         }
-        else {
+        /************************************************************************************************************
+        *  Update By: De-Shunda Jones                                                                               *
+        *  Purpose: Update "Person_fintwt()" variable from uppercase to lowercase for HINTS 5 CYCLE 4 and HINTS 6   *
+        *  Affected Lines: 1181 - 1191 Commented out; 1193 added                                                    *
+        *  Date: 11/22/2023                                                                                         *
+        ************************************************************************************************************/
+
+       /*else {
 
 
             if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
@@ -1143,12 +1189,9 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
             else {
                 tempstring += '         gen nwgt`x' + innerloopcounter + '\' = person_finwt';
             }
+        }*/
 
-
-
-
-
-        }
+        else {tempstring += '         gen nwgt`x' + innerloopcounter + '\' = person_finwt';}
 
 
 

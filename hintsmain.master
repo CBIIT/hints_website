@@ -73,8 +73,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <span class=" usa-banner__header-text">An official website of the United States government</span>
                 </div>
             </div>
-
             <div class="container d-flex justify-content-between col-lg-12 col-xl-7 col custom-wrapper">
+
+            
+
                 <nav
                     class="navbar navbar-expand-lg navbar-light bg-light col-lg-12 pt-2 pb-2 pl-0 pr-0">
                     <a href="https://www.cancer.gov/"
@@ -291,7 +293,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                         <ul class="list-unstyled">
                             <li>
-                                <a target="_blank" href="https://www.twitter.com/NCIHINTS" alt="twitter" class="twit-icon"></a>
+                                <a target="_blank" href="https://www.twitter.com/NCIHINTS" alt="x" class="x-icon"></a>
                             </li>
                         </ul>
 
