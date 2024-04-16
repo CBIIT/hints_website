@@ -1,0 +1,35 @@
+﻿table, th, td {
+    border: 1px solid black !important;
+    border-collapse: collapse;
+    text-align: center;
+    vertical-align: text-top;
+    padding: 0px;
+}
+
+th {
+    background-color: #98cd65 !important;
+}
+
+tr:nth-child(odd) {
+    background-color: #e8f4dc;
+}
+
+td.numrespondents {
+    text-align: left !important;
+    padding-left: 1em;
+}
+
+
+p.footNote {
+    font-size: 11px;
+}
+
+
+span.rowHeaderNormal {
+    font-weight: normal;
+}
+
+
+span.indentCellTxt {
+    margin-left: 1em;
+}

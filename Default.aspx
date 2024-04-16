@@ -166,17 +166,18 @@
 
 
                                             
-                                            <!-- Heading -->
+                                    <%--  De-Shunda Jones: 3/17/2024 Commenting out for now. Will include something new in this area later   --%>
+                                   <%--         <!-- Heading -->
                                             <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">2023 HINTS Data Users Conference</h4>
 
                                             <!-- Text -->
                                             <p>
-                                               Get information about the upcoming HINTS Data Users Conference, happening September 21-22, 2023 in Bethesda, MD. 
+                                               Access information and materials from the 2023 HINTS Data Users Conference, which happened September 21-22, 2023 in Bethesda, MD. 
                                             </p>
 
                                             <!-- Link -->
-                                            <a class="h6 text-decoration-none mt-auto" href="/meetings-trainings/2023-users-meeting.aspx">Visit page ></a>
-                                            <hr>
+                                            <a class="h6 text-decoration-none mt-auto" href="/meetings-trainings/hints-data-users-conferences.aspx">Visit page ></a>
+                                            <hr>--%>
 
 
 

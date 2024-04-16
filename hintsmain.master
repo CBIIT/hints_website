@@ -73,10 +73,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <span class=" usa-banner__header-text">An official website of the United States government</span>
                 </div>
             </div>
+
             <div class="container d-flex justify-content-between col-lg-12 col-xl-7 col custom-wrapper">
-
-            
-
                 <nav
                     class="navbar navbar-expand-lg navbar-light bg-light col-lg-12 pt-2 pb-2 pl-0 pr-0">
                     <a href="https://www.cancer.gov/"
@@ -114,6 +112,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="/about-hints/announcements.aspx">Announcements</a></li>
                                     <li><a href="/about-hints/frequently-asked-questions.aspx">FAQs</a></li>
                                     <li><a href="/about-hints/data-collection-schedule.aspx">HINTS Schedule</a></li>
+                                    <li><a href="/about-hints/instrument-development.aspx">Instrument Development and Validation</a></li>
+                                    <li><a href="/about-hints/institutional-review-board.aspx">Institutional Review Board (IRB)</a></li>
                                     <li class="twoLineNav"><a href="/about-hints/contacted-by-hints.aspx">Were you contacted
                                     <br>
                                         by HINTS?</a></li>
@@ -139,7 +139,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="/view-questions/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View Questions</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/view-questions/all-hints-questions.aspx">View Questions</a></li>
-                                    <li><a href="/view-questions/geographic-data-maps.aspx">Geographic Maps</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -158,9 +157,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li class="twoLineNav"><a href="/meetings-trainings/how-to-merge-hints-data.aspx">How-to Merge HINTS Data</a></li>
                                     <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
-                                    <li class="twoLineNav"><a href="/meetings-trainings/2023-users-meeting.aspx">2023 HINTS Data Users Conference </a></li>
-                                    <li class="twoLineNav"><a href="/meetings-trainings/2019-users-meeting.aspx">2019 HINTS Users Meeting</a></li>
-                                    <li class="twoLineNav"><a href="/meetings-trainings/2014-users-meeting.aspx">2014 HINTS Users Meeting</a></li>
+                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-data-users-conferences.aspx">HINTS Data Users Conferences</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -188,6 +185,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="/about-hints/announcements.aspx">Announcements</a></li>
                                     <li><a href="/about-hints/frequently-asked-questions.aspx">FAQs</a></li>
                                     <li><a href="/about-hints/data-collection-schedule.aspx">HINTS Schedule</a></li>
+                                    <li><a href="/about-hints/instrument-development.aspx">Instrument Development and Validation</a></li>
+                                    <li><a href="/about-hints/institutional-review-board.aspx">Institutional Review Board (IRB)</a></li>
                                     <li class="twoLineNav"><a href="/about-hints/contacted-by-hints.aspx">Were you contacted by HINTS?</a></li>
                                     <li><a href="/about-hints/hints-unique.aspx">What Makes HINTS Unique</a></li>
                                     <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
@@ -211,7 +210,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="/view-questions/default.aspx" class="dropdown-toggle" id="navbarDropdown">View Questions</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/view-questions/all-hints-questions.aspx">View Questions</a></li>
-                                    <li><a href="/view-questions/geographic-data-maps.aspx">Geographic Maps</a></li>
                                 </ul>
                             </li>
                             <li class="dropdown">
@@ -229,10 +227,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="/meetings-trainings/default.aspx" class="dropdown-toggle" id="navbarDropdown">Meetings & Trainings</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/meetings-trainings/how-to-merge-hints-data.aspx">How-to Merge HINTS Data</a></li>
-                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>                                    
-                                    <li class="twoLineNav"><a href="/meetings-trainings/2023-users-meeting.aspx">2023 HINTS Data Users Conference </a></li>
-                                    <li><a href="/meetings-trainings/2019-users-meeting.aspx">2019 HINTS Users Meeting</a></li>
-                                    <li><a href="/meetings-trainings/2014-users-meeting.aspx">2014 HINTS Users Meeting</a></li>
+                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
+                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-data-users-conferences.aspx">HINTS Data Users Conferences</a></li>
                                 </ul>
                             </li>
                         </ul>

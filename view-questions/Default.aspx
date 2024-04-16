@@ -26,13 +26,6 @@
                                     <p class="card-text"><a href="/view-questions/all-hints-questions.aspx">Read More</a></p>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-body p-4">
-                                    <h5 class="card-title">Geographic Maps</h5>
-                                    <p class="card-text">Illustrate regional similarities and differences by viewing HINTS data points in a "weather map" fashion.</p>
-                                    <p class="card-text"><a href="/view-questions/geographic-data-maps.aspx">Read More</a></p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

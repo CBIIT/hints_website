@@ -34,25 +34,9 @@
 
                             <div class="card">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">2023 HINTS Data Users Conference</h5>
-                                    <p class="card-text">The 2023 HINTS Data Users Conference will be happening September 21-22, 2023 in Bethesda, MD. Learn more about how to register and submit abstracts.</p>
-                                    <p class="card-text"><a href="/meetings-trainings/2023-users-meeting.aspx">Read More</a></p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="card-body p-4">
-                                    <h5 class="card-title">2019 HINTS Users Meeting</h5>
-                                    <p class="card-text">Information and resources for the 2019 HINTS Users Meeting.</p>
-                                    <p class="card-text"><a href="/meetings-trainings/2019-users-meeting.aspx">Read More</a></p>
-                                </div>
-                            </div>
-
-                            <div class="card">
-                                <div class="card-body p-4">
-                                    <h5 class="card-title">2014 HINTS Users Meeting</h5>
-                                    <p class="card-text">Find information about the 2014 HINTS Users Meeting, including meeting materials, agenda, and workshop resources.</p>
-                                    <p class="card-text"><a href="/meetings-trainings/2014-users-meeting.aspx">Read More</a></p>
+                                    <h5 class="card-title">HINTS Data Users Conferences</h5>
+                                    <p class="card-text">The HINTS program hosts a meeting for its data users approximately every 5 years. The last HINTS Data Users Conference took place in 2023. Learn more about past conferences and access meeting materials here. </p>
+                                    <p class="card-text"><a href="/meetings-trainings/hints-data-users-conferences.aspx">Read More</a></p>
                                 </div>
                             </div>
                         </div>
