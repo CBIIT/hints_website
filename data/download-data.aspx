@@ -116,13 +116,13 @@
 
 
                         <ul>
-                            <li><a href="#H6">HINTS 6 (2022) dataset, updated May 16, 2023</a></li>
+                            <li><a href="#H6">HINTS 6 (2022) dataset, updated May 2024</a></li>
                             <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP)</a></li>
                             <li><a href="#SEER2021">HINTS-SEER (2021) dataset, updated November 2022</a></li>
-                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated June 2023</a></li>
-                            <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) dataset, updated April 2021</a></li>
-                            <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) dataset, updated October 2020</a></li>
-                            <li><a href="#H5C1">HINTS 5, Cycle 1 (2017) dataset, updated June 2020</a></li>
+                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated May 2024</a></li>
+                            <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) dataset, updated May 2024</a></li>
+                            <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) dataset, updated May 2024</a></li>
+                            <li><a href="#H5C1">HINTS 5, Cycle 1 (2017) dataset, updated May 2024</a></li>
                             <li><a href="#FDA2">HINTS-FDA, Cycle 2 (2017) dataset, updated May 2018</a></li>
                             <li><a href="#FDA1">HINTS-FDA (2015) dataset, updated September 2017 (See history document for change details)</a></li>
                             <li><a href="#H4C4">HINTS 4, Cycle 4 (2014) dataset, updated June 2021 (See history document for change details)</a></li>
@@ -137,7 +137,7 @@
 
                         <hr />
 
-                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated May 16, 2023</strong></h2>
+                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated May 2024</strong></h2>
                    
                            <p>
                             Total respondents: 6,252<br>
@@ -146,10 +146,10 @@
                         </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                                                 <ul>
-                            <li><a href="/dataset/HINTS6_SAS_20230516.zip">SAS data and supporting documents</a> (ZIP, 18.3 MB)</li>
-                            <li><a href="/dataset/HINTS6_STATA_20230516.zip">STATA data and supporting documents</a> (ZIP, 18.1 MB)</li>
-                            <li><a href="/dataset/HINTS6_SPSS_20230516.zip">SPSS data and supporting documents</a> (ZIP, 17.2 MB)</li>
-                            <li><a href="/dataset/HINTS6_R_20230516.zip">R data and supporting documents</a> (ZIP, 16.1 MB)</li>
+                            <li><a href="/dataset/HINTS6_SAS_20240507.zip">SAS data and supporting documents</a> (ZIP, 18.6 MB)</li>
+                            <li><a href="/dataset/HINTS6_STATA_20240507.zip">STATA data and supporting documents</a> (ZIP, 18.7 MB)</li>
+                            <li><a href="/dataset/HINTS6_SPSS_20240507.zip">SPSS data and supporting documents</a> (ZIP, 18.1 MB)</li>
+                            <li><a href="/dataset/HINTS6_R_20240524.zip">R data and supporting documents</a> (ZIP, 16.7 MB)</li>
                         </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -197,7 +197,7 @@
 
 
 
-                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2020) dataset, updated June 2023</strong></h2>
+                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2020) dataset, updated May 2024</strong></h2>
                         <p>
                             Total respondents: 3,865<br />
                             Complete responses: 3,792<br />
@@ -206,9 +206,9 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS5_Cycle4_SAS_20230618.zip">SAS data and supporting documents</a> (ZIP, 12.3 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle4_STATA_20230618.zip">STATA data and supporting documents</a> (ZIP, 12.4 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle4_SPSS_20230618.zip">SPSS data and supporting documents</a> (ZIP, 12.0 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_SAS_20240424.zip">SAS data and supporting documents</a> (ZIP, 12.8 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_STATA_20240424.zip">STATA data and supporting documents</a> (ZIP, 12.8 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_SPSS_20240424.zip">SPSS data and supporting documents</a> (ZIP, 12.6 MB)</li>
                         </ul>
                         <p><a href="#topTOC">Return to Top</a></p>
 
@@ -217,7 +217,7 @@
 
 
 
-                        <h2 id="H5C3"><strong>HINTS 5, Cycle 3 (2019) dataset, updated April 2021</strong></h2>
+                        <h2 id="H5C3"><strong>HINTS 5, Cycle 3 (2019) dataset, updated May 2024</strong></h2>
                         <p>
                             Total respondents: 5,438<br />
                             Complete responses: 5,247<br />
@@ -226,9 +226,9 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored in to the completion rate calculation.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS5_Cycle3_SAS_20210305.zip">SAS data and supporting documents</a> (ZIP, 19.3 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle3_Stata_20210305.zip">STATA data and supporting documents</a> (ZIP, 19.1 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle3_SPSS_20210305.zip">SPSS data and supporting documents</a> (ZIP, 19.1 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle3_SAS_20240507.zip">SAS data and supporting documents</a> (ZIP, 20.4 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle3_STATA_20240507.zip">STATA data and supporting documents</a> (ZIP, 20.2 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle3_SPSS_20240507.zip">SPSS data and supporting documents</a> (ZIP, 19.9 MB)</li>
                         </ul>
                         <p><a href="#topTOC">Return to Top</a></p>
 
@@ -236,7 +236,7 @@
 
 
 
-                        <h2 id="H5C2"><strong>HINTS 5, Cycle 2 (2018) dataset, updated October 2020</strong></h2>
+                        <h2 id="H5C2"><strong>HINTS 5, Cycle 2 (2018) dataset, updated May 2024</strong></h2>
                         <p>
                             Total respondents: 3,504<br />
                             Complete responses: 3,434<br />
@@ -245,13 +245,13 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS5_Cycle2_SAS_10132020.zip">SAS data and supporting documents</a> (ZIP, 12.4 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle2_STATA_10132020.zip">STATA data and supporting documents</a> (ZIP, 12.4 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle2_SPSS_10132020.zip">SPSS data and supporting documents</a> (ZIP, 11.9 MB)</li>
+                            <li><a href="/dataset/HINTS-5_Cycle2_SAS_20240507.zip">SAS data and supporting documents</a> (ZIP, 13.1 MB)</li>
+                            <li><a href="/dataset/HINTS-5_Cycle2_STATA_20240507.zip">STATA data and supporting documents</a> (ZIP, 13.1 MB)</li>
+                            <li><a href="/dataset/HINTS-5_Cycle2_SPSS_20240507.zip">SPSS data and supporting documents</a> (ZIP, 12.6 MB)</li>
                         </ul>
                         <p><a href="#topTOC">Return to Top</a></p>
 
-                        <h2 id="H5C1"><strong>HINTS 5, Cycle 1 (2017) dataset, updated June 2020</strong></h2>
+                        <h2 id="H5C1"><strong>HINTS 5, Cycle 1 (2017) dataset, updated May 2024</strong></h2>
                         <p>
                             Total respondents: 3,285<br />
                             Complete responses: 3,191<br />
@@ -259,9 +259,9 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS-5_Cycle1_SAS.zip">SAS data and supporting documents</a> (ZIP, 10.8 MB)</li>
-                            <li><a href="/dataset/HINTS-5_Cycle1_STATA.zip">STATA data and supporting documents</a> (ZIP, 10.7 MB)</li>
-                            <li><a href="/dataset/HINTS-5_Cycle1_SPSS.zip">SPSS data and supporting documents</a> (ZIP, 10.5 MB)</li>
+                            <li><a href="/dataset/HINTS-5_Cycle1_SAS_20240424.zip">SAS data and supporting documents</a> (ZIP, 11.9 MB)</li>
+                            <li><a href="/dataset/HINTS-5_Cycle1_STATA_20240424.zip">STATA data and supporting documents</a> (ZIP, 11.9 MB)</li>
+                            <li><a href="/dataset/HINTS-5_Cycle1_SPSS_20240424.zip">SPSS data and supporting documents</a> (ZIP, 11.5 MB)</li>
                         </ul>
                         <p><a href="#topTOC">Return to Top</a></p>
 
