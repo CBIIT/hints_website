@@ -1,0 +1,19 @@
+﻿table, th, td {
+    border: 1px solid black !important;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: text-top;
+    padding: 5px;
+}
+
+th {
+    background-color: #085ca4 !important;
+    color: white;
+}
+
+
+
+
+
+
+
