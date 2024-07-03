@@ -66,13 +66,6 @@
                 MB)</li>
                     </ul>--%>
 
-                    <p>
-                        <strong><a name="usermeeting"></a>HINTS Users Meeting (May 22-23, 2019)</strong>
-                    </p>
-                    <p>
-                        The fifth annual <a href="/meetings-trainings/2019-users-meeting.aspx">HINTS Data Users Conference</a> took place on May 22-23, 2019 at the DoubleTree Hotel in Bethesda, Maryland. The two-day conference showcased research utilizing Health Information National Trends Survey (HINTS) data, as well as the role of HINTS research in public health and clinical care.
-                    </p>
-
                     <p><a name="sponsors"></a><strong>HINTS Sponsors</strong></p>
                     <p>
                         HINTS was developed by the <a href="https://cancercontrol.cancer.gov/brp/hcirb/" target="_blank">Health Communication and Informatics Research Branch (HCIRB)</a>

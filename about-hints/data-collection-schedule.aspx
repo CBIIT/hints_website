@@ -21,7 +21,7 @@
                    <p>Following the annual data collection cadence of the four HINTS 5 cycles of data, HINTS has returned to a biennial data collection, starting with HINTS 6. The instrument for HINTS 6 included a core module of common items for trending in addition to a variety of items on special topics, increasing the capacity of the HINTS instruments to include a broader array of topics and measures over time. If you would like to view or download previous HINTS survey instruments or methodology reports, please visit our <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. </p>
                     <br />
                     <div style="text-align: center">
-                        <img title="HINTS Overview and Schedule" src="/_images/HINTS4-flowchart_2024.jpg" alt="HINTS Overview and Schedule" />
+                        <img title="HINTS Overview and Schedule" src="/_images/HINTS-Graphic_6_25_24.png" alt="HINTS Overview and Schedule" />
                     </div>
 
 
