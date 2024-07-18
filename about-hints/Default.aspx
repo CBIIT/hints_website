@@ -45,6 +45,20 @@
                             </div>
                             <div class="card">
                                 <div class="card-body p-4">
+                                    <h5 class="card-title">Instrument Development and Validation</h5>
+                                    <p class="card-text">An overview of HINTS survey instrument development and validation, including details of cognitive testing.</p>
+                                    <p class="card-text"><a href="/about-hints/instrument-development.aspx">Read More</a></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Institutional Review Board (IRB)</h5>
+                                    <p class="card-text">Access information on Institutional Review Board (IRB) approvals for the Health Information National Trends Survey.</p>
+                                    <p class="card-text"><a href="/about-hints/institutional-review-board.aspx">Read More</a></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-4">
                                     <h5 class="card-title">Were You Contacted by HINTS?</h5>
                                     <p class="card-text">Learn why it is important to participate in a HINTS survey.</p>
                                     <p class="card-text"><a href="/about-hints/contacted-by-hints.aspx">Read More</a></p>
@@ -55,6 +69,13 @@
                                     <h5 class="card-title">What Makes HINTS Unique</h5>
                                     <p class="card-text">Discover what makes HINTS unique as compared to other surveys.</p>
                                     <p class="card-text"><a href="/about-hints/hints-unique.aspx">Read More</a></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Contributions to DCCPS Research Priorities</h5>
+                                    <p class="card-text">See how HINTS plays a critical role in informing and advancing NCI’s DCCPS research priorities.</p>
+                                    <p class="card-text"><a href="/about-hints/research-priorities.aspx">Read More</a></p>
                                 </div>
                             </div>
                             <div class="card">

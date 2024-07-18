@@ -71,6 +71,7 @@
 		  <siteMapNode url="~/about-hints/instrument-development.aspx" title="Instrument Development and Validation" description="Instrument Development and Validation"/>
 		  <siteMapNode url="~/about-hints/institutional-review-board.aspx" title="Institutional Review Board (IRB)" description="Institutional Review Board (IRB)"/>
 		  <siteMapNode url="~/about-hints/contacted-by-hints.aspx" title="Were you contacted to participate in HINTS?" description="HINTS: Were you contacted to participate in HINTS?"/>
+	    <siteMapNode url="~/about-hints/research-priorities.aspx" title="Contributions to DCCPS Research Priorities" description="Contributions to DCCPS Research Priorities"/>
 		  <siteMapNode url="~/about-hints/contact-us.aspx" title="Contact Us" description="Contact Us"/>
 	  </siteMapNode>
 
