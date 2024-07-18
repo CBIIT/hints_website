@@ -137,7 +137,7 @@
                     <p>HINTS has included several health policy-related questions over the years, including items assessing public support for various cancer control policies (such as warning label requirements), as well as items monitoring the impact of newly enacted policies (such as menu labeling regulations).</p>
 
                     <ul>
-                        <li class="li_spacing"><a href="view-questions/question-detail.aspx?PK_Cycle=13&qid=1822">To reduce the problems associated with excessive alcohol use, to what extent would you support or oppose… Requiring specific health warnings on alcohol containers?</a></li>
+                        <li class="li_spacing"><a href="/view-questions/question-detail.aspx?PK_Cycle=13&qid=1822">To reduce the problems associated with excessive alcohol use, to what extent would you support or oppose… Requiring specific health warnings on alcohol containers?</a></li>
                         <li class="li_spacing"><a href="/view-questions/question-detail.aspx?PK_Cycle=14&qid=1722">Think about the last time you ordered food in a fast food or sit down restaurant, did you notice calorie information listed next to the food on the menu or menu board?</a></li>
                     </ul>
 
