@@ -16,6 +16,7 @@
                     <h1 id="topTOC">Survey Instruments</h1>
 
                     <ul>
+                        <li><a href="#H7SurvMat">HINTS 7 (2024) Survey Materials</a></li>
                         <li><a href="#H6SurvMat">HINTS 6 (2022) Survey Materials</a></li>
                         <li><a href="#H2021_SM">HINTS-SEER (2021) Survey Materials</a></li>
                         <li><a href="#HDLP2020">HINTS Data Linkage Project 2020 (HDLP)</a></li>
@@ -37,6 +38,23 @@
 
 
                     <hr />
+
+
+
+                    <h2 id="H7SurvMat">
+                        <strong>HINTS 7 (2024) Survey Materials</strong></h2>
+                    <p>HINTS 7 (2024) data were collected from March through September 2024. HINTS 7 (2024) consisted of two modes: paper and web. Both modes were offered concurrently. All respondents received a $2 unconditional incentive in their first mailing and were offered a bonus $10 Amazon e-gift card to respond by web.</p>
+                    <p>The sampling strategy for HINTS 7 (2024) consisted of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. A total of [TBD] surveys were included in the final dataset.</p>
+                    <p>HINTS 7 (2024) included two embedded methodological experiments. The first experiment tested the effect of including a &rsquo;commitment statement&rsquo; at the beginning of the survey asking respondents whether they are willing to &rsquo;be as accurate as possible and to think carefully about each question.&rsquo; The statement was intended to improve response data quality by, for example, reducing item nonresponse overall and break offs on web. The second experiment tested the effect of offering an additional promised incentive ($10) for households in high minority strata where response rates are historically low. This experiment was intended to improve response rates in high minority strata, thereby improving HINTS representation.</p>
+
+                    <ul>
+                        <li><strong>HINTS 7 (2024) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS7-AnnotatedEnglish.pdf" target="_blank">PDF</a> 2.0MB)</li>
+                    </ul>
+
+                    <p><a href="#topTOC">Return to Top</a></p>
+
+
+                    
 
 
 
