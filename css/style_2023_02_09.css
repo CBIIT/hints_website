@@ -215,7 +215,7 @@ nav ul li:last-child a:first-child {
 }
 
 .slider-btn {
-    display: block;
+    display: inline-block;
 }
 
 .learn-more {

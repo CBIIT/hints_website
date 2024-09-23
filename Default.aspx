@@ -143,21 +143,37 @@
                     </div>
                     <div class="row news-block">
                         <!-- Card -->
-                        <div class="box bg-white p-2 col-md-8 custom-shadow">
+                        <!-- DMJ - Jira 6828: HINTS Homepage Redesign -->
+                        <!-- Remove Twitter/X widget and expand What's new card from col-md-8 to col-md-12 -->
+                        <div class="box bg-white p-2 col-md-12 custom-shadow">
                             <div class="card-stack-item mb-9">
                                 <div class="card card-lg rounded overflow-hidden p-4" style="transform: translateY(calc(0rem)) scale(1);">
                                     <div class="row no-gutters" style="opacity: 1;">
                                         <div class="card-body text-left">
 
 
-                                            
+
+                                            <!-- Heading -->
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Linkage Project 2022 (HDLP 2022) restricted use data now available to request</h4>
+
+                                            <!-- Text -->
+                                            <p>
+                                               The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data.
+                                            </p>
+
+                                            <!-- Link -->
+                                            You can apply to access the data via the <a class="h6 text-decoration-none mt-auto" href="/data/restricted-data.aspx">HINTS restricted-use data request form</a>.
+                                            <hr>
+
+
+
                                                                     <!-- Heading -->
                                             <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 6 (2022) public use data available for download
                                             </h4>
 
                                             <!-- Text -->
                                             <p>
-                                            Our newest public use dataset, HINTS 6 (2022), is now available for download. 
+                                            Our newest public use dataset, HINTS 6 (2022), is now available for download.
                                             </p>
 
                                             <!-- Link -->
@@ -165,14 +181,16 @@
                                             <hr>
 
 
-                                            
+
+
+
                                     <%--  De-Shunda Jones: 3/17/2024 Commenting out for now. Will include something new in this area later   --%>
                                    <%--         <!-- Heading -->
                                             <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">2023 HINTS Data Users Conference</h4>
 
                                             <!-- Text -->
                                             <p>
-                                               Access information and materials from the 2023 HINTS Data Users Conference, which happened September 21-22, 2023 in Bethesda, MD. 
+                                               Access information and materials from the 2023 HINTS Data Users Conference, which happened September 21-22, 2023 in Bethesda, MD.
                                             </p>
 
                                             <!-- Link -->
@@ -182,7 +200,7 @@
 
 
 
-                    
+
 
 
 
@@ -198,19 +216,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="box col-md-4 twitter-stats twitter-stats-paddingleft">
-                            <h3 class="font-family-open-sans font-weight-bold mt-5 rwb_margin_bottom_minus_6">Our Latest Posts</h3>
-
-
-                       <%--     https://publish.twitter.com/--%>
-
-                <br />
-                            <a class="twitter-timeline" data-width="358" data-height="451" href="https://twitter.com/NCIHINTS?ref_src=twsrc%5Etfw">Posts by NCIHINTS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-                            
-
-
                         </div>
                     </div>
                 </div>
