@@ -27,6 +27,8 @@
                         <br />
                          <a  href="/about-hints/learn-more-about-hints.aspx" alt="learn more" class="rwb_learnmore slider-btn learn-more">Learn More</a>
                   
+                         <a  href="/about-hints/announcements.aspx" alt="latest HINTS updates" class="rwb_latestupdate slider-btn learn-more">Latest HINTS Updates</a>
+
                     </p>
                
                        
