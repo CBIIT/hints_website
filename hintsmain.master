@@ -15,15 +15,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
+
     <title>Health Information National Trends Survey | HINTS</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Source+Sans+Pro:300,300i,400,400i,600,600i,700,700i&amp;display=swap" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
 
-    <script src="https://use.fontawesome.com/9d39cd8908.js" defer></script>
+    <script src="https://use.fontawesome.com/9d39cd8908.js"></script>
     <!-- Bootstrap CDN -->
     <link
         rel="stylesheet"
@@ -228,7 +229,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a href="/meetings-trainings/default.aspx" class="dropdown-toggle" id="navbarDropdown">Meetings & Trainings</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/meetings-trainings/how-to-merge-hints-data.aspx">How-to Merge HINTS Data</a></li>
-                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>                                    
+                                    <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
                                     <li class="twoLineNav"><a href="/meetings-trainings/hints-data-users-conferences.aspx">HINTS Data Users Conferences</a></li>
                                 </ul>
                             </li>
@@ -276,79 +277,106 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
         <!-- Footer -->
         <footer class="pt-5 footer">
-          <div class="explore-row">
-            <div class="container">
-              <div class="row">
+            <!-- Footer Links -->
+            <div class="container col-lg-12 col-xl-7 col text-md-left">
+
+                <!-- Grid row -->
+                <div class="d-flex flex-wrap">
+
+                    <!-- Grid column -->
+                    <!-- Grid column -->
                     <div class="col-md mb-md-0 mb-1">
-                      <h5 class="first">Health Information National Trends Survey (HINTS)</h5>
-                      <ul class="list-unstyled">
-                        <li><a href="/about-hints/default.aspx">About HINTS</a></li>
-                        <li><a href="/data/default.aspx">Data</a></li>
-                        <li><a href="/view-questions/default.aspx">View Questions</a></li>
-                        <li><a href="/publications-reports/default.aspx">Publications &amp; Reports</a></li>
-                        <li><a href="/meetings-trainings/default.aspx">Meetings &amp; Trainings</a></li>
-                      </ul>
+
+                        <!-- Links -->
+                        <h5>Contact Information</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="/about-hints/contact-us.aspx">Contact Us</a>
+                            </li>
+                        </ul>
+
                     </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
                     <div class="col-md mb-md-0 mb-1">
-                      <h5 class="first">Follow
-                      </h5>
-                      <div class="connect"><a aria-label=", opens a new window" class="social-icon" href="https://www.linkedin.com/showcase/nci-cancer-control-and-population-sciences/" target="_blank"><i class="icon icon-linkedin">&nbsp;</i></a> <a aria-label=", opens a new window" class="social-icon" href="https://twitter.com/NCICancerCtrl" target="_blank"><i class="icon icon-twitter">&nbsp;</i></a>
-                      </div>
-                      <h5 class="first">Resources
-                      </h5>
-                      <!-- /.col-4 -->
-                      <ul class="list-unstyled">
-                        <li><a aria-label="Contact Us, opens a new window" href="https://www.cancer.gov/contact" target="_blank">Contact Us</a></li>
-                        <li><a href="https://www.cancer.gov/research/participate/clinical-trials-search">Find a Clinical Trial</a></li>
-                      </ul>
+
+                        <!-- Links -->
+                        <h5>More Information</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="/">HINTS Homepage</a>
+                            </li>
+                            <li>
+                                <a href="/about-hints/learn-more-about-hints.aspx">About HINTS</a>
+                            </li>
+                            <li>
+                                <a href="https://www.cancer.gov/research/key-initiatives/covid-19/coronavirus-research-initiatives">NCI COVID-19 Resources</a>
+                            </li>
+                        </ul>
+
                     </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
                     <div class="col-md mb-md-0 mb-1">
-                      <h5 class="first">Policies
-                      </h5>
-                      <!-- /.col-4 -->
-                      <ul class="list-unstyled">
-                        <li><a aria-label="Accessibility, opens a new window" href="https://www.cancer.gov/policies/accessibility" target="_blank">Accessibility</a></li>
-                        <li><a aria-label="FOIA, opens a new window" href="https://www.cancer.gov/policies/foia" target="_blank">FOIA</a></li>
-                        <li><a href="https://www.cancer.gov/policies/privacy-security">Privacy &amp; Security</a></li>
-                        <li><a aria-label="Disclaimers, opens a new window" href="https://www.cancer.gov/policies/disclaimer" target="_blank">Disclaimers</a></li>
-                        <li><a aria-label="Vulnerability Disclosure, opens a new window" href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html" target="_blank">Vulnerability Disclosure</a></li>
-                      </ul>
+
+                        <!-- Links -->
+                        <h5>Policies</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a target="_blank" href="https://www.cancer.gov/global/web/policies/accessibility">Accessibility</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.cancer.gov/policies/disclaimer">Disclaimer</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.cancer.gov/global/web/policies/foia">FOIA</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.cancer.gov/policies/privacy-security">Privacy</a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="https://www.hhs.gov/vulnerability-disclosure-policy/index.html">HHS Vulnerability Disclosure</a>
+                            </li>
+                        </ul>
+
                     </div>
-                    <div class="col-md mb-md-0 mb-1 top-margin">
-                      <ul class="list-unstyled">
-                        <li><a aria-label="U.S. Department of Health and Human Services, opens a new window" href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a></li>
-                        <li><a aria-label="National Institutes of Health, opens a new window" href="https://www.nih.gov/" target="_blank">National Institutes of Health</a></li>
-                        <li><a aria-label="National Cancer Institute, opens a new window" href="https://www.cancer.gov/" target="_blank">National Cancer Institute</a></li>
-                        <li><a aria-label="USA.gov, opens a new window" href="https://www.usa.gov/" target="_blank">USA.gov</a></li>
-                      </ul>
-                      <!-- /.col-4 --><!-- /.container --></div>
-                  </div>
-              <!-- /.row --></div>
-            <!-- /.container --></div>
-          <div class="nih-nci-row">
-            <div class="container">
-              <div class="row">
-                <div class="col-md mb-md-0 mb-1">
-                  <h2 class="first">National Cancer Institute
-                  </h2>
-                  <p>at the National Institutes of Health
-                  </p>
-                  <!-- /.container --></div>
-                <div class="col-md mb-md-0 mb-1">
-                  <h2 class="first">Contact Us
-                  </h2>
-                  <div class="row">
-                    <div class="col-md mb-md-0 mb-1"><a aria-label="Live Chat, opens a new window" href="https://livehelp.cancer.gov/" target="_blank">Live Chat</a>
-                    </div>
-                    <div class="col-md mb-md-0 mb-1"><a href="tel:1-800-422-6237">1-800-4-CANCER</a>
-                    </div>
-                    <div class="col-md mb-md-0 mb-1"><a href="mailto:NCIInfo@nih.gov">NCIInfo@nih.gov</a>
-                    </div>
-                  </div>
+                    <!-- Grid column -->
+
                 </div>
-              </div>
+                <!-- Grid row -->
+
             </div>
-        </div>
+            <!-- Footer Links -->
+
+            <!-- HINTS Info -->
+            <div class="container footer-hints-info py-3">
+                <div class="row justify-content-center">
+
+                    <div class="col-xs-12 col-md-6">
+                        <!-- Left Content -->
+                        <p>Health Information National Trends Survey ®, HINTS ® and the HINTS logo, Registered ®, United States Patent and Trademark Office.</p>
+                    </div>
+
+                    <div class="col-xs-12 col-md-6">
+                        <!-- Right Content -->
+                        <p>HINTS is a service of the National Cancer Institute with support from the <a href="https://cancercontrol.cancer.gov/brp/hcirb/" target="_blank">Health Communication and Informatics Research Branch</a> of the <a href="https://cancercontrol.cancer.gov/" target="_blank">Division of Cancer Control and Population Sciences</a>.</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- HINTS Info -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">
+                <a href="https://www.hhs.gov/" target="_blank">U.S. Department of Health and Human Services</a>  |  <a href="https://www.nih.gov/" target="_blank">National Institutes of Health</a>  |  <a href="https://www.cancer.gov/" target="_blank">National Cancer Institute</a>  |  <a href="https://www.usa.gov/" target="_blank">USA.gov</a>
+                <br>
+                NIH... Turning Discovery Into Health®
+            </div>
+            <!-- Copyright -->
+
         </footer>
         <!-- Footer -->
         <script
