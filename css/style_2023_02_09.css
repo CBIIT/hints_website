@@ -286,37 +286,238 @@ a.learn-more:hover {
 }
 
 .footer {
-    background-color: #0059a7;
+    background-color: #14315c;
     color: #ffffff;
     margin-top: 8rem !important;
 }
 
-.footer .list-unstyled li a {
+.footer .list-unstyled li {
+    padding-bottom: 0.625rem;
+}
+
+    .footer .list-unstyled li a, .footer .nih-nci-row a {
+        color: #ffffff;
+        font-weight: normal;
+    }
+
+    .footer .list-unstyled li a:hover, .footer .nih-nci-row a:hover {
+        text-decoration: underline;
+    }
+
+.footer .footer-hints-info a {
+    color: #ffffff;
+}
+
+.footer .footer-hints-info a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer .footer-copyright a {
     color: #ffffff;
     font-weight: normal;
 }
 
-.footer .list-unstyled li a:hover {
-    text-decoration: underline;
-}
-
-.footer .footer-hints-info a{
-    color: #ffffff;
-}
-
-.footer .footer-hints-info a:hover{
+.footer .footer-copyright a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
 
-.footer .footer-copyright a{
-    color: #ffffff;
-    font-weight: normal;
+.footer .explore-row {
+    background: #14315c;
+    padding: 0 0 2rem 0;
 }
 
-.footer .footer-copyright a:hover{
-    color: #ffffff;
-    text-decoration: underline;
+.footer .explore-row ul.explore-list {
+    font-size: 1.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer .explore-row .explore-list {
+    --gap: 12px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--gap)) 0 0 calc(-1 * var(--gap));
+    width: calc(100% + var(--gap));
+}
+
+.footer .explore-row .explore-list > * {
+    margin: var(--gap) 0 0 var(--gap);
+    width: calc(25% - var(--gap));
+    margin-bottom: 0;
+}
+
+@media (max-width:768px) {
+    .footer .explore-row .explore-list > * {
+        width: calc(33.333% - var(--gap));
+    }
+}
+
+@media (max-width:576px) {
+    .footer .explore-row ul.explore-list {
+        font-size: 1.375rem;
+    }
+
+    .footer .explore-row .explore-list > * {
+        width: calc(50% - var(--gap));
+    }
+}
+
+.footer .explore-row h2 {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,"sans-serif";
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.footer .explore-row h5 {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,"sans-serif";
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer .explore-row a.footer-btn {
+    border-radius: 3px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer .explore-row a.footer-btn:focus,
+.footer .explore-row a.footer-btn:hover {
+    text-decoration: none;
+    background: rgba(10,52,92,0.8);
+}
+
+.footer .explore-row a.footer-btn.active,
+.footer .explore-row a.footer-btn.active:focus,
+.footer .explore-row a.footer-btn.active:hover {
+    background: rgba(10,52,92,0.8);
+}
+
+.footer .nih-nci-row {
+    background: #0F2443;
+    padding: 3rem 0;
+}
+
+.footer .nih-nci-row h2 {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,"sans-serif";
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.footer .nih-nci-row h2 > span {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.footer .nih-nci-row h5 {
+    text-transform: uppercase;
+}
+
+.footer .nih-nci-row ul > li {
+    font-size: 17px;
+    line-height: 110%;
+    margin-bottom: 1.5rem;
+}
+
+.footer .nih-nci-row .container > .row > div:nth-child(2) {
+    text-align: right;
+}
+
+@media (max-width:768px) {
+    .footer .nih-nci-row .container > .row > div:nth-child(2) {
+        text-align: left;
+    }
+}
+
+.footer .icon {
+    z-index: 999;
+    cursor: pointer;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.footer .icon-twitter {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAwIiBoZWlnaHQ9IjEyMjciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxMjAwIDEyMjciPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik03MTQuMTYzIDUxOS4yODQgMTE2MC44OSAwaC0xMDUuODZMNjY3LjEzNyA0NTAuODg3IDM1Ny4zMjggMEgwbDQ2OC40OTIgNjgxLjgyMUwwIDEyMjYuMzdoMTA1Ljg2Nmw0MDkuNjI1LTQ3Ni4xNTIgMzI3LjE4MSA0NzYuMTUySDEyMDBMNzE0LjEzNyA1MTkuMjg0aC4wMjZaTTU2OS4xNjUgNjg3LjgyOGwtNDcuNDY4LTY3Ljg5NC0zNzcuNjg2LTU0MC4yNGgxNjIuNjA0bDMwNC43OTcgNDM1Ljk5MSA0Ny40NjggNjcuODk0IDM5Ni4yIDU2Ni43MjFIODkyLjQ3Nkw1NjkuMTY1IDY4Ny44NTR2LS4wMjZaIi8+PC9zdmc+);
+    background-size: 18px 18px;
+    height: 18px;
+    width: 18px;
+    margin: 9px;
+}
+
+.footer .icon-linkedin {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbDpzcGFjZT0icHJlc2VydmUiIGlkPSJwcmVmaXhfX0xheWVyXzEiIHg9IjAiIHk9IjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTE4LjEuNUgxLjlDMS4xLjUuNSAxLjEuNSAxLjl2MTYuM2MwIC44LjYgMS40IDEuNCAxLjRoMTYuMmMuOCAwIDEuNC0uNiAxLjQtMS40VjEuOWMwLS44LS42LTEuNC0xLjQtMS40em0tMTIgMTYuMkgzLjNWNy42aDIuOHY5LjF6TTQuNyA2LjRjLS45IDAtMS42LS43LTEuNi0xLjYgMC0uOS43LTEuNiAxLjYtMS42LjkgMCAxLjYuNyAxLjYgMS42LjEuOS0uNyAxLjYtMS42IDEuNnptMTIgMTAuM2gtMi44di00LjRjMC0xLjEgMC0yLjQtMS41LTIuNHMtMS43IDEuMS0xLjcgMi4zdjQuNUg3LjlWNy42aDIuN3YxLjJjLjQtLjcgMS4zLTEuNSAyLjctMS41IDIuOSAwIDMuNCAxLjkgMy40IDQuM3Y1LjF6IiBzdHlsZT0iZmlsbDojZmZmIi8+PC9zdmc+);
+    background-size: 20px 20px;
+    height: 23px;
+    width: 23px;
+    margin: 8px;
+}
+
+.footer .connect {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.footer .connect a.social-icon {
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #FFFFFF;
+    margin-right: 15px;
+    transition: all .2s ease-in-out;
+}
+
+.footer .connect a.social-icon img {
+    width: 32px;
+    height: 32px;
+    margin: 3px;
+}
+
+.footer .connect a.social-icon:focus,
+.footer .connect a.social-icon:hover {
+    transform: scale(1.1);
+}
+
+.footer .connect p.connect-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0;
+}
+
+.footer .top-margin {
+    margin-top: 32px;
+}
+
+@media (max-width:768px) {
+    .footer .top-margin {
+        margin-top: 0;
+    }
+
+    .footer .contact-row {
+        margin-top: 3rem;
+    }
+
+    .footer .nih-nci-row ul > li {
+        font-size: 15px;
+        line-height: 142%;
+    }
+}
+
+@media (max-width:1200px) {
+    .footer .contact-row {
+        margin-top: 2rem;
+    }
 }
 
 .x-icon {
