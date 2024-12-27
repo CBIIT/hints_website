@@ -20,7 +20,7 @@
                         <li><a href="#H7SurvMat">HINTS 7 (2024) Survey Materials</a></li>
                         <li><a href="#H6SurvMat">HINTS 6 (2022) Survey Materials</a></li>
                         <li><a href="#H2021_SM">HINTS-SEER (2021) Survey Materials</a></li>
-                        <li><a href="#HDLP2020">HINTS Data Linkage Project 2020 (HDLP)</a></li>
+                        <li><a href="#HDLP2020">HINTS Data Linkage Project 2020 (HDLP 2020)</a></li>
                         <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) Survey Materials</a></li>
                         <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) Survey Materials</a></li>
                         <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) Survey Materials</a></li>
@@ -115,9 +115,9 @@
 
 
                     <h2 id="HDLP2020">
-                        <strong>HINTS Data Linkage Project 2020 (HDLP)</strong></h2>
+                        <strong>HINTS Data Linkage Project 2020 (HDLP 2020)</strong></h2>
 
-                    <p>The HINTS Data Linkage Project 2020 (HDLP) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>.</p>
+                    <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>.</p>
 
                     <ul>
                         <li><strong>HDLP (2020) External Variables Codebook: </strong>(<a href="/docs/methodologyreports/HDLP2020_External_Variables_Codebook.pdf" target="_blank">PDF</a> 331KB)</li>
