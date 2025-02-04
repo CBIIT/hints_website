@@ -177,7 +177,7 @@
                             </div>
                         </div>
 
-                        <h2 class="restricteddata_clearboth">Geocode and Suppressed Variables</h2>
+                        <h2 class="restricteddata_clearboth">Examples of Geocodes and Suppressed Variables</h2>
 
                         <img src="/_images/restricteddata.png" alt="Request Restricted HINTS Datasets" class="restricteddata_image" />
 
