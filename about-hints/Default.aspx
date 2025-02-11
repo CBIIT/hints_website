@@ -71,13 +71,13 @@
                                     <p class="card-text"><a href="/about-hints/hints-unique.aspx">Read More</a></p>
                                 </div>
                             </div>
-                            <div class="card">
+                            <%--<div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">Contributions to DCCPS Research Priorities</h5>
                                     <p class="card-text">See how HINTS plays a critical role in informing and advancing NCI’s DCCPS research priorities.</p>
                                     <p class="card-text"><a href="/about-hints/research-priorities.aspx">Read More</a></p>
                                 </div>
-                            </div>
+                            </div>--%>
                             <div class="card">
                                 <div class="card-body p-4">
                                     <h5 class="card-title">Contact Us</h5>

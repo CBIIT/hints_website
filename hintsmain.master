@@ -118,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <br>
                                         by HINTS?</a></li>
                                     <li><a href="/about-hints/hints-unique.aspx">What Makes HINTS Unique</a></li>
-                                    <li><a href="/about-hints/research-priorities.aspx">Contributions to DCCPS Research Priorities</a></li>
+<%--                                    <li><a href="/about-hints/research-priorities.aspx">Contributions to DCCPS Research Priorities</a></li>--%>
                                     <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
                                 </ul>
                             </li>
@@ -190,7 +190,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="/about-hints/institutional-review-board.aspx">Institutional Review Board (IRB)</a></li>
                                     <li class="twoLineNav"><a href="/about-hints/contacted-by-hints.aspx">Were you contacted by HINTS?</a></li>
                                     <li><a href="/about-hints/hints-unique.aspx">What Makes HINTS Unique</a></li>
-                                    <li><a href="/about-hints/research-priorities.aspx">Contributions to DCCPS Research Priorities</a></li>
+<%--                                    <li><a href="/about-hints/research-priorities.aspx">Contributions to DCCPS Research Priorities</a></li>--%>
                                     <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
                                 </ul>
                             </li>
