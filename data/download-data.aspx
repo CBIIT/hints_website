@@ -117,10 +117,10 @@
 
                         <ul>
                             <li><a href="#HDLP22">HINTS Data Linkage Project 2022 (HDLP 2022)</a></li>
-                            <li><a href="#H6">HINTS 6 (2022) dataset, updated May 2024</a></li>
+                            <li><a href="#H6">HINTS 6 (2025) dataset, updated February 2025</a></li>
                             <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP 2020)</a></li>
-                            <li><a href="#SEER2021">HINTS-SEER (2021) dataset, updated November 2022</a></li>
-                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated May 2024</a></li>
+                            <li><a href="#SEER2021">HINTS-SEER (2025) dataset, updated February 2025</a></li>
+                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2025) dataset, updated February 2025</a></li>
                             <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) dataset, updated May 2024</a></li>
                             <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) dataset, updated May 2024</a></li>
                             <li><a href="#H5C1">HINTS 5, Cycle 1 (2017) dataset, updated May 2024</a></li>
@@ -160,7 +160,7 @@
 
 
 
-                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated May 2024</strong></h2>
+                        <h2 id="H6"><strong>HINTS 6 (2025) dataset, updated February 2025</strong></h2>
                    
                            <p>
                             Total respondents: 6,252<br>
@@ -169,10 +169,10 @@
                         </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                                                 <ul>
-                            <li><a href="/dataset/HINTS6_SAS_20240507.zip">SAS data and supporting documents</a> (ZIP, 18.6 MB)</li>
-                            <li><a href="/dataset/HINTS6_STATA_20240507.zip">STATA data and supporting documents</a> (ZIP, 18.7 MB)</li>
-                            <li><a href="/dataset/HINTS6_SPSS_20240507.zip">SPSS data and supporting documents</a> (ZIP, 18.1 MB)</li>
-                            <li><a href="/dataset/HINTS6_R_20240524.zip">R data and supporting documents</a> (ZIP, 16.7 MB)</li>
+                            <li><a href="/dataset/HINTS6_SAS_20250204.zip">SAS data and supporting documents</a> (ZIP, 18.3 MB)</li>
+                            <li><a href="/dataset/HINTS6_STATA_20250204.zip">STATA data and supporting documents</a> (ZIP, 18.4 MB)</li>
+                            <li><a href="/dataset/HINTS6_SPSS_20250204.zip">SPSS data and supporting documents</a> (ZIP, 18.0 MB)</li>
+                            <li><a href="/dataset/HINTS6_R_20250204.zip">R data and supporting documents</a> (ZIP, 16.7 MB)</li>
                         </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -181,7 +181,7 @@
 
 
                         <h2 id="HDLP"><strong>HINTS Data Linkage Project 2020 (HDLP 2020)</strong></h2>
-                        <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). <a target="_blank" href="/docs/methodologyreports/HDLP2020_External_Variables_Codebook.pdf">See the HDLP external variables codebook</a> for a list of all variables. </p>
+                        <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). See the HDLP external variables codebook for a list of all variables. </p>
                         <p>Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>. </p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -194,13 +194,13 @@
 
 
 
-                        <h2 id="SEER2021"><strong>HINTS-SEER (2021) dataset, updated November 2022</strong></h2>
+                        <h2 id="SEER2021"><strong>HINTS-SEER (2025) dataset, updated February 2025</strong></h2>
                         <p>
                             Total respondents: 1,234<br>
                             Complete responses: 1,189<br>
                             Partial responses**: 45
                         </p>
-                        <p>Because the HINTS-SEER dataset contains linked medical diagnosis variables and there is a potential for disclosure, HINTS-SEER is not a public-use data file that is available for download without first applying to use the data via the HINTS <a href="/data/restricted-data.aspx">restricted-use data request form</a>. Once the form has been submitted, it will be reviewed by a subcommittee of analysts and a member of the HINTS management team will be in touch with you via email within 2 weeks to discuss your request. To learn more about HINTS-SEER, please consult the <a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">methodology report</a> and <a href="/docs/Instruments/HINTS_SEER_AnnotatedInstrumentEnglish.pdf" target="_blank">survey instrument</a>.</p>
+                        <p>Because the HINTS-SEER dataset contains linked medical diagnosis variables and there is a potential for disclosure, HINTS-SEER is not a public-use data file that is available for download without first applying to use the data via the HINTS <a href="/data/restricted-data.aspx">restricted-use data request form</a>. Once the form has been submitted, it will be reviewed by a subcommittee of analysts and a member of the HINTS management team will be in touch with you via email within 2 weeks to discuss your request. To learn more about HINTS-SEER, please consult the <a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">methodology report</a>, <a href="/docs/Instruments/HINTS-SEER-AnnotatedInstrument.pdf" target="_blank">survey instrument</a>, and <a href="/docs/Instruments/HINTS-SEER-CA-AnnotatedInstrument.pdf" target="_blank">CA survey instrument</a>.</p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions in Sections A and B were answered. Only questions required of every respondent were factored into the completion rate calculation.</p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -220,7 +220,7 @@
 
 
 
-                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2020) dataset, updated May 2024</strong></h2>
+                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2025) dataset, updated February 2025</strong></h2>
                         <p>
                             Total respondents: 3,865<br />
                             Complete responses: 3,792<br />
@@ -229,9 +229,9 @@
                         </p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                         <ul>
-                            <li><a href="/dataset/HINTS5_Cycle4_SAS_20240424.zip">SAS data and supporting documents</a> (ZIP, 12.8 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle4_STATA_20240424.zip">STATA data and supporting documents</a> (ZIP, 12.8 MB)</li>
-                            <li><a href="/dataset/HINTS5_Cycle4_SPSS_20240424.zip">SPSS data and supporting documents</a> (ZIP, 12.6 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_SAS_20250204.zip">SAS data and supporting documents</a> (ZIP, 12.6 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_STATA_20250204.zip">STATA data and supporting documents</a> (ZIP, 12.6 MB)</li>
+                            <li><a href="/dataset/HINTS5_Cycle4_SPSS_20250204.zip">SPSS data and supporting documents</a> (ZIP, 12.6 MB)</li>
                         </ul>
                         <p><a href="#topTOC">Return to Top</a></p>
 
