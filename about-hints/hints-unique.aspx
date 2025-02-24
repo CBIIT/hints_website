@@ -57,7 +57,7 @@
 
                         <li><a href="/view-questions-topics/question-details.aspx?PK_Cycle=13&qid=1829">To what extent would you support or oppose that tobacco products should not be advertised on social media?</a></li>
                     </ul>
-                    <h2>Policy and Guideline Tracking</h2>
+                    <h2>Guideline Tracking</h2>
                     <p>
                         HINTS has fielded items to help track the public&rsquo;s awareness and response to major public health developments, such as the release of new guidelines, the implementation of new regulations, and the announcement of major legal decisions.
                     </p>
@@ -116,10 +116,6 @@
                         <li><a href="/view-questions/question-detail.aspx?PK_Cycle=13&qid=1282">Compared to smoking cigarettes, would you say that electronic cigarettes are…</a></li>
                         <li><a href="/view-questions/question-detail.aspx?PK_Cycle=10&qid=1389">Compared to smoking cigarettes, would you say that smoking tobacco using a hookah is…</a></li>
                     </ul>
-                    <h2>Misinformation</h2>
-                    <p>
-                        HINTS is being used to track public attitudes and perceptions of emerging issues such as health misinformation.
-                    </p>
                     <p>Example items:</p>
                     <ul>
                         <li><a href="/view-questions/question-detail.aspx?PK_Cycle=14&qid=1848">How much of the health information that you see on social media do you think is false or misleading?</a></li>
