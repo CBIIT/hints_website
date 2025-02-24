@@ -117,10 +117,10 @@
 
                         <ul>
                             <li><a href="#HDLP22">HINTS Data Linkage Project 2022 (HDLP 2022)</a></li>
-                            <li><a href="#H6">HINTS 6 (2025) dataset, updated February 2025</a></li>
+                            <li><a href="#H6">HINTS 6 (2022) dataset, updated February 2025</a></li>
                             <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP 2020)</a></li>
-                            <li><a href="#SEER2021">HINTS-SEER (2025) dataset, updated February 2025</a></li>
-                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2025) dataset, updated February 2025</a></li>
+                            <li><a href="#SEER2021">HINTS-SEER (2021) dataset, updated February 2025</a></li>
+                            <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated February 2025</a></li>
                             <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) dataset, updated May 2024</a></li>
                             <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) dataset, updated May 2024</a></li>
                             <li><a href="#H5C1">HINTS 5, Cycle 1 (2017) dataset, updated May 2024</a></li>
@@ -146,7 +146,7 @@
 
 
                         <h2 id="HDLP22"><strong>HINTS Data Linkage Project 2022 (HDLP 2022)</strong></h2>
-                        <p>The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linking was done at both the census tract and county level using restricted, geo-coded, HINTS data. External variables were chosen from trusted and reliable sources with the main source of the variables being the US Census, but also includes the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA) and The Centers for Disease Control and Prevention (CDC). The external variables that were included fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality).</p>
+                        <p>The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linking was done at both the census tract and county level using restricted, geo-coded, HINTS data. External variables were chosen from trusted and reliable sources with the main source of the variables being the US Census, but also includes the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA) and The Centers for Disease Control and Prevention (CDC). The external variables that were included fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality).</p>
                         <p>Given the geocodes and potential for disclosure, the HDLP 2022 is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>. </p>
                         <p>The HINTS Data Linkage Project 2022 (HDLP 2022) External Variables codebook, a list of all external variables and links to many of the original data sources, is available for download on the <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. </p>
 
@@ -160,7 +160,7 @@
 
 
 
-                        <h2 id="H6"><strong>HINTS 6 (2025) dataset, updated February 2025</strong></h2>
+                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated February 2025</strong></h2>
                    
                            <p>
                             Total respondents: 6,252<br>
@@ -181,7 +181,7 @@
 
 
                         <h2 id="HDLP"><strong>HINTS Data Linkage Project 2020 (HDLP 2020)</strong></h2>
-                        <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). See the HDLP external variables codebook for a list of all variables. </p>
+                        <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). See the HDLP external variables codebook for a list of all variables. </p>
                         <p>Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>. </p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -194,7 +194,7 @@
 
 
 
-                        <h2 id="SEER2021"><strong>HINTS-SEER (2025) dataset, updated February 2025</strong></h2>
+                        <h2 id="SEER2021"><strong>HINTS-SEER (2021) dataset, updated February 2025</strong></h2>
                         <p>
                             Total respondents: 1,234<br>
                             Complete responses: 1,189<br>
@@ -220,7 +220,7 @@
 
 
 
-                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2025) dataset, updated February 2025</strong></h2>
+                        <h2 id="H5C4"><strong>HINTS 5, Cycle 4 (2020) dataset, updated February 2025</strong></h2>
                         <p>
                             Total respondents: 3,865<br />
                             Complete responses: 3,792<br />

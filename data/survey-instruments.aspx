@@ -17,11 +17,11 @@
 
                     <ul>
                         <li><a href="#HDLP2022">HINTS Data Linkage Project 2022 (HDLP 2022)</a></li>
-                        <li><a href="#H7SurvMat">HINTS 7 (2025) Survey Materials, updated February 2025</a></li>
-                        <li><a href="#H6SurvMat">HINTS 6 (2025) Survey Materials, updated February 2025</a></li>
-                        <li><a href="#H2021_SM">HINTS-SEER (2025) Survey Materials, updated February 2025</a></li>
+                        <li><a href="#H7SurvMat">HINTS 7 (2024) Survey Materials, updated February 2025</a></li>
+                        <li><a href="#H6SurvMat">HINTS 6 (2022) Survey Materials, updated February 2025</a></li>
+                        <li><a href="#H2021_SM">HINTS-SEER (2021) Survey Materials, updated February 2025</a></li>
                         <li><a href="#HDLP2020">HINTS Data Linkage Project 2020 (HDLP 2020)</a></li>
-                        <li><a href="#H5C4">HINTS 5, Cycle 4 (2025) Survey Materials, updated February 2025</a></li>
+                        <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) Survey Materials, updated February 2025</a></li>
                         <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) Survey Materials</a></li>
                         <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) Survey Materials</a></li>
                         <li><a href="#H5C1">HINTS 5, Cycle 1 (2017) Survey Materials</a></li>
@@ -44,7 +44,7 @@
 
                     <h2 id="HDLP2022">
                         <strong>HINTS Data Linkage Project 2022 (HDLP 2022) </strong></h2>
-                    <p>The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linking was done at both the census tract and county level using restricted, geo-coded, HINTS data. External variables were chosen from trusted and reliable sources with the main source of the variables being the US Census, but also includes the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA) and The Centers for Disease Control and Prevention (CDC). The external variables that were included fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). The HINTS Data Linkage Project 2022 (HDLP 2022) External Variables codebook, a list of all external variables and links to many of the original data sources, is available for download below. </p>
+                    <p>The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linking was done at both the census tract and county level using restricted, geo-coded, HINTS data. External variables were chosen from trusted and reliable sources with the main source of the variables being the US Census, but also includes the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA) and The Centers for Disease Control and Prevention (CDC). The external variables that were included fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). The HINTS Data Linkage Project 2022 (HDLP 2022) External Variables codebook, a list of all external variables and links to many of the original data sources, is available for download below. </p>
 
 
                     <p><a href="#topTOC">Return to Top</a></p>
@@ -54,14 +54,14 @@
 
 
                     <h2 id="H7SurvMat">
-                        <strong>HINTS 7 (2025) Survey Materials, updated February 2025</strong></h2>
-                    <p>HINTS 7 (2025) data were collected from March through September 2024. HINTS 7 (2025) consisted of two modes: paper and web. Both modes were offered concurrently. All respondents received a $2 unconditional incentive in their first mailing and were offered a bonus $10 Amazon e-gift card to respond by web.</p>
-                    <p>The sampling strategy for HINTS 7 (2025) consisted of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. A total of [TBD] surveys were included in the final dataset.</p>
-                    <p>HINTS 7 (2025) included two embedded methodological experiments. The first experiment tested the effect of including a &rsquo;commitment statement&rsquo; at the beginning of the survey asking respondents whether they are willing to &rsquo;be as accurate as possible and to think carefully about each question.&rsquo; The statement was intended to improve response data quality by, for example, reducing item nonresponse overall and break offs on web. The second experiment tested the effect of offering an additional promised incentive ($10) for households in high minority strata where response rates are historically low. This experiment was intended to improve response rates in high minority strata, thereby improving HINTS representation.</p>
+                        <strong>HINTS 7 (2024) Survey Materials, updated February 2025</strong></h2>
+                    <p>HINTS 7 (2024) data were collected from March through September 2024. HINTS 7 (2024) consisted of two modes: paper and web. Both modes were offered concurrently. All respondents received a $2 unconditional incentive in their first mailing and were offered a bonus $10 Amazon e-gift card to respond by web.</p>
+                    <p>The sampling strategy for HINTS 7 (2024) consisted of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. A total of [TBD] surveys were included in the final dataset.</p>
+                    <p>HINTS 7 (2024) included two embedded methodological experiments. The first experiment tested the effect of including a &rsquo;commitment statement&rsquo; at the beginning of the survey asking respondents whether they are willing to &rsquo;be as accurate as possible and to think carefully about each question.&rsquo; The statement was intended to improve response data quality by, for example, reducing item nonresponse overall and break offs on web. The second experiment tested the effect of offering an additional promised incentive ($10) for households in high minority strata where response rates are historically low. This experiment was intended to improve response rates in high minority strata, thereby improving HINTS representation.</p>
 
                     <ul>
-                        <li><strong>HINTS 7 (2025) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS7-AnnotatedEnglish.pdf" target="_blank">PDF</a> 2.0MB)</li>
-                        <li><strong>HINTS 7 (2025) Full-content, Spanish Version:</strong>&nbsp;(<a href="/docs/Instruments/HINTS7-Annotated-Spanish.pdf" target="_blank">PDF</a>&nbsp;2.7 MB)</li>
+                        <li><strong>HINTS 7 (2024) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS7-AnnotatedEnglish.pdf" target="_blank">PDF</a> 2.0MB)</li>
+                        <li><strong>HINTS 7 (2024) Full-content, Spanish Version:</strong>&nbsp;(<a href="/docs/Instruments/HINTS7-Annotated-Spanish.pdf" target="_blank">PDF</a>&nbsp;2.7 MB)</li>
                     </ul>
 
                     <p><a href="#topTOC">Return to Top</a></p>
@@ -71,14 +71,14 @@
 
 
                     <h2 id="H6SurvMat">
-                        <strong>HINTS 6 (2025) Survey Materials, updated February 2025</strong></h2>
-                    <p>HINTS 6 (2025) data were collected from March through November 2022. HINTS 6 (2025) consisted of two modes, with respondents being offered a paper survey or web option.</p>
-                    <p>The sampling strategy for HINTS 6 (2025) consisted of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. A total of 6,252 surveys were included in the final dataset. </p>
+                        <strong>HINTS 6 (2022) Survey Materials, updated February 2025</strong></h2>
+                    <p>HINTS 6 (2022) data were collected from March through November 2022. HINTS 6 (2022) consisted of two modes, with respondents being offered a paper survey or web option.</p>
+                    <p>The sampling strategy for HINTS 6 (2022) consisted of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. A total of 6,252 surveys were included in the final dataset. </p>
                     <p>HINTS 6 (2022) included an embedded methodological experiment comparing two mixed mode approaches: concurrent and sequential (also known as the control and treatment groups). Households in the concurrent (control) group received a cover letter with the link to the web survey and their unique access code as well as a paper survey with each mailing (including their first mailing). Households in the sequential (treatment) group received only a cover letter with the link to the web survey and their unique access code with their first mailing—they did not receive a paper survey in their first mailing. In subsequent mailings, these households received the link to the web survey and their unique access code as well as the paper survey. </p>
 
                     <ul>
-                        <li><strong>HINTS 6 (2025) ) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 3.0MB)</li>
-                        <li><strong>HINTS 6 (2025) ) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedSpanish.pdf" target="_blank">PDF</a> 1.8MB)</li>
+                        <li><strong>HINTS 6 (2022) ) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 3.0MB)</li>
+                        <li><strong>HINTS 6 (2022) ) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedSpanish.pdf" target="_blank">PDF</a> 1.8MB)</li>
                         <li><strong>HINTS 6 (2022) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS_6_MethodologyReport.pdf" target="_blank">PDF</a> 2.9 MB)</li>
 
                     </ul>
@@ -93,16 +93,16 @@
 
 
                     <h2 id="H2021_SM">
-                        <strong>HINTS-SEER (2025) Survey Materials, updated February 2025</strong></h2>
+                        <strong>HINTS-SEER (2021) Survey Materials, updated February 2025</strong></h2>
 
 
                     <p>
-                        In 2025, NCI undertook a pilot project to oversample cancer survivors for HINTS using three cancer registries from the Surveillance, Epidemiology, and End Results (SEER) Program (<a target="_blank" href="https://seer.cancer.gov">https://seer.cancer.gov</a>) as a sampling frame of cancer survivors. The pilot project, called HINTS-SEER, was designed to provide a larger sample of cancer survivors for HINTS analyses. The instrument closely resembles survey items and topics found on HINTS 5, Cycle 4 (2025), and includes other topics relevant to cancer survivors. A unique aspect of the HINTS-SEER dataset is that key data elements from the cancer registry datasets are linked to the HINTS survey responses, providing a more in-depth view of each respondent&rsquo;s cancer diagnosis.
+                        In 2025, NCI undertook a pilot project to oversample cancer survivors for HINTS using three cancer registries from the Surveillance, Epidemiology, and End Results (SEER) Program (<a target="_blank" href="https://seer.cancer.gov">https://seer.cancer.gov</a>) as a sampling frame of cancer survivors. The pilot project, called HINTS-SEER, was designed to provide a larger sample of cancer survivors for HINTS analyses. The instrument closely resembles survey items and topics found on HINTS 5, Cycle 4 (2020), and includes other topics relevant to cancer survivors. A unique aspect of the HINTS-SEER dataset is that key data elements from the cancer registry datasets are linked to the HINTS survey responses, providing a more in-depth view of each respondent&rsquo;s cancer diagnosis.
                     </p>
                     <p>HINTS-SEER data were collected from January 11, 2021 through August 20, 2021. Once the SEER registries obtained consent to share individual mailing addresses, the mailing protocol for all three HINTS-SEER cohorts (Iowa Cancer Registry, Greater Bay Area Cancer Registry, and New Mexico Tumor Registry) followed a modified Dillman approach (Dillman, et al., 2009) with a total of four mailings: an initial mailing, a reminder postcard, and two follow-up mailings. Individuals in each sample received the first mailing and reminder postcard, while only non-respondents received the subsequent survey mailings. Complete data were collected from 1,234 respondents.</p>
                     <ul>
-                        <li><strong>HINTS-SEER (2025) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS-SEER-AnnotatedInstrument.pdf" target="_blank">PDF</a> 2.7MB)</li>
-                        <li><strong>HINTS-SEER (2025) Full-content, CA English Version: </strong>(<a href="/docs/Instruments/HINTS-SEER-CA-AnnotatedInstrument.pdf" target="_blank">PDF</a> 3.0MB)</li>
+                        <li><strong>HINTS-SEER (2021) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS-SEER-AnnotatedInstrument.pdf" target="_blank">PDF</a> 2.7MB)</li>
+                        <li><strong>HINTS-SEER (2021) Full-content, CA English Version: </strong>(<a href="/docs/Instruments/HINTS-SEER-CA-AnnotatedInstrument.pdf" target="_blank">PDF</a> 3.0MB)</li>
                         <li><strong>HINTS-SEER (2021) Methodology Report: </strong>(<a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">PDF</a> 5.6MB)</li>
                     </ul>
 
@@ -114,7 +114,7 @@
                     <h2 id="HDLP2020">
                         <strong>HINTS Data Linkage Project 2020 (HDLP 2020)</strong></h2>
 
-                    <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors (e.g., Income inequality); 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>.</p>
+                    <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>.</p>
 
 
                     <p><a href="#topTOC">Return to Top</a></p>
@@ -124,18 +124,18 @@
 
 
                     <h2 id="H5C4">
-                        <strong>HINTS 5, Cycle 4 (2025) Survey Materials, updated February 2025</strong></h2>
+                        <strong>HINTS 5, Cycle 4 (2020) Survey Materials, updated February 2025</strong></h2>
 
 
                     <p>
-                        HINTS 5, Cycle 4  (2025) data were collected from February through June, 2020. The sample design for HINTS 5, Cycle 4 (2025) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
+                        HINTS 5, Cycle 4  (2025) data were collected from February through June, 2020. The sample design for HINTS 5, Cycle 4 (2020) consisted of a single-mode mail survey, using the Next Birthday Method for respondent selection.
                       
                     </p>
-                    <p>The sample design for the HINTS 5, Cycle 4 (2025) survey consisted of two-stages. In the first stage, an equal-probability sample of addresses was selected from within each explicit sampling stratum. In the second-stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. Complete data were collected from 3,865 respondents.</p>
+                    <p>The sample design for the HINTS 5, Cycle 4 (2020) survey consisted of two-stages. In the first stage, an equal-probability sample of addresses was selected from within each explicit sampling stratum. In the second-stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses. Complete data were collected from 3,865 respondents.</p>
 
                     <ul>
-                        <li><strong>HINTS 5, Cycle 4 (2025) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS5-Cycle4-AnnotatedInstrumentEnglish.pdf" target="_blank">PDF</a> 1.8MB)</li>
-                        <li><strong>HINTS 5, Cycle 4 (2025) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS5-Cycle4-AnnotatedInstrumentSpanish.pdf" target="_blank">PDF</a> 1.3MB)</li>
+                        <li><strong>HINTS 5, Cycle 4 (2020) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentEnglish.pdf" target="_blank">PDF</a> 1.8MB)</li>
+                        <li><strong>HINTS 5, Cycle 4 (2020) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentSpanish.pdf" target="_blank">PDF</a> 1.3MB)</li>
                     </ul>
 
 
