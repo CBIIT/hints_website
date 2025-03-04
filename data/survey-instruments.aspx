@@ -77,9 +77,9 @@
                     <p>HINTS 6 (2022) included an embedded methodological experiment comparing two mixed mode approaches: concurrent and sequential (also known as the control and treatment groups). Households in the concurrent (control) group received a cover letter with the link to the web survey and their unique access code as well as a paper survey with each mailing (including their first mailing). Households in the sequential (treatment) group received only a cover letter with the link to the web survey and their unique access code with their first mailing—they did not receive a paper survey in their first mailing. In subsequent mailings, these households received the link to the web survey and their unique access code as well as the paper survey. </p>
 
                     <ul>
-                        <li><strong>HINTS 6 (2022) ) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 3.0MB)</li>
-                        <li><strong>HINTS 6 (2022) ) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedSpanish.pdf" target="_blank">PDF</a> 1.8MB)</li>
-                        <li><strong>HINTS 6 (2022) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS_6_MethodologyReport.pdf" target="_blank">PDF</a> 2.9 MB)</li>
+                        <li><strong>HINTS 6 (2022) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedEnglishInstrument.pdf" target="_blank">PDF</a> 3.0MB)</li>
+                        <li><strong>HINTS 6 (2022) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS6-AnnotatedSpanish.pdf" target="_blank">PDF</a> 1.8MB)</li>
+                        <li><strong>HINTS 6 (2022) Methodology Report:</strong> (<a href="/docs/methodologyreports/HINTS_6_MethodologyReport.pdf" target="_blank">PDF</a> 3.0 MB)</li>
 
                     </ul>
 
@@ -103,7 +103,7 @@
                     <ul>
                         <li><strong>HINTS-SEER (2021) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS-SEER-AnnotatedInstrument.pdf" target="_blank">PDF</a> 2.7MB)</li>
                         <li><strong>HINTS-SEER (2021) Full-content, CA English Version: </strong>(<a href="/docs/Instruments/HINTS-SEER-CA-AnnotatedInstrument.pdf" target="_blank">PDF</a> 3.0MB)</li>
-                        <li><strong>HINTS-SEER (2021) Methodology Report: </strong>(<a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">PDF</a> 5.6MB)</li>
+                        <li><strong>HINTS-SEER (2021) Methodology Report: </strong>(<a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">PDF</a> 5.9MB)</li>
                     </ul>
 
                     <p><a href="#topTOC">Return to Top</a></p>
@@ -135,6 +135,7 @@
 
                     <ul>
                         <li><strong>HINTS 5, Cycle 4 (2020) Full-content, English Version: </strong>(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentEnglish.pdf" target="_blank">PDF</a> 1.8MB)</li>
+                        <li><strong>HINTS 5, Cycle 4 (2020) Methodology Report:</strong>&nbsp;(<a href="/docs/methodologyreports/HINTS5_Cycle4_MethodologyReport.pdf" target="_blank">PDF</a> 1.7 MB)</li>
                         <li><strong>HINTS 5, Cycle 4 (2020) Full-content, Spanish Version: </strong>(<a href="/docs/Instruments/HINTS5_Cycle4_AnnotatedInstrumentSpanish.pdf" target="_blank">PDF</a> 1.3MB)</li>
                     </ul>
 

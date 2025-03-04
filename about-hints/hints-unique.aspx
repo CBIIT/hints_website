@@ -45,18 +45,6 @@
                         </ul>
                             </li>
                     </ul>
-                    <h2>Policy Support</h2>
-                    <p>
-                        HINTS has fielded several unique policy-related items to assess the public&rsquo;s attitudes toward proposed public health policies and regulations.
-                    </p>
-                    <p>Example items:</p>
-                    <ul>
-                        <li class="li_spacing"><a href="/view-questions-topics/question-details.aspx?PK_Cycle=13&qid=1822">To reduce the problems associated with excessive alcohol use, to what extent would you support or oppose… Requiring specific health warnings on alcohol containers?</a></li>
-
-                        <li class="li_spacing"><a href="/view-questions-topics/question-details.aspx?PK_Cycle=13&qid=1826">To what extent would you support or oppose that cigarette packs should be required to have warning labels that use both images and words to show the negative health effects of smoking?</a></li>
-
-                        <li><a href="/view-questions-topics/question-details.aspx?PK_Cycle=13&qid=1829">To what extent would you support or oppose that tobacco products should not be advertised on social media?</a></li>
-                    </ul>
                     <h2>Guideline Tracking</h2>
                     <p>
                         HINTS has fielded items to help track the public&rsquo;s awareness and response to major public health developments, such as the release of new guidelines, the implementation of new regulations, and the announcement of major legal decisions.
