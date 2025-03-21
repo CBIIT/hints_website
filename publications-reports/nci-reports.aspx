@@ -1,4 +1,4 @@
-﻿<%@ Page Title="NCI Reports | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="nci-reports.aspx.vb" Inherits="publicationsfolder_nci_reports" %>
+﻿<%@ Page Title="NCI Reports | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="nci-reports.aspx.vb" Inherits="publicationsfolder_nci_reports" EnableViewStateMAC="true"%>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
