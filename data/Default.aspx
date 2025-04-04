@@ -23,18 +23,11 @@
                         <div class="card-deck mb-4 mr-0 ml-0">
                             <div class="card">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">Download Data</h5>
-                                    <p class="card-text">Quickly access HINTS data, in SAS, SPSS, and STATA formats, and supporting documents</p>
-                                    <p class="card-text">
-                                        <asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body p-4">
                                     <h5 class="card-title">Survey Instruments</h5>
                                     <p class="card-text">Review survey instruments used to collect HINTS data.</p>
-                                    <p class="card-text"><a href="/data/survey-instruments.aspx">Read More</a></p>
+                                    <p class="card-text">
+                                        <asp:HyperLink NavigateUrl="~/data/survey-instruments.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink>
+                                    </p>
                                 </div>
                             </div>
                             <div class="card">
