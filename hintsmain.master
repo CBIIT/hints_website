@@ -125,12 +125,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="nav-item">
                                 <a href="/data/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <%--<li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
+                                    </li>--%>
                                     <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
                                     <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
                                     <li class="twoLineNav"><a href="/data/data-merging-tool.aspx">HINTS Data Merging Code Tool</a></li>
-                                    <li class="twoLineNav"><a href="/data/restricted-data.aspx">Request Restricted Data</a></li>
+                                    <%--<li class="twoLineNav"><a href="/data/restricted-data.aspx">Request Restricted Data</a></li>--%>
                                     <li><a href="/data/pricssa.aspx">PRICSSA Information</a></li>
                                 </ul>
                             </li>
@@ -195,12 +197,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="dropdown">
                                 <a href="/data/default.aspx" class="dropdown-toggle" id="navbarDropdown">Data</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <%--<li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
+                                    </li>--%>
                                     <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
                                     <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
                                     <li class="twoLineNav"><a href="/data/data-merging-tool.aspx">HINTS Data Merging Code Tool</a></li>
-                                    <li class="twoLineNav"><a href="/data/restricted-data.aspx">Request Restricted Data</a></li>
+                                    <%--<li class="twoLineNav"><a href="/data/restricted-data.aspx">Request Restricted Data</a></li>--%>
                                     <li><a href="/data/pricssa.aspx">PRICSSA Information</a></li>
                                 </ul>
                             </li>

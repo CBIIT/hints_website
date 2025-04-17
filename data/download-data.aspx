@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Download Data | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="download-data.aspx.vb" Inherits="datafolder_download_data" %>
 
 
-
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -21,7 +20,6 @@
         </section>
     </div>
 </asp:Content>
-
 
 
 
