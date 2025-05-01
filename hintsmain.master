@@ -15,7 +15,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 
 
-
     <title>Health Information National Trends Survey | HINTS</title>
 
     <meta charset="UTF-8">
@@ -125,8 +124,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="nav-item">
                                 <a href="/data/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <%--<li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
-                                    </li>--%>
+                                    <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
+                                    </li>
                                     <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
@@ -197,8 +196,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="dropdown">
                                 <a href="/data/default.aspx" class="dropdown-toggle" id="navbarDropdown">Data</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <%--<li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
-                                    </li>--%>
+                                    <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
+                                    </li>
                                     <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>

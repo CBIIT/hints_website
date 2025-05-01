@@ -168,12 +168,12 @@
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
-  <!--<url>
+  <url>
 	<loc>https://hints.cancer.gov/data/download-data.aspx</loc>
 	<lastmod>2025-02-19</lastmod>
 	<changefreq>daily</changefreq>
 	<priority>0.9</priority>
-  </url>-->
+  </url>
   <url>
     <loc>https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=14&amp;qid=874</loc>
     <lastmod>2025-02-19</lastmod>

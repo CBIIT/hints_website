@@ -1,29 +1,8 @@
 ﻿<%@ Page Title="Download Data | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="download-data.aspx.vb" Inherits="datafolder_download_data" %>
 
 
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
-    <div class="container col-lg-12 col-xl-7 col custom-wrapper">
-        <section>
-            <div class="row">
-                <div class="col-md-12">
-
-                    <p><strong>We're sorry. The page you’re looking for is not currently available.</strong></p>
-
-                    <p>It’s possible that the page is temporarily unavailable, has been removed or renamed, or no longer exists.</p>
-
-                    <p>Please <a href="/default.aspx">return to the home page</a> to find the information you were looking for.</p>
-
-                </div>
-            </div>
-        </section>
-    </div>
-</asp:Content>
-
-
-
-<%--<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta name="Title" content="Download Data | HINTS" />
     <meta name="Description" content="Download HINTS datasets in SAS, SPSS, or STATA format to conduct your own analyses. " />
     <link rel="stylesheet" href="/css/hpot.css">
@@ -39,70 +18,29 @@
 
                     <div runat="server" id="PNL_Terms" class="TermsShow">
                         <asp:Panel ID="PNL_terms_defaultbutton" runat="server" DefaultButton="btnSubmit_SinglePage">
-                            <h1>Terms of Use</h1>
-                            <p>
-                                It is of utmost importance to ensure the confidentiality of survey participants.
-        Every effort has been made to exclude identifying information on individual respondents
-        from the computer files. Some demographic information such as sex, race, etc., has
-        been included for research purposes. NCI expects that users of the data set will
-        adhere to the strictest standards of ethical conduct for the analysis and reporting
-        of nationally collected survey data. It is mandatory that all research results be
-        presented/published in a manner that protects the integrity of the data and ensures
-        the confidentiality of participants.
+                            <h1>How to Use HINTS Data</h1>
+                            <p>Please review the following suggestions on how to use HINTS data and then click "Continue" at the bottom of the page to access HINTS public use data.</p>
+                            <p>It is of utmost importance to ensure the confidentiality of survey participants. Every effort has been made to exclude identifying information on individual respondents from the computer files. Some demographic information such as sex, race, etc., has been included for research purposes. NCI expects that users of the data set will adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.
                             </p>
-                            <p>
-                                In order for the Health Information National Trends Survey (HINTS) to provide a
-        public-use or another version of data to you, it is necessary that you agree to
-        the following provisions.
-                            </p>
+                            <p>NCI hopes that users of the data will adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally collected survey data. NCI suggests that all research results be presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.</p>
+                            <p>NCI recommends users consider the following provisions when using HINTS public-use data:</p>
                             <ol>
-                                <li>You will not present/publish data in which an individual can be identified. Publication
-            of small cell sizes should be avoided. </li>
-                                <li>You will not attempt to link nor permit others to link the data with individually
-            identified records in another database. </li>
-                                <li>You will not attempt to learn the identity of any person whose data are contained
-            in the supplied file(s).</li>
-                                <li>If the identity of any person is discovered inadvertently, then the following should
-            be done;
-            <ol type="a">
-                <li>no use will be made of this knowledge, </li>
-                <li>the HINTS Program staff will be notified of the incident, </li>
-                <li>no one else will be informed of the discovered identity.</li>
-            </ol>
+                                <li>Do not present/publish data in which an individual can be identified. Publication of small cell sizes should be avoided.</li>
+                                <li>Do not attempt to link nor permit others to link the data with individually identified records in another database.</li>
+                                <li>Do not attempt to learn the identity of any person whose data are contained in the supplied file(s).</li>
+                                <li>If the identity of any person is discovered inadvertently, then the following should be done;
+                                    <ol type="a">
+                                        <li>no use will be made of this knowledge, </li>
+                                        <li>the HINTS Program staff will be notified of the incident by emailing <a href="mailto:ncihints@mail.nih.gov">ncihints@mail.nih.gov</a>, </li>
+                                        <li>no one else will be informed of the discovered identity</li>
+                                    </ol>
                                 </li>
-                                <li>You will not release nor permit others to release the data in full or in part to
-            any person except with the written approval of the HINTS Program staff. </li>
-                                <li>If accessing the data from a centralized location on a time sharing computer system
-            or LAN, you will not share your logon name and password with any other individuals.
-            You will also not allow any other individuals to use your computer account after
-            you have logged on with your logon name and password. </li>
-                                <li>For all software provided by the HINTS Program, you will not copy, distribute, reverse
-            engineer, profit from its sale or use, or incorporate it in any other software system.
-                                </li>
-                                <li>The source of information should be cited in all publications. The appropriate citation
-            is associated with the data file used. Please see Suggested Citations in the Download
-            HINTS Data section of this Web site, or the Readme.txt associated with the ASCII
-            text version of the HINTS data. </li>
-                                <li>Analyses of large HINTS domains usually produce reliable estimates, but analyses
-            of small domains may yield unreliable estimates, as indicated by their large variances.
-            The analyst should pay particular attention to the standard error and coefficient
-            of variation (relative standard error) for estimates of means, proportions, and
-            totals, and the analyst should report these when writing up results. It is important
-            that the analyst realizes that small sample sizes for particular analyses will tend
-            to result in unstable estimates.</li>
-                                <li>You may receive periodic e-mail updates from the HINTS administrators.</li>
+                                <li>Analyses of large HINTS domains usually produce reliable estimates, but analyses of small domains may yield unreliable estimates, as indicated by their large variances. The analyst should pay particular attention to the standard error and coefficient of variation (relative standard error) for estimates of means, proportions, and totals, and the analyst should report these when writing up results. It is important that the analyst realizes that small sample sizes for particular analyses will tend to result in unstable estimates.</li>
                             </ol>
+                            <p>Please provide your email address to sign up for updates from HINTS. Providing your email is not a requirement for data access, but we want to be sure you receive the latest information about future HINTS data releases.</p>
                             <p>
-                                <asp:CheckBox ID="chkAcceptTerm_SinglePage" runat="server" />
-                                <asp:Label ID="Label2" runat="server" AssociatedControlID="chkAcceptTerm_SinglePage" Text=" Marking this box indicates that I agree to comply with the above stated provisions."></asp:Label>
-                                <asp:CustomValidator ID="CustomValidator1" runat="server" Display="Dynamic" ErrorMessage="&lt;br/&gt;Please check the box to proceed."
-                                    ValidationGroup="mainpage_GP" ForeColor="Red"></asp:CustomValidator>
-                            </p>
-                            <p>
-                                <asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="Please enter your email:"></asp:Label>
+                                <asp:Label ID="Label1" runat="server" AssociatedControlID="txtemailTerms" Text="Please enter your email (Optional):"></asp:Label>
                                 <asp:TextBox ID="txtemailTerms" runat="server"></asp:TextBox>
-                                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtemailTerms"
-                                    ValidationGroup="mainpage_GP" Display="Dynamic" ErrorMessage="&lt;br/&gt;Please enter an email address." ForeColor="Red"></asp:RequiredFieldValidator>
                                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtemailTerms"
                                     ValidationGroup="mainpage_GP" Display="Dynamic" ErrorMessage="&lt;br/&gt;Please enter a valid email address."
                                     ForeColor="Red" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
@@ -116,31 +54,26 @@
                             </div>
 
                             <p>
-                                <asp:Button ID="btnSubmit_SinglePage" ValidationGroup="mainpage_GP" runat="server" Text="Accept" />
+                                <asp:Button ID="btnSubmit_SinglePage" ValidationGroup="mainpage_GP" runat="server" Text="CONTINUE" />
                             </p>
                         </asp:Panel>
                     </div>
                     <div id="dv_data" runat="server" class="TermsHidden">
 
-                        <h1 id="topTOC">Available HINTS Datasets</h1>
+                        <h1 id="topTOC">HINTS Datasets</h1>
 
                         <div id="calloutBox">
-                            <p>
-                                Visit the <a href="/data/data-remediation.aspx">HINTS Data Errors, Remediation, and Recommendations</a> page to access important information about HINTS data errors, remediation procedures, and resultant recommendations
-                            </p>
-                        </div>
-                        <div id="calloutBox2">
-                            <p>
-                                If you require access to detailed geographic information or variables that have been suppressed in the public use datasets, please visit the <a href="/data/restricted-data.aspx">Request Restricted HINTS Datasets</a> page to learn how you can request restricted-use HINTS data
+                            <p>Visit the <a href="/data/data-remediation.aspx">HINTS Data Errors, Remediation, and Recommendations</a> page to access important information about HINTS data errors, remediation procedures, and resultant recommendations
                             </p>
                         </div>
 
 
                         <ul>
-                            <li><a href="#HDLP22">HINTS Data Linkage Project 2022 (HDLP 2022)</a></li>
+                            <li><a href="#H7">HINTS 7 (2024), updated May 2025</a></li>
+                            <li><a href="#HDLP22">HINTS Data Linkage Project 2022 (HDLP 2022)(More Information Forthcoming)</a></li>
                             <li><a href="#H6">HINTS 6 (2022) dataset, updated February 2025</a></li>
-                            <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP 2020)</a></li>
-                            <li><a href="#SEER2021">HINTS-SEER (2021) dataset, updated February 2025</a></li>
+                            <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP 2020)(More Information Forthcoming)</a></li>
+                            <li><a href="#SEER2021">HINTS-SEER (2021) dataset (More Information Forthcoming)</a></li>
                             <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated February 2025</a></li>
                             <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) dataset, updated May 2024</a></li>
                             <li><a href="#H5C2">HINTS 5, Cycle 2 (2018) dataset, updated May 2024</a></li>
@@ -163,13 +96,34 @@
 
 
 
+                        <h2 id="H7"><strong>HINTS 7 (2024), updated May 2025</strong></h2>
+
+                         <p>
+                            Total respondents: 7,278<br>
+                            Complete responses: 7,208<br>
+                            Partial responses**: 70
+                         </p>
+                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
+                        <p>HINTS 7 data is coming soon</p>
+<%--                         <ul>
+                            <li><a href="/dataset/HINTS7_SAS_20250501.zip">SAS data and supporting documents</a> (ZIP,  MB)</li>
+                            <li><a href="/dataset/HINTS7_STATA_20250501.zip">STATA data and supporting documents</a> (ZIP,  MB)</li>
+                            <li><a href="/dataset/HINTS7_SPSS_20250501.zip">SPSS data and supporting documents</a> (ZIP,  MB)</li>
+                            <li><a href="/dataset/HINTS7_R_20250501.zip">R data and supporting documents</a> (ZIP,  MB)</li>
+                        </ul>--%>
+
+                        <p><a href="#topTOC">Return to Top</a></p>
 
 
 
-                        <h2 id="HDLP22"><strong>HINTS Data Linkage Project 2022 (HDLP 2022)</strong></h2>
-                        <p>The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linking was done at both the census tract and county level using restricted, geo-coded, HINTS data. External variables were chosen from trusted and reliable sources with the main source of the variables being the US Census, but also includes the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA) and The Centers for Disease Control and Prevention (CDC). The external variables that were included fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality).</p>
-                        <p>Given the geocodes and potential for disclosure, the HDLP 2022 is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>. </p>
-                        <p>The HINTS Data Linkage Project 2022 (HDLP 2022) External Variables codebook, a list of all external variables and links to many of the original data sources, is available for download on the <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. </p>
+
+
+
+
+
+                        <h2 id="HDLP22"><strong>HINTS Data Linkage Project 2022 (HDLP 2022)(More Information Forthcoming)</strong></h2>
+                        <p>The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linking was done at both the census tract and county level using geo-coded, HINTS data. External variables were chosen from trusted and reliable sources with the main source of the variables being the US Census, but also includes the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA) and The Centers for Disease Control and Prevention (CDC). The external variables that were included fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality).</p>
+                        <p>The HINTS Data Linkage Project 2022 (HDLP 2022) External Variables codebook, a list of all external variables and links to many of the original data sources, is available for download on the <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. Information about accessing the data is forthcoming. </p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
 
@@ -201,9 +155,8 @@
 
 
 
-                        <h2 id="HDLP"><strong>HINTS Data Linkage Project 2020 (HDLP 2020)</strong></h2>
-                        <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, restricted, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). See the HDLP external variables codebook for a list of all variables. </p>
-                        <p>Given the geocodes and potential for disclosure, the HDLP is not a public-use data file and anyone interested in accessing the data will first need to <a href="/data/restricted-data.aspx">apply to access the data via the HINTS restricted-use data request form</a>. </p>
+                        <h2 id="HDLP"><strong>HINTS Data Linkage Project 2020 (HDLP 2020)(More Information Forthcoming) </strong></h2>
+                        <p>The HINTS Data Linkage Project 2020 (HDLP 2020) contains geo-coded, HINTS 5 Cycle 4 data (2020; n = 3,865) linked—at the county level-- with over 70 external variables chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA). The external variables fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality). See the HDLP external variables codebook for a list of all variables. Information about accessing the data is forthcoming. </p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
 
@@ -215,13 +168,14 @@
 
 
 
-                        <h2 id="SEER2021"><strong>HINTS-SEER (2021) dataset, updated February 2025</strong></h2>
+                        <h2 id="SEER2021"><strong>HINTS-SEER (2021) dataset (More Information Forthcoming)</strong></h2>
                         <p>
                             Total respondents: 1,234<br>
                             Complete responses: 1,189<br>
                             Partial responses**: 45
                         </p>
-                        <p>Because the HINTS-SEER dataset contains linked medical diagnosis variables and there is a potential for disclosure, HINTS-SEER is not a public-use data file that is available for download without first applying to use the data via the HINTS <a href="/data/restricted-data.aspx">restricted-use data request form</a>. Once the form has been submitted, it will be reviewed by a subcommittee of analysts and a member of the HINTS management team will be in touch with you via email within 2 weeks to discuss your request. To learn more about HINTS-SEER, please consult the <a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">methodology report</a>, <a href="/docs/Instruments/HINTS-SEER-AnnotatedInstrument.pdf" target="_blank">survey instrument</a>, and <a href="/docs/Instruments/HINTS-SEER-CA-AnnotatedInstrument.pdf" target="_blank">CA survey instrument</a>.</p>
+                        <p>In 2021, NCI undertook a pilot project to oversample cancer survivors for HINTS using three cancer registries from the Surveillance, Epidemiology, and End Results (SEER) Program (https://seer.cancer.gov) as a sampling frame of cancer survivors. The pilot project, called HINTS-SEER, was designed to provide a larger sample of cancer survivors for HINTS analyses. The instrument closely resembles survey items and topics found on HINTS 5, Cycle 4 (2020), and includes other topics relevant to cancer survivors. A unique aspect of the HINTS-SEER dataset is that key data elements from the cancer registry datasets are linked to the HINTS survey responses, providing a more in-depth view of each respondent's cancer diagnosis.</p>
+                        <p>HINTS-SEER data were collected from January 11, 2021 through August 20, 2021. Once the SEER registries obtained consent to share individual mailing addresses, the mailing protocol for all three HINTS-SEER cohorts (Iowa Cancer Registry, Greater Bay Area Cancer Registry, and New Mexico Tumor Registry) followed a modified Dillman approach (Dillman, et al., 2009) with a total of four mailings: an initial mailing, a reminder postcard, and two follow-up mailings. Individuals in each sample received the first mailing and reminder postcard, while only non-respondents received the subsequent survey mailings. Complete data were collected from 1,234 respondents. To learn more about HINTS-SEER, please consult the <a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">methodology report</a>, <a href="/docs/Instruments/HINTS-SEER-AnnotatedInstrument.pdf" target="_blank">survey instrument</a>, and <a href="/docs/Instruments/HINTS-SEER-CA-AnnotatedInstrument.pdf" target="_blank">CA survey instrument</a>.Information about accessing the data is forthcoming.</p>
                         <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions in Sections A and B were answered. Only questions required of every respondent were factored into the completion rate calculation.</p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -556,5 +510,5 @@
             </div>
         </section>
     </div>
-</asp:Content>--%>
+</asp:Content>
 
