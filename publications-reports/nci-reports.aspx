@@ -154,12 +154,12 @@
 
                                                 <h2>HINTS Overview Materials</h2>
                                                 <div class="book book_img">
-                                                    <img src="/_images/Hints_Factsheet_2023.png" alt="Image of HINTS Fact Sheet" />
+                                                    <img src="/_images/Hints_Factsheet_2025.png" alt="Image of HINTS Fact Sheet" />
                                                 </div>
 
                                                 <div class="book book_info">
                                                     <br style="clear: none;" />
-                                                    &#8211; <a href="/docs/Hints_Factsheet_2023.pdf" target="_blank">English</a> (updated 9/28/2023) PDF<br style="clear: none;" />
+                                                    &#8211; <a href="/docs/Hints_Factsheet_2025.pdf" target="_blank">English</a> (updated 9/28/2023) PDF<br style="clear: none;" />
                                                     <br style="clear: none;" />
                                                     &#8211; <a href="/docs/HINTS_FactSheet_Spn.pdf" target="_blank">Espa&#241;ol</a> (updated 12/2/2009) PDF
                                             <br style="clear: none;" />

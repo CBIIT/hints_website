@@ -22,7 +22,7 @@
 
                     <h2>HINTS-SEER: Sampling Cancer Survivors for the Health Information National Trends Survey</h2>
 
-                    <p>In January 2023, the Behavioral Research Program in the National Cancer Institute&rsquo;s Division of Cancer Control and Population Sciences recorded a tutorial about HINTS-SEER, a data collection effort to sample cancer survivors for the Health Information National Trends Survey (HINTS) using three cancer registries within the Surveillance, Epidemiology, and End Results (SEER) program. In the tutorial, NCI staff cover the project&rsquo;s background, aims, and methodology; review how to request access to the data; and discuss methodological and statistical considerations for using the HINTS-SEER data.</p>
+                    <p>In January 2023, the Behavioral Research Program in the National Cancer Institute&rsquo;s Division of Cancer Control and Population Sciences recorded a tutorial about HINTS-SEER, a data collection effort to sample cancer survivors for the Health Information National Trends Survey (HINTS) using three cancer registries within the Surveillance, Epidemiology, and End Results (SEER) program. In the tutorial, NCI staff cover the project&rsquo;s background, aims, and methodology; and discuss methodological and statistical considerations for using the HINTS-SEER data.</p>
 
                     <div class="video-container_seer">
                         <iframe class="iframe-responsive" title="HINTS-SEER: Sampling Cancer Survivors for the Health Information National Trends Survey"

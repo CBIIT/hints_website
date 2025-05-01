@@ -156,15 +156,14 @@
 
 
                                             <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Linkage Project 2022 (HDLP 2022) restricted use data now available to request</h4>
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Linkage Project 2022 (HDLP 2022)</h4>
 
                                             <!-- Text -->
                                             <p>
                                                The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data.
                                             </p>
 
-                                            <!-- Link -->
-                                            You can apply to access the data via the <a class="h6 text-decoration-none mt-auto" href="/data/restricted-data.aspx">HINTS restricted-use data request form</a>.
+
                                             <hr>
 
 
@@ -341,4 +340,5 @@
         <script src="/_scripts/randomimages.js"></script>
 
 </asp:Content>
+
 
