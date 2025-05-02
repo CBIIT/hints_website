@@ -26,7 +26,7 @@
                                     <h5 class="card-title">Download Data</h5>
                                     <p class="card-text">Quickly access HINTS data, in SAS, SPSS, and STATA formats, and supporting documents</p>
                                     <p class="card-text">
-                                        <asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HyperLink1" runat="server">Read More</asp:HyperLink>
+                                        <asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink>
                                     </p>
                                 </div>
                             </div>
