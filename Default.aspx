@@ -169,12 +169,12 @@
 
 
                                                                     <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 6 (2022) public use data available for download
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS 7 (2024) public use data available for download
                                             </h4>
 
                                             <!-- Text -->
                                             <p>
-                                            Our newest public use dataset, HINTS 6 (2022), is now available for download.
+                                            Our newest public use dataset, HINTS 7 (2024), is now available for download.
                                             </p>
 
                                             <!-- Link -->
