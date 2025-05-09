@@ -49,7 +49,18 @@
                     <h1>Announcements</h1>
                     <p><a href="javascript:void(0)" onclick="javascript:OpenModalSubUnSub();">Subscribe for latest announcements.</a></p>
 
-                    
+
+
+
+
+                    <h2 id="H7">HINTS 7 (2024) public use data available for download</h2>
+                    <p>Posted May 7, 2025</p>
+
+                    <p>Our newest public use dataset, HINTS 7 (2024), is now <a href="/data/download-data.aspx">available for download</a>. In addition to the traditional items on health communication, the use of digital technology, and cancer risk awareness that HINTS is known for, HINTS 7 (2024) also covers new topics, such as experiences with telehealth, multi-cancer detection tests, clinical trials, artificial intelligence, and cognitive impairment. HINTS 7 (2024) was fielded from March through September 2024 (N=7,278). </p>
+
+
+
+
                     
 
                     <h2 id="HDLP2022">HINTS Data Linkage Project 2022 (HDLP 2022)</h2>

@@ -20,7 +20,7 @@
                         <asp:Panel ID="PNL_terms_defaultbutton" runat="server" DefaultButton="btnSubmit_SinglePage">
                             <h1>How to Use HINTS Data</h1>
                             <p>Please review the following suggestions on how to use HINTS data and then click "Continue" at the bottom of the page to access HINTS public use data.</p>
-                            <p>It is of utmost importance to ensure the confidentiality of survey participants. Every effort has been made to exclude identifying information on individual respondents from the computer files. Some demographic information such as sex, race, etc., has been included for research purposes. NCI expects that users of the data set will adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.
+                            <p>It is of utmost importance to ensure the confidentiality of survey participants. Every effort has been made to exclude identifying information on individual respondents from the computer files. Some demographic information such as sex, race, etc., has been included for research purposes.
                             </p>
                             <p>NCI hopes that users of the data will adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally collected survey data. NCI suggests that all research results be presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.</p>
                             <p>NCI recommends users consider the following provisions when using HINTS public-use data:</p>
@@ -105,12 +105,12 @@
                          </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                         <p>HINTS 7 data is coming soon</p>
-<%--                         <ul>
-                            <li><a href="/dataset/HINTS7_SAS_20250501.zip">SAS data and supporting documents</a> (ZIP,  MB)</li>
-                            <li><a href="/dataset/HINTS7_STATA_20250501.zip">STATA data and supporting documents</a> (ZIP,  MB)</li>
-                            <li><a href="/dataset/HINTS7_SPSS_20250501.zip">SPSS data and supporting documents</a> (ZIP,  MB)</li>
-                            <li><a href="/dataset/HINTS7_R_20250501.zip">R data and supporting documents</a> (ZIP,  MB)</li>
-                        </ul>--%>
+                         <ul>
+                            <li><a href="/dataset/HINTS7_SAS_20250505.zip">SAS data and supporting documents</a> (ZIP, 19.4MB)</li>
+                            <li><a href="/dataset/HINTS7_STATA_20250505.zip">STATA data and supporting documents</a> (ZIP, 19.1MB)</li>
+                            <li><a href="/dataset/HINTS7_SPSS_20250505.zip">SPSS data and supporting documents</a> (ZIP, 18.4MB)</li>
+                            <li><a href="/dataset/HINTS7_R_20250505.zip">R data and supporting documents</a> (ZIP, 17.6MB)</li>
+                        </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
 
