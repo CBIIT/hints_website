@@ -7,14 +7,15 @@
     <link href="/Content/buttons.css?v=2017_11_13" rel="stylesheet" />
     <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
     <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2023_07_08.js'></script>
-    <style type="text/css">
+    <script type="text/javascript" src='/_scripts/detailspage/question-detail.js'></script>
+<%--    <style type="text/css">
         body {
             font-size: 1.2em !important;
         }
-    </style>
+    </style>--%>
 
     <link rel="stylesheet" href="/css/questions.css?v=2020_05_28">
-    <script type="text/javascript" src='/_scripts/jquery-3.5.0.min.js'></script>
+    <script type="text/javascript" src='/_scripts/jquery-3.7.1.min.js'></script>
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -24,7 +25,9 @@
             <div class="row">
                 <div class="col-md-12">
 
-
+                                        <div id="sitewide-alert" class="alert alert-danger text-center" role="alert">
+                        <p>Data visualization exports for HINTS items are temporarily not available. We are working to upgrade the system now and do not expect an extended disruption.</p>
+                    </div>
 
 
     <asp:PlaceHolder runat="server" Visible="true">
@@ -162,11 +165,11 @@
             <div id="piechart_instructions">Click and drag pie chart to rotate</div>
             <div id="chart-container"></div>
 
-            <div class="modal fade" id="exportModalPopup">
+            <div class="modal fade" id="exportModalPopup" aria-labelledby="exportModalPopupLabel">
                 <div class="modal-dialog">
                     <div class="modal-content jumbo-dropdown-content">
                         <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&times;</button>
                             <h3 class="modal-title">Export Chart</h3>
                         </div>
                         <div class="modal-body">
@@ -174,7 +177,7 @@
                         </div>
                         <div class="modal-footer">
                             <div class="btn-group dropup">
-                                <button id="exportSelector" type="button" role="group" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button id="exportSelector" type="button" role="group" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Export <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
@@ -192,7 +195,7 @@
         <div class="col-sm-12">
             <div class="export-pane text-center">
                 <div class="btn-group">
-                    <button id="exportModalPopupButton" type="button" class="btn btn-default btn-updated-dark" data-toggle="modal" data-target="#exportModalPopup">Export</button>
+                    <button id="exportModalPopupButton" type="button" class="btn btn-default btn-updated-dark" data-bs-toggle="modal" data-bs-target="exportModalPopup">Export</button>
                 </div>
             </div>
         </div>

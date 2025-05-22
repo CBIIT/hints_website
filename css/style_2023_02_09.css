@@ -170,15 +170,19 @@ nav ul li:last-child a:first-child {
     background-size: cover;
 }
 
-#homeSlider::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: #ffffff30;
-}
+    #homeSlider::before {
+        content: "";
+        /*DMJ - 3/26/2025 Update
+        Jira NCIDDCPS - 7473: Update Bootstrap Version
+        Issue: Below line 179 was causing "Learn More" and "Latest HINTS Updates" to be unclickable links
+        */
+        /*position: absolute;*/
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #ffffff30;
+    }
 
     #homeSlider .carousel-caption {
         position: initial;
@@ -228,10 +232,11 @@ nav ul li:last-child a:first-child {
     font-size: 18px;
     border: 2px solid #6cff00;
     transition: all .3s;
+    text-decoration: none !important;
 }
 
 a.learn-more:hover {
-    text-decoration: none;
+    text-decoration: none !important;
     background-color: #336111;
     color: #ffffff;
     transition: all .3s;
@@ -935,3 +940,36 @@ div#navbarNavDropdown {
 .rwb_margin_bottom_minus_6 {
     margin-bottom: -6px;
 }
+
+/*DMJ - 3/26/2025 Update
+        Jira NCIDDCPS - 7473: Update Bootstrap Version
+        Issue: Lines 949 to 973 are used to update styles from Bootstrap Version Upgrade
+*/
+
+a.h6 {
+    color: #007bff !important;
+    text-decoration: none !important;
+    background-color: transparent !important;
+}
+
+a.h6:hover {
+    color: #0a57ca !important;
+    text-decoration: none !important;
+}
+
+
+a {
+text-decoration: none !important;
+
+
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+

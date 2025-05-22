@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <link href="/css/results.css?v=2017_11_13" type="text/css" rel="stylesheet" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" language="javascript"
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" language="javascript"
         type="text/javascript"></script>
     <link rel="stylesheet" href="/css/questions.css?v=2020_05_28">
 </asp:Content>

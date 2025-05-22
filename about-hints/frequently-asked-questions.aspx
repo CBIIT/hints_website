@@ -6,7 +6,7 @@
   <meta name="Description" content="Explore Frequently Asked Questions about the Health Information National Trends Survey." />
 
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript" language="javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" type="text/javascript" language="javascript"></script>
 
   <script type="text/javascript" src='/_scripts/faq_accordian_min.js'></script>
 

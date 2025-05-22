@@ -462,10 +462,13 @@
 }
 
 #table_data {
-  border: solid 1px #e5e5e5 !important;
-  font-size: 14px;
-  margin-bottom: 0 !important;
-  margin-top: 20px !important;
+    /*DMJ - Jira NCIDCCPS 7473: Update bootstrap version (update line 466 to 467 to match color of lines*/
+    /*border: solid 1px #e5e5e5 !important;*/
+    border: solid 1px #bfc0c1 !important;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+    margin-top: 20px !important;
+    --bs-table-bg: none;
 }
 
 #table_data tr:nth-child(1) {
@@ -719,7 +722,7 @@ table.survey {
 */
 #charts table {
     border-collapse: collapse;
-    border: 2px solid #808184;
+    /*border: 2px solid #808184;*/
 }
 
 tr.bottomBorder th, tr.bottomBorder td {
@@ -740,7 +743,7 @@ tr.bottomBorder th, tr.bottomBorder td {
 }
 
 #charts table tbody tr td {
-    border-bottom: 1px solid #bfc0c1;
+    border-bottom: 1px solid #bfc0c1 !important;
 }
 
 .theBody table#big_gray_table {
@@ -895,3 +898,9 @@ tr.bottomBorder th, tr.bottomBorder td {
         margin-top: -21px !important;
         margin-right: 10px !important;
     }
+
+
+/*DMJ - Adhoc: Add working message on top of questions page*/
+#sitewide-alert {
+    font-weight: 700;
+}
