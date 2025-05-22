@@ -8,11 +8,6 @@
     <link href="/Content/app.css?v=2017_11_13" rel="stylesheet" />
     <script type="text/javascript" src='/_scripts/detailspage/ws_jsdetails_2023_07_08.js'></script>
     <script type="text/javascript" src='/_scripts/detailspage/question-detail.js'></script>
-<%--    <style type="text/css">
-        body {
-            font-size: 1.2em !important;
-        }
-    </style>--%>
 
     <link rel="stylesheet" href="/css/questions.css?v=2020_05_28">
     <script type="text/javascript" src='/_scripts/jquery-3.7.1.min.js'></script>
