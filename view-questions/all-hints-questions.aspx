@@ -9,7 +9,7 @@
 
 
 
-    <link rel="stylesheet" href="/css/questions.css?v=2022_02_11">
+    <link rel="stylesheet" href="/css/questions.css?v=2025_05_19">
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -19,6 +19,10 @@
         <section>
             <div class="row">
                 <div class="col-md-12">
+                    <div id="sitewide-alert" class="alert alert-danger text-center" role="alert">
+                        <p>Data visualization exports for HINTS items are temporarily not available. We are working to upgrade the system now and do not expect an extended disruption.</p>
+                    </div>
+
                     <h1>All HINTS Questions</h1>
                     <p>
                         This section provides summary data from

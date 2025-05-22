@@ -102,7 +102,7 @@ Partial Class publicationsfolder_submit_hints_publication
 
                 Message.To.Clear()
                 Message.To.Add(System.Configuration.ConfigurationManager.AppSettings("AdminSubmitPub"))
-                Message.From = New System.Net.Mail.MailAddress("rel.breedlove@icf.com")
+                Message.From = New System.Net.Mail.MailAddress("de-shunda.jones@icfnext.com")
                 Message.Subject = "HINTS: Publication Submission From Web Site"
                 Message.Body = SB_body.ToString
                 Message.IsBodyHtml = True
