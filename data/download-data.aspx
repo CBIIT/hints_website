@@ -69,10 +69,10 @@
 
 
                         <ul>
-                            <li><a href="#H7">HINTS 7 (2024), updated May 2025</a></li>
-                            <li><a href="#HDLP22">HINTS Data Linkage Project 2022 (HDLP 2022) (More Information Forthcoming)</a></li>
-                            <li><a href="#H6">HINTS 6 (2022) dataset, updated February 2025</a></li>
-                            <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP 2020) (More Information Forthcoming)</a></li>
+                            <li><a href="#H7">HINTS 7 (2024), updated August 2025</a></li>
+                            <li><a href="#HDLP22">HINTS Data Linkage Project 2022 (HDLP 2022)(More Information Forthcoming)</a></li>
+                            <li><a href="#H6">HINTS 6 (2022) dataset, updated August 2025</a></li>
+                            <li><a href="#HDLP">HINTS Data Linkage Project 2020 (HDLP 2020)(More Information Forthcoming)</a></li>
                             <li><a href="#SEER2021">HINTS-SEER (2021) dataset (More Information Forthcoming)</a></li>
                             <li><a href="#H5C4">HINTS 5, Cycle 4 (2020) dataset, updated February 2025</a></li>
                             <li><a href="#H5C3">HINTS 5, Cycle 3 (2019) dataset, updated May 2024</a></li>
@@ -96,20 +96,19 @@
 
 
 
-                        <h2 id="H7"><strong>HINTS 7 (2024), updated May 2025</strong></h2>
-
+                        <h2 id="H7"><strong>HINTS 7 (2024), updated August 2025</strong></h2>
+                   
                          <p>
                             Total respondents: 7,278<br>
                             Complete responses: 7,208<br>
                             Partial responses**: 70
                          </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
-                        <p>HINTS 7 data is coming soon</p>
                          <ul>
-                            <li><a href="/dataset/HINTS7_SAS_20250505.zip">SAS data and supporting documents</a> (ZIP, 19.4MB)</li>
-                            <li><a href="/dataset/HINTS7_STATA_20250505.zip">STATA data and supporting documents</a> (ZIP, 19.1MB)</li>
-                            <li><a href="/dataset/HINTS7_SPSS_20250505.zip">SPSS data and supporting documents</a> (ZIP, 18.4MB)</li>
-                            <li><a href="/dataset/HINTS7_R_20250505.zip">R data and supporting documents</a> (ZIP, 17.6MB)</li>
+                            <li><a href="/dataset/HINTS7_SAS_20250731.zip">SAS data and supporting documents</a> (ZIP, 21.3MB)</li>
+                            <li><a href="/dataset/HINTS7_STATA_20250731.zip">STATA data and supporting documents</a> (ZIP, 20.9MB)</li>
+                            <li><a href="/dataset/HINTS7_SPSS_20250731.zip">SPSS data and supporting documents</a> (ZIP, 20.6MB)</li>
+                            <li><a href="/dataset/HINTS7_R_20250731.zip">R data and supporting documents</a> (ZIP, 19.6MB)</li>
                         </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -121,7 +120,7 @@
 
 
 
-                        <h2 id="HDLP22"><strong>HINTS Data Linkage Project 2022 (HDLP 2022) (More Information Forthcoming)</strong></h2>
+                        <h2 id="HDLP22"><strong>HINTS Data Linkage Project 2022 (HDLP 2022)(More Information Forthcoming)</strong></h2>
                         <p>The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linking was done at both the census tract and county level using geo-coded, HINTS data. External variables were chosen from trusted and reliable sources with the main source of the variables being the US Census, but also includes the Agency for Healthcare Research and Quality (AHRQ) and the US Department of Agriculture (USDA) and The Centers for Disease Control and Prevention (CDC). The external variables that were included fall into five categories: 1) Social and economic factors ; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality).</p>
                         <p>The HINTS Data Linkage Project 2022 (HDLP 2022) External Variables codebook, a list of all external variables and links to many of the original data sources, is available for download on the <a href="/data/survey-instruments.aspx">Survey Instruments page</a>. Information about accessing the data is forthcoming. </p>
 
@@ -135,7 +134,7 @@
 
 
 
-                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated February 2025</strong></h2>
+                        <h2 id="H6"><strong>HINTS 6 (2022) dataset, updated August 2025</strong></h2>
                    
                            <p>
                             Total respondents: 6,252<br>
@@ -144,10 +143,10 @@
                         </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                                                 <ul>
-                            <li><a href="/dataset/HINTS6_SAS_20250225.zip">SAS data and supporting documents</a> (ZIP, 18.3 MB)</li>
-                            <li><a href="/dataset/HINTS6_STATA_20250225.zip">STATA data and supporting documents</a> (ZIP, 18.4 MB)</li>
-                            <li><a href="/dataset/HINTS6_SPSS_20250225.zip">SPSS data and supporting documents</a> (ZIP, 18.0 MB)</li>
-                            <li><a href="/dataset/HINTS6_R_20250225.zip">R data and supporting documents</a> (ZIP, 16.7 MB)</li>
+                            <li><a href="/dataset/HINTS6_SAS_20250731.zip">SAS data and supporting documents</a> (ZIP, 18.5 MB)</li>
+                            <li><a href="/dataset/HINTS6_STATA_20250731.zip">STATA data and supporting documents</a> (ZIP, 18.6 MB)</li>
+                            <li><a href="/dataset/HINTS6_SPSS_20250731.zip">SPSS data and supporting documents</a> (ZIP, 18.7 MB)</li>
+                            <li><a href="/dataset/HINTS6_R_20250731.zip">R data and supporting documents</a> (ZIP, 16.9 MB)</li>
                         </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
