@@ -14,7 +14,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1>Published Articles Using HINTS Data</h1>
-                    <p id="topTOC">Browse a list of published articles that analyze or make use of HINTS data. </p>
+                    <p>You can find a list of all publications that have used HINTS data in the <a href="https://www.ncbi.nlm.nih.gov/myncbi/1p3IrapW7pgowc/bibliography/public/" target="_blank">HINTS PubMed Bibliography</a>. This bibliography is updated on a quarterly basis.</p>
+                    <%--<p id="topTOC">Browse a list of published articles that analyze or make use of HINTS data. </p>
 
                     
 
@@ -31,7 +32,7 @@
                     <div id="pub_pres_list">
                         <uc1:articles ID="UC_Articles" blnDisplayYear="True" runat="server" />
                         <p><a href="#topTOC">Return to Top</a></p>
-                    </div>
+                    </div>--%>
 
 
 

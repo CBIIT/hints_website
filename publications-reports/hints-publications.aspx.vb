@@ -1,52 +1,52 @@
-﻿Imports System.Data
-Imports System.Data.SqlClient
-Imports GenericHelper.GenericHelper
+﻿'Imports System.Data
+'Imports System.Data.SqlClient
+'Imports GenericHelper.GenericHelper
 
 Partial Class publicationsfolder_hints_publications
     Inherits System.Web.UI.Page
 
 
 
-    Dim strConnect As String = ConfigurationManager.ConnectionStrings("dbConnectionString").ConnectionString
-    Dim objConnect As New SqlConnection(strConnect)
-    Dim Cmd As New SqlCommand("", objConnect)
-    Dim objDR As SqlDataReader
-    Dim dtable As New DataTable
-    Dim dview As DataView
-    Public previousYear As String
-    Public FirstYear As Boolean = True
+    'Dim strConnect As String = ConfigurationManager.ConnectionStrings("dbConnectionString").ConnectionString
+    'Dim objConnect As New SqlConnection(strConnect)
+    'Dim Cmd As New SqlCommand("", objConnect)
+    'Dim objDR As SqlDataReader
+    'Dim dtable As New DataTable
+    'Dim dview As DataView
+    'Public previousYear As String
+    'Public FirstYear As Boolean = True
 
 
 
-    Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
+    'Protected Sub Page_Load(sender As Object, e As EventArgs) Handles Me.Load
 
-        If Not Page.IsPostBack Then
-            FirstYear = True
+    '    If Not Page.IsPostBack Then
+    '        FirstYear = True
 
-            objConnect.Open()
-            Cmd.CommandType = CommandType.StoredProcedure
-            Cmd.CommandText = "List_All_Articles_ByArticleType"
-            Cmd.Parameters.Add("@FK_ArticleType", SqlDbType.NVarChar).Value = 1 ' 1 means article, 2 means brief
-            objDR = Cmd.ExecuteReader()
-            dtable.Load(objDR)
-            dview = New DataView(dtable)
-            UC_Articles.BuildResults(dview)
-            UC_Articles.Visible = True
-            objDR.Close()
-            Cmd.Parameters.Clear()
+    '        objConnect.Open()
+    '        Cmd.CommandType = CommandType.StoredProcedure
+    '        Cmd.CommandText = "List_All_Articles_ByArticleType"
+    '        Cmd.Parameters.Add("@FK_ArticleType", SqlDbType.NVarChar).Value = 1 ' 1 means article, 2 means brief
+    '        objDR = Cmd.ExecuteReader()
+    '        dtable.Load(objDR)
+    '        dview = New DataView(dtable)
+    '        UC_Articles.BuildResults(dview)
+    '        UC_Articles.Visible = True
+    '        objDR.Close()
+    '        Cmd.Parameters.Clear()
 
 
-            Cmd.CommandType = CommandType.StoredProcedure
-            Cmd.CommandText = "List_Article_Years"
-            objDR = Cmd.ExecuteReader()
-            RPTR_PubJumplinks.DataSource = objDR
-            RPTR_PubJumplinks.DataBind()
-            objDR.Close()
-            Cmd.Parameters.Clear()
+    '        Cmd.CommandType = CommandType.StoredProcedure
+    '        Cmd.CommandText = "List_Article_Years"
+    '        objDR = Cmd.ExecuteReader()
+    '        RPTR_PubJumplinks.DataSource = objDR
+    '        RPTR_PubJumplinks.DataBind()
+    '        objDR.Close()
+    '        Cmd.Parameters.Clear()
 
-            objConnect.Close()
+    '        objConnect.Close()
 
-        End If
-    End Sub
+    '    End If
+    'End Sub
 
 End Class
