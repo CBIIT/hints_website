@@ -263,13 +263,13 @@
 
 
 
-        <div class="note-line">
+<!--         <div class="note-line">
             <div class="shim-a">U.S. map from this question: </div>
             <div class="shim-b">
                 <span id="LIT_NoMap">None</span>
                 <a id="HYP_KnowledgeMap">View Map</a>
             </div>
-        </div>
+        </div> -->
 
         <a class="back-to-top" href="#">
             <img src="/_images/back-to-top.png" alt="back to top" />Back to top</a>
