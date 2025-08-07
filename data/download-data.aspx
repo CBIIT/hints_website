@@ -105,10 +105,10 @@
                          </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                          <ul>
-                            <li><a href="/dataset/HINTS7_SAS_20250731.zip">SAS data and supporting documents</a> (ZIP, 21.3MB)</li>
-                            <li><a href="/dataset/HINTS7_STATA_20250731.zip">STATA data and supporting documents</a> (ZIP, 20.9MB)</li>
-                            <li><a href="/dataset/HINTS7_SPSS_20250731.zip">SPSS data and supporting documents</a> (ZIP, 20.6MB)</li>
-                            <li><a href="/dataset/HINTS7_R_20250731.zip">R data and supporting documents</a> (ZIP, 19.6MB)</li>
+                            <li><a href="/dataset/HINTS7_SAS_20250731.zip">SAS data and supporting documents</a> (ZIP, 20.8MB)</li>
+                            <li><a href="/dataset/HINTS7_STATA_20250731.zip">STATA data and supporting documents</a> (ZIP, 20.4MB)</li>
+                            <li><a href="/dataset/HINTS7_SPSS_20250731.zip">SPSS data and supporting documents</a> (ZIP, 20.1MB)</li>
+                            <li><a href="/dataset/HINTS7_R_20250731.zip">R data and supporting documents</a> (ZIP, 19.1MB)</li>
                         </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
@@ -143,10 +143,10 @@
                         </p>
                          <p>**Note: A questionnaire was considered to be complete if at least 80% of Sections A and B were answered. A questionnaire was considered to be partially complete if 50% to 79% of the questions were answered in Sections A and B. Only questions required of every respondent were factored into the completion rate calculation.</p>
                                                 <ul>
-                            <li><a href="/dataset/HINTS6_SAS_20250731.zip">SAS data and supporting documents</a> (ZIP, 18.5 MB)</li>
-                            <li><a href="/dataset/HINTS6_STATA_20250731.zip">STATA data and supporting documents</a> (ZIP, 18.6 MB)</li>
-                            <li><a href="/dataset/HINTS6_SPSS_20250731.zip">SPSS data and supporting documents</a> (ZIP, 18.7 MB)</li>
-                            <li><a href="/dataset/HINTS6_R_20250731.zip">R data and supporting documents</a> (ZIP, 16.9 MB)</li>
+                            <li><a href="/dataset/HINTS6_SAS_20250731.zip">SAS data and supporting documents</a> (ZIP, 18.0 MB)</li>
+                            <li><a href="/dataset/HINTS6_STATA_20250731.zip">STATA data and supporting documents</a> (ZIP, 18.1 MB)</li>
+                            <li><a href="/dataset/HINTS6_SPSS_20250731.zip">SPSS data and supporting documents</a> (ZIP, 17.8 MB)</li>
+                            <li><a href="/dataset/HINTS6_R_20250731.zip">R data and supporting documents</a> (ZIP, 16.5 MB)</li>
                         </ul>
 
                         <p><a href="#topTOC">Return to Top</a></p>
