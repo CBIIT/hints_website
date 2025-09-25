@@ -16,7 +16,7 @@
                     <h1>Institutional Review Board (IRB) Approvals for the Health Information National Trends Survey (HINTS)<br /><br /></h1>
 
 
-                    <h2 style="font-size: 1.5rem">HINTS 7 (2027)</h2>
+                    <h2 style="font-size: 1.5rem">HINTS 7 (2024)</h2>
 
                     <p>
                         The HINTS 7 general population survey was designated "exempt research” under 45 CFR 46.104 and approved by the Westat IRB on May 2, 2023 (Project # 6632.05.73), with a subsequent amendment approved on January 29, 2024 (Amendment ID #4112). HINTS 7 also received a “Not Human Subjects Research” determination from the NIH Office of IRB Operations on February 8, 2024 (IRBID: IRB002042).
