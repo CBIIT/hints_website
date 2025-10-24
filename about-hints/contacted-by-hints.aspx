@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Were You Contacted by HINTS | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="contacted-by-hints.aspx.vb" Inherits="aboutfolder_contacted_by_hints" %>
+﻿<%@ Page Title="I Was Contacted To Participate In HINTS | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="contacted-by-hints.aspx.vb" Inherits="aboutfolder_contacted_by_hints" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <meta name="Title" content="Were You Contacted by HINTS | HINTS" />
+    <meta name="Title" content="I Was Contacted To Participate In HINTS | HINTS" />
     <meta name="Description" content="Information for persons who were contacted by the Health Information National Trends Survey." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
@@ -18,7 +18,7 @@
                 <div class="col-md-12">
 
 
-                    <h1>Were You Contacted to Participate in HINTS?</h1>
+                    <h1>I Was Contacted To Participate In HINTS</h1>
 
                     <p>Congratulations on being selected to participate in the Health Information National Trends Survey, also known as HINTS! The goal of HINTS is to learn what health information people want to know and where they go to find it. Tens of thousands of people across the United States have participated in HINTS since 2003.</p>
                     <p>
