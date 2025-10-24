@@ -72,15 +72,12 @@
 
                             </div>
 
-
-
-                            
-
                             <input id="ck_Cycle-54" type="checkbox" value="HINTS 5 CYCLE 4" />
                             <label for="ck_Cycle-54">HINTS 5 CYCLE 4 (2020)</label><br />
-
                             <input id="ck_Cycle-6" type="checkbox" value="HINTS 6" />
                             <label for="ck_Cycle-6">HINTS 6 (2022)</label><br />
+                            <input id="ck_Cycle-7" type="checkbox" value="HINTS 7" />
+                            <label for="ck_Cycle-7">HINTS 7 (2024)</label><br />
                         </div>
 
 

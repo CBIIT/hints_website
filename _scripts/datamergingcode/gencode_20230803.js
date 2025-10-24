@@ -129,6 +129,18 @@ $(document).ready(function () {
                         break;
                         ;
 
+        /************************************************************************************************************
+        *  Update By: De-Shunda Jones                                                                               *
+        *  Purpose: Include HINTS 7 items in HINTS Merging Tool Code                                                *
+        *  Affected Lines: 138 - 142                                                                                *
+        *  Date: 10/23/2025                                                                                         *
+        ************************************************************************************************************/
+                    case 'HINTS 7':
+                        totalcode += setTextperCheckboxMIDDLE_SAS('tempHINTS7', 'hints7_public', counterOne);
+                        selectedCycles.push('hints7wgts');
+                        break;
+                        ;
+
 
                     default:
                         totalcode = totalcode;
@@ -188,6 +200,19 @@ $(document).ready(function () {
                         break;
                         ;
 
+            /************************************************************************************************************
+            *  Update By: De-Shunda Jones                                                                               *
+            *  Purpose: Include HINTS 7 items in HINTS Merging Tool Code                                                *
+            *  Affected Lines: 211 - 214                                                                                *
+            *  Date: 10/23/2025                                                                                         *
+            ************************************************************************************************************/
+
+
+                    case 'HINTS 7':
+                        totalcode += ' tempHINTS7';
+                        break;
+                        ;
+
                     default:
                         totalcode = totalcode;
                         break;
@@ -234,6 +259,21 @@ $(document).ready(function () {
                     // RWB ADD THIS WHEN ADDING NEW CYCLE
                     case 'HINTS 6':
                         totalcode += setTextperCheckboxArrayList_SAS('hints6wgts', 'PERSON_FINWT1-PERSON_FINWT50');
+                        break;
+                        ;
+
+
+
+            /************************************************************************************************************
+            *  Update By: De-Shunda Jones                                                                               *
+            *  Purpose: Include HINTS 7 items in HINTS Merging Tool Code                                                *
+            *  Affected Lines: 275 - 278                                                                                *
+            *  Date: 10/23/2025                                                                                         *
+            ************************************************************************************************************/
+
+
+                    case 'HINTS 7':
+                        totalcode += setTextperCheckboxArrayList_SAS('hints7wgts', 'PERSON_FINWT1-PERSON_FINWT50');
                         break;
                         ;
 
@@ -584,6 +624,21 @@ $(document).ready(function () {
                         ;
 
 
+            /************************************************************************************************************
+            *  Update By: De-Shunda Jones                                                                               *
+            *  Purpose: Include HINTS 7 items in HINTS Merging Tool Code                                                *
+            *  Affected Lines: 635 - 639                                                                                *
+            *  Date: 10/23/2025                                                                                         *
+            ************************************************************************************************************/
+
+
+                    case 'HINTS 7':
+                    totalcode += setTextperCheckboxMIDDLE_STATA('tempHINTS7', 'hints7_public', TotalCountOfBoxesSelected);
+                    selectedCycles.push('hints7wgts');
+                    break;
+                    ;
+
+
 
 
                     default:
@@ -692,6 +747,27 @@ $(document).ready(function () {
                             cyclelistWithOutFirstCycleSelected += '"REPLACE-WITH-YOUR-TEMP-FOLDER-PATH-HERE\\hints6_public.dta" ';
                         }
                         allCycleList += counterOne + ' "HINTS 6" ';
+                        counterOne += 1;
+                        break;
+                        ;
+
+
+            /************************************************************************************************************
+            *  Update By: De-Shunda Jones                                                                               *
+            *  Purpose: Include HINTS 7 items in HINTS Merging Tool Code                                                *
+            *  Affected Lines: 763 - 773                                                                                *
+            *  Date: 10/23/2025                                                                                         *
+            ************************************************************************************************************/
+
+
+                        case 'HINTS 7':
+                        if (firstcycle == '') {
+                            firstcycle = 'hints7_public';
+                        }
+                        else {
+                            cyclelistWithOutFirstCycleSelected += '"REPLACE-WITH-YOUR-TEMP-FOLDER-PATH-HERE\\hints7_public.dta" ';
+                        }
+                        allCycleList += counterOne + ' "HINTS 7" ';
                         counterOne += 1;
                         break;
                         ;
@@ -975,11 +1051,12 @@ function setTextperCheckboxMIDDLE_STATA(varOne, libraryvariable, countervar) {
     /************************************************************************************************************
     *  Update By: De-Shunda Jones                                                                               *
     *  Purpose: Update add "rename _all, lower" will convert all variables in dataset to lowercase              *
-    *  Affected Lines: 982 - 987 added                                                                          *
+    *  Affected Lines: 1059 - 1064 added                                                                          *
     *  Date: 11/22/2023                                                                                         *
+    *  Ammended: 10/23/2025 to include HINTS 7 by DMJ                                                           *
     ************************************************************************************************************/
 
-    if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6')) {
+    if ((varOne == 'tempHINTS5CYCLE4') || (varOne == 'tempHINTS6') || (varOne == 'tempHINTS7')) {
 
         tempstring += '* RENAMES ALL VARIABLES TO LOWERCASE FOR MERGING WITH PREVIOUS CYCLES THAT CONTAIN DIFFERENT TEXT CASE FORMATS \n\n';
         tempstring += 'rename _all, lower \n\n';
