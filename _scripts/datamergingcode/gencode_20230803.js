@@ -981,10 +981,18 @@ function setTextperCheckboxMIDDLE_SAS(varOne, libraryvariable, countervar) {
 
 
 
-
-
     tempstring += '    survey=' + countervar + ';\n';
     tempstring += '    format survey survey.;\n';
+
+
+    if ((varOne == 'tempHINTS6') || (varOne == 'tempHINTS7')) {
+        tempstring += '\nlength nHHID 8.;\n';
+        tempstring += '    nHHID=strip(HHID);\n';
+        tempstring += '    drop HHID;\n';
+        tempstring += '    rename nHHID=HHID;\n';
+    }
+
+
     tempstring += 'run;\n\n'
 
     return tempstring;
