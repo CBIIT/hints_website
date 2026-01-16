@@ -29,7 +29,7 @@
                   
                          <a  href="/about-hints/announcements.aspx" alt="latest HINTS updates" class="rwb_latestupdate slider-btn learn-more">Latest HINTS Updates</a>
 
-                         <a  href="/about-hints/contacted-by-hints.aspx" alt="Were You Contacted to Participate in HINTS?" class="rwb_latestupdate slider-btn learn-more">Were You Contacted to Participate in HINTS?</a>
+                         <a  href="/about-hints/contacted-by-hints.aspx" alt="Were You Contacted to Participate in HINTS?" class="rwb_latestupdate slider-btn learn-more">Contacted by HINTS?</a>
 
                     </p>
                
