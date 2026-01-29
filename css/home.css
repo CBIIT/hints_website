@@ -10,3 +10,11 @@
     margin-top: 10px;
     margin-bottom: -20px;
 }
+
+.rwb_participate {
+    width: 430px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    font-size: 22px;
+    box-shadow: 8px 8px black;
+}
