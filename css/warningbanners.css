@@ -4,12 +4,13 @@
     padding: 10px;
     margin-right: auto;
     margin-left: auto;
+    font-style: italic;
 }
 
-    .warningbanner_maindiv a {
-        color: #000000;
-        text-decoration: underline;
-    }
+.warningbanner_maindiv a {
+    color: #000000;
+    text-decoration: underline !important;
+}
 
 .warningbanner_h2 {
     color: #000000;
