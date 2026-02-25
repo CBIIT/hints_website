@@ -41,13 +41,6 @@
                             </div>
                             <div class="card">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">HINTS Schedule</h5>
-                                    <p class="card-text">Get an overview of current HINTS data collection cycles.</p>
-                                    <p class="card-text"><a href="/about-hints/data-collection-schedule.aspx">Read More</a></p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body p-4">
                                     <h5 class="card-title">Instrument Development and Validation</h5>
                                     <p class="card-text">An overview of HINTS survey instrument development and validation, including details of cognitive testing.</p>
                                     <p class="card-text"><a href="/about-hints/instrument-development.aspx">Read More</a></p>

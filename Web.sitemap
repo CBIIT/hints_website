@@ -67,7 +67,6 @@
 		  <siteMapNode url="~/about-hints/announcements.aspx" title="Announcements" description="Announcements"/>
 		  <siteMapNode url="~/about-hints/hints-unique.aspx" title="What Makes HINTS Unique" description="What Makes HINTS Unique"/>
 		  <siteMapNode url="~/about-hints/frequently-asked-questions.aspx" title="Frequently Asked Questions About HINTS" description="Frequently Asked Questions About HINTS"/>
-		  <siteMapNode url="~/about-hints/data-collection-schedule.aspx" title="HINTS Overview and Schedule" description="HINTS Overview and Schedule"/>
 		  <siteMapNode url="~/about-hints/instrument-development.aspx" title="Instrument Development and Validation" description="Instrument Development and Validation"/>
 		  <siteMapNode url="~/about-hints/institutional-review-board.aspx" title="Institutional Review Board (IRB)" description="Institutional Review Board (IRB)"/>
 		  <siteMapNode url="~/about-hints/contacted-by-hints.aspx" title="I Was Contacted To Participate In HINTS" description="HINTS: I Was Contacted To Participate In HINTS"/>
