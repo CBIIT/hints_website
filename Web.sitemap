@@ -23,7 +23,6 @@
 		  <siteMapNode url="~/data/download-data.aspx" title="Public Use Dataset" description="Public Use Dataset"/>
 		  <siteMapNode url="~/data/controlled-access-data.aspx"  title="Controlled-Access Data" description="Controlled-Access Data"/>
 			  <siteMapNode url="~/data/survey-instruments.aspx" title="Survey Materials &amp; Methods Reports" description="Survey Materials &amp; Methods Reports"/>
-		  <siteMapNode url="~/data/methodology-reports.aspx" title="Methodology Reports" description="Methodology Reports"/>
 		  <siteMapNode url="~/data/data-remediation.aspx" title="Data Errors and Remediation" description="Data Errors and Remediation"/>
 		  <siteMapNode url="~/data/data-merging-tool.aspx" title="HINTS Data Merging Code Tool" description="HINTS Data Merging Code Tool"/>
 		  <!--<siteMapNode url="~/data/restricted-data.aspx" title="Request Restricted Data" description="Request Restricted Data"/>-->

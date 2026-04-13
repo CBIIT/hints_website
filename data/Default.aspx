@@ -46,13 +46,6 @@
                             </div>
                             <div class="card">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">Methodology Reports</h5>
-                                    <p class="card-text">Find out more about the procedures used to collect and analyze HINTS data.</p>
-                                    <p class="card-text"><a href="/data/methodology-reports.aspx">Read More</a></p>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-body p-4">
                                     <h5 class="card-title">Summary Findings by Item</h5>
                                     <p class="card-text">View summary data for each HINTS question across all HINTS survey administrations.</p>
                                     <p class="card-text"><a href="/view-questions/all-hints-questions.aspx?all=1">Read More</a></p>
