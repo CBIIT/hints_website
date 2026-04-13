@@ -49,7 +49,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="stylesheet" href="/css/cards.css">
     <link rel="stylesheet" href="/css/additional_2023_05_25.css">
     <link rel="stylesheet" href="/css/maingreybanner.css">
-    <link rel="stylesheet" href="/css/warningbanners.css">
 
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -67,6 +66,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
        
         <div class="col p-0">
+
 
             <div class="menu-wrapper_greybanner" aria-label="Official government website">
                 <div class="container col col-lg-12 col-xl-7 d-flex justify-content-between custom-wrapper">
@@ -112,7 +112,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="/about-hints/announcements.aspx">Announcements</a></li>
                                     <li><a href="/about-hints/frequently-asked-questions.aspx">FAQs</a></li>
                                     <li><a href="/about-hints/instrument-development.aspx">Instrument Development and Validation</a></li>
-                                    <li class="twoLineNav"><a href="/about-hints/institutional-review-board.aspx">Institutional Review Board (IRB)</a></li>
+                                    <li><a href="/about-hints/institutional-review-board.aspx">Institutional Review Board (IRB)</a></li>
                                     <li><a href="/about-hints/contacted-by-hints.aspx">I Was Contacted To Participate In HINTS</a></li>
                                     <li><a href="/about-hints/hints-unique.aspx">What Makes HINTS Unique</a></li>
 <%--                                    <li><a href="/about-hints/research-priorities.aspx">Contributions to DCCPS Research Priorities</a></li>--%>
@@ -124,6 +124,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
                                     </li>
+                                    <li><a href="/data/controlled-access-data.aspx">Controlled-Access Data</a></li>
                                     <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
@@ -193,8 +194,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li class="dropdown">
                                 <a href="/data/default.aspx" class="dropdown-toggle" id="navbarDropdown">Data</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
-                                    </li>
+                                    <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a></li>
+                                    <li><a href="/data/controlled-access-data.aspx">Controlled-Access Data</a></li>
                                     <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Instruments</a></li>
                                     <li class="twoLineNav"><a href="/data/methodology-reports.aspx">Methodology Reports</a></li>
