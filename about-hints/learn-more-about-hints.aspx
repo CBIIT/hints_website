@@ -7,9 +7,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-
-
-
     <div class="container col-lg-12 col-xl-7 col custom-wrapper">
         <section>
             <div class="row">
@@ -18,8 +15,8 @@
                     <h1>About HINTS</h1>
 
                     <div id="about_image">
-                        <a target="_blank" href="/docs/Hints_Factsheet_2025.pdf">HINTS Fact Sheet<br />
-                            <img src="/_images/Hints_Factsheet_2025.png" alt="Image of HINTS Fact Sheet" /></a>
+                        <a target="_blank" href="/docs/HINTS_Factsheet_2026.pdf">HINTS Fact Sheet<br />
+                            <img src="/_images/Hints_Factsheet_2026.png" alt="Image of HINTS Fact Sheet" /></a>
                     </div>
 
                     <p>

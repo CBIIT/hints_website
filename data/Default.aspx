@@ -13,9 +13,6 @@
 
 
 
-
-
-
     <div class="container col-lg-12 col-xl-7 col custom-wrapper">
         <section>
             <div class="row">
@@ -31,6 +28,13 @@
                                     <p class="card-text">
                                         <asp:HyperLink NavigateUrl="~/data/download-data.aspx" ID="HYP_Download_landingPage" runat="server">Read More</asp:HyperLink>
                                     </p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title">Controlled-Access Data</h5>
+                                    <p class="card-text">Understand the process to apply for HINTS controlled access data and visit dbGaP records for these data sets.</p>
+                                    <p class="card-text"><a href="/data/controlled-access-data.aspx">Read More</a></p>
                                 </div>
                             </div>
                             <div class="card">
