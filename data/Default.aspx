@@ -39,7 +39,7 @@
                             </div>
                             <div class="card">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">Survey Instruments</h5>
+                                    <h5 class="card-title">Survey Materials &amp; Methods Reports</h5>
                                     <p class="card-text">Review survey instruments used to collect HINTS data.</p>
                                     <p class="card-text"><a href="/data/survey-instruments.aspx">Read More</a></p>
                                 </div>

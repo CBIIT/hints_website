@@ -8,9 +8,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
 
-
-
-
     <div class="container col-lg-12 col-xl-7 col custom-wrapper">
         <section>
             <div class="row">
@@ -157,12 +154,12 @@
 
                                                 <h2>HINTS Overview Materials</h2>
                                                 <div class="book book_img">
-                                                    <img src="/_images/Hints_Factsheet_2025.png" alt="Image of HINTS Fact Sheet" />
+                                                    <img src="/_images/Hints_Factsheet_2026.png" alt="Image of HINTS Fact Sheet" />
                                                 </div>
 
                                                 <div class="book book_info">
                                                     <br style="clear: none;" />
-                                                    &#8211; <a href="/docs/Hints_Factsheet_2025.pdf" target="_blank">English</a> (updated 9/28/2023) PDF<br style="clear: none;" />
+                                                    &#8211; <a href="/docs/Hints_Factsheet_2026.pdf" target="_blank">English</a> (updated 4/10/2026) PDF<br style="clear: none;" />
                                                     <br style="clear: none;" />
                                                     &#8211; <a href="/docs/HINTS_FactSheet_Spn.pdf" target="_blank">Espa&#241;ol</a> (updated 12/2/2009) PDF
                                             <br style="clear: none;" />
