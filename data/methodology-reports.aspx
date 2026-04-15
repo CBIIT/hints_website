@@ -25,7 +25,7 @@
 
 
 
-<!-- <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+<%--<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
     <meta name="Title" content="Methodology Reports | HINTS" />
     <meta name="Description" content="HINTS methodology reports include information about the methods, sampling, and procedures used to collect each cycle of HINTS data." />
 </asp:Content>
@@ -70,4 +70,4 @@
             </div>
         </section>
     </div>
-</asp:Content> -->
+</asp:Content> --%>

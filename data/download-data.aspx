@@ -19,23 +19,23 @@
                     <div runat="server" id="PNL_Terms" class="TermsShow">
                         <asp:Panel ID="PNL_terms_defaultbutton" runat="server" DefaultButton="btnSubmit_SinglePage">
                             <h1>How to Use HINTS Data</h1>
-                            <p>Please review the following suggestions on how to use HINTS data and then click "Continue" at the bottom of the page to access HINTS public use data.</p>
-                            <p>It is of utmost importance to ensure the confidentiality of survey participants. Every effort has been made to exclude identifying information on individual respondents from the computer files. Some demographic information such as sex, race, etc., has been included for research purposes.
+                            <p>Please review the following suggestions on how to use HINTS data and then <strong>click "Continue"</strong> at the bottom of the page to access HINTS public use data.</p>
+                            <p>It is critical to ensure the confidentiality of survey participants. Every effort has been made to exclude identifying information on individual respondents from the datasets. Some demographic information such as sex, race, etc., has been included for research purposes.
                             </p>
-                            <p>NCI hopes that users of the data will adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally collected survey data. NCI suggests that all research results be presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.</p>
+                            <p>NCI strongly encourages users of the data to adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally collected survey data. All research results should be presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.</p>
                             <p>NCI recommends users consider the following provisions when using HINTS public-use data:</p>
                             <ol>
-                                <li>Do not present/publish data in which an individual can be identified. Publication of small cell sizes should be avoided.</li>
+                                <li>Do not present or publish data in which an individual can be identified.  This includes publication of small cell sizes. </li>
                                 <li>Do not attempt to link nor permit others to link the data with individually identified records in another database.</li>
                                 <li>Do not attempt to learn the identity of any person whose data are contained in the supplied file(s).</li>
-                                <li>If the identity of any person is discovered inadvertently, then the following should be done;
+                                <li>If the identity of any person is discovered inadvertently:
                                     <ol type="a">
-                                        <li>no use will be made of this knowledge, </li>
-                                        <li>the HINTS Program staff will be notified of the incident by emailing <a href="mailto:ncihints@mail.nih.gov">ncihints@mail.nih.gov</a>, </li>
-                                        <li>no one else will be informed of the discovered identity</li>
+                                        <li>do not use should this knowledge for other purposes,</li>
+                                        <li>HINTS Program staff should be notified of the incident by emailing <a href="mailto:ncihints@mail.nih.gov">ncihints@mail.nih.gov</a>, </li>
+                                        <li>no one else should be informed of the discovered identity</li>
                                     </ol>
                                 </li>
-                                <li>Analyses of large HINTS domains usually produce reliable estimates, but analyses of small domains may yield unreliable estimates, as indicated by their large variances. The analyst should pay particular attention to the standard error and coefficient of variation (relative standard error) for estimates of means, proportions, and totals, and the analyst should report these when writing up results. It is important that the analyst realizes that small sample sizes for particular analyses will tend to result in unstable estimates.</li>
+                                <li>Analyses of HINTS domains with large sample sizes usually produce reliable estimates, but analyses of small sample sizes may yield unreliable estimates, as indicated by their large variances. Analysts should pay particular attention to the standard error and coefficient of variation (relative standard error) for estimates of means, proportions, and totals, and should report these when writing up results. It is important that  analysts realize that small sample sizes for particular analyses will tend to result in unstable estimates.</li>
                             </ol>
                             <p>Please provide your email address to sign up for updates from HINTS. Providing your email is not a requirement for data access, but we want to be sure you receive the latest information about future HINTS data releases.</p>
                             <p>
