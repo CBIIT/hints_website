@@ -80,7 +80,7 @@
                     <ol>
                         <li>Confirm you meet the pre-requisites for requesting the data.
                             <ol type="a">
-                                <li>There are several pre-requisites for requesting data via dbGaP, so please check that that you:
+                                <li>There are several pre-requisites for requesting data via dbGaP, so please check that you:
                                     <ol>
                                         <li>Are a permanent member of your institution and have an institutional email.</li>
                                         <li>Are at a level equivalent to a tenure-track professor OR are a senior scientist with responsibilities that may include laboratory or research program administration and oversight.</li>
@@ -162,7 +162,7 @@
                         </li>
                         <li>Data Access Committee (DAC) review.
                             <ol type="a">
-                                <li>Each dataset request is reviewed by a DAC, a group of experts who review the request for compliance with NIH policy and the appropriateness of the request.</li>
+                                <li>Each dataset request is reviewed by a DAC, a group of experts who assess the request for compliance with NIH policy and the appropriateness of the request.</li>
                                 <li>If your request is approved by the DAC, you will receive an email with additional instructions on accessing the dataset.</li>
                                 <li>If your request is denied, you can revise the submission and re-submit. There are <a href="https://www.ncbi.nlm.nih.gov/books/n/helpdbgap/DAreq_ReviseAmndUpd/#DAreq_ReviseAmndUpd.Revise_Data_Access_R" target="_blank">specific steps for resubmission</a>.</li>
                             </ol>
