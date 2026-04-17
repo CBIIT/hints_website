@@ -101,7 +101,7 @@
                                 <li>Log into the system using your eRA credentials.</li>
                                 <li>Once you are logged in you will be able to view your research projects and ongoing requests.</li>
                                 <li>Under “My Projects,” select “Create New Research Project.”</li>
-                                <li>Select “Begin New Research Project.” <i>Note:</i> We strongly recommend reviewing the instructions prior to creating a new request.</li>
+                                <li>Select “Begin New Research Project.” <i>Note: We strongly recommend reviewing the instructions prior to creating a new request.</i></li>
                                 <li>You can then search for HINTS data if you have not yet selected them.</li>
                                 <li>Click the checkbox next to “General Research Use” under the HINTS dataset label and press “Add Selected and Continue.”</li>
                                 <li>Fill out the various sections of the submission form, which include project title, research use statement, non-technical summary, signing official, internal collaborators, and IT director.</li>
@@ -156,7 +156,7 @@
                                 <li>Click the checkbox next to “General Research Use” under the HINTS dataset label and press “Add Selected and Continue.”</li>
                                 <li>Fill out the sections of the submission form, which include project title, research use statement, non-technical summary, signing official, internal collaborators, and IT director.</li>
                                 <li>Review the data use certifications, restrictions on use, limitations on use, and various other documentation, then <strong>submit your application</strong>.</li>
-                                <li>Once a data request is submitted, it is routed to your IC’ssigning official for review, approval, and co-signature.</li>
+                                <li>Once a data request is submitted, it is routed to your IC’s signing official for review, approval, and co-signature.</li>
                                 <li>For tips on preparing a submission, please visit this <a href="https://grants.nih.gov/sites/default/files/flmngr/Tips for Preparing a Successful DAR.pdf" target="_blank">dbGaP Tip Sheet</a>. </li>
                             </ol>
                         </li>
@@ -187,7 +187,7 @@
                         <li>At the top of the page, you will see a shopping cart with any files you have selected. Click on the shopping cart.</li>
                         <li>In your shopping cart, there will be a button that says "AVAILABLE EXPORT OPTIONS" on the right side of the page. Click on it, and then click on "Export to Cancer Genomics Cloud."</li>
                         <li>You will then be prompted to sign in with your eRA Commons login.</li>
-                        <li>If this is your first time signing into (GC) you will need to fill in the user information, as well as read and agree to the Terms of Service and Privacy Policy before pressing "Proceed to the CGC."</li>
+                        <li>If this is your first time signing into the GC you will need to fill in the user information, as well as read and agree to the Terms of Service and Privacy Policy before pressing "Proceed to the CGC."</li>
                         <li>You will then be prompted to choose a destination project. Click "Create new project" and assign it a name.</li>
                         <li>Read the usage information and click the "I understand…" button and then press "import data." </li>
                         <li>Once the data have been imported, you can toggle to "Projects" in the upper left hand corner. Click on the project you have created.</li>
