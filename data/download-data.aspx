@@ -22,15 +22,15 @@
                             <p>Please review the following suggestions on how to use HINTS data and then <strong>click "Continue"</strong> at the bottom of the page to access HINTS public use data.</p>
                             <p>It is critical to ensure the confidentiality of survey participants. Every effort has been made to exclude identifying information on individual respondents from the datasets. Some demographic information such as sex, race, etc., has been included for research purposes.
                             </p>
-                            <p>NCI strongly encourages users of the data to adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally collected survey data. All research results should be presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.</p>
+                            <p>NCI strongly encourages data users to adhere to the strictest standards of ethical conduct for the analysis and reporting of nationally collected survey data. All research results should be presented/published in a manner that protects the integrity of the data and ensures the confidentiality of participants.</p>
                             <p>NCI recommends users consider the following provisions when using HINTS public-use data:</p>
                             <ol>
-                                <li>Do not present or publish data in which an individual can be identified.  This includes publication of small cell sizes. </li>
+                                <li>Do not present or publish data that may enable a respondent to be identified.  This includes publication of small cell sizes. </li>
                                 <li>Do not attempt to link nor permit others to link the data with individually identified records in another database.</li>
                                 <li>Do not attempt to learn the identity of any person whose data are contained in the supplied file(s).</li>
                                 <li>If the identity of any person is discovered inadvertently:
                                     <ol type="a">
-                                        <li>do not use should this knowledge for other purposes,</li>
+                                        <li>do not use this knowledge for other purposes,</li>
                                         <li>HINTS Program staff should be notified of the incident by emailing <a href="mailto:ncihints@mail.nih.gov">ncihints@mail.nih.gov</a>, </li>
                                         <li>no one else should be informed of the discovered identity</li>
                                     </ol>
@@ -388,7 +388,7 @@
                                 Partial responses**: 45
                             </p>
                             <p>In 2021, NCI undertook a pilot project to oversample cancer survivors for HINTS using three cancer registries from the Surveillance, Epidemiology, and End Results (SEER) Program (https://seer.cancer.gov) as a sampling frame of cancer survivors. The pilot project, called HINTS-SEER, was designed to provide a larger sample of cancer survivors for HINTS analyses. The instrument closely resembles the HINTS 5, Cycle 4 (2020) survey, but also includes additional items relevant to cancer survivors. A unique aspect of the HINTS-SEER dataset is that key data elements from the cancer registry datasets (such as histology and SEER summary stage) are linked to the HINTS survey responses, providing a more in-depth view of each respondent's cancer diagnosis. To learn more about HINTS-SEER, please consult the <a href="/docs/methodologyreports/HINTS_SEER_MethodologyReport.pdf" target="_blank">methodology report</a>, <a href="/docs/Instruments/HINTS-SEER-AnnotatedInstrument.pdf" target="_blank">survey instrument</a>, and <a href="/docs/Instruments/HINTS-SEER-CA-AnnotatedInstrument.pdf" target="_blank">CA survey instrument</a>.</p>
-                            <p>To request access to HINTS-SEER data, please visit the <a href="https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs004065.v1.p1" target="_blank">HINTS-SEER page within NLM's dbGaP system</a>. Instructions on using the dbGaP system, pulling together information for the request, and final data access can be found on our <a href="/data/controlled-access-data.aspx">Controlled-Access Data page</a>.</p>
+                            <p>To request access to HINTS-SEER data, please visit the <a href="https://dbgap.ncbi.nlm.nih.gov/beta/study/phs004065.v1.p1/#study" target="_blank">HINTS-SEER page within NLM's dbGaP system</a>. Instructions on using the dbGaP system, pulling together information for the request, and final data access can be found on our <a href="/data/controlled-access-data.aspx">Controlled-Access Data page</a>.</p>
 
                         <p><a href="#topTOC">Return to Top</a></p>
 
