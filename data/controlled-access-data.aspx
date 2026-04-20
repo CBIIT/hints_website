@@ -112,7 +112,7 @@
                         </li>
                         <li>Data Access Committee (DAC) review.
                             <ol type="a">
-                                <li>Each dataset request is reviewed by a DAC, a group of experts who assess whether the request for complies with NIH policy and is appropriate.</li>
+                                <li>Each dataset request is reviewed by a DAC, a group of experts who assess whether the request complies with NIH policy and is appropriate.</li>
                                 <li>If your request is approved by the DAC,  you will receive an email with additional instructions on accessing the dataset.</li>
                                 <li>If your request is denied, you can revise your submission and resubmit. There are <a href="https://www.ncbi.nlm.nih.gov/books/n/helpdbgap/DAreq_ReviseAmndUpd/#DAreq_ReviseAmndUpd.Revise_Data_Access_R" target="_blank">specific steps for resubmission</a>.</li>
                             </ol>
