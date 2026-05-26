@@ -16,6 +16,7 @@
                     <h1 id="topTOC">Survey Materials &amp; Methods Reports</h1>
 
                     <ul>
+                        <li><a href="#H8SurvMat">HINTS 8 (2026) Survey Materials</a></li>
                         <li><a href="#HDLP2024">HINTS Data Linkage Project 2024 (HDLP 2024)</a></li>
                         <li><a href="#HDLP2022">HINTS Data Linkage Project 2022 (HDLP 2022)</a></li>
                         <li><a href="#H7SurvMat">HINTS 7 (2024) Survey Materials, updated February 2025</a></li>
@@ -40,6 +41,23 @@
 
 
                     <hr />
+
+
+
+
+
+
+
+                    <h2 id="H8SurvMat">
+                        <strong>HINTS 8 (2026) Survey Materials</strong></h2>
+                    <p>HINTS 8 (2026) data are currently being collected with the goal of releasing the public dataset in early 2027.</p>
+                    <p>The sampling strategy for HINTS 8 (2026) consists of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses.</p>
+
+                    <p><strong>HINTS 8 (2026) Full-content, English Survey Instrument: </strong>(<a href="/docs/Instruments/HINTS-8-EnglishInstrument.pdf" target="_blank">PDF</a> 1.7MB)</p>
+
+                    <p><a href="#topTOC">Return to Top</a></p>
+
+
 
 
 
