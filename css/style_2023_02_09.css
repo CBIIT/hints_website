@@ -775,13 +775,11 @@ div#navbarNavDropdown {
     }
 }
 
-@media all and (max-width:1922px) and (min-width: 1440px) {
+@media all and (max-width:1922px) and (min-width: 1100px) {
 
-    /*.custom-wrapper {*/
-        /*-ms-flex: 0 0 75.333333% !important;*/
-        /*flex: 0 0 75.333333% !important;*/
-        /*max-width: 75.333333% !important;*/
-    /*}*/
+    .custom-wrapper {
+        width: 80% !important;
+    }
 }
 
 @media all and (max-width:1440px) and (min-width: 1200px) {

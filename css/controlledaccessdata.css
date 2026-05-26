@@ -1,0 +1,63 @@
+﻿.accordion {
+    box-shadow: none;
+    background: none;
+    border: none;
+}
+
+.accordion-title-text {
+    font-size: 1.75rem;
+}
+
+
+.accordion-trigger {
+    background: none;
+    border: none;
+    color: #0d6efd; /* Primary link color */
+    display: flex; /* Turn the button into a flex container */
+    align-items: center; /* Vertically center the text and icon */
+    justify-content: space-between; /* Pushes text to left, icon to right */
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 1em 1.5em;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none; /* Default state */
+    transition: color 0.2s ease;
+}
+
+/* Link-like behavior on hover and focus */
+.accordion-trigger:hover{
+    color: #0a57ca; /* Darker link color */
+    text-decoration: underline;
+}
+
+/* Caret / Icon Styling */
+.accordion-icon {
+    display: inline-block; /* Add this to ensure it respects dimensions */
+    border: solid currentcolor;
+    border-width: 0 2px 2px 0;
+    height: 0.5rem;
+    margin-left: 1.5em; /* Pushes the icon to the far right */
+    margin-right: auto; /* Adds specific spacing between icon and edge */
+    pointer-events: none;
+    position: static;
+    transform: rotate(45deg);
+    width: 0.5rem;
+    transition: transform 0.2s ease;
+    flex-shrink: 0; /* Prevents the icon from squishing */
+}
+
+.accordion-trigger[aria-expanded="true"] .accordion-icon {
+    transform: rotate(-135deg);
+}
+
+.accordion-panel[hidden] {
+    display: none;
+}
+
+.accordion-panel {
+    margin: 0;
+    padding: 1em 1.5em;
+}
