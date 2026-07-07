@@ -20,7 +20,7 @@
                     <h1><strong>Controlled-Access Data</strong></h1>
 
                     <p>While most HINTS datasets are available for public use and can be downloaded through the <a href="/data/download-data.aspx">Data Downloads page</a>, certain datasets need to be requested through the National Library of Medicine's <a href="https://dbgap.ncbi.nlm.nih.gov/home/" target="_blank">database of Genotypes and Phenotypes (dbGaP) system</a> because they contain small cell sizes, geo-codes, or other suppressed variables. Once a dbGaP request is approved, the data are then accessed via <a href="https://general.datacommons.cancer.gov/#/GeneralCommons" target="_blank">NCI's General Commons (GC)</a>, a part of the Cancer Research Data Commons system supported by the National Cancer Institute. </p>
-                    <p>For instructions on how to navigate the dbGaP and GC systems, please visit the <a href="#RA_dbGaP">Requesting Access via dbGaP</a> and <a href="#AD_GC">Accessing Data via GC</a> sections on this page. If you have any questions about controlled-access data, please contact <a href="mailto:ncihints@mail.nih.gov">ncihints@mail.nih.gov</a>.</p>
+                    <p>For instructions on how to navigate the dbGaP and GC systems, please visit the <a href="#RA_dbGaP">Requesting Access via dbGaP</a> and <a href="#AD_GC">Accessing Data via GC</a> sections on this page. If you have any questions about controlled-access data, please refer to the <a href="#faq">FAQs</a> at the bottom of this page or contact <a href="mailto:ncihints@mail.nih.gov">ncihints@mail.nih.gov</a>.</p>
                     <p>Currently, the following HINTS datasets can be requested through dbGaP:</p>
 
 
@@ -232,7 +232,7 @@
 
 
 
-                    <h2><strong>Frequently Asked Questions About Controlled Access Data</strong></h2>
+                    <h2 id="faq"><strong>Frequently Asked Questions About Controlled Access Data</strong></h2>
                     <p><strong>If a principal investigator (PI) at an institution wants the data to be used with a study team, does each team member need to make a separate request?</strong></p>
                     <p>If the PI's team is internal to their Institution, they are considered internal collaborators, and the approved PI can share with whomever within their Institution. If, however, the team includes members external to the PI's Institution, those external collaborators would be required to submit their own data access requests and receive independent approval.</p>
 
