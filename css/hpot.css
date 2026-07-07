@@ -4,4 +4,26 @@
     overflow: hidden;
 }
 
+.filter-trigger {
+    padding: .55rem 2.1rem;
+    background-color: #4a851f;
+    border-radius: .5rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Open Sans;
+    font-size: 18px;
+    border: 2px solid #6cff00;
+    transition: all .3s;
+    text-decoration: none !important;
+    margin-bottom: 1em;
+}
+
+button.filter-trigger:hover,
+button.filter-trigger.active {
+    text-decoration: none !important;
+    background-color: #336111;
+    color: #ffffff;
+    transition: all .3s;
+}
+
 
