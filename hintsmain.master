@@ -81,7 +81,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         class="navbar-brand d-flex align-items-center">
                         <img src="/images/nih-logo-reg-2.png" alt="National Cancer Institute" class="desktop-logo" />
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -105,7 +105,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a href="/about-hints/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About HINTS
+                                <a href="/about-hints/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About HINTS
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="menu1">
                                     <li><a href="/about-hints/learn-more-about-hints.aspx">About HINTS</a></li>
@@ -115,32 +115,31 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li><a href="/about-hints/institutional-review-board.aspx">Institutional Review Board (IRB)</a></li>
                                     <li><a href="/about-hints/contacted-by-hints.aspx">I Was Contacted To Participate In HINTS</a></li>
                                     <li><a href="/about-hints/hints-unique.aspx">What Makes HINTS Unique</a></li>
-<%--                                    <li><a href="/about-hints/research-priorities.aspx">Contributions to DCCPS Research Priorities</a></li>--%>
+<%--                                <li><a href="/about-hints/research-priorities.aspx">Contributions to DCCPS Research Priorities</a></li>--%>
                                     <li><a href="/about-hints/contact-us.aspx">Contact Us</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="/data/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data</a>
+                                <a href="/data/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Data</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li id="terms_Mobile_LI"><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a>
-                                    </li>
+                                    <li><a href="/data/download-data.aspx" id="hints_download_Mobile">Download Data</a></li>
                                     <li><a href="/data/controlled-access-data.aspx">Controlled-Access Data</a></li>
-                                    <li class="twoLineNav"><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
+                                    <li><a href="/view-questions/all-hints-questions.aspx">Summary Findings by Item</a></li>
                                     <li><a href="/data/survey-instruments.aspx">Survey Materials &amp; Methods Reports</a></li>
-                                    <li class="twoLineNav"><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
-                                    <li class="twoLineNav"><a href="/data/data-merging-tool.aspx">HINTS Data Merging Code Tool</a></li>
+                                    <li><a href="/data/data-remediation.aspx">Data Errors and Remediation</a></li>
+                                    <li><a href="/data/data-merging-tool.aspx">HINTS Data Merging Code Tool</a></li>
                                     <%--<li class="twoLineNav"><a href="/data/restricted-data.aspx">Request Restricted Data</a></li>--%>
                                     <li><a href="/data/pricssa.aspx">PRICSSA Information</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="/view-questions/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View Questions</a>
+                                <a href="/view-questions/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">View Questions</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/view-questions/all-hints-questions.aspx">View Questions</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="/publications-reports/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications & Reports</a>
+                                <a href="/publications-reports/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publications & Reports</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a href="/publications-reports/hints-briefs.aspx">HINTS Briefs</a></li>
                                     <li><a href="/publications-reports/nci-reports.aspx">NCI Reports</a></li>
@@ -151,7 +150,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a href="/meetings-trainings/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Meetings & Trainings</a>
+                                <a href="/meetings-trainings/default.aspx" class="dropdown-toggle nav-link" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Meetings & Trainings</a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li class="twoLineNav"><a href="/meetings-trainings/how-to-merge-hints-data.aspx">How-to Merge HINTS Data</a></li>
                                     <li class="twoLineNav"><a href="/meetings-trainings/hints-educational-webinars.aspx">HINTS Educational Webinars</a></li>
@@ -352,7 +351,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
         </footer>
         <!-- Footer -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+        <!-- DMJ Disable Bootstrap line for version bundle that includes popper.js -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.js" integrity="sha256-mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=" crossorigin="anonymous"></script>
     </form>
 
 
