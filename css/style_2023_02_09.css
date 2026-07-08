@@ -775,7 +775,7 @@ div#navbarNavDropdown {
     }
 }
 
-@media all and (max-width:1922px) and (min-width: 1100px) {
+@media all and (max-width:1922px) and (min-width: 1170px) {
 
     .custom-wrapper {
         width: 80% !important;
