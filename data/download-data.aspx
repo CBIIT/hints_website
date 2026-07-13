@@ -64,9 +64,9 @@
                         <p>HINTS data listed under Publicly Available Datasets are available for public use and can be downloaded below, while datasets under Controlled-Access Datasets contain more granular geo-codes and include small cell sizes for certain demographic groups (including the HINTS-SEER and HINTS Data Linkage Project datasets) and require additional approvals prior to receiving the data. Details on the process of requesting access to these datasets are found on our <a href="/data/controlled-access-data.aspx">Controlled-Access Data page</a>.</p>
 
                         <div class="filter-controls">
-                            <button type="button" class="filter-trigger" data-target="all">Show all</button>
-                            <button type="button" class="filter-trigger" data-target="pad">Show Publicly Available Datasets only</button>
-                            <button type="button" class="filter-trigger" data-target="cad">Show Controlled-Access Datasets only</button>
+                            <button type="button" class="filter-trigger" data-target="all">Show All</button>
+                            <button type="button" class="filter-trigger" data-target="pad">Show Publicly Available Datasets Only</button>
+                            <button type="button" class="filter-trigger" data-target="cad">Show Controlled-Access Datasets Only</button>
                         </div>
 
                         <div class="content-section" data-category="pad">
