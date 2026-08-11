@@ -24,7 +24,7 @@
                         <div class="card-deck mb-4 mr-0 ml-0">
                             <div class="card">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">View Questions</h5>
+                                    <h5 class="card-title">HINTS Electronic Codebook</h5>
                                     <p class="card-text">Search or browse HINTS questions and data across all survey iterations.</p>
                                     <p class="card-text"><a href="/view-questions/all-hints-questions.aspx">Read More</a></p>
                                 </div>
