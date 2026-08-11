@@ -23,7 +23,7 @@
 
                 <div class="container carousel-caption d-block col-lg-12 col-xl-7 custom-wrapper">
                     <h2>What is HINTS?</h2>
-                    <p class="col-lg-12 col-xl-12 pl-0">The Health Information National Trends Survey (HINTS) regularly collects nationally representative data about the American public’s knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used to monitor changes in the rapidly evolving fields of health communication and health information technology and to create more effective health communication strategies across different populations.
+                    <p class="col-lg-12 col-xl-12 pl-0">The Health Information National Trends Survey (HINTS) regularly collects nationally representative data about the American public's knowledge of, attitudes toward, and use of cancer- and health-related information. HINTS data are used by researchers to monitor changes in the rapidly evolving fields of health communication and health information technology. Insights from HINTS data can be used by advocates and practitioners to inform the development of effective health communication strategies for different populations.
                         <br />
                          <a  href="/about-hints/learn-more-about-hints.aspx" alt="learn more" class="rwb_learnmore slider-btn learn-more">Learn More</a>
                   
@@ -53,9 +53,12 @@
                                         alt="National Cancer Institute" />
                                 </div>
                                 <div class="card-content">
-                                    <h3 class="font-weight-bold">Download Data</h3>
-                                    <p>Nationally representative HINTS data are free to download and analyze. HINTS data are available in SAS, SPSS, and STATA formats.</p>
+                                    <h3 class="font-weight-bold">Access HINTS Datasets</h3>
+                                    <p>Public-use HINTS datasets are free to download and analyze. HINTS data are available in SAS, SPSS, and STATA formats (more recent datasets are also available in R).</p>
                                     <a href="/data/download-data.aspx" alt="download data" class="font-weight-bold">Download Data ></a>
+                                    <hr />
+                                    <p>Controlled access datasets, including geocoded HINTS datasets, the HINTS-SEER dataset, and HINTS Data Linkage Project datasets can be accessed by submitting a request through dbGap.</p>
+                                    <a href="/data/controlled-access-data.aspx" alt="request controlled access data" class="font-weight-bold">Request Controlled Access Data ></a>
                                 </div>
                             </div>
                         </div>
@@ -70,7 +73,7 @@
                                 </div>
                                 <div class="card-content">
                                     <h3 class="font-weight-bold">HINTS Briefs</h3>
-                                    <p>HINTS <em>Briefs</em> provide a snapshot of noteworthy, data-driven HINTS research findings. Many <em>Briefs</em> summarize research findings from recent peer-reviewed journal articles using HINTS data.</p>
+                                    <p>HINTS <em>Briefs</em> summarize results from recent peer-reviewed journal articles that analyze HINTS data, providing context and highlighting how findings can inform practice.</p>
                                     <a href="/publications-reports/hints-briefs.aspx" alt="HINTS Briefs" class="font-weight-bold">View All Briefs ></a>
                                 </div>
                             </div>
@@ -85,9 +88,9 @@
                                         alt="National Cancer Institute" />
                                 </div>
                                 <div class="card-content">
-                                    <h3 class="font-weight-bold">HINTS Items</h3>
-                                    <p class="text-left">The HINTS <em>online codebook</em> provides summary data for HINTS items across all cycles, including estimated U.S. population values, interactive data visualizations, and the ability to look at trend data over time at the item level. </p>
-                                    <a href="/view-questions/all-hints-questions.aspx" alt="View HINTS Online Codebook" class="font-weight-bold">View HINTS Online Codebook></a>
+                                    <h3 class="font-weight-bold">HINTS Electronic Codebook</h3>
+                                    <p class="text-left">The HINTS <em>electronic codebook</em> provides basic descriptive data (e.g., frequencies, percentages, unweighted and weighted population values) and meta-data (e.g., variable names and labels) for HINTS items across all iterations. The codebook also includes interactive charts and graphs that can be downloaded and includes trend data at the item level.</p>
+                                    <a href="/view-questions/all-hints-questions.aspx" alt="View HINTS Online Codebook" class="font-weight-bold">View HINTS Electronic Codebook ></a>
                                 </div>
                             </div>
                         </div>
@@ -158,14 +161,15 @@
 
 
                                             <!-- Heading -->
-                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Linkage Project 2022 (HDLP 2022)</h4>
+                                            <h4 class="font-family-open-sans mb-2 mt-auto font-weight-bold">HINTS Data Linkage Project 2024 (HDLP 2024)</h4>
 
                                             <!-- Text -->
                                             <p>
-                                               The HINTS Data Linkage Project 2022 (HDLP 2022) contains HINTS 6 (2022; n = 6,252) data merged with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data.
+                                               The HINTS Data Linkage Project 2024 (HDLP 2024) contains HINTS 7 (2024; n = 7,278) data merged with numerous external variables to support the analysis of linked data and enhance the types of analyses and corresponding research questions that can be answered with HINTS data.
                                             </p>
 
-
+                                            <!-- Link -->
+                                            <a class="h6 text-decoration-none mt-auto" href="/data/download-data.aspx#HDLP24">Request Access to HDLP 2024 ></a>
                                             <hr>
 
 
@@ -247,49 +251,9 @@
                         <%--***** Random image card VVVVVVV--%>
                         <div class="card-content rwbrndmDiv">
                             <h3 class="font-weight-bold">HINTS Data Insight </h3>
-                            <p class="randomImageText">Have you ever looked for information about cancer from any source? HINTS 6 (2022)</p>
-                            <img src="/_images/randomimages/Random1_700.jpg" width="100%" alt="Chart Results for question">
-                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=14&qid=401" alt="View Question" class="font-weight-bold">View Question ></a>
-                        </div>
-                        <%--***** Random image card ^^^^^^^^^^^--%>
-
-
-                        <%--***** Random image card VVVVVVV--%>
-                        <div class="card-content rwbrndmDiv">
-                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
-                            <p class="randomImageText">Have any of your health care providers, including doctors, nurses, or office staff ever encouraged you to use an online medical record? (All Years)</p>
-                            <img src="/_images/randomimages/Random2_700.jpg" width="100%" alt="Chart Results for question">
-                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?qid=1639" alt="View Question" class="font-weight-bold">View Question ></a>
-                        </div>
-                        <%--***** Random image card ^^^^^^^^^^^--%>
-
-
-                        <%--***** Random image card VVVVVVV--%>
-                        <div class="card-content rwbrndmDiv">
-                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
-                            <p class="randomImageText">Do you have friends or family members that you talk to about your health? HINTS 6 (2022)</p>
-                            <img src="/_images/randomimages/Random3_700.jpg" width="100%" alt="Chart Results for question">
-                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=14&qid=874" alt="View Question" class="font-weight-bold">View Question ></a>
-                        </div>
-                        <%--***** Random image card ^^^^^^^^^^^--%>
-
-
-                        <%--***** Random image card VVVVVVV--%>
-                        <div class="card-content rwbrndmDiv">
-                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
-                            <p class="randomImageText">How much of the health information that you see on social media do you think is false or misleading? HINTS 6 (2022)</p>
-                            <img src="/_images/randomimages/Random4_700.jpg" width="100%" alt="Chart Results for question">
-                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=14&qid=1848" alt="View Question" class="font-weight-bold">View Question ></a>
-                        </div>
-                        <%--***** Random image card ^^^^^^^^^^^--%>
-
-
-                        <%--***** Random image card VVVVVVV--%>
-                        <div class="card-content rwbrndmDiv">
-                            <h3 class="font-weight-bold">HINTS Data Insight </h3>
-                            <p class="randomImageText">In the past 12 months, have you used a computer, smartphone, or other electronic means to look up test results? HINTS 6 (2022)</p>
-                            <img src="/_images/randomimages/Random5_700.jpg" width="100%" alt="Chart Results for question">
-                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=13&qid=1614" alt="View Question" class="font-weight-bold">View Question ></a>
+                            <p class="randomImageText">How often did doctors, nurses, or other healthcare professionals involve you in decisions about your health care as much as you wanted? HINTS 7 (2024)</p>
+                            <img src="/_images/randomimages/Random1_800.jpg" width="100%" alt="Chart Results for question">
+                            <a href="https://hints.cancer.gov/view-questions/question-detail.aspx?PK_Cycle=15&qid=720" alt="View Question" class="font-weight-bold">View Question ></a>
                         </div>
                         <%--***** Random image card ^^^^^^^^^^^--%>
                     </div>
@@ -315,7 +279,7 @@
                                 <div class="card-content">
                                     <h3 class="font-weight-bold">Were You Contacted to Participate in HINTS?</h3>
                                  
-                            <p >Click below to learn more about the HINTS survey, get details about your participation, and to view contact information.</p>
+                            <p>Click below to learn more about the HINTS survey, why your participation matters, and who to contact with questions.</p>
                                     <a href="/about-hints/contacted-by-hints.aspx" alt="download data" class="font-weight-bold">Details ></a>
                                 </div>
                             </div>

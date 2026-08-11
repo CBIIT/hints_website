@@ -1,8 +1,8 @@
-﻿<%@ Page Title="I Was Contacted To Participate In HINTS | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="contacted-by-hints.aspx.vb" Inherits="aboutfolder_contacted_by_hints" %>
+﻿<%@ Page Title="Were You Selected to Participate in a HINTS Survey? | HINTS" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="contacted-by-hints.aspx.vb" Inherits="aboutfolder_contacted_by_hints" %>
 
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <meta name="Title" content="I Was Contacted To Participate In HINTS | HINTS" />
+    <meta name="Title" content="Were You Selected to Participate in a HINTS Survey? | HINTS" />
     <meta name="Description" content="Information for persons who were contacted by the Health Information National Trends Survey." />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">

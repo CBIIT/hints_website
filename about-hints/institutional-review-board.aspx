@@ -1,7 +1,7 @@
-﻿<%@ Page Title="HINTS Institutional Review Board (IRB)" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="institutional-review-board.aspx.vb" Inherits="aboutfolder_institutional_review_board" %>
+﻿<%@ Page Title="HINTS Institutional Review Board (IRB) Determinations" Language="VB" MasterPageFile="~/hintsmain.master" AutoEventWireup="false" CodeFile="institutional-review-board.aspx.vb" Inherits="aboutfolder_institutional_review_board" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
-    <meta name="Title" content="HINTS Institutional Review Board (IRB)" />
+    <meta name="Title" content="HINTS Institutional Review Board (IRB) Determinations" />
     <meta name="Description" content="Access information on Institutional Review Board (IRB) approvals for the Health Information National Trends Survey." />
 </asp:Content>
 
@@ -22,7 +22,7 @@
                     <h2 style="font-size: 1.5rem">HINTS 7 (2024)</h2>
 
                     <p>
-                        The HINTS 7 general population survey was designated "exempt research” under 45 CFR 46.104 and approved by the Westat IRB on May 2, 2023 (Project # 6632.05.73), with a subsequent amendment approved on January 29, 2024 (Amendment ID #4112). HINTS 7 also received a “Not Human Subjects Research” determination from the NIH Office of IRB Operations on February 8, 2024 (IRBID: IRB002042).
+                        The HINTS 7 general population survey was designated "exempt research” under 45 CFR 46.104 and approved by the Westat IRB on May 2, 2023 (Project # 6632.05.73), with a subsequent amendment approved on January 29, 2024 (Amendment ID #4112). HINTS 7 also received a “Not Human Subjects Research” determination from the NIH IRB on February 8, 2024 (IRBID: IRB002042).
                     </p>
 
 
@@ -47,24 +47,24 @@
                     </p>
 
 
-                    <h2 style="font-size: 1.5rem">HINTS-FDA, Cycles 1 and 2 (2015, 2017)</h2>
+                    <h2 style="font-size: 1.5rem">HINTS-FDA (2015, 2017)</h2>
 
                     <p>
-                        HINTS-FDA underwent expedited review and was approved by the Westat IRB on July 14, 2014 as an amendment to HINTS 4 (Project #8861.01.04). HINTS-FDA was approved as an amendment to HINTS 4 by the NIH Office of Human Subjects Research on June 4, 2014 (Exempt #5810).    
+                        HINTS-FDA underwent expedited review and was approved by the Westat IRB on July 14, 2014, as an amendment to HINTS 4 (Project #8861.01.04). HINTS-FDA was approved as an amendment to HINTS 4 by the NIH Office of Human Subjects Research on June 4, 2014 (Exempt #5810).    
                     </p>
 
 
                     <h2 style="font-size: 1.5rem">HINTS 4, Cycles 1-4 (2011-2014)</h2>
 
                     <p>
-                        The HINTS 4 general population survey underwent expedited review and was approved by the Westat IRB on November 11, 2010 (Project #8861.01.04). HINTS 4 received a “Not Human Subjects Research” determination from the NIH Office of Human Subjects Research on June 21, 2011 (Exempt #5810). 
+                        The HINTS 4 general population survey underwent expedited review and was approved by the Westat IRB on November 11, 2010 (Project #8861.01.04). HINTS 4 received a “Not Human Subjects Research” determination from the NIH Office of Human Subjects Research on June 21, 2011 (Exempt #5810).
                     </p>
 
 
                     <h2 style="font-size: 1.5rem">HINTS 3 (2007-2008)</h2>
 
                     <p>
-                        The HINTS 3 general population survey underwent expedited review and was approved by the Westat IRB on April 26, 2006 (Project #8137.04). HINTS 3 was also designated an “exempt” research activity by the NIH Office of Human Subjects Research on June 27, 2007 (Exempt #3774). 
+                        The HINTS 3 general population survey underwent expedited review and was approved by the Westat IRB on April 26, 2006 (Project #8137.04). HINTS 3 was also designated an “exempt” research activity by the NIH Office of Human Subjects Research on June 27, 2007 (Exempt #3774).
                     </p>
 
 
@@ -72,14 +72,14 @@
                     <h2 style="font-size: 1.5rem">HINTS 2 (2005)</h2>
 
                     <p>
-                        The HINTS 2 general population survey was designated "exempt research” under 45 CFR 46.101 and approved by the Westat IRB on April 8, 2004 (Project #7845). HINTS 2 was also designated an “exempt” research activity by the NIH Office of Human Subjects Research on May 21, 2004 (OHSR #2684). 
+                        The HINTS 2 general population survey was designated "exempt research” under 45 CFR 46.101 and approved by the Westat IRB on April 8, 2004 (Project #7845). HINTS 2 was also designated an “exempt” research activity by the NIH Office of Human Subjects Research on May 21, 2004 (OHSR #2684).
                     </p>
 
 
                     <h2 style="font-size: 1.5rem">HINTS 1 (2003)</h2>
 
                     <p>
-                        The HINTS 1 general population survey was designated "exempt research” under 45 CFR 46.101 and approved by the Westat IRB on January 16, 2002 (MPA M-1531). HINTS 1 was also designated an “exempt” research activity by the NIH Office of Human Subjects Research. 
+                        The HINTS 1 general population survey was designated "exempt research” under 45 CFR 46.101 and approved by the Westat IRB on January 16, 2002 (MPA M-1531). HINTS 1 was also designated an “exempt” research activity by the NIH Office of Human Subjects Research.
                     </p>
 
                 </div>
