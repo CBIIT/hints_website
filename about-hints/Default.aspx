@@ -55,7 +55,7 @@
                             </div>
                             <div class="card">
                                 <div class="card-body p-4">
-                                    <h5 class="card-title">Institutional Review Board (IRB) Determinations  </h5>
+                                    <h5 class="card-title">Institutional Review Board (IRB) Approvals for the Health Information National Trends Survey (HINTS)</h5>
                                     <p class="card-text">Access information on Institutional Review Board (IRB) approvals for HINTS surveys.</p>
                                     <p class="card-text"><a href="/about-hints/institutional-review-board.aspx">Read More</a></p>
                                 </div>
