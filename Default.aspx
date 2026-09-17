@@ -29,7 +29,7 @@
                   
                          <a  href="/about-hints/announcements.aspx" alt="latest HINTS updates" class="rwb_latestupdate slider-btn learn-more">Latest HINTS Updates</a>
 
-                         <a  href="/about-hints/contacted-by-hints.aspx" alt="Were You Contacted to Participate in HINTS?" class="rwb_participate slider-btn learn-more">Selected to Participate in HINTS?</a>
+                         <a  href="/about-hints/contacted-by-hints.aspx" alt="Were You Contacted to Participate in HINTS?" class="rwb_participate slider-btn learn-more">Contacted to Participate in HINTS?</a>
 
                     </p>
                
@@ -90,7 +90,7 @@
                                 <div class="card-content">
                                     <h3 class="font-weight-bold">HINTS Electronic Codebook</h3>
                                     <p class="text-left">The HINTS <em>electronic codebook</em> provides basic descriptive data (e.g., frequencies, percentages, unweighted and weighted population values) and meta-data (e.g., variable names and labels) for HINTS items across all iterations. The codebook also includes interactive charts and graphs that can be downloaded and includes trend data at the item level.</p>
-                                    <a href="/view-questions/all-hints-questions.aspx" alt="View HINTS Online Codebook" class="font-weight-bold">View HINTS Electronic Codebook ></a>
+                                    <a href="/view-questions/all-hints-questions.aspx" alt="View HINTS Online Codebook" class="font-weight-bold">View the HINTS Electronic Codebook ></a>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                             </p>
 
                                             <!-- Link -->
-                                            <a class="h6 text-decoration-none mt-auto" href="/data/download-data.aspx#HDLP24">Request Access to HDLP 2024 ></a>
+                                            <a class="h6 text-decoration-none mt-auto" href="/data/controlled-access-data.aspx">Request Access to HDLP 2024 ></a>
                                             <hr>
 
 

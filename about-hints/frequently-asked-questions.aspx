@@ -46,7 +46,6 @@
     <li><a href="#accordion-8">Can I use HINTS items in my own survey or research?</a></li>
     <li><a href="#accordion-9">What journals would you recommend for HINTS studies?</a></li>
     <li><a href="#accordion-10">Where can I find information on sampling procedures?</a></li>
-    <li><a href="#accordion-11">What are the limitations of the data?</a></li>
     <li><a href="#accordion-14">Can other groups conduct international or community versions of HINTS?</a></li>
     <li><a href="#accordion-15">How do I contact the program if I have additional questions?</a></li>
   </ul>
@@ -55,7 +54,7 @@
   <ul>
     <li><a href="#accordion-16">What modes have been used to collect HINTS data?</a></li>
     <li><a href="#accordion-17">What are mode effects?</a></li>
-    <li><a href="#accordion-18">Do I need to consider mode effects if I'm looking at trends across HINTS years?</a></li>
+    <li><a href="#accordion-18">Do I need to consider mode effects if I'm looking at trends across HINTS administrations?</a></li>
     <li><a href="#accordion-21">How do I address mode effects in my analyses?</a></li>
     <li><a href="#accordion-22">What should I do if some of the items in my analysis have mode effects and some do not?</a></li>
     <li><a href="#accordion-23">If there are no mode effects for an item, can I combine data collected by both modes?</a></li>
@@ -63,9 +62,9 @@
 
   <h2>Questions about trends</h2>
   <ul>
-    <li><a href="#accordion-24">How can I examine trends over time with the cross-sectional data?</a></li>
+    <li><a href="#accordion-24">How can I examine trends over time with cross-sectional data?</a></li>
     <li><a href="#accordion-25">How can I tell if an item is appropriate to examine in trend analyses?</a></li>
-    <li><a href="#accordion-26">If the wording and denominator has not changed for a survey item, can I combine data across HINTS administrations to increase sample size?</a></li>
+    <li><a href="#accordion-26">If the wording and denominator have not changed for a survey item, can I combine data across HINTS administrations to increase sample size?</a></li>
     <li><a href="#accordion-27">Do I need to consider mode effects if I'm looking at trends across HINTS administrations?</a></li>
   </ul>
 
@@ -90,7 +89,7 @@
       <strong>How is HINTS different from other surveys?</strong>
 
       <div>
-        <p>HINTS is the only national surveillance vehicle devoted to monitoring changes in the health communication environment and assessing the impact of communication on key processes affecting health. Compared to other population-level health surveys, HINTS is unique in its emphasis on cancer, health communication, and health information technology. Learn more about <a target=_blank href="/about-hints/hints-unique.aspx">what makes HINTS unique</a> here.</p>
+        <p>HINTS is the only national surveillance vehicle devoted to monitoring changes in the health communication environment and assessing the impact of communication on key processes affecting health. Compared to other population-level health surveys, HINTS is unique in its emphasis on cancer, health communication, and health information technology. Learn more about <a target=_blank href="/about-hints/hints-unique.aspx">what makes HINTS unique here</a>.</p>
       </div>
       <!--end .accordion-section-content-->
     </div>
@@ -253,7 +252,7 @@
          <tr>
           <td width="17%"><p>HINTS 7 (2024)</p></td>
           <td width="19%"><p>Mar 2024-Sept 2024</p></td>
-          <td width="18%"><p>Push to web with postal option</p></td>
+          <td width="18%"><p>Postal and push to web</p></td>
           <td width="45%"><p>N=7278, RR=27.3%</p></td>
          </tr>
         </table>
@@ -307,7 +306,7 @@
       <strong>What journals would you recommend for HINTS studies?</strong>
 
       <div>
-        <p>A full list of peer-reviewed journals that have published HINTS studies can be found on our <a href="/publications-reports/hints-journals.aspx" target="_blank">Publications Using HINTS Data page</a>.</p>
+        <p>A full list of peer-reviewed journals that have published HINTS studies can be found on our <a href="/publications-reports/hints-journals.aspx" target="_blank">Published Articles Using HINTS Data</a>.</p>
       </div>
       <!--end .accordion-section-content-->
     </div>
@@ -415,7 +414,7 @@
 
   <div class="accordion">
     <div class="accordion-section" id="accordion-24">
-      <strong>How can I examine trends over time with the cross-sectional data?</strong>
+      <strong>How can I examine trends over time with cross-sectional data?</strong>
 
       <div>
         <p>HINTS data represent a series of independent cross-sectional samples drawn from the same population (i.e., non-institutionalized US adults 18 or older). By comparing the same measure across different survey years, it is possible to examine change over time. For example, using HINTS data, it is possible to see if the proportion of adults in the United States who have looked for information about cancer has changed from one administration to another. This is a standard methodology that is applied to virtually all social and economic surveys that examine change over time. For more information on conducting trend analyses (as well as example code), please see the Overview and Analytic Recommendation document included in the HINTS data download packages as well as reports that can be found <a href="/publications-reports/nci-reports.aspx">here</a>.</p>
@@ -433,7 +432,7 @@
     </div>
     <!--end .accordion-section-->
     <div class="accordion-section" id="accordion-26">
-      <strong>If the wording and denominator has not changed for a survey item, can I combine data across HINTS administrations to increase sample size?</strong>
+      <strong>If the wording and denominator have not changed for a survey item, can I combine data across HINTS administrations to increase sample size?</strong>
 
       <div>
         <p>Combining data across years will increase statistical power by increasing the sample size. This might be especially useful if you want to focus on population groups that have small samples within a single survey administration. Before combining data across years, it is important to first determine that the wording for the items and response options have not changed between survey administrations, and the denominator is also consistent (i.e., there were no changes in skip patterns on the survey that would change which respondents answered the question).  All HINTS items can be found in our <a href="/view-questions/all-hints-questions.aspx" target="_blank">electronic codebook</a> and items that are highlighted in green have been evaluated by the HINTS team as comparable across iterations.</p>

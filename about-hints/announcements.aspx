@@ -54,7 +54,15 @@
 
 
 
+                    <h2 id="HDLP24">HINTS Data Linkage Project 2024 (HDLP 2024)</h2>
+                    <p>The HINTS Data Linkage Project 2024 (HDLP 2024) contains geo-coded HINTS 7 data (2024; n = 7,278) linked with numerous external variables to support analyzing linked data to enhance the types of analyses and corresponding research questions that can be answered with HINTS data. The linkage was done at both the census tract and county level using geo-coded HINTS 7 data. External variables were chosen from trusted and reliable sources including the US Census, the Agency for Healthcare Research and Quality (AHRQ), the US Department of Agriculture (USDA), and the Centers for Disease Control and Prevention (CDC). The external variables fall into five categories: 1) Social and economic factors; 2) Demographics (e.g., Percent of population 65 or older); 3) Information technology (e.g., Percent of households with broadband internet); 4) Built environment (e.g., Fitness centers and recreational sports centers per 100,000 people); and 5) Physical environment (e.g., Percentage of days with good air quality).</p>
+                    <p>The HINTS Data Linkage Project 2024 (HDLP 2024) External Variables codebook, which provides a list of all external variables included in HDLP 2024 as well as links to many of the original data sources, is available for download on the <a href="/data/survey-instruments.aspx">Survey Instruments</a> page.</p>
+                    <p>To request access to HDLP 2024 data, please visit the <a href="https://dbgap.ncbi.nlm.nih.gov/beta/study/phs004213.v1.p1/#study" target="_blank">HDLP 2024 page within NLM's dbGaP system</a>. Instructions on using the dbGaP system, pulling together information for the request, and final data access can be found on our <a href="/data/controlled-access-data.aspx">Controlled-Access Data page</a>.</p>
 
+
+
+
+                    
 
                     <h2 id="H7">HINTS 7 (2024) public use data available for download</h2>
                     <p>Posted May 7, 2025</p>
