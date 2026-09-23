@@ -63,7 +63,7 @@
                     <h2 style="font-size: 1.5rem">Final Instrument Development</h2>
 
                     <p>
-                        Following cognitive testing, the contractor works with Champions on the final decisions for their items. This typically involves selecting the items that performed best in cognitive testing and deciding where they should be placed in the final instrument. Additional minor revisions may be made to ensure that the individual constructs all work together in a logical and comprehensive survey. The HINTS Management Team makes all final decisions and ensures that the instrument can be completed by respondents in approximately 30 minutes. 
+                        Following cognitive testing, the contractor works with champions on the final decisions for their items. This typically involves selecting the items that performed best in cognitive testing and deciding where they should be placed in the final instrument. Additional minor revisions may be made to ensure that the individual constructs all work together in a logical and comprehensive survey. The HINTS Management Team makes all final decisions and ensures that the instrument can be completed by respondents in approximately 30 minutes. 
                     </p>
 
                     <p>
