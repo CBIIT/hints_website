@@ -50,7 +50,7 @@
 
                     <h2 id="H8SurvMat">
                         <strong>HINTS 8 (2026) Survey Materials</strong></h2>
-                    <p>HINTS 8 (2026) data are currently being collected with the goal of releasing the public dataset in early 2027.</p>
+                    <p>HINTS 8 (2026) data are currently being collected with the goal of releasing the public dataset in 2027.</p>
                     <p>The sampling strategy for HINTS 8 (2026) consists of a two-stage design. In the first stage, a stratified sample of addresses was selected from a file of residential addresses. In the second stage, one adult was selected within each sampled household. The sampling frame consisted of a database of addresses used by Marketing Systems Group (MSG) to provide random samples of addresses.</p>
 
                     <p><strong>HINTS 8 (2026) Full-content, English Survey Instrument: </strong>(<a href="/docs/Instruments/HINTS-8-EnglishInstrument.pdf" target="_blank">PDF</a> 1.7MB)</p>
